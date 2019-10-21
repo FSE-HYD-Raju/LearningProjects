@@ -1,0 +1,28 @@
+.CashPaymentCompleted {
+	.continue-button {
+		margin-top: 20px;
+	}
+	.summary-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.reference-number-value {
+		margin-top: 20px;
+	}
+
+	.message {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 3rem;
+	}
+	.icon {
+		font-size: 100px;
+		color: theme-color("success");
+		margin-bottom: 1rem;
+	}
+
+
+}

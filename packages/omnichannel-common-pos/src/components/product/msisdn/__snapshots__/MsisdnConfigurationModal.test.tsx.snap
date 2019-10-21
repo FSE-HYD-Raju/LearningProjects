@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MsisdnConfigurationModal succeeds at shallow mount without props 1`] = `
+<div
+  className="MsisdnConfigurationModal-modal-container"
+>
+  <div
+    className="MsisdnConfigurationModal-pattern-selector"
+  >
+    <Connect(MsisdnSelection)
+      productId="testi"
+    />
+  </div>
+  <div
+    className="MsisdnConfigurationModal-price-component"
+  >
+    <ComplexPriceComponent
+      configurations={Object {}}
+      priceAttribute="taxFreeAmount"
+      product={
+        Object {
+          "id": "testi",
+        }
+      }
+    />
+  </div>
+</div>
+`;

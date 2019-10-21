@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcInput renders a checkbox that is checked by default and can be unchecked 1`] = `
+<OcInput
+  checked={true}
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+  type="checkbox"
+>
+  <div
+    className="form-group OcInput-form-group-unfilled"
+  >
+    <div
+      className="OcInput custom-control custom-checkbox"
+    >
+      <input
+        checked={true}
+        className="custom-control-input"
+        defaultValue="on"
+        onClick={[Function]}
+        type="checkbox"
+      />
+      <label
+        className="custom-control-label"
+      />
+    </div>
+  </div>
+</OcInput>
+`;
+
+exports[`OcInput renders an input element with type checkbox 1`] = `
+<OcInput
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+  type="checkbox"
+>
+  <div
+    className="form-group OcInput-form-group-unfilled"
+  >
+    <div
+      className="OcInput custom-control custom-checkbox"
+    >
+      <input
+        className="custom-control-input"
+        defaultValue="on"
+        onClick={[Function]}
+        type="checkbox"
+      />
+      <label
+        className="custom-control-label"
+      />
+    </div>
+  </div>
+</OcInput>
+`;
+
+exports[`OcInput succeeds at shallow mount without props 1`] = `
+<div
+  className="form-group OcInput-form-group-unfilled"
+>
+  <label
+    className="OcInput-label-control"
+  >
+    <span
+      className="OcInput-label-text"
+    />
+  </label>
+  <input
+    className="OcInput form-control"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder=""
+    type="text"
+  />
+</div>
+`;

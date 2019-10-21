@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcTooltip succeeds at deep mount with min props 1`] = `
+<OcTooltip
+  id="tooltip-id"
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+  message="dummy message"
+  placement="top"
+  show={true}
+>
+  <OverlayTrigger
+    defaultOverlayShown={false}
+    overlay={
+      <Tooltip
+        bsClass="tooltip"
+        className="tooltip show bs-tooltip-top"
+        id="tooltip-id"
+        placement="right"
+      >
+        dummy message
+      </Tooltip>
+    }
+    placement="top"
+    trigger={
+      Array [
+        "hover",
+      ]
+    }
+  >
+    <div
+      onClick={null}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    />
+  </OverlayTrigger>
+</OcTooltip>
+`;
+
+exports[`OcTooltip succeeds at shallow mount with min props 1`] = `
+<OverlayTrigger
+  defaultOverlayShown={false}
+  overlay={
+    <Tooltip
+      bsClass="tooltip"
+      className="tooltip show bs-tooltip-top"
+      id="tooltip-id"
+      placement="right"
+    >
+      dummy message
+    </Tooltip>
+  }
+  placement="top"
+  trigger={
+    Array [
+      "hover",
+    ]
+  }
+>
+  <div>
+    <span />
+  </div>
+</OverlayTrigger>
+`;

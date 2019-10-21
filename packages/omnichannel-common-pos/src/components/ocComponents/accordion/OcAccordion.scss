@@ -1,0 +1,52 @@
+.OcAccordion {
+	display: flex;
+	flex-direction: column;
+
+	&-item {
+		display: flex;
+		flex-direction: column;
+		box-shadow: 1px 1px 10px rgba(0,0,0,.1);
+		border-radius: 4px;
+		margin-bottom: 0.5rem;
+	}
+
+	&-item:last-child {
+		margin-bottom: 0;
+	}
+
+	&-item.OcAccordion-item-expanded {
+		border-radius: 4px 4px 0 0;
+	}
+
+	&-header-item {
+		display: flex;
+	}
+
+	&-content-item {
+		display: flex;
+		transform: scaleY(0);
+		height: 0;
+		overflow: hidden;
+		transform-origin:top;
+		transition: all 0.3s ease-out;
+	}
+
+	&-item-expanded .OcAccordion-content-item {
+		height: auto;
+		transform: scaleY(1);
+	}
+
+	&-actions {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: flex-end;
+		align-items: center;
+		margin: 0 1rem;
+
+		&>span {
+			margin-right: 0.5rem;
+			white-space: nowrap;
+			display: none;
+		}
+	}
+}

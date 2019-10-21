@@ -1,0 +1,644 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewSupportCaseModal succeeds at shallow mount with minimum props 1`] = `
+<OcModal
+  hideCloseButton={false}
+  largeModal={true}
+  okButtonLabel={
+    <FormattedMessageWrapper
+      defaultMessage="Send"
+      description="Send button in new support request modal"
+      id="send-new-support-request"
+      wrapperType="wrapper"
+    />
+  }
+  okDisabled={true}
+  onClose={[Function]}
+  onOk={[Function]}
+  showModal={true}
+  title={
+    <FormattedMessageWrapper
+      defaultMessage="New Support Request"
+      description="Digital life new support request header"
+      id="digital-life-new-support-requests-header"
+      wrapperType="wrapper"
+    />
+  }
+>
+  <div
+    className="NewSupportCaseModal-support-case-modal-container"
+  >
+    <div
+      className="NewSupportCaseModal-info-container"
+    >
+      <div
+        className="NewSupportCaseModal-label"
+      >
+        <FormattedMessageWrapper
+          className="text-danger"
+          defaultMessage="*"
+          description="digital-life support modal, asterisk sign"
+          id="digital-life-support-request-asterisk-sign"
+          wrapperType="wrapper"
+        />
+      </div>
+      <div
+        className="NewSupportCaseModal-content-side"
+      >
+        <div
+          className="NewSupportCaseModal-content"
+        >
+          <OcSelect
+            noLabel={false}
+            onChange={[Function]}
+            value=""
+          >
+            <option
+              disabled={true}
+              id="select-case-category-empty"
+              key="category_0"
+              value=""
+            >
+              Choose category
+            </option>
+          </OcSelect>
+        </div>
+      </div>
+    </div>
+    <div
+      className="NewSupportCaseModal-info-container"
+    >
+      <div
+        className="NewSupportCaseModal-label"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Description"
+          description="Digital life support request descr"
+          id="digital-life-support-request-description"
+          wrapperType="wrapper"
+        />
+        <FormattedMessageWrapper
+          className="text-danger"
+          defaultMessage="*"
+          description="digital-life support modal, asterisk sign"
+          id="digital-life-support-request-asterisk-sign"
+          wrapperType="wrapper"
+        />
+      </div>
+      <div
+        className="NewSupportCaseModal-content NewSupportCaseModal-description-margin"
+      >
+        <textarea
+          className="NewSupportCaseModal-content form-control"
+          id="support-requests-text-area"
+          onChange={[Function]}
+          value=""
+        />
+      </div>
+    </div>
+    <OcFileAttachment
+      maxFiles={3}
+    />
+  </div>
+</OcModal>
+`;
+
+exports[`NewSupportCaseModal succeeds at shallow mounting contents without categories 1`] = `
+<div
+  role="dialog"
+>
+  <BackdropTransition
+    appear={true}
+    in={true}
+  >
+    <Fade
+      appear={true}
+      in={true}
+      mountOnEnter={false}
+      timeout={150}
+      unmountOnExit={false}
+    >
+      <Transition
+        appear={true}
+        enter={true}
+        exit={true}
+        in={true}
+        mountOnEnter={false}
+        onEnter={[Function]}
+        onEntered={[Function]}
+        onEntering={[Function]}
+        onExit={[Function]}
+        onExited={[Function]}
+        onExiting={[Function]}
+        timeout={150}
+        unmountOnExit={false}
+      >
+        <div
+          className="fade modal-backdrop in"
+          onClick={[Function]}
+        />
+      </Transition>
+    </Fade>
+  </BackdropTransition>
+  <RefHolder>
+    <DialogTransition
+      appear={true}
+      in={true}
+      onEntering={[Function]}
+      onExited={[Function]}
+      unmountOnExit={true}
+    >
+      <Fade
+        appear={true}
+        in={true}
+        mountOnEnter={false}
+        onEntering={[Function]}
+        onExited={[Function]}
+        timeout={300}
+        unmountOnExit={true}
+      >
+        <Transition
+          appear={true}
+          enter={true}
+          exit={true}
+          in={true}
+          mountOnEnter={false}
+          onEnter={[Function]}
+          onEntered={[Function]}
+          onEntering={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onExiting={[Function]}
+          timeout={300}
+          unmountOnExit={true}
+        >
+          <ModalDialog
+            bsClass="modal"
+            className="fade OcModal OcModal-modal-large in"
+            onClick={null}
+            role="document"
+            style={
+              Object {
+                "paddingLeft": undefined,
+                "paddingRight": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className="fade OcModal OcModal-modal-large in modal"
+              onClick={null}
+              role="dialog"
+              style={
+                Object {
+                  "display": "block",
+                  "paddingLeft": undefined,
+                  "paddingRight": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div
+                className="modal-dialog"
+              >
+                <div
+                  className="modal-content"
+                  role="document"
+                >
+                  <ModalHeader
+                    bsClass="modal-header"
+                    className="OcModal-reverse-header"
+                    closeButton={true}
+                    closeLabel="Close"
+                  >
+                    <div
+                      className="OcModal-reverse-header modal-header"
+                    >
+                      <CloseButton
+                        label="Close"
+                        onClick={null}
+                      >
+                        <button
+                          className="close"
+                          onClick={null}
+                          type="button"
+                        >
+                          <span
+                            aria-hidden="true"
+                          >
+                            ×
+                          </span>
+                          <span
+                            className="sr-only"
+                          >
+                            Close
+                          </span>
+                        </button>
+                      </CloseButton>
+                      <div
+                        className="OcModal-header-container"
+                      >
+                        <h3
+                          className="modal-title"
+                        >
+                          <FormattedMessageWrapper
+                            defaultMessage="New Support Request"
+                            description="Digital life new support request header"
+                            id="digital-life-new-support-requests-header"
+                            wrapperType="wrapper"
+                          >
+                            <Connect(IntlProvider)>
+                              <IntlProvider
+                                dispatch={[Function]}
+                                locale="en-DE"
+                                messages={Object {}}
+                              >
+                                <FormattedMessage
+                                  defaultMessage="New Support Request"
+                                  description="Digital life new support request header"
+                                  id="digital-life-new-support-requests-header"
+                                  values={Object {}}
+                                >
+                                  <span>
+                                    New Support Request
+                                  </span>
+                                </FormattedMessage>
+                              </IntlProvider>
+                            </Connect(IntlProvider)>
+                          </FormattedMessageWrapper>
+                        </h3>
+                      </div>
+                    </div>
+                  </ModalHeader>
+                  <ModalBody
+                    bsClass="modal-body"
+                    componentClass="div"
+                  >
+                    <div
+                      className="modal-body"
+                    >
+                      <div
+                        className="NewSupportCaseModal-support-case-modal-container"
+                      >
+                        <div
+                          className="NewSupportCaseModal-info-container"
+                        >
+                          <div
+                            className="NewSupportCaseModal-label"
+                          >
+                            <FormattedMessageWrapper
+                              className="text-danger"
+                              defaultMessage="*"
+                              description="digital-life support modal, asterisk sign"
+                              id="digital-life-support-request-asterisk-sign"
+                              wrapperType="wrapper"
+                            >
+                              <Connect(IntlProvider)>
+                                <IntlProvider
+                                  dispatch={[Function]}
+                                  locale="en-DE"
+                                  messages={Object {}}
+                                >
+                                  <FormattedMessage
+                                    defaultMessage="*"
+                                    description="digital-life support modal, asterisk sign"
+                                    id="digital-life-support-request-asterisk-sign"
+                                    values={Object {}}
+                                  >
+                                    <span
+                                      className="text-danger"
+                                    >
+                                      *
+                                    </span>
+                                  </FormattedMessage>
+                                </IntlProvider>
+                              </Connect(IntlProvider)>
+                            </FormattedMessageWrapper>
+                          </div>
+                          <div
+                            className="NewSupportCaseModal-content-side"
+                          >
+                            <div
+                              className="NewSupportCaseModal-content"
+                            >
+                              <OcSelect
+                                noLabel={false}
+                                onChange={[Function]}
+                                value=""
+                              >
+                                <div
+                                  className="OcInput form-group OcInput-form-group-unfilled"
+                                >
+                                  <label
+                                    className="OcInput-label-control custom-select-label"
+                                  >
+                                    <span
+                                      className="OcInput-label-text"
+                                    />
+                                  </label>
+                                  <select
+                                    className="custom-select"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    required={false}
+                                    value=""
+                                  >
+                                    <option
+                                      disabled={true}
+                                      id="select-case-category-empty"
+                                      key="category_0"
+                                      value=""
+                                    >
+                                      Choose category
+                                    </option>
+                                  </select>
+                                </div>
+                              </OcSelect>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className="NewSupportCaseModal-info-container"
+                        >
+                          <div
+                            className="NewSupportCaseModal-label"
+                          >
+                            <FormattedMessageWrapper
+                              defaultMessage="Description"
+                              description="Digital life support request descr"
+                              id="digital-life-support-request-description"
+                              wrapperType="wrapper"
+                            >
+                              <Connect(IntlProvider)>
+                                <IntlProvider
+                                  dispatch={[Function]}
+                                  locale="en-DE"
+                                  messages={Object {}}
+                                >
+                                  <FormattedMessage
+                                    defaultMessage="Description"
+                                    description="Digital life support request descr"
+                                    id="digital-life-support-request-description"
+                                    values={Object {}}
+                                  >
+                                    <span>
+                                      Description
+                                    </span>
+                                  </FormattedMessage>
+                                </IntlProvider>
+                              </Connect(IntlProvider)>
+                            </FormattedMessageWrapper>
+                            <FormattedMessageWrapper
+                              className="text-danger"
+                              defaultMessage="*"
+                              description="digital-life support modal, asterisk sign"
+                              id="digital-life-support-request-asterisk-sign"
+                              wrapperType="wrapper"
+                            >
+                              <Connect(IntlProvider)>
+                                <IntlProvider
+                                  dispatch={[Function]}
+                                  locale="en-DE"
+                                  messages={Object {}}
+                                >
+                                  <FormattedMessage
+                                    defaultMessage="*"
+                                    description="digital-life support modal, asterisk sign"
+                                    id="digital-life-support-request-asterisk-sign"
+                                    values={Object {}}
+                                  >
+                                    <span
+                                      className="text-danger"
+                                    >
+                                      *
+                                    </span>
+                                  </FormattedMessage>
+                                </IntlProvider>
+                              </Connect(IntlProvider)>
+                            </FormattedMessageWrapper>
+                          </div>
+                          <div
+                            className="NewSupportCaseModal-content NewSupportCaseModal-description-margin"
+                          >
+                            <textarea
+                              className="NewSupportCaseModal-content form-control"
+                              id="support-requests-text-area"
+                              onChange={[Function]}
+                              value=""
+                            />
+                          </div>
+                        </div>
+                        <OcFileAttachment
+                          maxFiles={3}
+                        >
+                          <div
+                            className="OcFileAttachment-container"
+                          >
+                            <div
+                              className="OcFileAttachment-label"
+                            >
+                              <FormattedMessageWrapper
+                                defaultMessage="Attachment"
+                                description="File attachment, label for file attachment input"
+                                id="oc-file-attachment-input-label"
+                                wrapperType="wrapper"
+                              >
+                                <Connect(IntlProvider)>
+                                  <IntlProvider
+                                    dispatch={[Function]}
+                                    locale="en-DE"
+                                    messages={Object {}}
+                                  >
+                                    <FormattedMessage
+                                      defaultMessage="Attachment"
+                                      description="File attachment, label for file attachment input"
+                                      id="oc-file-attachment-input-label"
+                                      values={Object {}}
+                                    >
+                                      <span>
+                                        Attachment
+                                      </span>
+                                    </FormattedMessage>
+                                  </IntlProvider>
+                                </Connect(IntlProvider)>
+                              </FormattedMessageWrapper>
+                            </div>
+                            <div
+                              className="OcFileAttachment-data"
+                            >
+                              <div
+                                className="OcFileAttachment-file-list"
+                                id="OcFileAttachment-files-uploaded-list"
+                              />
+                              <form
+                                className="OcFileAttachment-file-form"
+                              >
+                                <input
+                                  className="OcFileAttachment-hidden-input"
+                                  disabled={false}
+                                  id="OcFileAttachment-fileItem"
+                                  onChange={[Function]}
+                                  type="file"
+                                />
+                                <OcButton
+                                  buttonType="LINK"
+                                  className="OcFileAttachment-attach-file-btn"
+                                  disabled={false}
+                                  htmlBtnType="button"
+                                  id="OcFileAttachment-fileItem-btn"
+                                >
+                                  <button
+                                    className="btn btn-link OcFileAttachment-attach-file-btn"
+                                    disabled={false}
+                                    id="OcFileAttachment-fileItem-btn"
+                                    type="button"
+                                  >
+                                    <FormattedMessageWrapper
+                                      defaultMessage="Attach file"
+                                      description="File attachment, label for attach button"
+                                      id="oc-file-attachment-attach-file-btn-label"
+                                      wrapperType="wrapper"
+                                    >
+                                      <Connect(IntlProvider)>
+                                        <IntlProvider
+                                          dispatch={[Function]}
+                                          locale="en-DE"
+                                          messages={Object {}}
+                                        >
+                                          <FormattedMessage
+                                            defaultMessage="Attach file"
+                                            description="File attachment, label for attach button"
+                                            id="oc-file-attachment-attach-file-btn-label"
+                                            values={Object {}}
+                                          >
+                                            <span>
+                                              Attach file
+                                            </span>
+                                          </FormattedMessage>
+                                        </IntlProvider>
+                                      </Connect(IntlProvider)>
+                                    </FormattedMessageWrapper>
+                                  </button>
+                                </OcButton>
+                                <div
+                                  className="OcFileAttachment-attachment-hint"
+                                >
+                                  3 attachments max. File size shouldn't exceed 20Mb.
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </OcFileAttachment>
+                      </div>
+                    </div>
+                  </ModalBody>
+                  <OcModalFooter
+                    actionDisabled={true}
+                    actionHandler={[Function]}
+                    actionMessage={
+                      <FormattedMessageWrapper
+                        defaultMessage="Send"
+                        description="Send button in new support request modal"
+                        id="send-new-support-request"
+                        wrapperType="wrapper"
+                      />
+                    }
+                    footerClassName=""
+                    onClose={[Function]}
+                  >
+                    <div
+                      className="modal-footer justify-content-between"
+                    >
+                      <OcButton
+                        buttonType="PRIMARY"
+                        id="oc-modal-cancel-button"
+                        onClick={[Function]}
+                        outline={true}
+                      >
+                        <button
+                          className="btn btn-outline-primary"
+                          id="oc-modal-cancel-button"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <FormattedMessageWrapper
+                            defaultMessage="Cancel"
+                            description="In modal, cancel button label text"
+                            id="ocmodal-cancel-button-label"
+                            wrapperType="wrapper"
+                          >
+                            <Connect(IntlProvider)>
+                              <IntlProvider
+                                dispatch={[Function]}
+                                locale="en-DE"
+                                messages={Object {}}
+                              >
+                                <FormattedMessage
+                                  defaultMessage="Cancel"
+                                  description="In modal, cancel button label text"
+                                  id="ocmodal-cancel-button-label"
+                                  values={Object {}}
+                                >
+                                  <span>
+                                    Cancel
+                                  </span>
+                                </FormattedMessage>
+                              </IntlProvider>
+                            </Connect(IntlProvider)>
+                          </FormattedMessageWrapper>
+                        </button>
+                      </OcButton>
+                      <OcButton
+                        buttonType="PRIMARY"
+                        disabled={true}
+                        id="oc-modal-action-button"
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="btn btn-primary disabled"
+                          disabled={true}
+                          id="oc-modal-action-button"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <FormattedMessageWrapper
+                            defaultMessage="Send"
+                            description="Send button in new support request modal"
+                            id="send-new-support-request"
+                            wrapperType="wrapper"
+                          >
+                            <Connect(IntlProvider)>
+                              <IntlProvider
+                                dispatch={[Function]}
+                                locale="en-DE"
+                                messages={Object {}}
+                              >
+                                <FormattedMessage
+                                  defaultMessage="Send"
+                                  description="Send button in new support request modal"
+                                  id="send-new-support-request"
+                                  values={Object {}}
+                                >
+                                  <span>
+                                    Send
+                                  </span>
+                                </FormattedMessage>
+                              </IntlProvider>
+                            </Connect(IntlProvider)>
+                          </FormattedMessageWrapper>
+                        </button>
+                      </OcButton>
+                    </div>
+                  </OcModalFooter>
+                </div>
+              </div>
+            </div>
+          </ModalDialog>
+        </Transition>
+      </Fade>
+    </DialogTransition>
+  </RefHolder>
+</div>
+`;

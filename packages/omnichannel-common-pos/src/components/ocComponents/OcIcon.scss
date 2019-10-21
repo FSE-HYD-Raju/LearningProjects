@@ -1,0 +1,23 @@
+@import '../../styles/_variables.scss';
+
+.OcIcon{
+
+    &-holder{
+        display: inline-block;
+        border-radius: 50%;
+        padding: 10px;
+        height: 70px;
+        width: 70px;
+        overflow: hidden;
+    }
+
+    &-icon{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    // override because icon sizes
+    &-person{
+        padding: 5px;
+    }
+}

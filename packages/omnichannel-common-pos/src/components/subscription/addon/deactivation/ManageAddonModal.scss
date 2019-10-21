@@ -1,0 +1,54 @@
+.ManageAddonModal {
+	&-main-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-addon-modal-label {
+		padding-left: 4px;
+		width: 120px;
+	}
+
+	&-label {
+		width: 10.25rem;
+		color: $gray-600;
+	}
+
+	&-phone-number,
+	&-name,
+	&-description {
+		width: 18.75rem;
+	}
+
+	&-new-section {
+		border-top: 2px solid $modal-header-border-color;
+		padding-top: 1.2rem;
+	}
+
+	&-info-container {
+		display: flex;
+		padding-bottom: 1.2rem;
+	}
+
+	&-disclaimer {
+		display: flex;
+		align-items: flex-start;
+		i {
+			color: $primary;
+			font-size: 2rem;
+		}
+		span {
+			margin-left: 0.5rem;
+			display: block;
+			text-align: justify;
+		}
+	}
+
+	@include media-breakpoint-up(sm) {
+		&-phone-number,
+		&-name,
+		&-description {
+			width: 24.65rem;
+		}
+	}
+}

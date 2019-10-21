@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`POSCheckoutPrivacyConsent succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="POSCheckoutPrivacyConsent-privacy-consent"
+>
+  <h3>
+    <FormattedMessageWrapper
+      defaultMessage="Privacy Consents"
+      description="Checkout summary, capture customer privacy consent"
+      id="pos-summary-privacy-consent"
+      wrapperType="wrapper"
+    />
+  </h3>
+  <div
+    className="POSCheckoutPrivacyConsent-container"
+  >
+    <form />
+  </div>
+</div>
+`;

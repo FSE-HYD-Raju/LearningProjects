@@ -1,0 +1,10 @@
+import { default as productOffering } from "./ProductOfferingMock";
+import { ProductMock as product } from "./ProductMock";
+import { AgreementMock as agreement } from "./AgreementMock";
+import { ChargingBalancesMock as chargingBalances } from "./ChargingBalancesMock";
+import { default as postalAddress } from "./PostalAddressMock";
+import { default as identification } from "./IdentificationMock";
+import { default as user } from "./UserMock";
+import { default as order } from "./OrderMock";
+import { default as basket } from "./BasketMock";
+export { productOffering, postalAddress, identification, user, order, basket, product, agreement, chargingBalances };

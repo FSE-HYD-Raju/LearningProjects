@@ -1,0 +1,14 @@
+@import '~omnichannel-common-pos/lib/styles/mixins.scss';
+
+.CheckoutSetup {
+    width: 100%;
+
+    &-bundle-container {
+        @include content-box();
+    }
+    &-continue-btn {
+        @include max-width();
+        display: flex;
+        justify-content: flex-end;
+    }
+}

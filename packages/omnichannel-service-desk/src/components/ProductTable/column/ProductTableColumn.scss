@@ -1,0 +1,17 @@
+.ProductTableColumn {
+	overflow: visible;
+	text-overflow: ellipsis;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.ProductTableColumn-currency {
+	color: #89ba17;
+	font-weight: $font-weight-bold;
+}
+
+.ProductTableColumn-row {
+	display: flex;
+	flex: 1 1 auto;
+	font-weight: 400;
+}

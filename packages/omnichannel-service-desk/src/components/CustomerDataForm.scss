@@ -1,0 +1,48 @@
+@import '~omnichannel-common-pos/lib/styles/_variables.scss';
+
+.CustomerDataForm {
+	legend {
+		font-size: $h6-font-size;
+	}
+
+	&-customerDataFormInput {
+		.OcDatePicker, OcInput-label-set{
+			padding-top: 0 !important;
+			margin-bottom: 0;
+			.OcInput-control-label {
+				margin-bottom: 8px !important;
+			}
+		}
+	}
+
+	&-customerDataFormInputContainer, &-multipleInputs {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		margin: 0 -5px 1rem;
+	}
+
+	&-customerDataFormInput, &-multipleInputs .form-group {
+		flex: 0 0 50%;
+		padding: 0 5px;
+		@media (max-width: 480px) {
+			flex-basis: 100%;
+		}
+	}
+
+	&-customerDataFormInput.CustomerDataForm-multipleInputs {
+		padding: 0;
+		margin: 0;
+		flex-basis: 100%;
+	}
+
+	&-wideInput {
+		flex-basis: 100%;
+	}
+
+	&-checkbox-container {
+		.form-group {
+			margin-bottom: 0;
+		}
+	}
+}

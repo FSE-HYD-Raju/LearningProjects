@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcDatePicker succeeds at shallow mount without props 1`] = `
+<div
+  className="OcDatePicker"
+  id="defaultDatePickerId"
+>
+  <div
+    className="OcInput"
+  >
+    <Uncontrolled(DateTimePicker)
+      calendar={true}
+      disabled={false}
+      dropUp={true}
+      format="DD.MM.YYYY"
+      id="defaultDatePickerId_inner"
+      onChange={[Function]}
+      onCurrentDateChange={[Function]}
+      onSelect={[Function]}
+      step={30}
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+      value={1970-01-01T00:00:00.000Z}
+    />
+  </div>
+</div>
+`;

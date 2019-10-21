@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanListModal succeeds at shallow mount with min props 1`] = `
+<OcModal
+  className="PlanListModal-modal-container"
+  hideCloseButton={false}
+  onClose={[MockFunction]}
+  showModal={true}
+  title={
+    <span>
+      <FormattedMessageWrapper
+        defaultMessage="Offers for {currentSubscriptionTitle}"
+        description="Service Desk, alternate plan list modal title"
+        id="service-desk-alternate-plan-list-modal-title"
+        values={
+          Object {
+            "currentSubscriptionTitle": undefined,
+          }
+        }
+        wrapperType="wrapper"
+      />
+    </span>
+  }
+>
+  <div
+    className="PlanListModal-container"
+  >
+    <OcAccordionList
+      active={false}
+      className="PlanListModal-plans-list-accordion"
+      expandedContent={
+        <PlanDetails
+          plan={
+            Object {
+              "id": "non-existent-mms-sub",
+              "name": "Lots of MMS",
+            }
+          }
+          selectToComparison={[MockFunction]}
+        />
+      }
+      handleClick={[Function]}
+      id="change-plan-list-non-existent-mms-sub"
+      key="plan_non-existent-mms-sub"
+      rowContent={
+        <PlanListItem
+          active={false}
+          plan={
+            Object {
+              "id": "non-existent-mms-sub",
+              "name": "Lots of MMS",
+            }
+          }
+        />
+      }
+    />
+    <OcAccordionList
+      active={false}
+      className="PlanListModal-plans-list-accordion"
+      expandedContent={
+        <PlanDetails
+          plan={
+            Object {
+              "id": "non-existent-sms-sub",
+              "name": "Lots of SMS",
+            }
+          }
+          selectToComparison={[MockFunction]}
+        />
+      }
+      handleClick={[Function]}
+      id="change-plan-list-non-existent-sms-sub"
+      key="plan_non-existent-sms-sub"
+      rowContent={
+        <PlanListItem
+          active={false}
+          plan={
+            Object {
+              "id": "non-existent-sms-sub",
+              "name": "Lots of SMS",
+            }
+          }
+        />
+      }
+    />
+  </div>
+</OcModal>
+`;

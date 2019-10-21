@@ -1,0 +1,25 @@
+
+.POSDigitalSignature {
+
+	&-container {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	&-container-btn {
+        display: flex;
+		margin-bottom: 10px;
+	}
+
+	&-message {
+		padding: 10px;
+	}
+
+	&-text-success {
+		color: theme-color("success");
+	}
+
+	&-text-failed {
+		color: theme-color("danger");
+	}
+}

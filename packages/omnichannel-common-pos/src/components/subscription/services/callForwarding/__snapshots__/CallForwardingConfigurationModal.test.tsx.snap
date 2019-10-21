@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CallForwardingConfigurationModal succeeds at shallow mount with min props 1`] = `
+<OcModal
+  className="CallForwardingConfigurationModal-modal-wrapper CallForwardingConfigurationModal-modal-large"
+  hideCloseButton={false}
+  okButtonLabel={
+    <FormattedMessageWrapper
+      defaultMessage="Confirm changes"
+      description="Call forwarding modal, confirm changes, button label"
+      id="call-forward-confirm-changes"
+      wrapperType="wrapper"
+    />
+  }
+  okDisabled={true}
+  onClose={[MockFunction]}
+  onOk={[Function]}
+  showModal={false}
+  title="Call forwarding"
+>
+  <div
+    className="CallForwardingConfigurationModal-form-wrapper CallForwardingConfigurationModal-call-forwarding-form"
+  >
+    <CallForwardingConfigurationForm
+      handleModelChange={[Function]}
+      handleSuperSwitchToggle={[Function]}
+      handleTypeChange={[Function]}
+      model={
+        Object {
+          "configuration": Object {
+            "CFBFWD": Object {
+              "id": "CFBFWD",
+              "inputtedCharacteristics": Object {
+                "CFMSISDN": "",
+                "CFSTATUS": "",
+                "SERVICEID": "",
+              },
+              "reason": "",
+              "specificationId": "",
+            },
+            "CFNRCFWD": Object {
+              "id": "CFNRCFWD",
+              "inputtedCharacteristics": Object {
+                "CFMSISDN": "",
+                "CFSTATUS": "",
+                "CFTIME": "",
+                "SERVICEID": "",
+              },
+              "reason": "",
+              "specificationId": "",
+            },
+            "CFNRYFWD": Object {
+              "id": "CFNRYFWD",
+              "inputtedCharacteristics": Object {
+                "CFMSISDN": "",
+                "CFSTATUS": "",
+                "SERVICEID": "",
+              },
+              "reason": "",
+              "specificationId": "",
+            },
+            "CFUFWD": Object {
+              "id": "CFUFWD",
+              "inputtedCharacteristics": Object {
+                "CFMSISDN": "",
+                "CFSTATUS": "",
+                "SERVICEID": "",
+              },
+              "reason": "",
+              "specificationId": "",
+            },
+          },
+          "forwardAllDisabled": false,
+          "forwardIfDisabled": false,
+          "superSwitch": true,
+          "type": "",
+        }
+      }
+      schema={
+        ObjectSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_defaultDefault": [Function],
+          "_deps": Array [],
+          "_excludedEdges": Array [
+            "undefined-undefined",
+          ],
+          "_exclusive": Object {},
+          "_mutate": false,
+          "_nodes": Array [
+            "configuration",
+            "type",
+          ],
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "object",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "fields": Object {
+            "configuration": ObjectSchema {
+              "_blacklist": BadSet {
+                "_map": Object {},
+                "_refs": Object {},
+              },
+              "_conditions": Array [],
+              "_defaultDefault": [Function],
+              "_deps": Array [],
+              "_excludedEdges": Array [
+                "undefined-undefined",
+              ],
+              "_exclusive": Object {},
+              "_mutate": false,
+              "_nodes": Array [],
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "object",
+              "_typeError": [Function],
+              "_whitelist": BadSet {
+                "_map": Object {},
+                "_refs": Object {},
+              },
+              "fields": Object {},
+              "tests": Array [],
+              "transforms": Array [
+                [Function],
+              ],
+            },
+            "type": StringSchema {
+              "_blacklist": BadSet {
+                "_map": Object {},
+                "_refs": Object {},
+              },
+              "_conditions": Array [],
+              "_deps": Array [],
+              "_exclusive": Object {},
+              "_mutate": false,
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "string",
+              "_typeError": [Function],
+              "_whitelist": BadSet {
+                "_map": Object {},
+                "_refs": Object {},
+              },
+              "tests": Array [],
+              "transforms": Array [
+                [Function],
+              ],
+            },
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        }
+      }
+      timeValues={Array []}
+    />
+  </div>
+</OcModal>
+`;

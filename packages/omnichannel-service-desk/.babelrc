@@ -1,0 +1,44 @@
+{
+    "presets": ["es2015", "react", "stage-0"],
+    "plugins": [
+        ["react-intl", {
+            "messagesDir": "./messages/en-US",
+            "enforceDescriptions": true
+        }],
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        ["transform-es2015-classes", {"loose": true}],
+        "add-module-exports",
+        "transform-proto-to-assign",
+        ["transform-runtime", {
+            "polyfill": false,
+            "regenerator": true
+        }]
+    ],
+    "env": {
+        "browser": {
+            "plugins": [
+                ["react-transform", {
+                    "transforms": [
+                        {
+                            "transform": "react-transform-hmr",
+                            "imports": [ "react" ],
+                            "locals": [ "module" ]
+                        },
+                        {
+                            "transform": "react-transform-catch-errors",
+                            "imports": [ "react", "redbox-react" ]
+                        }
+                    ]
+                }]
+            ]
+        },
+        "production": {
+            "plugins": [
+                "transform-react-remove-prop-types",
+                "transform-react-constant-elements",
+                "transform-react-pure-class-to-function"
+            ]
+        }
+    }
+}

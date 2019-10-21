@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutSetup succeeds at shallow mount without props 1`] = `
+<div
+  className="CheckoutSetup"
+>
+  <AltContainer
+    stores={
+      Object {
+        "ConsulStore": Object {
+          "customerCreationMandatoryFields": Array [
+            "firstname",
+            "lastname",
+            "gender",
+          ],
+          "displayOptions": Object {
+            "customerDataForm": Object {
+              "apartment": true,
+              "building": true,
+              "lastName2": true,
+            },
+            "identification": Array [
+              Object {
+                "backendValue": "CC",
+                "identificationExpiryDate": true,
+                "localisation": Object {
+                  "en": "Personal Identification Card",
+                  "fi": "Henkilökortti",
+                  "sv": "identitetskort",
+                },
+              },
+              Object {
+                "backendValue": "FP",
+                "identificationExpiryDate": true,
+                "localisation": Object {
+                  "en": "Foreign passport",
+                  "fi": "Ulkomaalainen Passi",
+                  "sv": "Utländskt Pass",
+                },
+              },
+              Object {
+                "backendValue": "PP",
+                "identificationExpiryDate": true,
+                "localisation": Object {
+                  "en": "Passport",
+                  "fi": "Passi",
+                  "sv": "Pass",
+                },
+              },
+              Object {
+                "backendValue": "DE",
+                "identificationExpiryDate": true,
+                "localisation": Object {
+                  "en": "Foreign ID",
+                  "fi": "Ulkomaalainen ID",
+                  "sv": "Utländskt ID",
+                },
+              },
+            ],
+          },
+          "logSchemaDiscrepancies": false,
+        },
+      }
+    }
+    transform={[Function]}
+  >
+    <WithSchema
+      BasketActions={
+        Object {
+          "activateCheckoutStep": [Function],
+        }
+      }
+      BasketStore={
+        Object {
+          "checkoutSteps": Object {
+            "SETUP": false,
+          },
+        }
+      }
+      CustomerCaseStore={
+        Object {
+          "activeCustomerCase": Object {
+            "attributes": Object {
+              "activeCustomer": Object {},
+            },
+          },
+        }
+      }
+      UserActions={
+        Object {
+          "updateUser": [Function],
+        }
+      }
+      addressIsRequired={true}
+      error={Object {}}
+      isValid={[Function]}
+      onlyUpdateCustomerCase={true}
+      person={Object {}}
+      setupDone={false}
+      updatingUser={false}
+    />
+  </AltContainer>
+</div>
+`;

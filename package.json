@@ -1,0 +1,70 @@
+{
+	"publishConfig": {
+		"registry": "https://artifactory.qvantel.net/artifactory/api/npm/npm-local"
+	},
+	"scripts": {
+		"lerna": "lerna",
+		"flow": "flow",
+		"jest": "jest",
+		"lint": "lerna exec -- npm run lint && npm run lint-ts",
+		"lint-ts": "tslint --project tsconfig.base.json --config tslint.json -e \"**/omni-ui-app-pos/**\"",
+		"lint-ts-fix": "tslint --fix --project tsconfig.base.json --config tslint.json -e \"**/omni-ui-app-pos/**\"",
+		"bootstrap": "npm install && lerna bootstrap",
+		"test": "jest --config jest.config.base.js --silent",
+		"test-verbose": "jest --config jest.config.base.js",
+		"test-watch": "jest --config jest.config.base.js --watch",
+		"test-update-snapshots": "jest --config jest.config.base.js --silent -u",
+		"coverage": "jest --config jest.config.base.js --coverage --silent",
+		"coverage:jenkins": "jest --config jest.config.base.js --coverage --silent --maxWorkers=4",
+		"clean": "npm install && lerna run clean && lerna clean --yes && rm -rf node_modules && rm -rf node_modules",
+		"lint-fix": "lerna exec -- npm run lint-fix",
+		"lint-staged": "lint-staged",
+		"storybook": "start-storybook -p 6006",
+		"build-storybook": "build-storybook",
+		"build-packages": "lerna exec -- npm run build",
+		"publish": "lerna publish --force-publish \\* --exact",
+		"precommit": "npm run lint --max-warnings=0 && npm run test",
+		"postinstall": "node checkRequirements.js",
+		"parse-licenses": "node listDependencies.js && node listLicenses.js",
+		"rebuild-messages-interfaces": "ts-node messagesInterfaceBuilder.ts",
+		"test-messages-interfaces": "FAIL_IF_RESULT_IS_CHANGED=true ts-node messagesInterfaceBuilder.ts"
+	},
+	"pre-commit": "lint-staged",
+	"jest-junit": {
+		"suiteName": "jest tests",
+		"output": "./test-reports/junit.xml",
+		"classNameTemplate": "{classname}-{title}",
+		"titleTemplate": "{classname}-{title}"
+	},
+	"lint-staged": {
+		"*.{js,jsx}": [
+			"eslint --fix",
+			"git add"
+		]
+	},
+	"dependencies": {
+		"flow-bin": "0.70.0",
+		"fs": "0.0.1-security",
+		"npm-license-crawler": "0.1.7",
+		"semver": "5.5.0"
+	},
+	"devDependencies": {
+		"babel-plugin-transform-es2015-classes": "6.24.1",
+		"enzyme": "3.7.0",
+		"enzyme-adapter-react-16": "1.10.0",
+		"husky": "0.14.3",
+		"jest": "23.6.0",
+		"lerna": "2.9.0",
+		"react-test-renderer": "16.7.0",
+		"reselect": "4.0.0",
+		"ts-jest": "23.10.5",
+		"ts-node": "7.0.1",
+		"tslint": "5.11.0",
+		"tslint-microsoft-contrib": "6.0.0",
+		"tslint-react": "3.6.0"
+	},
+	"engines": {
+		"node": ">=8.0.0",
+		"npm": ">=5.1.0"
+	}
+}

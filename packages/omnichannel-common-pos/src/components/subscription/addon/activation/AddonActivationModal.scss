@@ -1,0 +1,160 @@
+$modal-header-height: 4.65rem;
+$container-paddings: 2.4rem;
+$modal-header-borders-width: 0.3125rem;
+
+.AddonActivationModal {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	min-height: calc(100vh - #{$modal-header-height} - #{$container-paddings} - #{$modal-header-borders-width});
+	justify-content: space-between;
+
+	&-main-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-addon-modal-label {
+		padding-left: 4px;
+		width: 120px;
+	}
+
+	&-label {
+		width: 10.25rem;
+		color: $gray-600;
+	}
+
+	&-new-section {
+		border-top: 2px solid $modal-header-border-color;
+		padding-top: 1.2rem;
+	}
+
+	&-info-container {
+		display: flex;
+		padding-bottom: 1.2rem;
+	}
+
+	&-fees-container {
+		display: flex;
+		padding-bottom: 1.2rem;
+		padding-right: 1.5rem;
+	}
+
+	&-fees {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-payments,
+	&-fees,
+	&-data {
+		width: 18.75rem;
+	}
+
+	&-fee {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&-fee-value {
+		font-weight: bold;
+		padding-right: 1.5rem;
+	}
+
+	&-payment-container {
+		display: flex;
+		padding-bottom: 1.2rem;
+	}
+
+	&-balance-table {
+		border: $weasel-background-solid solid 2px;
+		border-radius: 3px;
+		background: #fafafa;
+		padding: 0 1rem;
+		width: 24.65rem;
+
+		&-row {
+			display: flex;
+			width: 100%;
+			padding: 0.3rem 0.5rem;
+		}
+	}
+
+	&-cost-type {
+		display: flex;
+		justify-content: flex-start;
+		width: 50%;
+	}
+
+	&-cost-value {
+		width: 50%;
+		text-align: right;
+	}
+
+	&-remaining-balance {
+		border-top: 1px solid $modal-header-border-color;
+	}
+
+	&-red-label { // hmmmm... red label? coke, anyone?)
+		color: $danger;
+	}
+
+	&-not-enough-balance-alert {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: nowrap;
+		color: red;
+		margin-top: 15px;
+		i {
+			margin-right: 5px;
+		}
+	}
+
+	.OcModal-footer-container {
+		display: flex;
+		justify-content: space-between;
+		padding: 1.2rem;
+		margin: 1.25rem -1.2rem -1.2rem -1.2rem;
+		background: #fafafa;
+		border-top: $modal-header-border-color solid 1px;
+	}
+
+	button#buttonConfirmAddonActivation {
+		padding: 0.563rem 2rem;
+		text-transform: uppercase;
+	}
+
+	button#buttonCancelAddonActivation {
+		padding: 0.563rem 2.5rem;
+		text-transform: uppercase;
+	}
+
+	@include media-breakpoint-up(sm) {
+		min-height: initial;
+		justify-content: flex-start;
+		&-balance-table {
+			margin-left: 10.25rem;
+		}
+
+		&-cost-value {
+			width: 3.75rem;
+		}
+
+		&-fee-value {
+			padding-right: 8.625rem;
+		}
+
+		&-data,
+		&-payments,
+		&-fees {
+			width: 24.65rem;
+		}
+	}
+}
+
+.ActivationModal {
+	.modal-title {
+		font-weight: 100;
+	}
+}

@@ -1,0 +1,48 @@
+.ActiveAgreementSelect {
+	border: 1px solid #ddd;
+	border-bottom: 0;
+	overflow: hidden;
+	font-size: 13px;
+
+	&-minibasket-agreement-select {
+		min-width: 150px;
+	}
+
+	&-container {
+		display: flex;
+		align-items: flex-start;
+		margin-bottom: 1rem;
+	}
+
+	&-agreement {
+		flex: 1 0 0;
+	}
+
+	&-refresh {
+		flex: 0 0 0;
+		white-space: nowrap;
+		margin-left: 1rem;
+	}
+
+	&-forAgreementLabel {
+		color: gray("300");
+		margin-bottom: 5px;
+	}
+
+	&-selectedAgreementId {
+		font-size: 14px;
+	}
+
+	&-confirmBasketDiscardText {
+		font-size: 14px;
+	}
+
+	&-inner-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		margin: 10px 0 10px 0;
+	}
+}

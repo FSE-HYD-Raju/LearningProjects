@@ -1,0 +1,226 @@
+{
+	"id": "accessory-bundle-po",
+	"type": "contextualProducts",
+	"attributes": {
+		"commercialEnrichments": [
+			{
+				"conditions": {},
+				"descriptions": {
+					"detailed": "Why settle for just one set of earphones, when you can have two?"
+				},
+				"media": {},
+				"names": {
+					"short-name": "An enriched bundle of accessories"
+				}
+			}
+		],
+		"featureCharacteristics": [],
+		"specificationId": null,
+		"instanceCharacteristics": {},
+		"productOfferings": [
+			{
+				"categories": [],
+				"commercialEnrichments": [],
+				"featureCharacteristics": [],
+				"id": "earplug1-po",
+				"name": "ZenHajzer SuperCool 32",
+				"inputCharacteristics": {},
+				"instanceCharacteristics": {
+					"cable-length": {
+						"values": [
+							{
+								"value": "1m",
+								"name": "1m"
+							}
+						],
+						"description": null,
+						"source": null,
+						"subType": null,
+						"mandatory": false,
+						"validation": null,
+						"name": "Cable length",
+						"priority": null
+					},
+					"brand": {
+						"values": [
+							{
+								"value": "ZenHajzer",
+								"name": "ZenHajzer"
+							}
+						],
+						"description": null,
+						"source": null,
+						"subType": null,
+						"mandatory": false,
+						"validation": null,
+						"name": "Brand",
+						"priority": null
+					}
+				},
+				"prices": [
+					{
+						"type": "ONE_TIME",
+						"name": null,
+						"chargedUnit": {
+							"amount": 1,
+							"currency": null,
+							"unitOfMeasure": "PIECES"
+						},
+						"taxAmount": null,
+						"taxFreeAmount": 39.95,
+						"taxRate": 0,
+						"recurringChargePeriod": null,
+						"currency": "EUR",
+						"conditions": null,
+						"originalPrice": null
+					}
+				],
+				"priority": null,
+				"productOfferingGroups": [],
+				"productOfferings": [],
+				"specificationId": "earplug1",
+				"msisdns": null,
+				"bundlingProductOfferings": null
+			},
+			{
+				"categories": [],
+				"commercialEnrichments": [],
+				"featureCharacteristics": [],
+				"id": "earplug2-po",
+				"name": "Filip XtremeBass",
+				"inputCharacteristics": {},
+				"instanceCharacteristics": {
+					"cable-length": {
+						"values": [
+							{
+								"value": "1m",
+								"name": "1m"
+							}
+						],
+						"description": null,
+						"source": null,
+						"subType": null,
+						"mandatory": false,
+						"validation": null,
+						"name": null,
+						"priority": null
+					},
+					"color": {
+						"values": [
+							{
+								"value": "silver",
+								"name": "silver"
+							}
+						],
+						"description": null,
+						"source": null,
+						"subType": null,
+						"mandatory": false,
+						"validation": null,
+						"name": null,
+						"priority": null
+					},
+					"brand": {
+						"values": [
+							{
+								"value": "Filip",
+								"name": "Filip"
+							}
+						],
+						"description": null,
+						"source": null,
+						"subType": null,
+						"mandatory": false,
+						"validation": null,
+						"name": "Brand",
+						"priority": null
+					}
+				},
+				"prices": [
+					{
+						"type": "ONE_TIME",
+						"name": null,
+						"chargedUnit": {
+							"amount": 1,
+							"currency": null,
+							"unitOfMeasure": "PIECES"
+						},
+						"taxAmount": null,
+						"taxFreeAmount": 19.95,
+						"taxRate": 0,
+						"recurringChargePeriod": null,
+						"currency": "EUR",
+						"conditions": null,
+						"originalPrice": null
+					}
+				],
+				"priority": null,
+				"productOfferingGroups": [],
+				"productOfferings": [],
+				"specificationId": "earplug2",
+				"msisdns": null,
+				"bundlingProductOfferings": null
+			}
+		],
+		"name": "A bundle of accessories",
+		"categories": [],
+		"inputCharacteristics": {},
+		"prices": [
+			{
+				"type": "ONE_TIME",
+				"name": null,
+				"chargedUnit": {
+					"amount": 1,
+					"currency": null,
+					"unitOfMeasure": "PIECES"
+				},
+				"taxAmount": null,
+				"taxFreeAmount": 1,
+				"taxRate": 0,
+				"recurringChargePeriod": null,
+				"currency": "EUR",
+				"conditions": null,
+				"originalPrice": null
+			},
+			{
+				"type": "RECURRENT",
+				"name": null,
+				"chargedUnit": {
+					"amount": 1,
+					"currency": null,
+					"unitOfMeasure": "PIECES"
+				},
+				"taxAmount": null,
+				"taxFreeAmount": 9.95,
+				"taxRate": 0,
+				"currency": "EUR",
+				"conditions": null,
+				"originalPrice": null,
+				"recurringChargePeriod": {
+					"count": 1,
+					"interval": "MONTH"
+				}
+			}
+		],
+		"priority": null,
+		"productOfferingGroups": []
+	},
+	"relationships": {
+		"bundlingProductOfferings": {
+			"links": {
+				"self": "http://127.0.0.1/8080/omnichannel-api/api/v0/contextualProducts/accessory-bundle-po/relationships/bundlingProductOfferings",
+				"related": "http://127.0.0.18080/omnichannel-api/api/v0/contextualProducts/accessory-bundle-po/bundlingProductOfferings"
+			}
+		},
+		"msisdns": {
+			"links": {
+				"self": "http://127.0.0.1:8080/omnichannel-api/api/v0/contextualProducts/accessory-bundle-po/relationships/msisdns",
+				"related": "http://127.0.0.1:8080/omnichannel-api/api/v0/contextualProducts/accessory-bundle-po/msisdns"
+			}
+		}
+	},
+	"links": {
+		"self": "http://127.0.0.1:8080/omnichannel-api/api/v0/contextualProducts/accessory-bundle-po"
+	}
+}
+

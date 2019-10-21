@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorLabel should succeed at shallow mount without props 1`] = `
+<div
+  className="text-center ErrorLabel-container"
+>
+  <div
+    className="ErrorLabel-label ErrorLabel-label-danger ErrorLabel-message"
+  />
+</div>
+`;

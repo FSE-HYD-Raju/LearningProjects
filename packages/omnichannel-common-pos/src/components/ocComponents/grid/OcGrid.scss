@@ -1,0 +1,44 @@
+.OcGrid {
+	&-pages-count-data {
+		display: flex;
+		width: 100%;
+		justify-content: flex-end;
+		padding: 0.5rem 1rem;
+		font-size: $font-size-sm;
+	}
+
+	&-message-bolder {
+		font-weight: $font-weight-bold;
+	}
+
+	&-pagination-container {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+	}
+	&-pagination-container {
+		.pagination {
+			margin: 0;
+		}
+		.page-link{
+			height: 2.5rem;
+			display: flex;
+			align-items: center;
+			padding: 0.5rem 1rem;
+		}
+	}
+
+	&-sorting-available {
+		color: $cadet-blue;
+	}
+
+	&-sorting {
+		color: $sapphire-blue;
+		font-weight: $font-weight-bold;
+	}
+	&-sorting-icon {
+		padding-left: 0.25rem;
+		transform: translateY(0.0625rem);
+		font-size: 1.125rem;
+	}
+}

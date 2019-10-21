@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChangeDeliveryAddress succeeds at shallow mount with minimum props 1`] = `
+<ChangeDeliveryAddress
+  actions={
+    Object {
+      "clearAddressValidationError": [MockFunction],
+      "storeSelectedShippingAddress": [MockFunction],
+      "validateAddress": [MockFunction],
+    }
+  }
+  countries={
+    Array [
+      Object {
+        "code": "IT",
+        "locale": "ita",
+        "name": "Italy",
+      },
+      Object {
+        "code": "UA",
+        "locale": "ukr",
+        "name": "Ukraine",
+      },
+    ]
+  }
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+  isLoggedIn={true}
+  schema={
+    ObjectSchema {
+      "_blacklist": BadSet {
+        "_map": Object {},
+        "_refs": Object {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [
+        "undefined-undefined",
+      ],
+      "_exclusive": Object {},
+      "_label": "deliveryAddress",
+      "_mutate": false,
+      "_nodes": Array [
+        "description",
+        "stateOrProvince",
+        "country",
+        "city",
+        "postalCode",
+        "coAddress",
+        "street",
+      ],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": BadSet {
+        "_map": Object {},
+        "_refs": Object {},
+      },
+      "fields": Object {
+        "city": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "city",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "coAddress": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {},
+          "_label": "coAddress",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "country": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "country",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "description": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {},
+          "_label": "description",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "postalCode": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "postalCode",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "stateOrProvince": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {},
+          "_label": "stateOrProvince",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "street": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "street",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+    }
+  }
+  storeValidAddressOnChange={false}
+  storedDeliveryAddress={
+    Object {
+      "city": "Kyiv",
+      "coAddress": "1",
+      "country": "UA",
+      "id": "postal_address_1",
+      "postalCode": "00003",
+      "role": "PRIMARY",
+      "stateOrProvince": "kyivskaya",
+      "street": "Sportivnaya",
+    }
+  }
+/>
+`;

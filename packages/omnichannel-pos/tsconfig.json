@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"module": "commonjs",
+		"allowJs": false,
+		"checkJs": false,
+		"target": "es5",
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"removeComments": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": false,
+		"noErrorTruncation": true,
+		"allowSyntheticDefaultImports": true,
+		"preserveConstEnums": false,
+		"strict": true,
+		"declaration": true,
+		"lib": ["es6", "es7", "dom"],
+		"sourceMap": true,
+		"outDir": "./lib",
+		"rootDir": "src"
+	},
+	"include": [
+		"./src/**/*"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

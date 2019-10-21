@@ -1,0 +1,86 @@
+.NavBarMobile {
+	display: block;
+	position: fixed;
+	z-index: $zindex-tooltip + 10;
+	overflow-y: auto;
+	top: $b2c-mobile-header-height;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: $b2c-mobile-menu-background;
+	color: $b2c-mobile-menu-item-color-base;
+
+	&-active {
+		overflow: hidden;
+	}
+
+	&-section {
+		border-top: 1px solid transparentize($b2c-mobile-menu-item-color-base, 0.7);
+	}
+
+	a {
+		&,
+		&:hover,
+		&:focus,
+		&:active {
+			color: $b2c-mobile-menu-item-color-base;
+			text-decoration: none;
+		}
+	}
+	&-item-primary,
+	&-item-secondary {
+		display: block;
+		&:hover,
+		&:focus,
+		&:active {
+			background: rgba(0, 0, 0, 0.1);
+		}
+	}
+
+	&-item-primary {
+		padding: 0.75rem $weasel-body-padding-base;
+		font-size: $font-size-lg;
+	}
+
+	&-item-secondary {
+		padding: 0.5rem $weasel-body-padding-base;
+		padding-left: $weasel-body-padding-base * 2;
+	}
+
+	& &-item-active {
+		&,
+		&:hover,
+		&:focus,
+		&:active {
+			color: $b2c-mobile-menu-item-color-active;
+		}
+	}
+
+	&-item-primary + &-item-secondary {
+		margin-top: -.25rem;
+	}
+
+	&-item-secondary:last-child {
+		margin-bottom: 0.5rem;
+	}
+
+	@include media-breakpoint-up($b2c-tablet-nav-breakpoint) {
+		display: none;
+		&-active {
+			overflow: initial;
+		}
+	}
+
+	&-locations {
+		#toggle-locations-menu-open strong {
+			display: flex;
+			align-items: center;
+		}
+		span {
+			font-size: 14px;
+		}
+		i.fa-angle-left {
+			margin-right: 5px;
+		}
+	}
+}

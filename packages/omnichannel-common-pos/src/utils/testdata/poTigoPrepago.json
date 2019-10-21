@@ -1,0 +1,1287 @@
+{
+	"attributes": {
+		"categories": [],
+		"commercialEnrichments": [],
+		"featureCharacteristics": [
+			{
+				"name": "CH_CustomerInventory",
+				"value": "CH_CustomerInventory"
+			},
+			{
+				"name": "CH_CustomerInventory",
+				"value": "CH_CustomerInventory"
+			}
+		],
+		"inputCharacteristics": {
+			"CH_Activation_model": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_Activation_model",
+				"hidden": true,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_Activation_model",
+				"priority": null,
+				"purpose": null,
+				"source": "Internal",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "preactivation_cancellation",
+						"value": "preactivation_cancellation"
+					},
+					{
+						"name": "ownerchange",
+						"value": "ownerchange"
+					},
+					{
+						"name": "nomination",
+						"value": "nomination"
+					},
+					{
+						"name": "direct",
+						"value": "direct"
+					},
+					{
+						"name": "preactivation",
+						"value": "preactivation"
+					}
+				]
+			},
+			"CH_ICC": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "ICC of SIM card",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_ICC",
+				"priority": null,
+				"purpose": null,
+				"source": "user",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": []
+			},
+			"CH_NumberResource": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "NumberResource",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_NumberResource",
+				"priority": null,
+				"purpose": null,
+				"source": "user",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": []
+			},
+			"CH_ReservedFor": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_ReservedFor",
+				"hidden": true,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_ReservedFor",
+				"priority": null,
+				"purpose": null,
+				"source": "Internal",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": []
+			},
+			"CH_Subscription_Ownership_Confirmed": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "BOOLEAN",
+				"description": null,
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": false,
+				"maxValue": null,
+				"minValue": null,
+				"name": "Subscription Ownership Confirmed",
+				"priority": null,
+				"purpose": null,
+				"source": "user",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": []
+			},
+			"CH_Tax_Payer_ID": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "Tax Payer ID",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_Tax_Payer_ID",
+				"priority": null,
+				"purpose": null,
+				"source": "user",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": []
+			},
+			"CH_Tax_Payer_Name": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "Tax Payer Name",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_Tax_Payer_Name",
+				"priority": null,
+				"purpose": null,
+				"source": "user",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": []
+			}
+		},
+		"instanceCharacteristics": {
+			"CH_BCCS_CONTRATO": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_BCCS_CONTRATO",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_BCCS_CONTRATO",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "9427160",
+						"value": "9427160"
+					}
+				]
+			},
+			"CH_BCCS_NRO_DOCUMENTO_IDENTIDAD": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_BCCS_NRO_DOCUMENTO_IDENTIDAD",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_BCCS_NRO_DOCUMENTO_IDENTIDAD",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "1000000001",
+						"value": "1000000001"
+					}
+				]
+			},
+			"CH_BypassFOM": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "BOOLEAN",
+				"description": "CH_BypassFOM",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_BypassFOM",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "FALSE",
+						"value": "FALSE"
+					}
+				]
+			},
+			"CH_CBS_OfferingID": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_CBS_OfferingID",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_CBS_OfferingID",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "2330",
+						"value": "2330"
+					}
+				]
+			},
+			"CH_CBS_TransferBalance_OfferingID": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_CBS_TransferBalance_OfferingID",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_CBS_TransferBalance_OfferingID",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "159718027",
+						"value": "159718027"
+					}
+				]
+			},
+			"CH_Change_SIM_Upgrade": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "Change SIM scenario (3G to 4G), this defines to which plan it has to be upgraded",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "Change SIM Upgrade",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "PO_LTE_MIFI_PREPAGO",
+						"value": "PO_LTE_MIFI_PREPAGO"
+					}
+				]
+			},
+			"CH_MSISDNType": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "MSISDNType",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": false,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_MSISDNType",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "primary",
+						"value": "primary"
+					}
+				]
+			},
+			"CH_Mobile_Plan_Type": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_Mobile_Plan_Type",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_Mobile_Plan_Type",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "Voice",
+						"value": "Voice"
+					}
+				]
+			},
+			"CH_Offering_type": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_Offering_type",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_Offering_type",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "primary",
+						"value": "primary"
+					}
+				]
+			},
+			"CH_PTO_ALG": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_PTO_ALG",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_PTO_ALG",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "MILENAGE",
+						"value": "MILENAGE"
+					}
+				]
+			},
+			"CH_PTO_CARDTYPE": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_PTO_CARDTYPE",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_PTO_CARDTYPE",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "USIM",
+						"value": "USIM"
+					}
+				]
+			},
+			"CH_PTO_K4SNO": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_PTO_K4SNO",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_PTO_K4SNO",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "2",
+						"value": "2"
+					}
+				]
+			},
+			"CH_PlanType": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "subscription plan type",
+				"hidden": true,
+				"humanReadableId": null,
+				"mandatory": false,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_PlanType",
+				"priority": null,
+				"purpose": null,
+				"source": "Internal",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "prepaid",
+						"value": "prepaid"
+					}
+				]
+			},
+			"CH_Plan_Comercial_ID": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_Plan_Comercial_ID",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_Plan_Comercial_ID",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "4",
+						"value": "4"
+					}
+				]
+			},
+			"CH_Plan_Consumo_ID": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_Plan_Consumo_ID",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_Plan_Consumo_ID",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "672",
+						"value": "672"
+					}
+				]
+			},
+			"CH_RIM_MSISDN_OfferID": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_RIM_MSISDN_OfferID",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_RIM_MSISDN_OfferID",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "PO_TIGO_PREPAGO_4G",
+						"value": "PO_TIGO_PREPAGO_4G"
+					}
+				]
+			},
+			"CH_UPCC_ENTITLEMENT": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_UPCC_ENTITLEMENT",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_UPCC_ENTITLEMENT",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "HSPP",
+						"value": "HSPP"
+					}
+				]
+			},
+			"CH_UPCC_USERPAIDTYPE": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_UPCC_USERPAIDTYPE",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_UPCC_USERPAIDTYPE",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "0",
+						"value": "0"
+					}
+				]
+			},
+			"CH_brand": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_brand",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_brand",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "1000000001",
+						"value": "1000000001"
+					}
+				]
+			},
+			"CH_bundledFlag": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_bundledFlag",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_bundledFlag",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "S",
+						"value": "S"
+					}
+				]
+			},
+			"CH_offeringClass": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_offeringClass",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_offeringClass",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "I",
+						"value": "I"
+					}
+				]
+			},
+			"CH_packageFlag": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_packageFlag",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_packageFlag",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "A",
+						"value": "A"
+					}
+				]
+			},
+			"CH_paymentMode": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_paymentMode",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_paymentMode",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "0",
+						"value": "0"
+					}
+				]
+			},
+			"CH_productID": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_productID",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_productID",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "407",
+						"value": "407"
+					}
+				]
+			},
+			"CH_productType": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_productType",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_productType",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "1",
+						"value": "1"
+					}
+				]
+			},
+			"CH_product_networkType": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_networkType",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_networkType",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "1",
+						"value": "1"
+					}
+				]
+			},
+			"CH_product_primaryFlag": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_product_primaryFlag",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_product_primaryFlag",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "M",
+						"value": "M"
+					}
+				]
+			},
+			"CH_subClass": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_subClass",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_subClass",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "1",
+						"value": "1"
+					}
+				]
+			},
+			"CH_subIdentityType": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_subIdentityType",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_subIdentityType",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "1",
+						"value": "1"
+					}
+				]
+			},
+			"CH_subLevel": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_subLevel",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_subLevel",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "1",
+						"value": "1"
+					}
+				]
+			},
+			"CH_subsciber_ivrLang": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_subsciber_ivrLang",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_subsciber_ivrLang",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "2020",
+						"value": "2020"
+					}
+				]
+			},
+			"CH_subscriber_networkType": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_networkType",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_networkType",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "1",
+						"value": "1"
+					}
+				]
+			},
+			"CH_subscriber_primaryFlag": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_subscriber_primaryFlag",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_subscriber_primaryFlag",
+				"priority": null,
+				"purpose": null,
+				"source": null,
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "1",
+						"value": "1"
+					}
+				]
+			},
+			"CH_writtenLang": {
+				"cardinality": {
+					"max": null,
+					"min": null
+				},
+				"dataType": "STRING",
+				"description": "CH_writtenLang",
+				"hidden": false,
+				"humanReadableId": null,
+				"mandatory": true,
+				"maxValue": null,
+				"minValue": null,
+				"name": "CH_writtenLang",
+				"priority": null,
+				"purpose": null,
+				"source": "Order System",
+				"subType": null,
+				"unitOfMeasure": null,
+				"validFor": {
+					"endDate": null,
+					"startDate": null
+				},
+				"validation": null,
+				"valueRegulator": null,
+				"values": [
+					{
+						"name": "2020",
+						"value": "2020"
+					}
+				]
+			}
+		},
+		"name": "PO_MIG_Data_card_Prepago_3G",
+		"prices": [],
+		"priority": null,
+		"productId": null,
+		"productOfferingGroups": [],
+		"productOfferings": [],
+		"specSubType": "VOICE",
+		"specType": "PRODUCT",
+		"specificationId": "PO_MIG_Data_card_Prepago_3G",
+		"stockLevel": null
+	}
+}

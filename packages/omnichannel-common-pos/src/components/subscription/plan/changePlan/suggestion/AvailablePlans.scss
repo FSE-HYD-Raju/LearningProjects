@@ -1,0 +1,12 @@
+.AvailablePlans {
+	&-available-plans-grid-view {
+		display: grid;
+		grid-gap: 1rem;
+		grid-template-columns: 1fr;
+	}
+	@include media-breakpoint-up(sm) {
+		&-available-plans-grid-view {
+			grid-template-columns: 1fr;
+		}
+	}
+}

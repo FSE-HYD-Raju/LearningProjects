@@ -1,0 +1,78 @@
+.CustomerListDropdown {
+	&-search-wrapper {
+		margin-bottom: 1rem;
+		.fas {
+			padding-right: 0.25rem;
+		}
+		div {
+			padding-bottom: 0.1rem;
+		}
+	}
+	&-name {
+		margin: 1rem 0 1rem 0;
+	}
+
+	&-customer-list-footer {
+		border-top: 1px solid #e2e2e2;
+	}
+	&-account-type {
+		color: gray("500");
+		text-transform: capitalize;
+	}
+	&-dropdown-wrapper {
+		padding: 10px 10px 0 10px;
+	}
+	&-tile-wrapper {
+		border-top: 1px solid #e2e2e2;
+	}
+	&-pagination-buttons {
+		display: inline-block;
+		padding-left: 0.8rem;
+	}
+	&-pagination-container {
+		display: inline-block;
+	}
+
+	&-accounts-wrapper {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 0.5rem;
+	}
+	&-search {
+		max-width: 50%;
+		display: inline-block;
+	}
+	&-customer-dropdown-header {
+		display: flex;
+		padding-bottom: 0.2rem;
+		justify-content: space-between;
+	}
+	&-link {
+		color: $main-blue;
+		cursor: pointer;
+	}
+	&-no-account {
+		padding-bottom: 0.2rem;
+	}
+
+	@include media-breakpoint-up($b2c-desktop-nav-breakpoint) {
+		&-customer-list-dropdown.dropdown-menu {
+			width: 550px;
+		}
+		&-customer-list-searching,
+		&-customer-list-nothing-found {
+			font-size: $font-size-lg;
+			padding: $table-cell-padding;
+			color: gray("500");
+			margin: 0;
+		}
+		&-customer-list-table {
+			margin-bottom: 0;
+			white-space: nowrap;
+		}
+		&-customer-list-footer-button {
+			display: block;
+			padding: $table-cell-padding;
+		}
+	}
+}

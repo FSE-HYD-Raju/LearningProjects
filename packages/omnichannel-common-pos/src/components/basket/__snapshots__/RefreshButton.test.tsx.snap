@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RefreshButton succeeds at shallow mount with minimal props 1`] = `
+<a
+  className="RefreshButton-refresh-button"
+  data-test-name="refresh-button"
+  id="buttonId"
+  onClick={[Function]}
+>
+  <i
+    className="fa fa-sync-alt btn-icon-left"
+  />
+  <FormattedMessageWrapper
+    defaultMessage="Refresh"
+    description="Refresh button, label"
+    id="refresh-button"
+    wrapperType="wrapper"
+  />
+</a>
+`;

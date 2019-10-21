@@ -1,0 +1,68 @@
+@import '~omnichannel-common-pos/lib/styles/mixins.scss';
+@import '~omnichannel-common-pos/lib/styles/_variables.scss';
+
+$height: 50px;
+$dropdown-arrow-padding: 50px;
+
+.AutoSuggestSelect {
+
+	position: relative;
+	height: $height;
+	@extend .OcInput-text;
+
+	.OcInput {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: $dropdown-arrow-padding;
+		background-color: transparent;
+		border: none;
+
+		.OcInput-text {
+			border: none;
+			box-shadow: none;
+		}
+
+		.OcInput-input:before, .OcInput-input:after {
+			display: none;
+		}
+	}
+
+	&-select {
+		height: $height;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+
+		.Select-placeholder {
+			display: none;
+		}
+
+		.Select-control {
+			height: 100%;
+		}
+
+		.Select-input {
+			height: 100%;
+
+			>input {
+				height: 100%;
+				display: none;
+			}
+		}
+
+		.Select-option mark {
+			color: theme-color("danger");
+			font-weight: bold;
+			background-color: transparent;
+			padding: 0;
+		}
+		.Select-option.is-focused {
+			background-color: theme-color("primary");
+			color: $white;
+		}
+	}
+}

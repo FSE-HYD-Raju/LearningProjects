@@ -1,0 +1,1120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecurringTopUpConfigurationForm succeeds at deep mount with min props 1`] = `
+<WithSchema
+  actions={
+    Object {
+      "addProductToBasket": [MockFunction],
+      "storeTopupProduct": [MockFunction],
+      "updateBasketItemConfiguration": [MockFunction],
+    }
+  }
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+  pricesPerRow={4}
+  schema={Object {}}
+  selectedCurrency="EUR"
+>
+  <RecurringTopUpConfigurationForm
+    actions={
+      Object {
+        "addProductToBasket": [MockFunction],
+        "storeTopupProduct": [MockFunction],
+        "updateBasketItemConfiguration": [MockFunction],
+      }
+    }
+    intl={
+      Object {
+        "defaultFormats": Object {},
+        "defaultLocale": "en",
+        "formatDate": [Function],
+        "formatHTMLMessage": [Function],
+        "formatMessage": [Function],
+        "formatNumber": [Function],
+        "formatPlural": [Function],
+        "formatRelative": [Function],
+        "formatTime": [Function],
+        "formats": Object {},
+        "formatters": Object {
+          "getDateTimeFormat": [Function],
+          "getMessageFormat": [Function],
+          "getNumberFormat": [Function],
+          "getPluralFormat": [Function],
+          "getRelativeFormat": [Function],
+        },
+        "locale": "en",
+        "messages": Object {},
+        "now": [Function],
+        "onError": [Function],
+        "textComponent": "span",
+        "timeZone": null,
+      }
+    }
+    pricesPerRow={4}
+    schema={
+      ObjectSchema {
+        "_blacklist": BadSet {
+          "_map": Object {},
+          "_refs": Object {},
+        },
+        "_conditions": Array [],
+        "_defaultDefault": [Function],
+        "_deps": Array [],
+        "_excludedEdges": Array [
+          "undefined-undefined",
+        ],
+        "_exclusive": Object {},
+        "_label": "recurringTopUpForm",
+        "_mutate": false,
+        "_nodes": Array [
+          "topUpAmountWeekly",
+          "limitInMonth",
+          "topUpAmount",
+          "thresholdValue",
+          "recurringTopUp",
+        ],
+        "_options": Object {
+          "abortEarly": true,
+          "recursive": true,
+        },
+        "_type": "object",
+        "_typeError": [Function],
+        "_whitelist": BadSet {
+          "_map": Object {},
+          "_refs": Object {},
+        },
+        "fields": Object {
+          "limitInMonth": NumberSchema {
+            "_blacklist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "min": true,
+            },
+            "_label": "limitInMonth",
+            "_mutate": false,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "number",
+            "_typeError": [Function],
+            "_whitelist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+          },
+          "recurringTopUp": StringSchema {
+            "_blacklist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "required": false,
+              "trim": false,
+            },
+            "_label": "recurringTopUp",
+            "_mutate": false,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "string",
+            "_typeError": [Function],
+            "_whitelist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "tests": Array [
+              [Function],
+              [Function],
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+              [Function],
+            ],
+          },
+          "thresholdValue": NumberSchema {
+            "_blacklist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "min": true,
+            },
+            "_label": "thresholdValue",
+            "_mutate": false,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "number",
+            "_typeError": [Function],
+            "_whitelist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+          },
+          "topUpAmount": NumberSchema {
+            "_blacklist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "min": true,
+            },
+            "_label": "topUpAmount",
+            "_mutate": false,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "number",
+            "_typeError": [Function],
+            "_whitelist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+          },
+          "topUpAmountWeekly": NumberSchema {
+            "_blacklist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "min": true,
+            },
+            "_label": "topUpAmountWeekly",
+            "_mutate": false,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "number",
+            "_typeError": [Function],
+            "_whitelist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+          },
+        },
+        "tests": Array [],
+        "transforms": Array [
+          [Function],
+        ],
+      }
+    }
+    selectedCurrency="EUR"
+  >
+    <Uncontrolled(Form)
+      className="RecurringTopUpConfigurationForm"
+      debug={true}
+      noValidate={true}
+      onChange={[Function]}
+      onSubmit={[Function]}
+      schema={
+        ObjectSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_defaultDefault": [Function],
+          "_deps": Array [],
+          "_excludedEdges": Array [
+            "undefined-undefined",
+          ],
+          "_exclusive": Object {},
+          "_label": "recurringTopUpForm",
+          "_mutate": false,
+          "_nodes": Array [
+            "topUpAmountWeekly",
+            "limitInMonth",
+            "topUpAmount",
+            "thresholdValue",
+            "recurringTopUp",
+          ],
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "object",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "fields": Object {
+            "limitInMonth": NumberSchema {
+              "_blacklist": BadSet {
+                "_map": Object {},
+                "_refs": Object {},
+              },
+              "_conditions": Array [],
+              "_deps": Array [],
+              "_exclusive": Object {
+                "min": true,
+              },
+              "_label": "limitInMonth",
+              "_mutate": false,
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "number",
+              "_typeError": [Function],
+              "_whitelist": BadSet {
+                "_map": Object {},
+                "_refs": Object {},
+              },
+              "tests": Array [
+                [Function],
+              ],
+              "transforms": Array [
+                [Function],
+              ],
+            },
+            "recurringTopUp": StringSchema {
+              "_blacklist": BadSet {
+                "_map": Object {},
+                "_refs": Object {},
+              },
+              "_conditions": Array [],
+              "_deps": Array [],
+              "_exclusive": Object {
+                "required": false,
+                "trim": false,
+              },
+              "_label": "recurringTopUp",
+              "_mutate": false,
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "string",
+              "_typeError": [Function],
+              "_whitelist": BadSet {
+                "_map": Object {},
+                "_refs": Object {},
+              },
+              "tests": Array [
+                [Function],
+                [Function],
+                [Function],
+              ],
+              "transforms": Array [
+                [Function],
+                [Function],
+              ],
+            },
+            "thresholdValue": NumberSchema {
+              "_blacklist": BadSet {
+                "_map": Object {},
+                "_refs": Object {},
+              },
+              "_conditions": Array [],
+              "_deps": Array [],
+              "_exclusive": Object {
+                "min": true,
+              },
+              "_label": "thresholdValue",
+              "_mutate": false,
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "number",
+              "_typeError": [Function],
+              "_whitelist": BadSet {
+                "_map": Object {},
+                "_refs": Object {},
+              },
+              "tests": Array [
+                [Function],
+              ],
+              "transforms": Array [
+                [Function],
+              ],
+            },
+            "topUpAmount": NumberSchema {
+              "_blacklist": BadSet {
+                "_map": Object {},
+                "_refs": Object {},
+              },
+              "_conditions": Array [],
+              "_deps": Array [],
+              "_exclusive": Object {
+                "min": true,
+              },
+              "_label": "topUpAmount",
+              "_mutate": false,
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "number",
+              "_typeError": [Function],
+              "_whitelist": BadSet {
+                "_map": Object {},
+                "_refs": Object {},
+              },
+              "tests": Array [
+                [Function],
+              ],
+              "transforms": Array [
+                [Function],
+              ],
+            },
+            "topUpAmountWeekly": NumberSchema {
+              "_blacklist": BadSet {
+                "_map": Object {},
+                "_refs": Object {},
+              },
+              "_conditions": Array [],
+              "_deps": Array [],
+              "_exclusive": Object {
+                "min": true,
+              },
+              "_label": "topUpAmountWeekly",
+              "_mutate": false,
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "number",
+              "_typeError": [Function],
+              "_whitelist": BadSet {
+                "_map": Object {},
+                "_refs": Object {},
+              },
+              "tests": Array [
+                [Function],
+              ],
+              "transforms": Array [
+                [Function],
+              ],
+            },
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        }
+      }
+      value={
+        Object {
+          "recurringTopUp": "cancel",
+        }
+      }
+    >
+      <Form
+        className="RecurringTopUpConfigurationForm"
+        component="form"
+        debug={true}
+        delay={300}
+        getter={[Function]}
+        noValidate={true}
+        onChange={[Function]}
+        onError={[Function]}
+        onSubmit={[Function]}
+        schema={
+          ObjectSchema {
+            "_blacklist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "_conditions": Array [],
+            "_defaultDefault": [Function],
+            "_deps": Array [],
+            "_excludedEdges": Array [
+              "undefined-undefined",
+            ],
+            "_exclusive": Object {},
+            "_label": "recurringTopUpForm",
+            "_mutate": false,
+            "_nodes": Array [
+              "topUpAmountWeekly",
+              "limitInMonth",
+              "topUpAmount",
+              "thresholdValue",
+              "recurringTopUp",
+            ],
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "object",
+            "_typeError": [Function],
+            "_whitelist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "fields": Object {
+              "limitInMonth": NumberSchema {
+                "_blacklist": BadSet {
+                  "_map": Object {},
+                  "_refs": Object {},
+                },
+                "_conditions": Array [],
+                "_deps": Array [],
+                "_exclusive": Object {
+                  "min": true,
+                },
+                "_label": "limitInMonth",
+                "_mutate": false,
+                "_options": Object {
+                  "abortEarly": true,
+                  "recursive": true,
+                },
+                "_type": "number",
+                "_typeError": [Function],
+                "_whitelist": BadSet {
+                  "_map": Object {},
+                  "_refs": Object {},
+                },
+                "tests": Array [
+                  [Function],
+                ],
+                "transforms": Array [
+                  [Function],
+                ],
+              },
+              "recurringTopUp": StringSchema {
+                "_blacklist": BadSet {
+                  "_map": Object {},
+                  "_refs": Object {},
+                },
+                "_conditions": Array [],
+                "_deps": Array [],
+                "_exclusive": Object {
+                  "required": false,
+                  "trim": false,
+                },
+                "_label": "recurringTopUp",
+                "_mutate": false,
+                "_options": Object {
+                  "abortEarly": true,
+                  "recursive": true,
+                },
+                "_type": "string",
+                "_typeError": [Function],
+                "_whitelist": BadSet {
+                  "_map": Object {},
+                  "_refs": Object {},
+                },
+                "tests": Array [
+                  [Function],
+                  [Function],
+                  [Function],
+                ],
+                "transforms": Array [
+                  [Function],
+                  [Function],
+                ],
+              },
+              "thresholdValue": NumberSchema {
+                "_blacklist": BadSet {
+                  "_map": Object {},
+                  "_refs": Object {},
+                },
+                "_conditions": Array [],
+                "_deps": Array [],
+                "_exclusive": Object {
+                  "min": true,
+                },
+                "_label": "thresholdValue",
+                "_mutate": false,
+                "_options": Object {
+                  "abortEarly": true,
+                  "recursive": true,
+                },
+                "_type": "number",
+                "_typeError": [Function],
+                "_whitelist": BadSet {
+                  "_map": Object {},
+                  "_refs": Object {},
+                },
+                "tests": Array [
+                  [Function],
+                ],
+                "transforms": Array [
+                  [Function],
+                ],
+              },
+              "topUpAmount": NumberSchema {
+                "_blacklist": BadSet {
+                  "_map": Object {},
+                  "_refs": Object {},
+                },
+                "_conditions": Array [],
+                "_deps": Array [],
+                "_exclusive": Object {
+                  "min": true,
+                },
+                "_label": "topUpAmount",
+                "_mutate": false,
+                "_options": Object {
+                  "abortEarly": true,
+                  "recursive": true,
+                },
+                "_type": "number",
+                "_typeError": [Function],
+                "_whitelist": BadSet {
+                  "_map": Object {},
+                  "_refs": Object {},
+                },
+                "tests": Array [
+                  [Function],
+                ],
+                "transforms": Array [
+                  [Function],
+                ],
+              },
+              "topUpAmountWeekly": NumberSchema {
+                "_blacklist": BadSet {
+                  "_map": Object {},
+                  "_refs": Object {},
+                },
+                "_conditions": Array [],
+                "_deps": Array [],
+                "_exclusive": Object {
+                  "min": true,
+                },
+                "_label": "topUpAmountWeekly",
+                "_mutate": false,
+                "_options": Object {
+                  "abortEarly": true,
+                  "recursive": true,
+                },
+                "_type": "number",
+                "_typeError": [Function],
+                "_whitelist": BadSet {
+                  "_map": Object {},
+                  "_refs": Object {},
+                },
+                "tests": Array [
+                  [Function],
+                ],
+                "transforms": Array [
+                  [Function],
+                ],
+              },
+            },
+            "tests": Array [],
+            "transforms": Array [
+              [Function],
+            ],
+          }
+        }
+        setter={[Function]}
+        strict={false}
+        value={
+          Object {
+            "recurringTopUp": "cancel",
+          }
+        }
+      >
+        <BindingContext
+          getter={[Function]}
+          onChange={[Function]}
+          setter={[Function]}
+          value={
+            Object {
+              "recurringTopUp": "cancel",
+            }
+          }
+        >
+          <MessageListener
+            onValidationNeeded={[Function]}
+          >
+            <MessageContainer
+              mapNames={[Function]}
+              messages={Object {}}
+              onValidationNeeded={[Function]}
+            >
+              <form
+                className="RecurringTopUpConfigurationForm"
+                noValidate={true}
+                onSubmit={[Function]}
+              >
+                <div
+                  className="RecurringTopUpConfigurationForm-container"
+                >
+                  <div
+                    className="RecurringTopUpConfigurationForm-top-ups"
+                  >
+                    <h5
+                      className="RecurringTopUpConfigurationForm-top-up-type"
+                    >
+                      <FormattedMessageWrapper
+                        defaultMessage="Top-up type"
+                        description="Recurring top-up, label for top-up section"
+                        id="recurring-top-up-monthly-top-up-type-label"
+                        wrapperType="wrapper"
+                      >
+                        <Connect(IntlProvider)>
+                          <IntlProvider
+                            dispatch={[Function]}
+                            locale="en-DE"
+                            messages={Object {}}
+                          >
+                            <FormattedMessage
+                              defaultMessage="Top-up type"
+                              description="Recurring top-up, label for top-up section"
+                              id="recurring-top-up-monthly-top-up-type-label"
+                              values={Object {}}
+                            >
+                              <span>
+                                Top-up type
+                              </span>
+                            </FormattedMessage>
+                          </IntlProvider>
+                        </Connect(IntlProvider)>
+                      </FormattedMessageWrapper>
+                    </h5>
+                    <div
+                      className="RecurringTopUpConfigurationForm-main-form-container"
+                    >
+                      <Field
+                        defaultValue="cancel"
+                        exclusive={false}
+                        id="RecurringTopUpConfigurationForm-cancel-radio"
+                        label={
+                          Array [
+                            <span>
+                              I don't want to configure a recurring top up
+                            </span>,
+                          ]
+                        }
+                        name="recurringTopUp"
+                        radioButtonGroupValue="cancel"
+                        required={true}
+                        type={[Function]}
+                      >
+                        <Binding
+                          bindTo={[Function]}
+                          changeProp="onChange"
+                          mapValue={
+                            Object {
+                              "recurringTopUp": undefined,
+                            }
+                          }
+                          updateAfterChild={false}
+                          valueProp="value"
+                        >
+                          <ChildBridge
+                            events="onChange"
+                            onEvent={[Function]}
+                          >
+                            <FormalOcInput
+                              defaultValue="cancel"
+                              id="RecurringTopUpConfigurationForm-cancel-radio"
+                              label={
+                                Array [
+                                  <span>
+                                    I don't want to configure a recurring top up
+                                  </span>,
+                                ]
+                              }
+                              meta={
+                                Object {
+                                  "context": undefined,
+                                  "errorClass": "invalid-field",
+                                  "onError": [Function],
+                                  "resolvedType": [Function],
+                                  "schema": StringSchema {
+                                    "_blacklist": BadSet {
+                                      "_map": Object {},
+                                      "_refs": Object {},
+                                    },
+                                    "_conditions": Array [],
+                                    "_deps": Array [],
+                                    "_exclusive": Object {
+                                      "required": false,
+                                      "trim": false,
+                                    },
+                                    "_label": "recurringTopUp",
+                                    "_mutate": false,
+                                    "_options": Object {
+                                      "abortEarly": true,
+                                      "recursive": true,
+                                    },
+                                    "_type": "string",
+                                    "_typeError": [Function],
+                                    "_whitelist": BadSet {
+                                      "_map": Object {},
+                                      "_refs": Object {},
+                                    },
+                                    "tests": Array [
+                                      [Function],
+                                      [Function],
+                                      [Function],
+                                    ],
+                                    "transforms": Array [
+                                      [Function],
+                                      [Function],
+                                    ],
+                                  },
+                                }
+                              }
+                              name="recurringTopUp"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              radioButtonGroupValue="cancel"
+                              required={true}
+                              value="cancel"
+                            >
+                              <OcInput
+                                defaultValue="cancel"
+                                id="RecurringTopUpConfigurationForm-cancel-radio"
+                                inputType="radio"
+                                label={
+                                  Array [
+                                    <span>
+                                      I don't want to configure a recurring top up
+                                    </span>,
+                                  ]
+                                }
+                                name="recurringTopUp"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                radioButtonGroupValue="cancel"
+                                required={true}
+                                value="cancel"
+                              >
+                                <div
+                                  className="form-group OcInput-form-group-filled"
+                                >
+                                  <div
+                                    className="OcInput custom-control custom-radio"
+                                  >
+                                    <input
+                                      checked={true}
+                                      className="custom-control-input"
+                                      id="RecurringTopUpConfigurationForm-cancel-radio"
+                                      name="recurringTopUp"
+                                      onClick={[Function]}
+                                      readOnly={true}
+                                      type="radio"
+                                      value="cancel"
+                                    />
+                                    <label
+                                      className="custom-control-label"
+                                      htmlFor="RecurringTopUpConfigurationForm-cancel-radio"
+                                    >
+                                      <span
+                                        key="main-message-span"
+                                      >
+                                        I don't want to configure a recurring top up
+                                      </span>
+                                    </label>
+                                  </div>
+                                </div>
+                              </OcInput>
+                            </FormalOcInput>
+                          </ChildBridge>
+                        </Binding>
+                      </Field>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </MessageContainer>
+          </MessageListener>
+        </BindingContext>
+      </Form>
+    </Uncontrolled(Form)>
+  </RecurringTopUpConfigurationForm>
+</WithSchema>
+`;
+
+exports[`RecurringTopUpConfigurationForm succeeds at shallow mount with min props 1`] = `
+<RecurringTopUpConfigurationForm
+  actions={
+    Object {
+      "addProductToBasket": [MockFunction],
+      "storeTopupProduct": [MockFunction],
+      "updateBasketItemConfiguration": [MockFunction],
+    }
+  }
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+  pricesPerRow={4}
+  schema={
+    ObjectSchema {
+      "_blacklist": BadSet {
+        "_map": Object {},
+        "_refs": Object {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [
+        "undefined-undefined",
+      ],
+      "_exclusive": Object {},
+      "_label": "recurringTopUpForm",
+      "_mutate": false,
+      "_nodes": Array [
+        "topUpAmountWeekly",
+        "limitInMonth",
+        "topUpAmount",
+        "thresholdValue",
+        "recurringTopUp",
+      ],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": BadSet {
+        "_map": Object {},
+        "_refs": Object {},
+      },
+      "fields": Object {
+        "limitInMonth": NumberSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "min": true,
+          },
+          "_label": "limitInMonth",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "number",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "recurringTopUp": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "recurringTopUp",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "thresholdValue": NumberSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "min": true,
+          },
+          "_label": "thresholdValue",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "number",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "topUpAmount": NumberSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "min": true,
+          },
+          "_label": "topUpAmount",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "number",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "topUpAmountWeekly": NumberSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "min": true,
+          },
+          "_label": "topUpAmountWeekly",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "number",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+    }
+  }
+  selectedCurrency="EUR"
+/>
+`;

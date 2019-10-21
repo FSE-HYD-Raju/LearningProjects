@@ -1,0 +1,68 @@
+.ActivateProductLoanModal {
+	&-container {
+		display: flex;
+		flex-direction: column;
+		margin-top: 0.625rem;
+	}
+	&-info-title-section {
+		position: relative;
+		margin: 0 1.875rem;
+		i {
+			position: absolute;
+			top: 0.35rem;
+			left: -1.75rem;
+			font-size: 1rem;
+			color: $primary;
+		}
+	}
+	&-messages {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		&.ActivateProductLoanModal-confirmation-request {
+			margin-top: 1.2rem;
+		}
+		span {
+			width: 100%;
+		}
+	}
+	&-loan-details-section {
+		border-bottom: 0.0625rem solid $weasel-border-color-solid;
+		padding: 0.8rem 1.875rem 1.5rem;
+	}
+	&-line {
+		display: flex;
+		align-items: center;
+		width: 18.75rem;
+		justify-content: space-between;
+	}
+	&-label {
+		color: $gray-600;
+		width: 10.25rem;
+		padding: 0.25rem 0;
+	}
+	&-data {
+		font-weight: $font-weight-bold;
+	}
+	&-confirmation-section {
+		margin: 1.5rem 1.875rem 1rem;
+		max-width: 27.5rem;
+		input {
+			margin-right: 0.5rem;
+			font-size: 3rem;
+		}
+		label {
+			margin-bottom: 0;
+		}
+	}
+	&-bold {
+		font-weight: $font-weight-bold;
+	}
+}
+
+.ActivateProductLoanModal.OcModal {
+	.modal-title {
+		font-weight: $font-weight-bold !important;
+	}
+}
+

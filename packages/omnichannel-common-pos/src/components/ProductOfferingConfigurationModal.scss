@@ -1,0 +1,19 @@
+.ProductOfferingConfigurationModal {
+	&-button-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1.2rem;
+		margin: 2rem -1.2rem -1.2rem;
+		background: #fafafa;
+		border-top: $modal-header-border-color solid 1px;
+	}
+
+	&-po-config {
+		padding: 20px;
+	}
+
+	&-form {
+		width: 100%;
+	}
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopBar succeeds at shallow mount with min props 1`] = `
+<div
+  className="TopBar-container"
+  id="TopBar"
+>
+  <TopBarButtons
+    getFormattedLocation={[Function]}
+    handleLocationClick={[Function]}
+    locations={Array []}
+    selectLocation={[Function]}
+    selectedLocation=""
+    showingLocations={false}
+  />
+</div>
+`;

@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DuplicateCustomersList succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="DuplicateCustomersList"
+>
+  <div>
+    <div
+      className="DuplicateCustomersList-table-item"
+    >
+      <h5
+        className="DuplicateCustomersList-header"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="{amount} possible duplicate result(s) found for new customer {firstName} {lastName}."
+          description="service-desk, new customer, search results"
+          id="duplicatecustomers-possible-duplicate-results-for-new-customer"
+          values={
+            Object {
+              "amount": 0,
+              "firstName": <b />,
+              "lastName": <b />,
+            }
+          }
+          wrapperType="wrapper"
+        />
+      </h5>
+      <div
+        className="DuplicateCustomersList-table-container"
+      >
+        <table
+          className="table"
+        >
+          <thead
+            className="DuplicateCustomersList-table-head"
+          >
+            <tr
+              className="DuplicateCustomersList-table-row"
+            >
+              <th>
+                <FormattedMessageWrapper
+                  defaultMessage="ID"
+                  description="service-desk, existing customer, assistance request customer table header,id"
+                  id="customer-id"
+                  wrapperType="wrapper"
+                />
+              </th>
+              <th>
+                <FormattedMessageWrapper
+                  defaultMessage="Name"
+                  description="service-desk, existing customer, assistance request customer table header, name"
+                  id="customer-name"
+                  wrapperType="wrapper"
+                />
+              </th>
+              <th>
+                <FormattedMessageWrapper
+                  defaultMessage="MSISDN"
+                  description="service-desk, existing customer, assistance request customer table header, MSISDN"
+                  id="msisdn"
+                  wrapperType="wrapper"
+                />
+              </th>
+              <th>
+                <FormattedMessageWrapper
+                  defaultMessage="Main address"
+                  description="service-desk, existing customer, assistance request customer table header, main address"
+                  id="customer-main-adderss"
+                  wrapperType="wrapper"
+                />
+              </th>
+              <th>
+                <FormattedMessageWrapper
+                  defaultMessage="Active customer?"
+                  description="service-desk, new customer results table header"
+                  id="active-customer"
+                  wrapperType="wrapper"
+                />
+              </th>
+              <th />
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </div>
+    </div>
+  </div>
+  <div
+    className="DuplicateCustomersList-button-container"
+  >
+    <div>
+      <OcButton
+        buttonType="DEFAULT"
+        id="duplicate-results-go-back-button"
+        onClick={[Function]}
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Back to customer creation"
+          description="service-desk, back to new customer -button"
+          id="duplicate-back-to-new-customer-info"
+          wrapperType="wrapper"
+        />
+      </OcButton>
+      <OcButton
+        buttonType="SUCCESS"
+        id="buttonContinueToCreateNewCustomer"
+        onClick={[Function]}
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Continue with new customer"
+          description="service-desk, new customer, create new customer link"
+          id="newcustomer-continue-to-create-new-customer"
+          wrapperType="wrapper"
+        />
+      </OcButton>
+    </div>
+  </div>
+</div>
+`;

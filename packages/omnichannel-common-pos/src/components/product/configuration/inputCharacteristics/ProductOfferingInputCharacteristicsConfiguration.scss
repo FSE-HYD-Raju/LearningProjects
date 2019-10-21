@@ -1,0 +1,13 @@
+.ProductOfferingInputCharacteristicsConfiguration {
+	&-characteristicRenderHoc-wrapper {
+		flex: 1;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	&-characteristic-container {
+		//border: 2px blue dotted;
+		border: 0;
+		padding: 4px;
+	}
+}

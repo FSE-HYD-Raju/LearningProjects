@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AffectedServicesSection succeeds at shallow mount with minimal props 1`] = `
+<Fragment>
+  <h4>
+    <FormattedMessageWrapper
+      defaultMessage="Affected services"
+      description="digital-life, change plan modal affected services section header"
+      id="digital-life-change-plan-modal-affected-services-section-header"
+      wrapperType="wrapper"
+    />
+  </h4>
+  <div
+    className="ChangePlanSummary-section ChangePlanSummary-affected-services-section"
+  >
+    <div
+      className="ChangePlanSummary-label"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Add-ons"
+        description="digital-life, change plan modal add-ons label"
+        id="digital-life-change-plan-modal-addons-label"
+        wrapperType="wrapper"
+      />
+    </div>
+    <div
+      className="ChangePlanSummary-value"
+    >
+      <AffectedAddonsList
+        addonsNames={
+          Array [
+            "old data",
+            "old voice",
+          ]
+        }
+        className="ChangePlanSummary-terminated-addons"
+        iconClassName="fa-ban"
+        maxInitialCountToShow={3}
+        titleMessage={
+          Object {
+            "defaultMessage": "{count, plural, one {<b>{count} add-on service</b> is} other {<b>{count} add-on services</b> are}} incompatible with the new plan and will be disabled:",
+            "description": "digital-life, change plan modal incompatible addons summary",
+            "id": "digital-life-change-plan-modal-incompatible-addons-summary",
+          }
+        }
+      />
+      <AffectedAddonsList
+        addonsNames={
+          Array [
+            "new data",
+            "new sms",
+          ]
+        }
+        className="ChangePlanSummary-activated-addons"
+        iconClassName="fa-check-circle"
+        maxInitialCountToShow={3}
+        titleMessage={
+          Object {
+            "defaultMessage": "{count, plural, one {<b>{count} add-on service</b> is} other {<b>{count} add-on services</b> are}} will remain active & renewed according to their previous renewal date:",
+            "description": "digital-life, change plan modal compatible addons summary",
+            "id": "digital-life-change-plan-modal-compatible-addons-summary",
+          }
+        }
+      />
+    </div>
+  </div>
+</Fragment>
+`;

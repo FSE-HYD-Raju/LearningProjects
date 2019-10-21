@@ -1,0 +1,60 @@
+[
+	{
+		"type": "ONE_TIME",
+		"name": null,
+		"chargedUnit": {
+			"amount": 1,
+			"currency": null,
+			"unitOfMeasure": "PIECES"
+		},
+		"originalPrice": {
+			"name": "Original price name",
+			"commercialEnrichment": null
+		},
+		"taxAmount": null,
+		"taxFreeAmount": 1,
+		"taxRate": 0,
+		"recurringChargePeriod": null,
+		"currency": "EUR",
+		"conditions": null
+	},
+	{
+		"type": "ONE_TIME",
+		"name": null,
+		"chargedUnit": {
+			"amount": 1,
+			"currency": null,
+			"unitOfMeasure": "PIECES"
+		},
+		"originalPrice": {
+			"name": null,
+			"commercialEnrichment": {
+				"names": {
+					"name": "Original price commercial enrichment name"
+				}
+			}
+		},
+		"taxAmount": null,
+		"taxFreeAmount": 1,
+		"taxRate": 0,
+		"recurringChargePeriod": null,
+		"currency": "EUR",
+		"conditions": null
+	},
+	{
+		"type": "ONE_TIME",
+		"name": null,
+		"chargedUnit": {
+			"amount": 1,
+			"currency": null,
+			"unitOfMeasure": "PIECES"
+		},
+		"taxAmount": null,
+		"taxFreeAmount": 1,
+		"taxRate": 0,
+		"recurringChargePeriod": null,
+		"currency": "EUR",
+		"conditions": null,
+		"originalPrice": null
+	}
+]

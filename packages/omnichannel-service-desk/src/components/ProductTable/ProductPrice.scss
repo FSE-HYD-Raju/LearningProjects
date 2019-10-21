@@ -1,0 +1,68 @@
+@import '~omnichannel-common-pos/lib/styles/mixins.scss';
+
+.ProductPrice {
+	&-pricing {
+		// @include make-md-column(12);
+		display: flex;
+		height: 150px;
+		align-items: center;
+	}
+
+	&-price {
+		// font-size:$font-size-h1;
+		// font-size: 72px;
+		// color:theme-color("primary");
+		color: #6FBC1D;
+	}
+
+	&-price-display {
+		font-size: 48px;
+		color: #6FBC1D;
+		padding-right: 6px;
+	}
+
+	&-price-info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&-price-holder {
+		float:right;
+		width: auto;
+		display: flex;
+		align-items: center;
+	}
+
+	&-price-holder-small {
+		text-transform: uppercase;
+		margin-left: 5px;
+	}
+
+	&-super {
+		font-size: 22px;
+		vertical-align: super;
+		font-weight: $font-weight-bold;
+	}
+
+	&-sub {
+		font-size: 12px;
+		vertical-align: sub;
+		color: gray;
+		white-space: nowrap;
+		text-transform: uppercase;
+	}
+
+	&-formatted-price {
+		display: flex;
+		flex-direction: row;
+		min-width: 150px;
+		justify-content: center;
+	}
+
+	&-monthly {
+		&:before {
+			content: '/';
+		}
+	}
+}

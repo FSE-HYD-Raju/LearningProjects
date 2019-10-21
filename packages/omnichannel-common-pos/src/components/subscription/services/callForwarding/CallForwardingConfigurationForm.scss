@@ -1,0 +1,67 @@
+@import '../../../../styles/mixins.scss';
+
+.CallForwardingConfigurationForm {
+	$fields-margin: 10px;
+
+	width: 100%;
+	margin: 30px 30px 15px 30px;
+	display: block;
+	flex-grow: 1;
+
+	&-toggle-super-switch-container {
+		@include flex-grow-1;
+		justify-content: flex-end;
+	}
+	&-forward-all-calls {
+		&-container {
+			@include flex-grow-1;
+			margin-top: $fields-margin;
+		}
+	}
+	&-forward-if-busy {
+		&-container {
+			@include flex-grow-1;
+			margin-top: 50px;
+		}
+	}
+	&-forward-if-out-of-reach {
+		&-container {
+			@include flex-grow-1;
+			margin-top: $fields-margin;
+		}
+		&-title {
+			@include flex-grow-1;
+			justify-content: flex-end;
+			align-items: center;
+			max-width: 180px;
+		}
+	}
+	&-forward-if-no-answer {
+		&-container {
+			@include flex-grow-1;
+			margin-top: $fields-margin;
+		}
+		&-title {
+			display: flex;
+			flex: 1 1 0;
+			justify-content: flex-end;
+			align-items: center;
+		}
+		&-opt, &-phone-number {
+			display: flex;
+			flex: 1.5 1 0;
+			margin-left: $fields-margin;
+		}
+	}
+	&-phone-number {
+		display: flex;
+		flex-grow: 3;
+		margin-left: $fields-margin;
+		max-width: 270px;
+	}
+	&-radio-button {
+		@include flex-grow-1;
+		max-width: 180px;
+	}
+
+}

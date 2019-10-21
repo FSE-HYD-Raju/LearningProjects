@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcModal succeeds at shallow mount without props 1`] = `
+<Modal
+  animation={true}
+  autoFocus={true}
+  backdrop="static"
+  bsClass="modal"
+  className="OcModal"
+  dialogComponentClass={[Function]}
+  enforceFocus={true}
+  keyboard={true}
+  manager={
+    ModalManager {
+      "add": [Function],
+      "containers": Array [],
+      "data": Array [],
+      "handleContainerOverflow": true,
+      "hideSiblingNodes": true,
+      "isTopModal": [Function],
+      "modals": Array [],
+      "remove": [Function],
+    }
+  }
+  onHide={[Function]}
+  renderBackdrop={[Function]}
+  restoreFocus={true}
+  show={false}
+>
+  <ModalHeader
+    bsClass="modal-header"
+    className="OcModal-reverse-header"
+    closeButton={false}
+    closeLabel="Close"
+  >
+    <div
+      className="OcModal-header-container"
+    >
+      <h3
+        className="modal-title"
+      />
+    </div>
+  </ModalHeader>
+  <ModalBody
+    bsClass="modal-body"
+    componentClass="div"
+  />
+  <OcModalFooter
+    footerClassName=""
+  />
+</Modal>
+`;

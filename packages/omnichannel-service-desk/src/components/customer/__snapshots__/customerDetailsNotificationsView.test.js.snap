@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerDetailsNotificationsView succeeds at shallow mount without props 1`] = `
+<div>
+  <h5
+    className="CustomerDetailsView-header"
+  >
+    <span
+      style={
+        Object {
+          "color": "#337ab7",
+          "cursor": "pointer",
+          "marginLeft": "5px",
+        }
+      }
+    >
+      <span
+        className="CustomerDetailsView-edit"
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-pencil"
+        />
+        <FormattedMessageWrapper
+          defaultMessage="Edit"
+          description="Pos customer details edit action"
+          id="pos-customer-details-edit-action"
+          wrapperType="wrapper"
+        />
+      </span>
+    </span>
+  </h5>
+  <CustomerDetailsNotificationsShow
+    intl={
+      Object {
+        "defaultFormats": Object {},
+        "defaultLocale": "en",
+        "formatDate": [Function],
+        "formatHTMLMessage": [Function],
+        "formatMessage": [Function],
+        "formatNumber": [Function],
+        "formatPlural": [Function],
+        "formatRelative": [Function],
+        "formatTime": [Function],
+        "formats": Object {},
+        "formatters": Object {
+          "getDateTimeFormat": [Function],
+          "getMessageFormat": [Function],
+          "getNumberFormat": [Function],
+          "getPluralFormat": [Function],
+          "getRelativeFormat": [Function],
+        },
+        "locale": "en",
+        "messages": Object {},
+        "now": [Function],
+        "onError": [Function],
+        "textComponent": "span",
+        "timeZone": null,
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,58 @@
+@import '~weasel-styles/sass/_shared.sass';
+
+$babyblue: #ecf3f7;
+$error-red: #CC3333;
+$main-blue: #4287B7;
+$gray-line: #DADADA;
+
+$cadet-blue: #AAB2BD;
+$sapphire-blue: #2D389C;
+
+// B2C variables
+
+$b2c-nav-background-base: rgba(0,0,0,.1) !default;
+$b2c-nav-background-hover: rgba(0,0,0,.15) !default;
+$b2c-nav-background-active: rgba(0,0,0,.25) !default;
+
+$b2c-nav-item-color-base: $weasel-navbar-text-color !default;
+$b2c-nav-item-color-hover: $b2c-nav-item-color-base !default;
+$b2c-nav-item-color-active: lighten(theme-color("success"), 10%) !default;
+
+$b2c-max-width: 1280px !default;
+
+$b2c-mobile-header-height: 76px !default;
+$b2c-mobile-menu-background: $weasel-window-background-base !default;
+$b2c-mobile-menu-item-color-base: $b2c-nav-item-color-base !default;
+$b2c-mobile-menu-item-color-hover: $b2c-nav-item-color-hover !default;
+$b2c-mobile-menu-item-color-active: $b2c-nav-item-color-active !default;
+
+$b2c-tablet-nav-breakpoint: md !default;
+$b2c-desktop-nav-breakpoint: lg !default;
+
+$b2c-checkout-delivery-grey: #dddddd;
+$b2c-checkout-delivery-grey-dark: #555555;
+$b2c-checkout-delivery-blue: #0099cc;
+
+
+// CMS variables
+
+$cms-max-width: 1280px !default;
+
+$graphite-lighter: #585858;
+$form-field-line-height: 30px;
+$form-field-text-font-size: 15px;
+
+// POS variables
+
+$pos-nav-background-base: rgba(0,0,0,.1) !default;
+$pos-tablet-nav-breakpoint: md !default;
+$pos-desktop-nav-breakpoint: lg !default;
+$pos-nav-item-color-base: $weasel-navbar-text-color !default;
+$pos-nav-item-color-hover: $pos-nav-item-color-base !default;
+$pos-nav-item-color-active: lighten(theme-color("success"), 10%) !default;
+
+// Digital Life colors
+$list-item-cell-color: #4fb4ff;
+$addon-row-background-color: rgba(242, 242, 242, 0.5);
+
+$crusta: #f57532;

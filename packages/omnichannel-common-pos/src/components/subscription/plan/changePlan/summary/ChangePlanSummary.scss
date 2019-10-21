@@ -1,0 +1,114 @@
+.ChangePlanSummary {
+	&-section {
+		display: flex;
+		flex-direction: column;
+		padding: 0.625rem 0;
+	}
+	&-label {
+		display: flex;
+		font-weight: 400;
+		font-size: 0.75rem;
+		color: $gray-500;
+	}
+	&-value {
+		display: flex;
+		flex: 1 1;
+	}
+	&-plans-info-section {
+		display: flex;
+		flex-direction: column;
+		padding: 0.625rem 0;
+	}
+	&-plan-service {
+		display: flex;
+		flex: 1 1;
+	}
+
+	&-plan-transition {
+		height: 1rem;
+	}
+	&-payment-section &-value {
+		flex-direction: column;
+	}
+	&-payment-section {
+		.PaymentByBalanceDetails-type {
+			width: 70%;
+		}
+		.PaymentByBalanceDetails-details-grey-block {
+			padding: 0;
+		}
+		.PaymentByBalanceDetails-payment-by-balance-details {
+			margin-left: 0;
+			padding-top: 1rem;
+			max-width: 24.75rem;
+		}
+	}
+	&-affected-services-section &-value {
+		flex-direction: column;
+	}
+	&-terminated-addons .AffectedAddonsList-addon-icon,
+	&-terminated-addons b {
+		color: $danger;
+	}
+	&-activated-addons .AffectedAddonsList-addon-icon,
+	&-activated-addons b {
+		color: $success;
+	}
+	//&-terminated-addons {
+	.AffectedAddonsList:not(:first-child) {
+		padding-top: 1.5rem;
+	}
+	&-fee-section &-value {
+		font-weight: 600;
+	}
+	&-warning-section {
+		display: flex;
+		flex-direction: row;
+		i {
+			font-size: 2.125rem;
+			transform: translateY(-0.375rem);
+		}
+	}
+	h4 {
+		height: 0px;
+		padding: 0;
+		color: transparent;
+		margin: 0;
+		&:not(:first-child) {
+			border-top: 1px solid $gray-400;
+			margin: 0.75rem 0 0 0;
+		}
+	}
+
+	@include media-breakpoint-up(sm) {
+		&-section {
+			display: flex;
+			flex-direction: row;
+		}
+		&-label {
+			flex: 0 0 10rem;
+			min-width: 10rem;
+			font-weight: 500;
+			font-size: 0.875rem;
+			color: $lighter-smoke;
+		}
+		h4 {
+			font-size: 1.125rem;
+			font-weight: 500;
+			color: inherit;
+			height: unset;
+			padding: unset;
+			margin: unset;
+			&:not(:first-child) {
+				border-top: 1px solid $gray-400;
+				margin: 0.75rem 0 0 0;
+				padding: 1.5rem 0 0.625rem 0;
+			}
+		}
+		&-payment-section {
+			.PaymentByBalanceDetails-details-grey-block {
+				padding: 0 1rem;
+			}
+		}
+	}
+}

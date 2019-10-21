@@ -1,0 +1,68 @@
+@import '../../styles/_variables.scss';
+
+.CategoryTiles {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(20%, auto));
+	grid-gap: 15px;
+	justify-content: stretch;
+	font-size: $font-size-lg;
+	color: theme-color("primary");
+
+	&-item-wrapper {
+		flex: 1 0 0;
+		display: flex;
+		justify-content: stretch;
+		align-items: stretch;
+		margin: 0px;
+		border: 1px solid $weasel-border-color-transparent;
+		background: $body-bg;
+		border-radius: 2px;
+	}
+
+	&-link {
+		flex: 1 0 0;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding: 40px 0 30px;
+		margin: 0px;
+
+		&:hover,
+		&:focus,
+		&:active {
+			text-decoration: none;
+			background: $weasel-background-transparent;
+		}
+	}
+
+	@include media-breakpoint-between(xs, sm) {
+		grid-template-columns: none;
+
+		.fas {
+			font-size: 32px;
+			margin-bottom: 5px;
+		}
+
+		&-item-wrapper {
+			margin: 0px 10px 0px 10px;
+		}
+
+		&-link {
+			font-size: $font-size-sm;
+			padding: 10px 0px 10px 0px;
+		}
+	}
+
+	@include media-breakpoint-up(lg) {
+
+		.fa,
+		.fas,
+		.fal,
+		.far,
+		.fab {
+			font-size: 52px;
+			margin-bottom: 10px;
+		}
+	}
+
+}

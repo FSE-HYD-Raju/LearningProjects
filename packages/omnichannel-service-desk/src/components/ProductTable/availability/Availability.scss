@@ -1,0 +1,26 @@
+.Availability {
+	&-main {
+		margin: 16px;
+	}
+	&-container {
+		max-width: 700px;
+	}
+	&-list-style-none {
+		list-style: none;
+	}
+	&-flex {
+		display: flex;
+		&-row {
+			flex-direction: row;
+		}
+		&-column {
+			flex-direction: column;
+		}
+		&-space-between {
+			justify-content: space-between;
+		}
+	}
+	&-text-align-end {
+		text-align: end
+	}
+}

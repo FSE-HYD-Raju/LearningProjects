@@ -1,0 +1,19 @@
+.OcCancelOrderModal {
+	&-container {
+		margin-left: 1rem;
+	}
+	&-reasons-block {
+		display: flex;
+		align-items: center;
+		margin: 1rem 0 0;
+	}
+
+	&-buttonHidden {
+		display: none;
+	}
+
+	.custom-select {
+		width: 75%;
+		margin-left: 1rem;
+	}
+}

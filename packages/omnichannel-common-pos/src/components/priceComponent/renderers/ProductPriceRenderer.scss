@@ -1,0 +1,23 @@
+@import '../../../variables';
+
+.ProductPriceRenderer {
+	&-container {
+		display: flex;
+		flex: 1 1 auto;
+		flex-direction: column;
+	}
+
+	&-price-line {
+		display: flex;
+		flex: 0 0 4rem;
+		justify-content: space-between;
+		align-self: flex-start;
+		width: 100%;
+		align-items: center;
+	}
+
+	&-payment-type-text{
+		font-size: $font-size-sm;
+		font-weight: $font-weight-normal;
+	}
+}

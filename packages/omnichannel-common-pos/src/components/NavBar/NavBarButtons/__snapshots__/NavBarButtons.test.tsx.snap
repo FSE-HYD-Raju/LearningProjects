@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBarButtons should succeed at shallow mount with minimum props 1`] = `
+<NavBarButtons
+  actions={
+    Object {
+      "aaLogin": [Function],
+      "clear": [Function],
+      "hideAll": [Function],
+      "toggleBasketMenu": [Function],
+      "toggleLogin": [Function],
+      "toggleMobileNavigation": [Function],
+    }
+  }
+  disableOnClickOutside={[Function]}
+  enableOnClickOutside={[Function]}
+  eventTypes={
+    Array [
+      "mousedown",
+      "touchstart",
+    ]
+  }
+  haveMultipleCurrencies={true}
+  haveMultipleLanguages={false}
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "createHref": [Function],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "length": 2,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "key": "",
+        "pathname": "",
+        "search": "",
+        "state": Object {},
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+  location={
+    Object {
+      "hash": "",
+      "key": "",
+      "pathname": "",
+      "search": "",
+      "state": Object {},
+    }
+  }
+  match={
+    Object {
+      "isExact": true,
+      "params": Object {},
+      "path": "",
+      "url": "",
+    }
+  }
+  outsideClickIgnoreClass="ignore-react-onclickoutside"
+  preventDefault={false}
+  staticContext={Object {}}
+  stopPropagation={false}
+/>
+`;

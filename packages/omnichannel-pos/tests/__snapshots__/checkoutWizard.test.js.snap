@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutWizard succeeds at shallow mount without props 1`] = `
+<div
+  className="CheckoutWizard-steps"
+>
+  <div
+    className="CheckoutWizard-step CheckoutWizard-incomplete-step"
+    onClick={[Function]}
+  >
+    <div
+      className="CheckoutWizard-number-container"
+    >
+      <span
+        className="CheckoutWizard-number CheckoutWizard-one"
+        style={
+          Object {
+            "fontSize": "52px",
+          }
+        }
+      />
+    </div>
+    <div
+      className="CheckoutWizard-body"
+    >
+      <span
+        className="CheckoutWizard-label"
+        style={
+          Object {
+            "fontSize": "100%",
+          }
+        }
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Configuration"
+          description="Checkout first step: configuration"
+          id="checkout-steps-configuration"
+          wrapperType="wrapper"
+        />
+      </span>
+      <span
+        className="CheckoutWizard-type"
+        style={
+          Object {
+            "fontSize": "100%",
+          }
+        }
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Configure your services"
+          description="Checkout configuration message"
+          id="checkout-steps-configuration-message"
+          wrapperType="wrapper"
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    className="CheckoutWizard-step CheckoutWizard-incomplete-step"
+    onClick={[Function]}
+  >
+    <div
+      className="CheckoutWizard-number-container"
+    >
+      <span
+        className="CheckoutWizard-number CheckoutWizard-two"
+        style={
+          Object {
+            "fontSize": "52px",
+          }
+        }
+      />
+    </div>
+    <div
+      className="CheckoutWizard-body"
+    >
+      <span
+        className="CheckoutWizard-label"
+        style={
+          Object {
+            "fontSize": "100%",
+          }
+        }
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Delivery"
+          description="Checkout second step: delivery"
+          id="checkout-steps-delivery"
+          wrapperType="wrapper"
+        />
+      </span>
+      <span
+        className="CheckoutWizard-type"
+        style={
+          Object {
+            "fontSize": "100%",
+          }
+        }
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Select your delivery methods"
+          description="Checkout delivery message"
+          id="checkout-steps-delivery-message"
+          wrapperType="wrapper"
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    className="CheckoutWizard-step CheckoutWizard-incomplete-step"
+    onClick={[Function]}
+  >
+    <div
+      className="CheckoutWizard-number-container"
+    >
+      <span
+        className="CheckoutWizard-number CheckoutWizard-three"
+        style={
+          Object {
+            "fontSize": "52px",
+          }
+        }
+      />
+    </div>
+    <div
+      className="CheckoutWizard-body"
+    >
+      <span
+        className="CheckoutWizard-label"
+        style={
+          Object {
+            "fontSize": "100%",
+          }
+        }
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Summary"
+          description="Checkout second step: summary"
+          id="checkout-step-summary"
+          wrapperType="wrapper"
+        />
+      </span>
+      <span
+        className="CheckoutWizard-type"
+        style={
+          Object {
+            "fontSize": "100%",
+          }
+        }
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Review your order and accept the related contract"
+          description="Checkout summary message"
+          id="checkout-steps-summary-message"
+          wrapperType="wrapper"
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    className="CheckoutWizard-step CheckoutWizard-incomplete-step"
+    onClick={[Function]}
+  >
+    <div
+      className="CheckoutWizard-number-container"
+    >
+      <span
+        className="CheckoutWizard-number CheckoutWizard-four"
+        style={
+          Object {
+            "fontSize": "52px",
+          }
+        }
+      />
+    </div>
+    <div
+      className="CheckoutWizard-body"
+    >
+      <span
+        className="CheckoutWizard-label"
+        style={
+          Object {
+            "fontSize": "100%",
+          }
+        }
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Payment"
+          description="Checkout second step: payment"
+          id="checkout-step-payment"
+          wrapperType="wrapper"
+        />
+      </span>
+      <span
+        className="CheckoutWizard-type"
+        style={
+          Object {
+            "fontSize": "100%",
+          }
+        }
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Pay for your order"
+          description="Checkout payment message"
+          id="checkout-steps-payment-message"
+          wrapperType="wrapper"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;

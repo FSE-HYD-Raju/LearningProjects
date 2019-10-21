@@ -1,0 +1,84 @@
+.PlanChangeConfirmationModal {
+	&-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: 12px 24px;
+	}
+
+	&-container-inner {
+		display: flex;
+		flex: 5;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	&-message {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+	}
+
+	&-wide {
+		display: flex;
+		width: 100%;
+	}
+
+	&-flex-four {
+		display: flex;
+		flex: 4;
+	}
+
+	&-row-message {
+		display: flex;
+	}
+
+	&-amount {
+		display: flex;
+		flex: 3;
+		flex-direction: column;
+	}
+
+	&-offering-name,
+	&-recurring-fees-container {
+		display: flex;
+		flex: 4;
+		flex-direction: column;
+	}
+
+	&-selected-offering,
+	&-one-time-fees {
+		display: flex;
+		flex: 5;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	&-recurring-container {
+		display: flex;
+		flex: 5;
+		justify-content: space-between;
+		align-items: flex-start;
+		border-top: 1px solid #ccc;
+	}
+
+	&-can-pay-with-balance {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: flex-start;
+		border-top: 1px solid #ccc;
+	}
+
+	&-message-container-with-margin {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		margin: 12px 24px;
+	}
+
+	&-alert-message {
+		text-align: center;
+		width: 100%;
+	}
+}

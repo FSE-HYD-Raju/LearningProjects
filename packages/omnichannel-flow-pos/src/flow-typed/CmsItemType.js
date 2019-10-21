@@ -1,0 +1,21 @@
+/* eslint no-undef: 0 */
+
+const CmsItemTypes = {
+	CONTENT_PAGE: "CONTENT_PAGE",
+	CONTENT_ITEM: "CONTENT_ITEM",
+	ASSET_ITEM: "ASSET_ITEM",
+	ASSET_RESOURCE: "ASSET_RESOURCE",
+	PUBLISH_TARGET: "PUBLISH_TARGET",
+	CONTENT_SPOT: "CONTENT_SPOT",
+	CONTENT_SPOT_RULE: "CONTENT_SPOT_RULE",
+	WIDGET: "WIDGET",
+	MENU: "MENU",
+	SEGMENT: "SEGMENT",
+	GLOBAL_STYLE: "GLOBAL_STYLE"
+};
+
+declare type CmsItemType = $Keys<typeof CmsItemTypes>;
+export {
+	CmsItemType
+};
+

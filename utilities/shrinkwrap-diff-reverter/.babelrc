@@ -1,0 +1,23 @@
+{
+    "presets": ["es2015", "stage-0"],
+    "plugins": [
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        "add-module-exports",
+        "transform-proto-to-assign",
+        ["transform-runtime", {
+            "polyfill": false,
+            "regenerator": true
+        }]
+    ],
+    "env": {
+        "browser": {
+            "plugins": [
+            ]
+        },
+        "production": {
+            "plugins": [
+            ]
+        }
+    }
+}

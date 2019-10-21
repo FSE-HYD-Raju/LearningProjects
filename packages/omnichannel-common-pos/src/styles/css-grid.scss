@@ -1,0 +1,67 @@
+@mixin css-grid($columnsNumber: 2) {
+	display: grid;
+	grid-template-columns: repeat($columnsNumber, 1fr);
+	justify-content: flex-start;
+	font-weight: 400;
+	background-color: $body-bg;
+	grid-row-gap: $table-cell-padding;
+}
+
+@mixin grid-header {
+	display: flex;
+	text-transform: uppercase;
+	font-size: $font-size-sm;
+	color: gray('500');
+	white-space: nowrap;
+	border-bottom: (2 * $table-border-width) solid $table-border-color;
+}
+
+@mixin grid-item {
+	justify-content: flex-start;
+	border-top: $table-border-width solid $table-border-color;
+}
+
+.grid {
+	@include css-grid();
+
+	&>* {
+		display: flex;
+	}
+
+	&-header {
+		@include grid-header;
+	}
+}
+
+.grid-item {
+	@include grid-item;
+}
+
+.sort-link {
+	margin-right: 0.7rem;
+	&:last-child {
+		margin-right: 0
+	}
+	&:after {
+		content: '\F0DC';
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 900;
+		display: inline-block;
+		margin-left: 5px;
+		opacity: 0.5;
+	}
+	&.sorted-asc {
+		color: $weasel-brand-color;
+	}
+	&:after {
+		content: '\F0DE';
+		opacity: 1;
+	}
+	&.sorted-desc {
+		color: $weasel-brand-color;
+	}
+	&:after {
+		content: '\F0DD';
+		opacity: 1;
+	}
+}

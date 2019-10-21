@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTableContainer should mount with min props 1`] = `
+<div
+  className="ProductWrapper"
+>
+  <header
+    className="ProductWrapper-header w-box-header"
+  >
+    <h3 />
+  </header>
+  <Flex
+    alignItems=""
+    alignSelf=""
+    direction="column"
+    justifyContent=""
+    style={
+      Object {
+        "overflow": "hidden",
+      }
+    }
+    wrap="wrap"
+  >
+    <Flex
+      alignItems=""
+      alignSelf=""
+      flex={1}
+      justifyContent="space-between"
+      style={
+        Object {
+          "padding": "10px 0px 10px 0px",
+        }
+      }
+      wrap="wrap"
+    >
+      <a
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        <span>
+          <i
+            className="fa fa-caret-down"
+          />
+           
+          <FormattedMessageWrapper
+            defaultMessage="Show filters"
+            description="Show filters link text in service desk"
+            id="service-desk-show-filters"
+            wrapperType="wrapper"
+          />
+        </span>
+      </a>
+      <FormattedMessageWrapper
+        defaultMessage="{productCount, number} {productCount, plural, 
+		=0 {products found} one {product found} other {products found}}"
+        description="Service desk products found"
+        id="service-desk-product-found"
+        values={
+          Object {
+            "productCount": 0,
+          }
+        }
+        wrapperType="wrapper"
+      />
+    </Flex>
+    <FluidContainer
+      height={0}
+    >
+      <Flex
+        alignItems=""
+        alignSelf=""
+        justifyContent=""
+        style={
+          Object {
+            "background": "#F5F5F5",
+            "border": "1px solid #E1E1E1",
+            "borderRadius": 2,
+            "marginBottom": 20,
+            "marginTop": 10,
+            "padding": 10,
+          }
+        }
+        wrap="wrap"
+      >
+        <Connect(FilterControls)
+          flux={
+            Object {
+              "actions": Object {
+                "BasketActions": Object {
+                  "getState": [Function],
+                },
+              },
+              "reduxStore": Object {
+                "dispatch": [Function],
+                "getState": [Function],
+                "replaceReducer": [Function],
+                "subscribe": [Function],
+                Symbol(observable): [Function],
+              },
+              "stores": Object {},
+            }
+          }
+        />
+      </Flex>
+    </FluidContainer>
+  </Flex>
+  <div>
+    <AltContainer
+      actions={
+        Object {
+          "BasketActions": Object {
+            "getState": [Function],
+          },
+        }
+      }
+      stores={
+        Object {
+          "BasketStore": undefined,
+          "CustomerCaseStore": undefined,
+        }
+      }
+      transform={[Function]}
+    >
+      <Connect(ProductTable)
+        categoryName={null}
+        columns={
+          Array [
+            Object {
+              "component": null,
+              "flex": 1.25,
+              "label": "name",
+              "sortValueGetter": [Function],
+              "type": "PRODUCT",
+              "valueGetter": [Function],
+            },
+            Object {
+              "component": null,
+              "flex": 0.75,
+              "label": "contains",
+              "sortValueGetter": [Function],
+              "type": "CONTAINEDPRODUCTS",
+              "valueGetter": [Function],
+            },
+            Object {
+              "flex": 0.2,
+              "label": "compare",
+              "type": "COMPARISON",
+            },
+            Object {
+              "flex": 0.75,
+              "label": "recurringPrice",
+              "sortValueGetter": [Function],
+              "type": "PRICE-RANGE",
+              "valueGetter": [Function],
+            },
+            Object {
+              "attribute": "attributes.stockLevel",
+              "flex": 0.75,
+              "label": "stock",
+              "type": "PRODUCT",
+            },
+            Object {
+              "flex": 1,
+              "label": "oneTimePrice",
+              "sortValueGetter": [Function],
+              "type": "PRICE-RANGE",
+              "valueGetter": [Function],
+            },
+          ]
+        }
+        filterProducts={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                Array [],
+              ],
+            ],
+            "results": Array [
+              Object {
+                "isThrow": false,
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        intl={
+          Object {
+            "defaultFormats": Object {},
+            "defaultLocale": "en",
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "formats": Object {},
+            "formatters": Object {
+              "getDateTimeFormat": [Function],
+              "getMessageFormat": [Function],
+              "getNumberFormat": [Function],
+              "getPluralFormat": [Function],
+              "getRelativeFormat": [Function],
+            },
+            "locale": "en",
+            "messages": Object {},
+            "now": [Function],
+            "onError": [Function],
+            "textComponent": "span",
+            "timeZone": null,
+          }
+        }
+        items={Array []}
+        search=""
+        searchTerm=""
+        subCategories={Array []}
+      />
+    </AltContainer>
+  </div>
+</div>
+`;

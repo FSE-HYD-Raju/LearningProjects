@@ -1,0 +1,18 @@
+@import "../../../variables.scss";
+
+.CharacteristicsTextInputList {
+	&-wrapper {
+		display: flex;
+		flex-flow: row wrap;
+    }
+    &-closeIconWrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 10px;
+		padding: 0 0 10px 0;
+	}
+	&-textInputValidationError {
+		color: $red;
+	}
+}

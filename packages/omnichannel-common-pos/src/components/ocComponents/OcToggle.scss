@@ -1,0 +1,42 @@
+@import '../../styles/mixins';
+
+.OcToggle {
+	&-wrapper {
+		@include flex-row();
+
+		width: 100px;
+		position: relative;
+		cursor: pointer;
+		flex: 1;
+	}
+	&-label {
+		flex: 0.5;
+		@include flex-row(center, center, center);
+		color: white;
+		border-radius: 8px 0 0 8px;
+		font-weight: 600;
+		height: 26px;
+		box-shadow: inset 0 1px 4px 0 rgba(0,0,0,0.50);
+		text-transform: uppercase;
+	}
+	&-enabled-label {
+		background: #79BB0D;
+	}
+	&-disabled-label {
+		background: #C13332;
+	}
+	&-toggler {
+		flex: 0.5;
+		@include flex-row(center, center, center);
+		overflow: hidden;
+		position: absolute;
+		width: 50%;
+		z-index: 2;
+		background: #eee linear-gradient(-180deg, $light-grey-lighter 0%, #E9E9E9 100%);
+		color: white;
+		font-weight: 600;
+		height: 26px;
+		box-shadow: 0 0 2px 0 rgba(0,0,0,0.47);
+	}
+}
+

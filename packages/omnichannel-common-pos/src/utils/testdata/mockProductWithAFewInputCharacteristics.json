@@ -1,0 +1,26 @@
+{
+	"attributes": {
+		"productOfferings": [
+			{
+				"inputCharacteristics": {
+					"color": {
+						"values": [
+							{
+								"value": "black"
+							},
+							{
+								"value": "white"
+							}
+						]
+					}
+				}
+			},
+			{
+				"inputCharacteristics": {}
+			},
+			{
+				"inputCharacteristics": {}
+			}
+		]
+	}
+}

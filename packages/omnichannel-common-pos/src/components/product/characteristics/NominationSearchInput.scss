@@ -1,0 +1,28 @@
+.NominationSearchInput {
+	max-width: 250px;
+	width: 100%;
+	&-nomination-search-button {
+		right: 0;
+		z-index: 10;
+		color: #777;
+		background: #fff;
+		border: 1px solid #c8c8c8;
+	}
+	&-subscription-information-row {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 5px 0;
+		div {
+			padding: 0 10px 0 0;
+			flex: 0 50%;
+			max-width: 100px;
+		}
+		div:nth-child(2) {
+			font-weight: bold;
+			max-width: none;
+		}
+	}
+	&-error {
+		color: red;
+	}
+}

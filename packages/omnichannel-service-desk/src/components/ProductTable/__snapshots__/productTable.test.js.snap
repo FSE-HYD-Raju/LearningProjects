@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTable succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="ProductTable"
+>
+  <ProductTableHeaderBuilder
+    columns={Array []}
+    criteria={[Function]}
+    direction="asc"
+    handleSort={[Function]}
+    selectedSortCriteria="name"
+  />
+  <div
+    className="ProductTable-no-products-found"
+  >
+    <h3>
+      <FormattedMessageWrapper
+        defaultMessage="No products found in category {category}"
+        description="Label shown when no products where found"
+        id="service-desk-no-products-found"
+        values={
+          Object {
+            "category": <i />,
+          }
+        }
+        wrapperType="wrapper"
+      />
+    </h3>
+  </div>
+</div>
+`;

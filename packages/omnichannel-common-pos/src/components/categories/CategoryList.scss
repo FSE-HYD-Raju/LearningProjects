@@ -1,0 +1,29 @@
+.CategoryList {
+	.BarcodeInput {
+		max-width: 20rem;
+	}
+
+	@include media-breakpoint-up(lg){
+		&-body {
+			@include make-row();
+			align-items: stretch;
+			flex-wrap: nowrap;
+		}
+
+		&-categories {
+			@include make-col-ready();
+			flex: 0 0 16rem;
+		}
+
+		&-products {
+			@include make-col-ready();
+			flex: 1 0 0;
+			overflow: hidden;
+		}
+
+		&-basket {
+			@include make-col-ready();
+			flex: 0 0 24rem;
+		}
+	}
+}

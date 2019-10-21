@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerDetailsView succeeds at shallow mount with minimal props 1`] = `
+<div
+  style={
+    Object {
+      "maxWidth": "340px",
+      "width": "100%",
+    }
+  }
+/>
+`;

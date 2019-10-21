@@ -1,0 +1,5 @@
+coverage
+/fixture/*.git
+node_modules
+/lib
+testbench/*

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BasketDiscountContainer succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="BasketDiscountContainer-container"
+>
+  <span />
+</div>
+`;

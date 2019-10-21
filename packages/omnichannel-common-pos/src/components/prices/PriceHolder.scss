@@ -1,0 +1,55 @@
+@import '../../styles/_variables.scss';
+
+.PriceHolder {
+	&-container {
+		margin-left: 30px;
+		width: 50px;
+		background: $body-bg;
+		border: 1px solid theme-color("primary");
+		border-radius: 2px;
+		position: relative;
+		height: 28px;
+		padding: 2px 0;
+		color: #5e97c2;
+		text-align: center;
+		font-size: 16px;
+		cursor: pointer;
+	}
+	&-oneRow {
+		margin-left: 1.25rem;
+	}
+
+	&-container:after,
+	&-container:before {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-style: solid;
+	}
+
+	&-container:after {
+		top: 6px;
+		left: -14px;
+		border-color: transparent white transparent transparent;
+		border-width: 7px;
+	}
+
+	&-container:before {
+		top: 4px;
+		left: -18px;
+		border-color: transparent theme-color("primary") transparent transparent;
+		border-width: 9px;
+	}
+
+	&-column {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-row {
+		display: flex;
+		margin: 2px 0;
+	}
+}

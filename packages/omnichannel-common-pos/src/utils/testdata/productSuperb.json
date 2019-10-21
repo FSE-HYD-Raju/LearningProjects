@@ -1,0 +1,1112 @@
+{
+	"id": "superb-sub-po",
+	"type": "contextualProducts",
+	"attributes": {
+		"commercialEnrichments": [],
+		"featureCharacteristics": [],
+		"specificationId": null,
+		"instanceCharacteristics": {
+		},
+		"productOfferings": [
+			{
+				"categories": [],
+				"commercialEnrichments": [],
+				"featureCharacteristics": [],
+				"id": "sim-po",
+				"name": "sim",
+				"inputCharacteristics": {
+					"sim-type": {
+						"values": [
+							{
+								"value": "micro",
+								"name": "micro"
+							},
+							{
+								"value": "nano",
+								"name": "nano"
+							}
+						],
+						"description": null,
+						"source": null,
+						"subType": null,
+						"mandatory": true,
+						"validation": null,
+						"name": "Sim Type",
+						"priority": null
+					},
+					"icc": {
+						"values": [],
+						"description": "SIM card serial number",
+						"source": null,
+						"subType": null,
+						"mandatory": true,
+						"validation": null,
+						"name": "ICC",
+						"priority": null
+					}
+				},
+				"instanceCharacteristics": {
+				},
+				"prices": [
+					{
+						"type": "ONE_TIME",
+						"name": null,
+						"chargedUnit": {
+							"amount": 1,
+							"currency": null,
+							"unitOfMeasure": "PIECES"
+						},
+						"taxAmount": null,
+						"taxFreeAmount": 1,
+						"taxRate": 0,
+						"recurringChargePeriod": null,
+						"currency": "EUR",
+						"conditions": null,
+						"originalPrice": null
+					}
+				],
+				"priority": null,
+				"productOfferingGroups": [],
+				"productOfferings": [],
+				"specificationId": "sim",
+				"msisdns": null,
+				"bundlingProductOfferings": null
+			},
+			{
+				"categories": [],
+				"commercialEnrichments": [],
+				"featureCharacteristics": [],
+				"id": "msisdn-po",
+				"name": "msisdn",
+				"inputCharacteristics": {
+					"number": {
+						"values": [],
+						"description": "phone number",
+						"source": null,
+						"subType": null,
+						"mandatory": true,
+						"validation": null,
+						"name": "MSISDN",
+						"priority": null
+					},
+					"number-type": {
+						"values": [
+							{
+								"value": "regular",
+								"name": "regular"
+							},
+							{
+								"value": "golden",
+								"name": "golden"
+							},
+							{
+								"value": "platinum",
+								"name": "platinum"
+							}
+						],
+						"description": null,
+						"source": null,
+						"subType": null,
+						"mandatory": true,
+						"validation": null,
+						"name": "Number Type",
+						"priority": null
+					}
+				},
+				"instanceCharacteristics": {
+					"lookup-href": {
+						"values": [
+							{
+								"value": "/api/msisdns?filter=(AND%20(EQ%20stock.id%20\"sales-num-stock\")%20(AND%20(EQ%20lifecycle-status%20\"available\")%20(EQ%20number-type%20\"voice\")))",
+								"name": "/api/msisdns?filter=(AND%20(EQ%20stock.id%20\"sales-num-stock\")%20(AND%20(EQ%20lifecycle-status%20\"available\")%20(EQ%20number-type%20\"voice\")))"
+							}
+						],
+						"description": null,
+						"source": null,
+						"subType": null,
+						"mandatory": true,
+						"validation": null,
+						"name": "MSISDN lookup hyperlink",
+						"priority": null
+					}
+				},
+				"prices": [
+					{
+						"type": "ONE_TIME",
+						"name": null,
+						"chargedUnit": {
+							"amount": 1,
+							"currency": null,
+							"unitOfMeasure": "PIECES"
+						},
+						"taxAmount": null,
+						"taxFreeAmount": 500,
+						"taxRate": 0,
+						"recurringChargePeriod": null,
+						"currency": "EUR",
+						"conditions": {
+							"number-type": "platinum"
+						},
+						"originalPrice": null
+					},
+					{
+						"type": "ONE_TIME",
+						"name": null,
+						"chargedUnit": {
+							"amount": 1,
+							"currency": null,
+							"unitOfMeasure": "PIECES"
+						},
+						"taxAmount": null,
+						"taxFreeAmount": 50,
+						"taxRate": 0,
+						"recurringChargePeriod": null,
+						"currency": "EUR",
+						"conditions": {
+							"number-type": "golden"
+						},
+						"originalPrice": null
+					},
+					{
+						"type": "ONE_TIME",
+						"name": null,
+						"chargedUnit": {
+							"amount": 1,
+							"currency": null,
+							"unitOfMeasure": "PIECES"
+						},
+						"taxAmount": null,
+						"taxFreeAmount": 0,
+						"taxRate": 0,
+						"recurringChargePeriod": null,
+						"currency": "EUR",
+						"conditions": null,
+						"originalPrice": null
+					}
+				],
+				"priority": null,
+				"productOfferingGroups": [],
+				"productOfferings": [],
+				"specificationId": "msisdn",
+				"msisdns": null,
+				"bundlingProductOfferings": null
+			}
+		],
+		"name": "Postpaid SUPERB Plan",
+		"categories": [],
+		"inputCharacteristics": {
+		},
+		"prices": [],
+		"priority": null,
+		"productOfferingGroups": [
+			{
+				"cardinality": {
+					"max": 1,
+					"min": 1
+				},
+				"commercialEnrichments": null,
+				"id": "data-pog",
+				"name": "Choose your data plan",
+				"productOfferings": [
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "data2-po",
+						"name": "Data 2Mb/s",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+							"data": {
+								"values": [
+									{
+										"value": "2Mbps",
+										"name": "2Mbps"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": false,
+								"validation": null,
+								"name": null,
+								"priority": null
+							}
+						},
+						"prices": [
+							{
+								"type": "RECURRENT",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 9.95,
+								"taxRate": 0,
+								"recurringChargePeriod": {
+									"count": 1,
+									"interval": "MONTH"
+								},
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "data2",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					},
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "data21-po",
+						"name": "Data 21Mb/s",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+							"data": {
+								"values": [
+									{
+										"value": "21Mbps",
+										"name": "21Mbps"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": false,
+								"validation": null,
+								"name": null,
+								"priority": null
+							}
+						},
+						"prices": [
+							{
+								"type": "RECURRENT",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 14.45,
+								"taxRate": 0,
+								"recurringChargePeriod": {
+									"count": 1,
+									"interval": "MONTH"
+								},
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "data21",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					},
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "data50-po",
+						"name": "Data 50Mb/s",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+							"data": {
+								"values": [
+									{
+										"value": "50Mbps",
+										"name": "50Mbps"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": false,
+								"validation": null,
+								"name": null,
+								"priority": null
+							}
+						},
+						"prices": [
+							{
+								"type": "RECURRENT",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 19.95,
+								"taxRate": 0,
+								"recurringChargePeriod": {
+									"count": 1,
+									"interval": "MONTH"
+								},
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "data50",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					}
+				]
+			},
+			{
+				"cardinality": {
+					"max": 1,
+					"min": 1
+				},
+				"commercialEnrichments": null,
+				"id": "voice-pog",
+				"name": "Choose your voice plan",
+				"productOfferings": [
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "voicesms-1-po",
+						"name": "Voice 500min SMS 100pc package",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+							"voice": {
+								"values": [
+									{
+										"value": "500",
+										"name": "500 minutes"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": null,
+								"priority": null
+							},
+							"sms": {
+								"values": [
+									{
+										"value": "100",
+										"name": "100 pieces"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": null,
+								"priority": null
+							}
+						},
+						"prices": [
+							{
+								"type": "RECURRENT",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 9.5,
+								"taxRate": 0,
+								"recurringChargePeriod": {
+									"count": 1,
+									"interval": "MONTH"
+								},
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "voicesms-1",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					},
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "voicesms-2-po",
+						"name": "Voice 1000min SMS 500pc package",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+							"voice": {
+								"values": [
+									{
+										"value": "1000",
+										"name": "1000 minutes"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": null,
+								"priority": null
+							},
+							"sms": {
+								"values": [
+									{
+										"value": "500",
+										"name": "500 pieces"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": null,
+								"priority": null
+							}
+						},
+						"prices": [
+							{
+								"type": "RECURRENT",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 15,
+								"taxRate": 0,
+								"recurringChargePeriod": {
+									"count": 1,
+									"interval": "MONTH"
+								},
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "voicesms-2",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					}
+				]
+			},
+			{
+				"cardinality": null,
+				"commercialEnrichments": null,
+				"id": "addons-pog",
+				"name": "Choose additional services to your plan",
+				"productOfferings": [
+					{
+						"categories": [],
+						"commercialEnrichments": [
+							{
+								"conditions": {},
+								"descriptions": {
+									"detailed": "When the bills are not paid, the owner customer can activate Dept Suspension service to prevent further issues. Debt suspension is activated by the Billing System automatically as part of the Debt collection process."
+								},
+								"media": {
+								},
+								"names": {
+									"long-name": "Suspension due to unpaid debt",
+									"short-name": "Dept Suspension"
+								}
+							}
+						],
+						"featureCharacteristics": [],
+						"id": "debt-barring-po",
+						"name": "Debt suspension",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+							"CH_Actor": {
+								"values": [
+									{
+										"value": "rbs",
+										"name": "Billing System"
+									}
+								],
+								"description": "Tells who can activate the service.",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "Actor",
+								"priority": null
+							},
+							"barring": {
+								"values": [
+									{
+										"value": "postpaid",
+										"name": "postpaid"
+									}
+								],
+								"description": "Tells what type of plan the service is compatible with.",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "Barring",
+								"priority": null
+							},
+							"CH_ServiceType": {
+								"values": [
+									{
+										"value": "all",
+										"name": "all"
+									}
+								],
+								"description": "This attribute probably points out which services this barring affects?",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "Service type",
+								"priority": null
+							},
+							"barringCategory": {
+								"values": [
+									{
+										"value": "blocking",
+										"name": "blocking"
+									}
+								],
+								"description": "Tells what action is applied when service is active.",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "Barring category",
+								"priority": null
+							}
+						},
+						"prices": [
+							{
+								"type": "ONE_TIME",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 5,
+								"taxRate": 0,
+								"recurringChargePeriod": null,
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							},
+							{
+								"type": "RECURRENT",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 0,
+								"taxRate": 0,
+								"recurringChargePeriod": {
+									"count": 1,
+									"interval": "MONTH"
+								},
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "debt-barring",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					},
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "voicemail-po",
+						"name": "Voicemail",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+						},
+						"prices": [
+							{
+								"type": "RECURRENT",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 1.5,
+								"taxRate": 0,
+								"recurringChargePeriod": {
+									"count": 1,
+									"interval": "MONTH"
+								},
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "voicemail",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					},
+					{
+						"categories": [],
+						"commercialEnrichments": [
+							{
+								"conditions": {},
+								"descriptions": {
+									"detailed": "Owner or User has the ability to suspend the use of the plan. This might come useful when your phone is lost or stolen and you want to prevent anyone to generate you an extensive bill."
+								},
+								"media": {
+								},
+								"names": {
+									"long-name": "Suspension for all voice and data services, initiated by the Owner or User",
+									"short-name": "Temporary Suspension"
+								}
+							}
+						],
+						"featureCharacteristics": [],
+						"id": "temp-barring-po",
+						"name": "Temporary suspension - Customer initiated barring",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+							"CH_Actor": {
+								"values": [
+									{
+										"value": "customer",
+										"name": "customer"
+									}
+								],
+								"description": "Tells who can activate the service.",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "Actor",
+								"priority": null
+							},
+							"barring": {
+								"values": [
+									{
+										"value": "voice",
+										"name": "voice"
+									}
+								],
+								"description": "Tells what type of plan the service is compatible with.",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "Barring",
+								"priority": null
+							},
+							"CH_ServiceType": {
+								"values": [
+									{
+										"value": "all",
+										"name": "all"
+									}
+								],
+								"description": "This attribute probably points out which services this barring affects?",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "Service type",
+								"priority": null
+							},
+							"barringCategory": {
+								"values": [
+									{
+										"value": "blocking",
+										"name": "blocking"
+									}
+								],
+								"description": "Tells what action is applied when service is active.",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "Barring category",
+								"priority": null
+							}
+						},
+						"prices": [
+							{
+								"type": "ONE_TIME",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 1,
+								"taxRate": 0,
+								"recurringChargePeriod": null,
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							},
+							{
+								"type": "RECURRENT",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 0,
+								"taxRate": 0,
+								"recurringChargePeriod": {
+									"count": 1,
+									"interval": "MONTH"
+								},
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "temp-barring",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					},
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "fav-num-po",
+						"name": "Favorite numbers",
+						"inputCharacteristics": {
+							"number3": {
+								"values": [],
+								"description": "The mobile number of a person close to your heart.",
+								"source": null,
+								"subType": null,
+								"mandatory": false,
+								"validation": "^\\+358 [1-9](\\d) (\\d){7}$",
+								"name": "Favorite number",
+								"priority": null
+							},
+							"number4": {
+								"values": [],
+								"description": "The mobile number of a person close to your heart.",
+								"source": null,
+								"subType": null,
+								"mandatory": false,
+								"validation": "^\\+358 [1-9](\\d) (\\d){7}$",
+								"name": "Favorite number",
+								"priority": null
+							},
+							"number1": {
+								"values": [],
+								"description": "The mobile number of a person close to your heart.",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": "^\\+358 [1-9](\\d) (\\d){7}$",
+								"name": "Favorite number",
+								"priority": null
+							},
+							"number2": {
+								"values": [],
+								"description": "The mobile number of a person close to your heart.",
+								"source": null,
+								"subType": null,
+								"mandatory": false,
+								"validation": "^\\+358 [1-9](\\d) (\\d){7}$",
+								"name": "Favorite number",
+								"priority": null
+							},
+							"number5": {
+								"values": [],
+								"description": "The mobile number of a person close to your heart.",
+								"source": null,
+								"subType": null,
+								"mandatory": false,
+								"validation": "^\\+358 [1-9](\\d) (\\d){7}$",
+								"name": "Favorite number",
+								"priority": null
+							}
+						},
+						"instanceCharacteristics": {
+						},
+						"prices": [
+							{
+								"type": "ONE_TIME",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 1,
+								"taxRate": 0,
+								"recurringChargePeriod": null,
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							},
+							{
+								"type": "RECURRENT",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 4.5,
+								"taxRate": 0,
+								"recurringChargePeriod": {
+									"count": 1,
+									"interval": "MONTH"
+								},
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "fav-num",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					},
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "fixed-caller-id-po",
+						"name": "Fixed caller identifier",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+						},
+						"prices": [],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "fixed-caller-id",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					},
+					{
+						"categories": [],
+						"commercialEnrichments": [
+							{
+								"conditions": {},
+								"descriptions": {
+									"detailed": "When the Roaming Barring service is activated, no outgoing voice calls can be made while abroad. Incoming calls are as normal."
+								},
+								"media": {
+								},
+								"names": {
+									"long-name": "Barred Voice Services While Abroad",
+									"short-name": "Roaming Barring"
+								}
+							}
+						],
+						"featureCharacteristics": [],
+						"id": "no-roaming-po",
+						"name": "No roaming - Customer initiated barring",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+							"CH_Actor": {
+								"values": [
+									{
+										"value": "customer",
+										"name": "customer"
+									},
+									{
+										"value": "rbs",
+										"name": "Rating System"
+									}
+								],
+								"description": "Tells who can activate the service.",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "Actor",
+								"priority": null
+							},
+							"barring": {
+								"values": [
+									{
+										"value": "voice",
+										"name": "voice"
+									}
+								],
+								"description": "Tells what type of plan the service is compatible with.",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "Barring",
+								"priority": null
+							},
+							"CH_ServiceType": {
+								"values": [
+									{
+										"value": "roaming",
+										"name": "roaming"
+									}
+								],
+								"description": "This attribute probably points out which services this barring affects?",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "Service type",
+								"priority": null
+							},
+							"barringCategory": {
+								"values": [
+									{
+										"value": "blocking",
+										"name": "blocking"
+									}
+								],
+								"description": "Tells what action is applied when service is active.",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "Barring category",
+								"priority": null
+							}
+						},
+						"prices": [
+							{
+								"type": "ONE_TIME",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 0,
+								"taxRate": 0,
+								"recurringChargePeriod": null,
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							},
+							{
+								"type": "RECURRENT",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 0,
+								"taxRate": 0,
+								"recurringChargePeriod": {
+									"count": 1,
+									"interval": "MONTH"
+								},
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "no-roaming",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					},
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "reminder-po",
+						"name": "Invoice reminder",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+						},
+						"prices": [
+							{
+								"type": "RECURRENT",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 1.5,
+								"taxRate": 0,
+								"recurringChargePeriod": {
+									"count": 1,
+									"interval": "MONTH"
+								},
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "reminder",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					}
+				]
+			}
+		]
+	}
+}

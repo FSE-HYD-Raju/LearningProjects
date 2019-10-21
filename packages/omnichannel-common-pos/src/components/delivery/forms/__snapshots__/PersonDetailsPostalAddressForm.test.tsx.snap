@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonDetailsPostalAddressForm succeeds at shallow mount with props 1`] = `
+<PersonDetailsPostalAddressForm
+  countries={
+    Array [
+      Object {
+        "code": "FI",
+        "locale": "fin",
+        "name": "Finlandia",
+      },
+      Object {
+        "code": "IT",
+        "locale": "ita",
+        "name": "Italia",
+      },
+    ]
+  }
+  groupFields={false}
+  handleInputChange={[MockFunction]}
+  handleSubmit={[MockFunction]}
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+  loading={false}
+  model={Object {}}
+  schema={
+    ObjectSchema {
+      "_blacklist": BadSet {
+        "_map": Object {},
+        "_refs": Object {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [
+        "undefined-undefined",
+      ],
+      "_exclusive": Object {},
+      "_label": "postal-address",
+      "_mutate": false,
+      "_nodes": Array [
+        "country",
+        "city",
+        "postalCode",
+        "coAddress",
+        "street",
+      ],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": BadSet {
+        "_map": Object {},
+        "_refs": Object {},
+      },
+      "fields": Object {
+        "city": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "city",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "coAddress": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {},
+          "_label": "coAddress",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "country": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "country",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "postalCode": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "postalCode",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "street": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "street",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+    }
+  }
+/>
+`;

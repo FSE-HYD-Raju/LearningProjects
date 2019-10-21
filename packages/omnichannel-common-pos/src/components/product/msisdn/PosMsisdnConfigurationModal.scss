@@ -1,0 +1,87 @@
+.PosMsisdnConfigurationModal {
+
+	&-hide-div {
+		display: none;
+	}
+
+	&-nav-link{
+		position: relative;
+		top: 1px;
+	}
+
+	&-port-in-msisdn-selection{
+		border-bottom: 1px solid $light-gray;
+		margin-right: 20px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+
+	&-select-new-msisdn-container {
+		padding-top: 10px;
+		margin-right: 20px;
+	}
+
+	&-msisdn-input {
+		max-width: 200px;
+		margin-bottom: 15px;
+	}
+
+	&-msisdn-inner-container {
+		margin-left: 25px;
+
+		#msisdn-new-set-id {
+			> i {
+				padding-right: 5px;
+			}
+		}
+	}
+
+	&-msisdn-new-set-button {
+		height: 40px;
+		margin-top: 16px;
+
+		> i {
+			padding-right: 10px;
+			cursor: pointer;
+		}
+	}
+
+	.OcInput-msisdn-radio {
+		.custom-control {
+			margin-left: initial;
+		}
+	}
+
+	&-tab-content {
+		border-right: 1px solid $light-gray;
+	}
+
+	&-msisdn-footer {
+		padding: 20px;
+		background: rgb(248, 248, 248);
+		border-top: 1px solid rgb(225, 225, 225);
+	}
+
+	&-msisdn-picker {
+		width: 400px;
+	}
+
+	&-allowances-title {
+		color: $blue;
+	}
+
+	&-renderTotalCost {
+		border: 1px solid $light-gray;
+		padding: 10px;
+		position: fixed;
+	}
+
+	&-price {
+		color: rgb(137, 186, 23);
+	}
+
+	&-city-select-container {
+		display: flex;
+		flex-direction: column;
+	}
+}

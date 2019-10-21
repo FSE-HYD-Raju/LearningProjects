@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutPayment in POS succeeds at shallow mount with minimum props 1`] = `
+<FormattedMessageWrapper
+  defaultMessage="Basket not ready for payment"
+  description="checkout, payment, basket not ready"
+  id="basket-not-ready-payment"
+  wrapperType="wrapper"
+/>
+`;

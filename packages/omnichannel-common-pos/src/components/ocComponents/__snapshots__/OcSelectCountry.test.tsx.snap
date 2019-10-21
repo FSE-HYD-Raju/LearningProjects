@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcSelectCountry succeeds at shallow mount with minimum props 1`] = `
+<OcSelect
+  label="Pick your country"
+  name="country-selection"
+  noLabel={false}
+  onChange={[Function]}
+  placeholder="Pick your country"
+  value=""
+/>
+`;

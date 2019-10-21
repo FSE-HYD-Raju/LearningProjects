@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"target": "es5",
+		"module": "commonjs",
+		"allowJs": false,
+		"checkJs": false,
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"removeComments": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": false,
+		"noErrorTruncation": true,
+		"allowSyntheticDefaultImports": true,
+		"preserveConstEnums": false,
+		"strict": true,
+		"lib": ["es6", "es7", "dom"]
+	}
+}

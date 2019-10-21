@@ -1,0 +1,715 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewCustomerInfo succeeds at shallow mount minimum props 1`] = `
+<NewCustomerInfo
+  ConsulStore={
+    Object {
+      "features": Object {
+        "pos": Object {
+          "customerDataForm": Object {
+            "apartment": true,
+            "building": true,
+            "lastName2": true,
+          },
+        },
+      },
+    }
+  }
+  CustomerActions={
+    Object {
+      "clearSearch": [Function],
+      "createCustomer": [Function],
+      "saveSearchTerms": [Function],
+    }
+  }
+  CustomerStore={
+    Object {
+      "customerToCreate": Object {},
+    }
+  }
+  UserStore={Object {}}
+  createdCustomer={
+    Object {
+      "attributes": Object {
+        "email": Object {
+          "email": "dummy@mail.com",
+        },
+        "firstName": "Thomas",
+        "fixedLineNumber": Object {
+          "number": "12",
+        },
+        "gender": "male",
+        "lastName": "Anderson",
+        "mobileNumber": Object {
+          "number": "123456789",
+        },
+      },
+    }
+  }
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+  schema={
+    ObjectSchema {
+      "_blacklist": BadSet {
+        "_map": Object {},
+        "_refs": Object {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [
+        "undefined-undefined",
+      ],
+      "_exclusive": Object {},
+      "_label": "customerDataForm",
+      "_mutate": false,
+      "_nodes": Array [
+        "apartment",
+        "building",
+        "country",
+        "city",
+        "postalCode",
+        "coAddress",
+        "street",
+        "identificationExpiryDate",
+        "identificationIssuingDate",
+        "identificationId",
+        "identificationType",
+        "birthDay",
+        "gender",
+        "fixedLineNumber",
+        "mobileNumber",
+        "email",
+        "lastName2",
+        "lastName",
+        "firstName",
+      ],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": BadSet {
+        "_map": Object {},
+        "_refs": Object {},
+      },
+      "fields": Object {
+        "apartment": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {},
+          "_label": "apartment",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "birthDay": DateSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+          },
+          "_label": "birthDay",
+          "_mutate": false,
+          "_nullable": true,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "date",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "building": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {},
+          "_label": "building",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "city": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "city",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "coAddress": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {},
+          "_label": "coAddress",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "country": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "country",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "email": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+            "undefined": false,
+          },
+          "_label": "email",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "firstName": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "firstName",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "fixedLineNumber": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+            "undefined": false,
+          },
+          "_label": "fixedLineNumber",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "gender": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "gender",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "identificationExpiryDate": DateSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {},
+          "_label": "identificationExpiryDate",
+          "_mutate": false,
+          "_nullable": true,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "date",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "identificationId": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "identificationId",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "identificationIssuingDate": DateSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {},
+          "_label": "identificationIssuingDate",
+          "_mutate": false,
+          "_nullable": true,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "date",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "identificationType": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "identificationType",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "lastName": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "lastName",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "lastName2": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {},
+          "_label": "lastName2",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "mobileNumber": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+            "undefined": false,
+          },
+          "_label": "mobileNumber",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "postalCode": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "postalCode",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+        "street": StringSchema {
+          "_blacklist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": false,
+            "trim": false,
+          },
+          "_label": "street",
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": BadSet {
+            "_map": Object {},
+            "_refs": Object {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+            [Function],
+          ],
+        },
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+    }
+  }
+/>
+`;

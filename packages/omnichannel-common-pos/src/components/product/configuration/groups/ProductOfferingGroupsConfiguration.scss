@@ -1,0 +1,13 @@
+.ProductOfferingGroupsConfiguration {
+	&-group-title {
+		font-weight: 600;
+		font-size: 20px;
+		color: rgb(69, 69, 69);
+		letter-spacing: -0.47px;
+	}
+	&-group-container, &-slider-container {
+		//border: 2px green dotted;
+		border: 0;
+		padding: 4px;
+	}
+}

@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryList should mount with min props 1`] = `
+<section
+  className="CategoryList"
+>
+  <header
+    className="w-view-header"
+  >
+    <h1>
+      <FormattedMessageWrapper
+        defaultMessage="Shop"
+        description="Shop page title"
+        id="service-desk-shop-page-title"
+        wrapperType="wrapper"
+      />
+    </h1>
+    <Connect(BarcodeInput)
+      flux={
+        Object {
+          "actions": Object {
+            "BasketActions": Object {
+              "getBasketIncludeBasketItems": [MockFunction],
+              "removeFromBasket": [MockFunction],
+            },
+            "CustomerCaseActions": Object {
+              "changeCustomerActiveAgreement": [MockFunction],
+            },
+            "DigitalLifeActions": Object {
+              "getAgreements": [MockFunction],
+            },
+            "SalesActions": Object {
+              "findProduct": [MockFunction],
+              "saveBarcode": [MockFunction],
+            },
+          },
+          "reduxStore": Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          },
+        }
+      }
+    />
+  </header>
+  <div
+    className="CategoryList-body"
+  >
+    <div
+      className="CategoryList-categories"
+    >
+      <nav
+        className="w-nav-vertical"
+      />
+    </div>
+    <div
+      className="CategoryList-products"
+    >
+      <div
+        className="w-box w-box-stretch"
+      >
+        <h3>
+          <FormattedMessageWrapper
+            defaultMessage="Select a category"
+            description="Shown when user has not clicked on a category yet"
+            id="CategoryList-select-a-category"
+            wrapperType="wrapper"
+          />
+        </h3>
+        <CategoryListRoute
+          addressValidation={
+            Object {
+              "address": null,
+              "status": "",
+            }
+          }
+          flux={
+            Object {
+              "actions": Object {
+                "BasketActions": Object {
+                  "getBasketIncludeBasketItems": [MockFunction],
+                  "removeFromBasket": [MockFunction],
+                },
+                "CustomerCaseActions": Object {
+                  "changeCustomerActiveAgreement": [MockFunction],
+                },
+                "DigitalLifeActions": Object {
+                  "getAgreements": [MockFunction],
+                },
+                "SalesActions": Object {
+                  "findProduct": [MockFunction],
+                  "saveBarcode": [MockFunction],
+                },
+              },
+              "reduxStore": Object {
+                "dispatch": [Function],
+                "getState": [Function],
+                "replaceReducer": [Function],
+                "subscribe": [Function],
+                Symbol(observable): [Function],
+              },
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="CategoryList-basket"
+    >
+      <Connect(SalesBasket)
+        flux={
+          Object {
+            "actions": Object {
+              "BasketActions": Object {
+                "getBasketIncludeBasketItems": [MockFunction],
+                "removeFromBasket": [MockFunction],
+              },
+              "CustomerCaseActions": Object {
+                "changeCustomerActiveAgreement": [MockFunction],
+              },
+              "DigitalLifeActions": Object {
+                "getAgreements": [MockFunction],
+              },
+              "SalesActions": Object {
+                "findProduct": [MockFunction],
+                "saveBarcode": [MockFunction],
+              },
+            },
+            "reduxStore": Object {
+              "dispatch": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+              Symbol(observable): [Function],
+            },
+          }
+        }
+      />
+    </div>
+  </div>
+</section>
+`;

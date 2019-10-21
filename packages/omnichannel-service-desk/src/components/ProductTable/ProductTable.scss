@@ -1,0 +1,189 @@
+.ProductTable {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
+
+	&-header {
+		background: #F9F9F9;
+		display: flex;
+		width: 100%;
+		color: white;
+		border-bottom: 2px solid #DCDCDC;
+		max-height: 33px;
+		align-items: center;
+	}
+
+	&-header-cell {
+		display: flex;
+		flex: 1;
+		//border-right: 1px solid #4E96BE;
+		padding: 5px 10px;
+		align-items: center;
+		cursor: pointer;
+		min-height: 33px;
+		overflow: hidden;
+		justify-content: flex-start;
+		font-weight: 600;
+		font-size: 12px;
+		color: #757575;
+		line-height: 20px;
+		text-transform: uppercase;
+		min-width: 80px;
+		color: #3E86B9;
+	}
+
+	&-active-header-cell {
+		background: rgba(5, 5, 5, 0.04);
+		color: #757575;
+	}
+
+	&-table-row {
+		max-width: 100%;
+		display: flex;
+		flex: 1;
+		color: #959697;
+		background: #fff;
+		align-items: center;
+		border-top: 1px solid #EFEFEF;
+
+		&:hover {
+			text-decoration: none;
+			//background: lighten(#f7fafb, 5%);
+		}
+
+		&:focus {
+			text-decoration: none;
+		}
+
+		&:active {
+			text-decoration: none;
+		}
+	}
+
+	&-table-row-inner {
+		display: flex;
+		flex: 1;
+	}
+
+	&-caret-container {
+		display: flex;
+		min-width: 16px;
+		max-width: 16px;
+		color: #ccc;
+		align-items: center;
+		justify-content: start;
+		&:hover {
+			text-decoration: none;
+		}
+
+		&:active {
+			text-decoration: none;
+		}
+
+		&:focus {
+			text-decoration: none;
+		}
+	}
+
+	&-caret {
+		font-size: 14px;
+	}
+
+	&-column {
+		display: flex;
+		flex: 1;
+		padding: 5px 10px 5px 3px;
+		//border-right: 1px solid #e1e1e1;
+		align-items: center;
+		justify-content: flex-start;
+		font-size: 14px;
+		color: #454545;
+		min-width: 80px;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		&:active {
+			text-decoration: none;
+		}
+
+		&:focus {
+			text-decoration: none;
+		}
+	}
+
+	&-link-row {
+		display: flex;
+		flex: 1;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	&-product-details-container {
+		width: 100%;
+		overflow: hidden;
+		//border-right: 1px solid #D5D5D5;
+		//border-left: 1px solid #D5D5D5;
+	}
+
+	&-showing-details {
+		border-left: 3px solid #3187B4;
+	}
+
+	&-selected {
+		border-top: 2px solid #ACD858;
+		border-bottom: 2px solid #ACD858;
+	}
+
+	&-unselected {
+		//border-left: 3px solid transparent;
+	}
+
+	&-currency {
+		color: #71BA2E;
+	}
+
+	&-validateStreetAddressButton {
+		position: absolute !important;
+		right: 0;
+		z-index: 10 !important;
+		color: #777;
+		&:hover {
+			color: #777 !important;
+		}
+	}
+
+	&-validateStreetAddresField {
+		max-width: 300px;
+	}
+
+	&-validateStreetAddressFieldWrapper {
+		margin-top: 15px;
+
+		.floating-help-block {
+			left: 48px;
+			top: 50px;
+		}
+	}
+}
+
+.OcTab-active.OcTab-inactive.OcTab-productDetails {
+	background: #FDFDFD !important;
+	border-bottom: 0 !important;
+}
+
+.OcTab-inactive.OcTab-productDetails {
+	background: #EFEFEF !important;
+	margin: 0 !important;
+	border-bottom: 1px solid rgb(225, 225, 225) !important;
+}
+
+a.OcTab-inactive.OcTab-productDetails:hover {
+	color: #23527C !important;
+}
+
+a.OcTab-active.OcTab-inactive.OcTab-productDetails:hover {
+	color: #FF6700 !important;
+}

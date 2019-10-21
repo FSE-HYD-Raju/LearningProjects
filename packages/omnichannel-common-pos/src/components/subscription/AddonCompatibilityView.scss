@@ -1,0 +1,25 @@
+.AddonCompatibilityView {
+	.compatibility-heading {
+		display: flex;
+		margin-bottom: 10px;
+
+		i {
+			margin-top: 4px;
+			margin-right: 5px;
+		}
+	}
+	.compatibility-items {
+		margin-bottom: 10px;
+		> div {
+			margin-left: 20px;
+		}
+
+		.show-all-items {
+			cursor: pointer;
+		}
+	}
+
+	.hide {
+		display: none;
+	}
+}

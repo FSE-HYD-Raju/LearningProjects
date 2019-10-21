@@ -1,0 +1,17 @@
+.CallForwardingConfigurationModal {
+	&-modal-wrapper {
+		margin: 40px;
+	}
+	&-form-wrapper {
+		display: flex;
+		flex: 1 1 auto;
+	}
+	&-wrapper {
+		padding: 30px;
+	}
+	&-errors {
+		color: #d9534f;
+		width: 100%;
+		padding: 30px;
+	}
+}

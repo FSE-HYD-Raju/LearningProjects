@@ -1,0 +1,91 @@
+@import '../../variables';
+
+.pr {
+	@media (min-width: 1033px) {
+		&-container {
+			border-left: 1px solid #eee;
+		}
+	}
+
+	.StandardPriceRenderer.pr-container,
+	&-container {
+		display: flex;
+		flex: 1 1 auto;
+		flex-direction: column;
+		padding: 1.875rem 0 1.25rem 0.9375rem;
+		color: darkgray !important;
+		justify-content: center;
+	}
+
+	&-text-block {
+		display: flex;
+		align-self: center;
+	}
+
+	&-price-line {
+		display: flex;
+		flex: 1 1 auto;
+		align-items: stretch;
+		justify-content: center;
+		width: 100%;
+	}
+
+	&-price-title {
+		align-self: flex-start;
+		height: 4rem;
+		font-weight: bold;
+		align-items: center;
+		display: flex;
+		flex: 0 0 6rem;
+	}
+
+	&-price-value {
+		color: $green;
+		font-size: $h4-font-size;
+		font-weight: 700;
+		align-self: flex-end;
+		flex: 1 1 auto;
+		height: 4rem;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		padding-right: 6px;
+	}
+
+	&-price-value.upfront {
+		font-size: $h3-font-size;
+	}
+
+	&-integer {
+		font-size: $h1-font-size;
+		font-weight: 600;
+	}
+
+	&-currency {
+		color: $green;
+	}
+
+	&-fraction-currency {
+		font-weight: 600;
+	}
+
+	&-payment-type-text {
+		font-size: $font-size-sm;
+		font-weight: $font-weight-normal;
+		text-transform: uppercase;
+	}
+
+	&-fraction {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 0.1875rem;
+	}
+
+	&-prices-block {
+		display: flex;
+		flex: initial;
+		flex-wrap: nowrap;
+		flex-direction: column;
+	}
+}

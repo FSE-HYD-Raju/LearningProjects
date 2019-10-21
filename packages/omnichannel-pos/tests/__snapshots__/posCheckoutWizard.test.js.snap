@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`POSCheckoutWizard succeeds at shallow mount without props 1`] = `
+<div
+  className="CheckoutWizard-steps"
+>
+  <div
+    className="CheckoutWizard-step"
+  >
+    <div
+      className="CheckoutWizard-number-container"
+    >
+      <span
+        className="CheckoutWizard-number CheckoutWizard-one"
+      />
+    </div>
+    <div
+      className="CheckoutWizard-body"
+    >
+      <span
+        className="CheckoutWizard-label"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Customer details"
+          description="Label for pos checkout wizard customer details step"
+          id="pos-checkout-wizard-customer-details"
+          wrapperType="wrapper"
+        />
+      </span>
+      <span
+        className="CheckoutWizard-type"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Add your customer details"
+          description="Description for pos checkout wizard customer details tep"
+          id="pos-checkout-add-wizard-customer-description"
+          wrapperType="wrapper"
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    className="CheckoutWizard-step CheckoutWizard-incomplete-step"
+  >
+    <div
+      className="CheckoutWizard-number-container"
+    >
+      <span
+        className="CheckoutWizard-number CheckoutWizard-two"
+      />
+    </div>
+    <div
+      className="CheckoutWizard-body"
+    >
+      <span
+        className="CheckoutWizard-label"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Contract"
+          description="Label for pos checkout wizard contract step"
+          id="pos-checkout-wizard-contract"
+          wrapperType="wrapper"
+        />
+      </span>
+      <span
+        className="CheckoutWizard-type"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Upload, review & sign contract"
+          description="Description for pos checkout wizard contract step"
+          id="pos-checkout-wizard-contract-description"
+          wrapperType="wrapper"
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    className="CheckoutWizard-step CheckoutWizard-incomplete-step"
+    style={
+      Object {
+        "textDecoration": "none",
+      }
+    }
+  >
+    <div
+      className="CheckoutWizard-number-container"
+    >
+      <span
+        className="CheckoutWizard-number CheckoutWizard-three"
+      />
+    </div>
+    <div
+      className="CheckoutWizard-body"
+    >
+      <span
+        className="CheckoutWizard-label"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Payment"
+          description="Label for pos checkout wizard payment step"
+          id="pos-checkout-wizard-payment"
+          wrapperType="wrapper"
+        />
+      </span>
+      <span
+        className="CheckoutWizard-type"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Choose payment option"
+          description="Description for pos checkout wizard payment step"
+          id="pos-checkout-wizard-payment-description"
+          wrapperType="wrapper"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;

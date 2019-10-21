@@ -1,0 +1,62 @@
+.OcFileAttachment {
+	&-container {
+		@include flex-container(row, stretch);
+		width: 100%;
+		align-items: initial;
+		padding: 0 0 0.5rem 0;
+	}
+	&-label {
+		min-width: 10.25rem;
+		color: $gray-600;
+		margin: 0;
+	}
+	&-data {
+		display: flex;
+		flex-direction: column;
+		max-width: 24.65rem;
+		width: 100%;
+	}
+	&-file-form {
+		display: flex;
+		align-items: center;
+		padding: 0.5rem 0;
+		flex-wrap: wrap;
+		input.OcFileAttachment-hidden-input {
+			max-width: 5rem;
+			opacity: 0;
+		}
+	}
+	&-attach-file-btn {
+		margin-left: -5rem;
+		padding: 0;
+		font-size: $font-size-sm;
+	}
+	&-file-uploaded {
+		border-bottom: 0.0625rem solid $weasel-border-color-solid;
+		display: flex;
+		padding: 0.5rem 0;
+		button {
+			padding: 0 0.565rem;
+		}
+	}
+	&-file-name {
+		max-width: 21rem;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+		word-break: break-all;
+	}
+	&-attachment-hint {
+		color: $gray-600;
+		font-size: $font-size-sm;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+		word-break: break-word;
+		width: 100%;
+		padding: 0.25rem 0;
+	}
+	@include media-breakpoint-up(sm) {
+		&-label {
+			padding: 0.5rem 0;
+		}
+	}
+}

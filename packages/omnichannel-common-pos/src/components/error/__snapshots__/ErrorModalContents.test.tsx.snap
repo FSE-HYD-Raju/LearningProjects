@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorModalContents succeeds at shallow mount with minimum props 1`] = `
+<Fragment>
+  <div
+    className="modal-body-content"
+  />
+  <div
+    className="modal-footer"
+  >
+    <div />
+    <Link
+      id=""
+      replace={false}
+      to=""
+    >
+      <OcButton
+        buttonType="PRIMARY"
+        id="error-modal-container-return"
+        onClick={[Function]}
+        outline={true}
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Go back"
+          description="Link back to previous page"
+          id="return-to-previous-page"
+          wrapperType="wrapper"
+        />
+      </OcButton>
+    </Link>
+  </div>
+</Fragment>
+`;

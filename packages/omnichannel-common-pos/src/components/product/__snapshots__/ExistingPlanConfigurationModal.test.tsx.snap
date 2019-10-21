@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExistingPlanConfigurationModal succeeds at shallow mount with min props 1`] = `<span />`;

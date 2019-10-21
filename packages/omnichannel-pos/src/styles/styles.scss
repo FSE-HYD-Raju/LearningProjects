@@ -1,0 +1,9 @@
+@import '~omnichannel-common-pos/lib/styles/bundle.scss';
+@import '~omnichannel-common-pos/src/bundle.scss';
+@import '~omnichannel-service-desk/src/bundle.scss';
+
+@import './overrides.scss';
+
+@import "./pos.scss";
+
+@import '../bundle.scss';

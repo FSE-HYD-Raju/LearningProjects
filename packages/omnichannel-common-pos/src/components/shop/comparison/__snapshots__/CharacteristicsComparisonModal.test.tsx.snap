@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacteristicsComparisonModal succeeds at shallow mount with min props 1`] = `
+<OcModal
+  className="CharacteristicsComparisonModal-comparison"
+  extraLargeModal={false}
+  hideCloseButton={false}
+  largeModal={true}
+  onClose={[Function]}
+  showModal={true}
+  title={
+    <FormattedMessageWrapper
+      defaultMessage="Compare products"
+      description="Shop product comparison modal compare products message"
+      id="shop-comparison-modal-compare-products-message"
+      wrapperType="wrapper"
+    />
+  }
+>
+  <div
+    className="CharacteristicsComparisonModal-outer-container"
+  >
+    <div
+      className="CharacteristicsComparisonModal-container"
+    >
+      <div
+        className="CharacteristicsComparisonModal-inner-container"
+      />
+      <div
+        className="CharacteristicsComparisonModal-items-container"
+      />
+      <div
+        className="CharacteristicsComparisonModal-no-characteristics"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Detailed comparison not available"
+          description="No comparison characteristics available"
+          id="pos-compare-devices-no-characteristics-configured"
+          wrapperType="wrapper"
+        />
+      </div>
+    </div>
+  </div>
+</OcModal>
+`;

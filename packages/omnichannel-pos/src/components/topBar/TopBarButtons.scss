@@ -1,0 +1,74 @@
+@import "~omnichannel-common-pos/src/styles/variables";
+
+$topbar-button-text-color: rgba(255, 255, 255, 0.8);
+$topbar-button-border-color: rgba(255, 255, 255, 0.1);
+$topbar-button-active-background-color: rgba(0, 0, 0, 0.1);
+$topbar-nav-content-box-shadow-color: rgba(0, 0, 0, 0.2);
+
+.TopBarButtons {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+
+	&-btn {
+		font-size: 12px;
+		color: $topbar-button-text-color;
+		box-shadow: none;
+		border: solid $topbar-button-border-color;
+		border-width: 0 1px;
+		border-radius: 0;
+		.fa-angle-down {
+			display: inline;
+		}
+		.fa-angle-up {
+			display: none;
+		}
+		.fa-fw {
+			margin: 5px;
+			font-weight: 900;
+		}
+		&:hover,
+		&:focus,
+		&.active {
+			background: $topbar-button-active-background-color;
+		}
+		&.active {
+			background: $white;
+			color: $blue;
+			font-weight: bold;
+			.fa-angle-down {
+				display: none;
+			}
+			.fa-angle-up {
+				display: inline;
+			}
+		}
+	}
+
+	&-btn-group {
+		display: flex;
+		justify-content: flex-end;
+		z-index: 1051;
+	}
+
+	&-w-app-pos-nav-content {
+		background: $white;
+		padding: 25px;
+		position: absolute;
+		z-index: 1050;
+		box-shadow: 0 5px 36px $topbar-nav-content-box-shadow-color;
+		left: 0;
+		right: 0;
+		top: 100%;
+	}
+
+	&-w-box-header {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		color: $black;
+		h2 {
+			margin: 0;
+		}
+	}
+}

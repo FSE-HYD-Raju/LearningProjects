@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcSelect succeeds a shallow mount without props 1`] = `
+<div
+  className="OcInput form-group OcInput-form-group-unfilled"
+>
+  <label
+    className="OcInput-label-control custom-select-label"
+  >
+    <span
+      className="OcInput-label-text"
+    />
+  </label>
+  <select
+    className="custom-select"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    required={false}
+    value=""
+  />
+</div>
+`;

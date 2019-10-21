@@ -1,0 +1,20 @@
+.OcFileUpload {
+	&-file-dropzone {
+		cursor: pointer;
+		margin-top: 10px;
+		display: contents;
+	}
+	&-text-success {
+		color: theme-color("success");
+	}
+	&-text-failed {
+		color: theme-color("danger");
+	}
+	&-trash-icon {
+		padding-left: 0.565rem;
+		cursor: pointer;
+	}
+	&-file-details {
+		padding-top: 0.565rem;
+	}
+}

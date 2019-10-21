@@ -1,0 +1,18 @@
+@import '../../styles/mixins.scss';
+
+.OcAccordionList {
+	@include flex-container(column);
+
+	&-row-content-wrapper {
+		@include flex-container(row);
+		flex: 1;
+	}
+	&-row-content {
+		@include flex-container(row);
+		flex: 1;
+	}
+	&-expanded-content {
+		@include flex-container(row);
+		flex: 1;
+	}
+}

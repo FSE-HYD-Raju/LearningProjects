@@ -1,0 +1,11 @@
+.OcTextInput {
+	&-container {
+		@include flex-container;
+		@include flex-grow-1;
+	}
+
+	&-input-control {
+		@include flex-grow-1;
+		width: 100%;
+	}
+}

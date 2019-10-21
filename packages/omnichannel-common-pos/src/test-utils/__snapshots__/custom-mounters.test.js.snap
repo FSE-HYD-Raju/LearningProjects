@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`attachWithContext succeeds at deep mount and detachment after which there are no children in document.body 1`] = `
+<MyComponent
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+>
+  <div
+    className="MyComponent"
+  >
+    <input
+      id="passContext"
+      onClick={[Function]}
+      type="button"
+    />
+  </div>
+</MyComponent>
+`;
+
+exports[`shallowWithContext should pass custom context to the component to test 1`] = `
+<div
+  className="MyComponent"
+>
+  <input
+    id="passContext"
+    onClick={[Function]}
+    type="button"
+  />
+</div>
+`;
+
+exports[`shallowWithContext should provide a whole and flawless context to component 1`] = `
+<div
+  className="MyComponent"
+>
+  <input
+    id="passContext"
+    onClick={[Function]}
+    type="button"
+  />
+</div>
+`;
+
+exports[`shallowWithContext should render .MyComponent 1`] = `
+<div
+  className="MyComponent"
+>
+  <input
+    id="passContext"
+    onClick={[Function]}
+    type="button"
+  />
+</div>
+`;

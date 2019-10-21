@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceHolder succeeds at shallow mount with min props 1`] = `
+<div
+  className="PriceHolder"
+>
+  <div
+    className="PriceHolder-row"
+  />
+</div>
+`;

@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecurringTopUps succeeds at shallow mount with min props 1`] = `
+<div
+  className="RecurringTopUps"
+>
+  <header
+    className="w-view-header"
+  >
+    <h3>
+      <FormattedMessageWrapper
+        defaultMessage="Recurring top-up"
+        description="Recurring top-up list title"
+        id="recurring-top-up-list-title"
+        wrapperType="wrapper"
+      />
+    </h3>
+    <OcButton
+      buttonType="PRIMARY"
+      className="RecurringTopUps-add-button"
+      id="RecurringTopUps-add-new-top-up-button"
+      onClick={[Function]}
+      outline={true}
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Add new recurring top-up"
+        description="Recurring top-ups top-up button message"
+        id="recurring-top-ups-top-up-button"
+        wrapperType="wrapper"
+      />
+    </OcButton>
+  </header>
+  <div
+    className="RecurringTopUps-content"
+  >
+    <table
+      className="table"
+    >
+      <thead>
+        <tr>
+          <th
+            className=""
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Phone number"
+              description="digital-life, recurring top-ups table header phone number"
+              id="recurring-top-ups-table-header-phone-number"
+              wrapperType="wrapper"
+            />
+          </th>
+          <th
+            className=""
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Top-up type"
+              description="digital-life, recurring top-ups table header top-up type"
+              id="recurring-top-ups-table-header-top-up-type"
+              wrapperType="wrapper"
+            />
+          </th>
+          <th
+            className="RecurringTopUps-right-align"
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Amount"
+              description="digital-life, recurring top-ups table header amount"
+              id="recurring-top-ups-table-header-amount"
+              wrapperType="wrapper"
+            />
+          </th>
+          <th
+            className="RecurringTopUps-right-align"
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Threshold"
+              description="digital-life, recurring top-ups table header threshold value"
+              id="recurring-top-ups-table-header-threshold-value"
+              wrapperType="wrapper"
+            />
+          </th>
+          <th
+            className="RecurringTopUps-payment-method-col"
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Payment-method"
+              description="digital-life, recurring top-ups table header payment method"
+              id="recurring-top-ups-table-header-payment-method"
+              wrapperType="wrapper"
+            />
+          </th>
+          <th />
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          key="RecurringTopUps-table-row-0"
+        >
+          <td
+            className="RecurringTopUps-key-value"
+          >
+            <div
+              className="RecurringTopUps-key"
+            >
+              <FormattedMessageWrapper
+                defaultMessage="Phone number"
+                description="digital-life, recurring top-ups table header phone number"
+                id="recurring-top-ups-table-header-phone-number"
+                wrapperType="wrapper"
+              />
+            </div>
+            1234567890
+          </td>
+          <td
+            className="RecurringTopUps-key-value"
+          >
+            <div
+              className="RecurringTopUps-key"
+            >
+              <FormattedMessageWrapper
+                defaultMessage="Top-up type"
+                description="digital-life, recurring top-ups table header top-up type"
+                id="recurring-top-ups-table-header-top-up-type"
+                wrapperType="wrapper"
+              />
+            </div>
+            Threshold
+          </td>
+          <td
+            className="RecurringTopUps-key-value"
+          >
+            <div
+              className="RecurringTopUps-key"
+            >
+              <FormattedMessageWrapper
+                defaultMessage="Amount"
+                description="digital-life, recurring top-ups table header amount"
+                id="recurring-top-ups-table-header-amount"
+                wrapperType="wrapper"
+              />
+            </div>
+            <div
+              className="RecurringTopUps-right-align"
+            >
+              <OcCurrency
+                cost={13}
+                currency="EUR"
+                ignoreSpaces={true}
+                round={true}
+              />
+            </div>
+          </td>
+          <td
+            className="RecurringTopUps-key-value"
+          >
+            <div
+              className="RecurringTopUps-key"
+            >
+              <FormattedMessageWrapper
+                defaultMessage="Threshold"
+                description="digital-life, recurring top-ups table header threshold value"
+                id="recurring-top-ups-table-header-threshold-value"
+                wrapperType="wrapper"
+              />
+            </div>
+            <div
+              className="RecurringTopUps-right-align"
+            >
+              <OcCurrency
+                cost={10}
+                currency="EUR"
+                ignoreSpaces={true}
+                round={true}
+              />
+            </div>
+          </td>
+          <td
+            className="RecurringTopUps-key-value"
+          >
+            <div
+              className="RecurringTopUps-key"
+            >
+              <FormattedMessageWrapper
+                defaultMessage="Payment-method"
+                description="digital-life, recurring top-ups table header payment method"
+                id="recurring-top-ups-table-header-payment-method"
+                wrapperType="wrapper"
+              />
+            </div>
+            <span
+              className="RecurringTopUps-payment-method-col RecurringTopUps-mobile-view-payment-method"
+            >
+              <span
+                className="RecurringTopUps-fake-btn-link"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-exclamation-circle RecurringTopUps-add-payment-method-icon"
+                />
+                <span
+                  className="RecurringTopUps-add-payment-method-link"
+                >
+                  <FormattedMessageWrapper
+                    defaultMessage="Add payment method"
+                    description="Recurring top-up add payment method"
+                    id="recurring-top-up-add-payment-method"
+                    wrapperType="wrapper"
+                  />
+                </span>
+              </span>
+            </span>
+          </td>
+          <td
+            className="RecurringTopUps-key-value"
+          >
+            <div
+              className="RecurringTopUps-right-align"
+            >
+              <span
+                className="RecurringTopUps-active-span btn-link"
+                id="RecurringTopUps-edit-button-0"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-pencil-alt btn-icon-left"
+                />
+                <FormattedMessageWrapper
+                  defaultMessage="Edit"
+                  description="Recurring top-ups edit button"
+                  id="recurring-top-ups-top-edit-button"
+                  wrapperType="wrapper"
+                />
+              </span>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

@@ -1,0 +1,52 @@
+.PlanListModal {
+	&-price > .oc-currency {
+		font-size: 28px;
+		font-weight: 300;
+		margin-top: 6px;
+	}
+
+	&-price-type {
+		color: #ccc;
+		margin-top: -6px;
+	}
+
+	&-item {
+		width: 100%;
+		padding: 12px;
+	}
+
+	&-item-name {
+		font-weight: bold;
+	}
+
+	&-plans-list-accordion {
+		border: 1px solid #eee;
+		box-shadow: 0 0 3px #eee;
+		border-radius: 2px;
+		margin: 0 0 12px 0;
+	}
+
+	&-plan-details-name {
+		font-weight: bold;
+	}
+
+	&-modal-container {
+		margin: 12px 24px;
+	}
+
+	&-accordion {
+		border: 1px solid #eee;
+		box-shadow: 0 0 3px #eee;
+		border-radius: 2px;
+		margin: 0 0 12px 0;
+	}
+
+	&-container {
+		text-align: center;
+	}
+
+	&-modal-container {
+		max-width: 624px;
+		margin: 0 auto;
+	}
+}

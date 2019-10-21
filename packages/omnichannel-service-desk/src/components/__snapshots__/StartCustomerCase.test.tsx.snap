@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StartCustomerCase succeeds at shallow mount with min props 1`] = `
+<div
+  className="StartCustomerCase w-box"
+>
+  <OcButton
+    buttonSize="LARGE"
+    buttonType="SUCCESS"
+    disabled={false}
+    id="buttonStartNewCustomerCase"
+    onClick={[Function]}
+  >
+    <FormattedMessageWrapper
+      defaultMessage="Start new customer case"
+      description="Used with button that start's new customer case on POS"
+      id="start-new-customer-case"
+      wrapperType="wrapper"
+    />
+  </OcButton>
+</div>
+`;

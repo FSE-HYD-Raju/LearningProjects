@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcHighlightBox succeeds at deep mount without props 1`] = `
+<OcHighlightBox
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+>
+  <div
+    className="OcHighlightBox OcHighlightBox-left"
+    style={Object {}}
+  >
+    <div />
+  </div>
+</OcHighlightBox>
+`;
+
+exports[`OcHighlightBox succeeds at shallow mount without props 1`] = `
+<div
+  className="OcHighlightBox OcHighlightBox-left"
+  style={Object {}}
+>
+  <div />
+</div>
+`;

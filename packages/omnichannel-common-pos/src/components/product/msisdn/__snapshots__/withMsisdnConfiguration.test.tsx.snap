@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MsisdnConfiguraionProvider succeeds at shallow mount with minimal props 1`] = `
+<TestComponent
+  configurations={Object {}}
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+  msisdnConfig={
+    Object {
+      "mandatoryConfigurations": Array [],
+    }
+  }
+  msisdnModalVisible={false}
+  product={
+    Object {
+      "categories": Array [],
+      "commercialEnrichments": Array [],
+      "featureCharacteristics": Array [],
+      "id": "123",
+      "inputCharacteristics": Object {},
+      "instanceCharacteristics": Object {},
+      "name": "Test PO",
+      "prices": Array [],
+      "productOfferingGroups": Array [],
+      "productOfferings": Array [],
+      "relationships": Object {},
+      "selected": false,
+    }
+  }
+  productNeedsMsisdnConfiguration={false}
+  toggleMsisdnModal={[Function]}
+  userOpened={false}
+/>
+`;

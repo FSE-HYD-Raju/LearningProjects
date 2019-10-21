@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FaFNumberList succeeds at shallow mount with props 1`] = `
+<div
+  className="FaFNumberList"
+>
+  <div
+    className="FaFNumberModal-fafrow FaFNumberModal-number-row"
+    key="099 938 1835"
+  >
+    <div
+      className="FaFNumberModal-item"
+    >
+      Number 1
+    </div>
+    <div
+      className="FaFNumberModal-number"
+    >
+      099 938 1835
+    </div>
+    <div
+      className="FaFNumberModal-item"
+    >
+      <OcButton
+        buttonType="LINK"
+        className="FaFNumberModal-removeButton"
+        id="buttonRemoveFaFNumber0"
+        onClick={[Function]}
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Remove"
+          description="Remove number from Friends And Family list"
+          id="fafRemoveNumber"
+          wrapperType="wrapper"
+        />
+      </OcButton>
+    </div>
+  </div>
+  <div
+    className="FaFNumberModal-fafrow FaFNumberModal-number-row"
+    key="099 938 1836"
+  >
+    <div
+      className="FaFNumberModal-item"
+    >
+      Number 2
+    </div>
+    <div
+      className="FaFNumberModal-number"
+    >
+      099 938 1836
+    </div>
+    <div
+      className="FaFNumberModal-item"
+    >
+      <OcButton
+        buttonType="LINK"
+        className="FaFNumberModal-removeButton"
+        id="buttonRemoveFaFNumber1"
+        onClick={[Function]}
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Remove"
+          description="Remove number from Friends And Family list"
+          id="fafRemoveNumber"
+          wrapperType="wrapper"
+        />
+      </OcButton>
+    </div>
+  </div>
+  <div
+    className="FaFNumberModal-fafrow FaFNumberModal-number-row"
+    key="099 938 1837"
+  >
+    <div
+      className="FaFNumberModal-item"
+    >
+      Number 3
+    </div>
+    <div
+      className="FaFNumberModal-number"
+    >
+      099 938 1837
+    </div>
+    <div
+      className="FaFNumberModal-item"
+    >
+      <OcButton
+        buttonType="LINK"
+        className="FaFNumberModal-removeButton"
+        id="buttonRemoveFaFNumber2"
+        onClick={[Function]}
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Remove"
+          description="Remove number from Friends And Family list"
+          id="fafRemoveNumber"
+          wrapperType="wrapper"
+        />
+      </OcButton>
+    </div>
+  </div>
+  <div
+    className="FaFNumberModal-fafrow"
+  >
+    <OcButton
+      buttonType="PRIMARY"
+      disabled={false}
+      id="buttonAddFaFNumber"
+      onClick={[Function]}
+    >
+      + 
+      <FormattedMessageWrapper
+        defaultMessage="Add new number"
+        description="Add new number to Friends And Family list"
+        id="fafAddNumber"
+        wrapperType="wrapper"
+      />
+    </OcButton>
+  </div>
+  <div
+    className="FaFNumberModal-fafrow FaFNumberModal-information"
+  >
+    <div
+      className="FaFNumberModal-info-label"
+    >
+      <i
+        className="fa fa-info-circle"
+      />
+    </div>
+    <div
+      className="FaFNumberModal-info-content"
+    >
+      Lorem ipsum and so on, we don't know what is stated here.
+    </div>
+  </div>
+  <div
+    className="FaFNumberModal-fafrow FaFNumberModal-information"
+  >
+    <div
+      className="FaFNumberModal-info-label"
+    />
+    <div
+      className="FaFNumberModal-info-content"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="You can have a maximum of {maximum} numbers."
+        description="Info text about maximum number of faf numbers"
+        id="fafMaxNumbersMessage"
+        values={
+          Object {
+            "maximum": 10,
+          }
+        }
+        wrapperType="wrapper"
+      />
+    </div>
+  </div>
+</div>
+`;

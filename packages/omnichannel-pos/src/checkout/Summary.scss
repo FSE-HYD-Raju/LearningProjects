@@ -1,0 +1,55 @@
+@import '~omnichannel-common-pos/lib/styles/_variables.scss';
+
+.Summary {
+    &-package {
+        min-width: 440px;
+        padding: 10px 30px 30px 0;
+    }
+
+    &-total-payment {
+        display: flex;
+        font-size: 22px;
+        justify-content: space-between;
+        padding: 5px 0px 20px 7px;
+    }
+
+    &-total-payment-title {
+        font-weight: $font-weight-bold;
+    }
+
+    &-total-payment-sums {
+        //color: $layout-mid-gray;
+        display: flex;
+        font-weight: 200;
+        >div {
+            padding-right: 25px;
+        }
+    }
+
+    .payments-price {
+        color: theme-color("success");
+        padding-left: 5px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+		margin-top: 1rem;
+		padding-top: 1rem;
+		border-top: 1px solid $weasel-border-color-solid;
+    }
+
+	&-download-button {
+		margin: 0 22px
+    }
+    &-text-success {
+		color: theme-color("success");
+	}
+	&-text-failed {
+		color: theme-color("danger");
+    }
+    &-info-icon {
+        padding-right: 0.5rem;
+    }
+
+}

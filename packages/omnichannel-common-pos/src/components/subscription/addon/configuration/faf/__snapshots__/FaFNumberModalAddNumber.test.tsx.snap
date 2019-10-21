@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FaFNumberModalAddNumber succeeds at shallow mount with props 1`] = `
+<div
+  className="FaFNumberModal-addNumberComponent"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="FaFNumberModal-inputContainer"
+    >
+      <OcTextInput
+        className="NewFaFNumberInput"
+        id="new_faf_number_input"
+        label={
+          <FormattedMessageWrapper
+            defaultMessage="Number"
+            description="Label next to add number input field"
+            id="fafNumberLabel"
+            wrapperType="wrapper"
+          />
+        }
+        labelPosition="LEFT"
+        onChange={[MockFunction]}
+        placeholder="Number"
+        required={true}
+      />
+      <OcButton
+        buttonType="PRIMARY"
+        htmlBtnType="submit"
+        id="buttonSaveFaFNumber"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Save"
+          description="Add new number to Friends And Family list"
+          id="FaFAddNumberButton"
+          wrapperType="wrapper"
+        />
+      </OcButton>
+      <OcButton
+        buttonType="DEFAULT"
+        id="buttonCloseAddField"
+        onClick={[MockFunction]}
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Cancel"
+          description="Cancel adding new number to Friends And Family list"
+          id="FaFCancelButton"
+          wrapperType="wrapper"
+        />
+      </OcButton>
+    </div>
+  </form>
+</div>
+`;

@@ -1,0 +1,19 @@
+.ProductOfferingGroupSelect {
+	&-pog-select-container {
+		@media only screen and (min-width: 1200px) {
+			margin-left: 120px;
+		}
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&-price {
+		display: flex;
+		justify-content: end;
+		margin-bottom: 15px;
+	}
+	&-pog-select{
+		max-width: 260px;
+		margin-right: 10px;
+	}
+}

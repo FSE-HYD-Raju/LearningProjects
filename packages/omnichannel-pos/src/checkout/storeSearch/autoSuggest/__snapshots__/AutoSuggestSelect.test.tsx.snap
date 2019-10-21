@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutoSuggestSelect succeeds at shallow mount without props 1`] = `
+<div
+  className="AutoSuggestSelect"
+>
+  <OcInput
+    onChange={[Function]}
+    value=""
+  />
+  <Async
+    autoBlur={true}
+    autoload={false}
+    backspaceRemoves={false}
+    cache={Object {}}
+    className="AutoSuggestSelect-select"
+    ignoreAccents={true}
+    ignoreCase={true}
+    labelKey="label"
+    loadOptions={[Function]}
+    loadingPlaceholder="Loading..."
+    multi={false}
+    onBlurResetsInput={false}
+    onChange={[Function]}
+    onClose={[Function]}
+    onCloseResetsInput={false}
+    onInputChange={[Function]}
+    openOnFocus={true}
+    optionRenderer={[Function]}
+    options={Array []}
+    searchPromptText=""
+    value=""
+    valueKey="value"
+  >
+    <Component />
+  </Async>
+</div>
+`;

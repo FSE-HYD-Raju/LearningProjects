@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressValidationDropdown succeeds at shallow mount with minimum props 1`] = `
+<AddressValidationDropdown
+  actions={
+    Object {
+      "cancel": [MockFunction],
+      "forceSaveAddress": [MockFunction],
+      "getSaveButton": [MockFunction],
+      "onChange": [MockFunction],
+    }
+  }
+  address={
+    Object {
+      "city": "Helsinki",
+      "country": "FI",
+      "postalCode": "00100",
+      "street": "Testikatu 1",
+    }
+  }
+  className=""
+  disableOnClickOutside={[Function]}
+  displayConfirmation={false}
+  enableOnClickOutside={[Function]}
+  eventTypes={
+    Array [
+      "mousedown",
+      "touchstart",
+    ]
+  }
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+  outsideClickIgnoreClass="ignore-react-onclickoutside"
+  preventDefault={false}
+  proposals={null}
+  stopPropagation={false}
+  validationIsMandatory={false}
+/>
+`;

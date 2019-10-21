@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar succeeds at shallow mount with minimum props 1`] = `
+<nav
+  className="NavBar"
+  id="w-app-header"
+>
+  <div
+    className="NavBar-branding-and-channels"
+  >
+    <h1
+      className="NavBar-branding"
+      id="w-app-title"
+    >
+      <BrandLink
+        id="navbar-link-to-cold"
+        url="http://goo.gl"
+      >
+        <div
+          className="NavBar-logo"
+        />
+      </BrandLink>
+    </h1>
+  </div>
+  <div
+    className="NavBar-global-navi"
+  >
+    <Connect(CmsContentSpot)
+      fragmentId="global_navi"
+      publishTarget="b2c"
+    />
+  </div>
+  <div
+    className="NavBar-actions"
+    id="w-app-actions"
+  >
+    <EmptyComponent
+      brandLink="http://goo.gl"
+      flux={
+        Object {
+          "persist": [Function],
+          "reduxStore": Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          },
+        }
+      }
+      hasUserPOSPermission={true}
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 2,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "",
+            "pathname": "",
+            "search": "",
+            "state": Object {},
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+      intl={
+        Object {
+          "defaultFormats": Object {},
+          "defaultLocale": "en",
+          "formatDate": [Function],
+          "formatHTMLMessage": [Function],
+          "formatMessage": [Function],
+          "formatNumber": [Function],
+          "formatPlural": [Function],
+          "formatRelative": [Function],
+          "formatTime": [Function],
+          "formats": Object {},
+          "formatters": Object {
+            "getDateTimeFormat": [Function],
+            "getMessageFormat": [Function],
+            "getNumberFormat": [Function],
+            "getPluralFormat": [Function],
+            "getRelativeFormat": [Function],
+          },
+          "locale": "en",
+          "messages": Object {},
+          "now": [Function],
+          "onError": [Function],
+          "textComponent": "span",
+          "timeZone": null,
+        }
+      }
+      location={
+        Object {
+          "hash": "",
+          "key": "",
+          "pathname": "",
+          "search": "",
+          "state": Object {},
+        }
+      }
+      logo=""
+      match={
+        Object {
+          "isExact": true,
+          "params": Object {},
+          "path": "",
+          "url": "",
+        }
+      }
+      showMobileNavigation={false}
+      showStartSessionButton={false}
+      staticContext={Object {}}
+      user={
+        Object {
+          "attributes": Object {
+            "firstName": "Keke",
+            "lastName": "Roseberg",
+          },
+        }
+      }
+    />
+    <Connect(withRouter(OnClickOutside(NavBarButtons)))
+      flux={
+        Object {
+          "persist": [Function],
+          "reduxStore": Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          },
+        }
+      }
+    />
+  </div>
+</nav>
+`;

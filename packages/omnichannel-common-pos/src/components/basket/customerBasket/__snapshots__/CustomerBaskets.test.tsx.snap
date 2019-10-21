@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerBaskets succeeds at shallow mount with min props 1`] = `
+<div
+  className="CustomerBaskets"
+>
+  <OcModal
+    bsSize="large"
+    className="CustomerBaskets-modal"
+    enforceFocus={true}
+    hideCloseButton={false}
+    id="select-customer-basket-modal"
+    keyboard={true}
+    largeModal={true}
+    okButtonLabel={
+      <FormattedMessageWrapper
+        defaultMessage="Create new basket"
+        description="Create new basket"
+        id="customer-baskets-create-new-basket-text"
+        wrapperType="wrapper"
+      />
+    }
+    onClose={[Function]}
+    onOk={[Function]}
+    showModal={true}
+    title={
+      <FormattedMessageWrapper
+        defaultMessage="Basket List"
+        description="Customer basket selection, POS, Select Basket modal title"
+        id="customer-basket-select-modal-title"
+        wrapperType="wrapper"
+      />
+    }
+  >
+    <div
+      className="CustomerBaskets-main-container"
+    >
+      <div
+        className="CustomerBaskets-customer-baskets-disclaimer"
+      >
+        <i
+          className="fa fa-info-circle CustomerBaskets-customer-baskets-info-icon"
+        />
+        <FormattedMessageWrapper
+          defaultMessage="Select a basket you want to continue with or create a new basket"
+          description="Select a basker or create new one in POS after existing customer selection"
+          id="customer-baskets-information-message"
+          wrapperType="wrapper"
+        />
+      </div>
+      <div
+        className="CustomerBaskets-basket-list-widget"
+      >
+        <OcListWidget
+          accordionListStyle={
+            Object {
+              "borderBottom": "1px solid #e5e5e5",
+              "borderTop": "1px solid #e5e5e5",
+              "paddingTop": "15px",
+              "width": "98%",
+            }
+          }
+          expanded={true}
+          expansionDisabled={false}
+          headers={
+            Array [
+              <FormattedMessageWrapper
+                defaultMessage="Basket Reference Number"
+                description="Basket Reference Number, table header, POS, Customer open baskets modal"
+                id="customer-baskets-table-header-basket-reference-number"
+                wrapperType="wrapper"
+              />,
+              <FormattedMessageWrapper
+                defaultMessage="Number of items"
+                description="Number of items, table header, POS, Customer open baskets modal"
+                id="customer-baskets-table-header-number-of-items"
+                wrapperType="wrapper"
+              />,
+              <FormattedMessageWrapper
+                defaultMessage="Created"
+                description="last Modified date table header, POS, Customer open baskets modal"
+                id="customer-baskets-table-header-create-time"
+                wrapperType="wrapper"
+              />,
+              <FormattedMessageWrapper
+                defaultMessage="Last Modified"
+                description="last Modified date, table header, POS, Customer open baskets modal"
+                id="customer-baskets-table-header-modification-time"
+                wrapperType="wrapper"
+              />,
+              <FormattedMessageWrapper
+                defaultMessage="Status"
+                description="Basket item life-cycle staus"
+                id="customer-basket-item-status"
+                wrapperType="wrapper"
+              />,
+            ]
+          }
+          id="customer-baskets-widget"
+          layout={
+            Array [
+              Object {
+                "cursor": "pointer",
+                "display": "flex",
+                "flex": 9,
+                "justifyContent": "flex-start",
+                "overflow": "hidden",
+              },
+              Object {
+                "display": "flex",
+                "flex": 3.5,
+                "justifyContent": "flex-start",
+                "overflow": "hidden",
+              },
+              Object {
+                "display": "flex",
+                "flex": 3.5,
+                "justifyContent": "flex-start",
+                "overflow": "hidden",
+              },
+              Object {
+                "display": "flex",
+                "flex": 3.5,
+                "justifyContent": "flex-start",
+                "overflow": "hidden",
+              },
+              Object {
+                "display": "flex",
+                "flex": 2.5,
+                "justifyContent": "flex-start",
+                "overflow": "hidden",
+              },
+            ]
+          }
+          rows={Array []}
+          titleDisabled={false}
+          toggleExpanded={[Function]}
+        />
+      </div>
+    </div>
+  </OcModal>
+</div>
+`;

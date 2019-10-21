@@ -1,0 +1,135 @@
+.NavBar {
+
+	$item-spacing-x: 7px;
+
+	&-b2c#w-app-header {
+		padding: {
+			top: 5px;
+			bottom: 5px;
+		}
+	}
+
+	&-actions#w-app-actions {
+		> div {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+	}
+
+	&-global-navi {
+		display: flex;
+		flex: 1 0;
+	}
+
+	&-channels {
+		display: none;
+	}
+
+	&Buttons {
+		display: flex;
+		> * {
+			margin-left: $item-spacing-x;
+		}
+		&-basket {
+			position: relative;
+		}
+	}
+
+	&image-props {
+		max-height: 35px;
+	}
+
+	&CurrencySelection-container,
+	&Buttons-basket .w-action-item-label-children,
+	&Buttons-mobile .w-action-item-label,
+	&Buttons-sign-in {
+		display: none;
+	}
+
+	@include media-breakpoint-up($b2c-tablet-nav-breakpoint){
+		&-branding-and-channels {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			margin-left: 16px;
+		}
+
+		&-channels {
+			display: flex;
+			align-items: center;
+			font-size: $font-size-lg;
+			margin-left: 1.5rem;
+		}
+
+		&-channel {
+			color: $b2c-nav-item-color-base;
+			&:hover, &:focus, &:active {
+				color:  $b2c-nav-item-color-hover;
+				text-decoration: none;
+			}
+			& + & {
+				margin-left: 1rem;
+			}
+			&-active {
+				&, &:hover, &:focus, &:active {
+					color:  $b2c-nav-item-color-active;
+				}
+			}
+		}
+
+		&CurrencySelection-container {
+			display: block;
+		}
+
+		&Buttons {
+			&-basket .w-action-item-label-children {
+				display: inline-block;
+			}
+			&-sign-in {
+				display: block;
+				position: relative;
+			}
+			&-mobile {
+				display: none;
+			}
+		}
+	}
+
+	@include media-breakpoint-up($b2c-desktop-nav-breakpoint){
+		&-customer-selection#w-app-search {
+			position: relative;
+			width: 420px;
+		}
+		&-customer-list-dropdown.dropdown-menu {
+			min-width: 100%;
+		}
+		&-customer-list-searching,
+		&-customer-list-nothing-found {
+			font-size: $font-size-lg;
+			padding: $table-cell-padding;
+			color: gray("500");
+			margin: 0;
+		}
+		&-customer-list-table {
+			margin-bottom: 0;
+			white-space: nowrap;
+		}
+		&-customer-list-footer-button {
+			display: block;
+			padding: $table-cell-padding;
+		}
+
+		&SessionButton {
+			margin-left: 16px;
+			line-height: 1.4;
+			a {
+				color: $weasel-navbar-text-color;
+			}
+		}
+
+		.ChangeLanguage-container {
+			margin-left: $item-spacing-x;
+		}
+	}
+}

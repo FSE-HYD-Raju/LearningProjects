@@ -1,0 +1,41 @@
+@import '../../../../variables';
+
+.AddonConfigurationModal {
+
+	&-message-container {
+		display: flex;
+		align-items: flex-start;
+		padding: 1.25rem;
+	}
+
+	&-message-container > div {
+		display: flex;
+	}
+
+	&-product-name-label {
+		font-weight: bold;
+		margin-left: 1.2rem;
+	}
+
+	&-poc-container {
+		padding: 1.25rem;
+	}
+
+	&-container {
+		padding: 1.2rem;
+		margin: 2rem -1.2rem -1.2rem;
+		background: #fafafa;
+		border-top: $modal-header-border-color solid 1px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&-failure-message-container {
+		margin: 1.25rem;
+	}
+
+	&-full-width {
+		width: 100%;
+	}
+}

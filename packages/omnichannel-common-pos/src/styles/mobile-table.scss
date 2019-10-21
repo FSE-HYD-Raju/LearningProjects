@@ -1,0 +1,52 @@
+// Collapsed table styles for mobile
+// Use inside a table selector (e.g. '.MyComponent-list') and pass the namespace for td elements with key-value setup
+// as a parameter (e.g. '.MyComponent' or '.MyComponentItem')
+
+@mixin mobile-table($namespace, $key-min-width: 6rem, $breakpoint-down: xs, $breakpoint-up: sm) {
+  @include media-breakpoint-down($breakpoint-down){
+    thead, tfoot {
+      display: none;
+    }
+
+    &, tbody, td, th {
+      display: block;
+      padding: 0;
+      border: 0;
+    }
+
+    tr {
+      display: flex;
+      flex-direction: column;
+      padding: $oc-tile-table-padding;
+      border: 1px solid $oc-tile-table-border-color;
+      border-radius: $oc-tile-table-radius;
+      box-shadow: $oc-tile-table-shadow;
+      + tr {
+        margin-top: $oc-tile-table-spacing;
+      }
+    }
+
+    #{$namespace}-key-value {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    #{$namespace}-key {
+      display: block;
+      color: gray("400");
+      margin-right: .5rem;
+      min-width: $key-min-width;
+    }
+
+    #{$namespace}-highlight {
+      font-size: $h5-font-size;
+      margin: .3rem 0;
+    }
+  }
+
+  @include media-breakpoint-up($breakpoint-up){
+    #{$namespace}-key-value #{$namespace}-key {
+      display: none;
+    }
+  }
+}

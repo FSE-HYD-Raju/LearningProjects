@@ -1,0 +1,32 @@
+@import '~omnichannel-common-pos/src/styles/_variables.scss';
+
+.TopBar {
+	display: flex;
+
+	&-container {
+		display: none;
+	}
+
+	&-global-heading {
+		flex: 1 0;
+	}
+
+	@include media-breakpoint-up($pos-tablet-nav-breakpoint) {
+		&-container {
+			align-items: stretch;
+			background: $pos-nav-background-base;
+			border-radius: 0 0 $border-radius $border-radius;
+			color: $pos-nav-item-color-base;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin: 0 $weasel-body-margin-base;
+			position: relative;
+		}
+		&-location-selection {
+			flex: 0 0 100%;
+			position: relative;
+		}
+	}
+}

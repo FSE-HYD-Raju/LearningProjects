@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceItem succeeds at shallow mount with min props 1`] = `
+<div
+  className="PriceItem-price"
+>
+  <OcCurrency
+    currency="EUR"
+    style={
+      Object {
+        "visibility": "hidden",
+      }
+    }
+  />
+  <span
+    className="PriceItem-price-type"
+    style={
+      Object {
+        "visibility": "hidden",
+      }
+    }
+  >
+    <FormattedMessageWrapper
+      defaultMessage="activation"
+      description="Plan price, price activation"
+      id="plan-list-price-tag-upfront"
+      wrapperType="wrapper"
+    />
+  </span>
+</div>
+`;

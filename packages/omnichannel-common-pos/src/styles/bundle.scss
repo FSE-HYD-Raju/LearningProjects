@@ -1,0 +1,23 @@
+// Weasel-styles
+
+$weasel-window-background-base: #22638f !default;
+$weasel-font-path: '~weasel-styles/fonts';
+$fa-font-path: $weasel-font-path;
+$weasel-show-sidebar: false;
+
+@import '~weasel-styles/sass/weasel-styles.sass';
+@import '~weasel-styles/sass/weasel-chrome.sass';
+@import './overrides.scss';
+@import './branding.scss';
+
+@import './ssc.scss';
+@import './react-bootstrap-switch.scss';
+
+@import './key-value-list.scss';
+@import './tile-table.scss';
+@import './mobile-table.scss';
+
+@import './b2c-body.scss';
+@import "./css-grid.scss";
+
+@import './global.scss';

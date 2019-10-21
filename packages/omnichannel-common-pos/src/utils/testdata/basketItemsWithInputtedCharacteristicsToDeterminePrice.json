@@ -1,0 +1,323 @@
+{
+	"id": "2bd61362-2256-473d-a6ae-7484f9c1cdd9",
+	"type": "basketItems",
+	"attributes": {
+		"createdAt": "2017-09-03T13:54:01.631Z",
+		"product": {
+			"categories": [],
+			"commercialEnrichments": [
+				{
+					"conditions": {
+						"memory": "32Gb",
+						"color": "white"
+					},
+					"descriptions": {},
+					"media": {
+						"thumbnail-image": "http://www.zamzung.com/phones/s5/pic1.png"
+					},
+					"names": {
+						"long-name": "Zamzung Anarchy S5 32Gb white"
+					}
+				},
+				{
+					"conditions": {
+						"memory": "32Gb",
+						"color": "black"
+					},
+					"descriptions": {},
+					"media": {
+						"thumbnail-image": "http://www.zamzung.com/phones/s5/pic2.png"
+					},
+					"names": {
+						"long-name": "Zamzung Anarchy S5 32Gb black"
+					}
+				},
+				{
+					"conditions": {},
+					"descriptions": {},
+					"media": {
+						"thumbnail-image": "http://www.zamzung.com/phones/s5/pic2.png"
+					},
+					"names": {
+						"long-name": "Zamzung Anarchy S5 64Gb black"
+					}
+				},
+				{
+					"conditions": {
+						"memory": "32Gb",
+						"color": "blue"
+					},
+					"descriptions": {
+					},
+					"media": {
+						"thumbnail-image": "http://www.zamzung.com/phones/s5/pic3.png"
+					},
+					"names": {
+						"long-name": "Zamzung Anarchy S5 32Gb blue"
+					}
+				},
+				{
+					"conditions": {},
+					"descriptions": {
+					},
+					"media": {
+						"thumbnail-image": "http://www.zamzung.com/phones/s5/pic1.png"
+					},
+					"names": {
+						"long-name": "Zamzung Anarchy S5 64Gb white"
+					}
+				},
+				{
+					"conditions": {
+					},
+					"descriptions": {},
+					"media": {
+						"thumbnail-image": "http://www.zamzung.com/phones/s5/pic3.png"
+					},
+					"names": {
+						"long-name": "Zamzung Anarchy S5 64Gb blue"
+					}
+				},
+				{
+					"conditions": {},
+					"descriptions": {
+						"detailed": "The Anarchy S5 is the best Zamzung mobile phone by far. Water resistant up to 1 meter and 30 minutes."
+					},
+					"media": {},
+					"names": {
+						"short-name": "Zamzung Anarchy S5"
+					}
+				}
+			],
+			"featureCharacteristics": [
+				{
+					"value": "water resistant",
+					"name": "Water Resistant"
+				},
+				{
+					"value": "multitouch",
+					"name": "Multitouch"
+				},
+				{
+					"value": "Gorilla Glass 3",
+					"name": "Gorilla Glass 3"
+				}
+			],
+			"id": "zamzung-po",
+			"name": "Zamzung Anarchy S5",
+			"inputCharacteristics": {
+				"memory": {
+					"values": [
+						{
+							"value": "32Gb",
+							"name": "32Gb"
+						},
+						{
+							"value": "64Gb",
+							"name": "64Gb"
+						}
+					],
+					"description": null,
+					"source": null,
+					"subType": null,
+					"mandatory": true,
+					"validation": null,
+					"name": "Memory",
+					"priority": null
+				},
+				"color": {
+					"values": [
+						{
+							"value": "black",
+							"name": "black"
+						},
+						{
+							"value": "white",
+							"name": "white"
+						},
+						{
+							"value": "blue",
+							"name": "blue"
+						}
+					],
+					"description": null,
+					"source": null,
+					"subType": null,
+					"mandatory": true,
+					"validation": null,
+					"name": "Color",
+					"priority": null
+				},
+				"serial-number": {
+					"values": [],
+					"description": null,
+					"source": null,
+					"subType": null,
+					"mandatory": true,
+					"validation": null,
+					"name": "Serial Number",
+					"priority": null
+				}
+			},
+			"instanceCharacteristics": {
+				"os": {
+					"values": [
+						{
+							"value": "Android v4",
+							"name": "Android v4"
+						}
+					],
+					"description": null,
+					"source": null,
+					"subType": null,
+					"mandatory": false,
+					"validation": null,
+					"name": "OS",
+					"priority": null
+				},
+				"sim-type": {
+					"values": [
+						{
+							"value": "nano",
+							"name": "nano"
+						}
+					],
+					"description": null,
+					"source": null,
+					"subType": null,
+					"mandatory": false,
+					"validation": null,
+					"name": "Sim Type",
+					"priority": null
+				},
+				"secondary-camera": {
+					"values": [
+						{
+							"value": "2MP f/2.4",
+							"name": "2MP f/2.4"
+						}
+					],
+					"description": null,
+					"source": null,
+					"subType": null,
+					"mandatory": false,
+					"validation": null,
+					"name": "Secondary Camera",
+					"priority": null
+				},
+				"primary-camera": {
+					"values": [
+						{
+							"value": "16MP f/2.2",
+							"name": "16MP f/2.2"
+						}
+					],
+					"description": null,
+					"source": null,
+					"subType": null,
+					"mandatory": false,
+					"validation": null,
+					"name": "Primary Camera",
+					"priority": null
+				},
+				"resolution": {
+					"values": [
+						{
+							"value": "1080x1920",
+							"name": "1080x1920"
+						}
+					],
+					"description": null,
+					"source": null,
+					"subType": null,
+					"mandatory": false,
+					"validation": null,
+					"name": "Resolution",
+					"priority": null
+				},
+				"brand": {
+					"values": [
+						{
+							"value": "Zamzung",
+							"name": "Zamzung"
+						}
+					],
+					"description": null,
+					"source": null,
+					"subType": null,
+					"mandatory": false,
+					"validation": null,
+					"name": "Brand",
+					"priority": null
+				}
+			},
+			"prices": [
+				{
+					"type": "ONE_TIME",
+					"name": null,
+					"chargedUnit": {
+						"amount": 1,
+						"currency": null,
+						"unitOfMeasure": "PIECES"
+					},
+					"taxAmount": null,
+					"taxFreeAmount": 495,
+					"taxRate": 0,
+					"recurringChargePeriod": null,
+					"currency": "EUR",
+					"conditions": {
+						"memory": "64Gb"
+					},
+					"originalPrice": null
+				},
+				{
+					"type": "ONE_TIME",
+					"name": null,
+					"chargedUnit": {
+						"amount": 1,
+						"currency": null,
+						"unitOfMeasure": "PIECES"
+					},
+					"taxAmount": null,
+					"taxFreeAmount": 245,
+					"taxRate": 0,
+					"recurringChargePeriod": null,
+					"currency": "EUR",
+					"conditions": {
+						"memory": "32Gb"
+					},
+					"originalPrice": null
+				}
+			],
+			"priority": null,
+			"productOfferingGroups": [],
+			"productOfferings": [],
+			"specificationId": "zamzung",
+			"msisdns": null,
+			"bundlingProductOfferings": null
+		},
+		"targetAgreementId": null,
+		"quantity": 1,
+		"lastModifiedAt": "2017-09-03T13:54:01.631Z",
+		"inputtedCharacteristics": {
+			"memory": "64Gb",
+			"color": "white"
+		},
+		"totalPrices": [],
+		"childBasketItems": [],
+		"action": null,
+		"unitPrices": []
+	},
+	"relationships": {
+		"basket": {
+			"data": {
+				"id": "647234ca-dfad-4fac-85d5-7711ba6c1968",
+				"type": "baskets"
+			},
+			"links": {
+				"self": "http://127.0.0.1:8080/omnichannel-api/api/v0/basketItems/2bd61362-2256-473d-a6ae-7484f9c1cdd9/relationships/basket",
+				"related": "http://127.0.0.1:8080/omnichannel-api/api/v0/basketItems/2bd61362-2256-473d-a6ae-7484f9c1cdd9/basket"
+			}
+		}
+	}
+}

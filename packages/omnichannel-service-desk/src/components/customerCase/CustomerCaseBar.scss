@@ -1,0 +1,38 @@
+$primary-color: #eeeeee;
+$gray-color: #9a9a9a;
+$gray-blue: #c2d6e3;
+
+$semi-transparent: rgba(255, 255, 255, 0.15);
+$active: rgba(255, 255, 255, 0.2)!important;
+$border-color: #b1bddd;
+
+.CustomerCaseBar {
+	&-container {
+
+	}
+
+	&-customer-info-icon {
+		margin: 0 10px 0 7px;
+	}
+
+	&-customer-info-headline {
+		font-size: $font-size-lg;
+	}
+
+	&-customer-info-address, &-customer-account-id {
+		color: rgba($weasel-navbar-text-color, 0.8);
+		border-left: 1px solid rgba($weasel-navbar-text-color, 0.2);
+		margin-left: 10px;
+		padding-left: 10px;
+	}
+
+	&-button.btn.btn-context {
+		&:hover, &:focus, &:active {
+			border-left-color: rgba($weasel-navbar-text-color, 0.7);
+		}
+	}
+
+	&-customer-session-button {
+		margin-left: 4px;
+	}
+}

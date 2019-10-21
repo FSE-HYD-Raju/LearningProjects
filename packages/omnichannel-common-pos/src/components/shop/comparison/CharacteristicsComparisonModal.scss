@@ -1,0 +1,150 @@
+$dark-blue: #1f2f5d;
+$border-color: rgb(215, 215, 215);
+$blue: #4287B7;
+
+.CharacteristicsComparisonModal {
+	&-outer-container {
+		margin: 0 auto 10px;
+		padding: 0 10px;
+		overflow: auto;
+	}
+
+	&-container {
+		display: flex;
+		margin: 10px auto;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	&-inner-container {
+		display: flex;
+	}
+
+	&-item-container {
+		padding: 20px;
+		border: 1px solid lightgray;
+	}
+
+	&-item-container:not(:first-child) {
+		border-left: none;
+	}
+
+	&-tablebody {
+		padding: 0;
+	}
+
+	&-item-detail {
+		border: 1px solid lightgray;
+		display: inline-block;
+		padding: 20px;
+	}
+
+	&-corner,
+	&-corner-with-border {
+		display: inline-block;
+		height: 43px;
+		min-width: 100px;
+	}
+
+	&-corner-with-border {
+		border-top: 1px solid lightgray;
+	}
+
+	&-tableheader {
+		border-left: 1px solid lightgray;
+		display: inline-block;
+		margin: 0;
+		min-width: 160px;
+		max-width: 160px;
+		padding: 0 0 0 5px;
+	}
+
+	&-mugshot {
+		font-weight: bold;
+		height: auto;
+	}
+
+	&-character-name {
+		border-top: 1px solid lightgray;
+		font-weight: bold;
+		height: 43px;
+		flex-wrap: wrap;
+		margin: 0;
+		min-width: 100px;
+		padding: 20px 0 20px 0;
+		text-transform: capitalize;
+		justify-content: space-between;
+		flex: 0.5;
+		display: flex;
+	}
+
+	&-item-price {
+		min-height: 50px;
+	}
+
+	&-item-details {
+		position: relative;
+	}
+
+	&-item-container:not(:first-child) {
+		border-left: none;
+	}
+
+	&-item-name {
+		text-align: center;
+		font-size: 16px;
+		margin: 10px auto;
+		padding-bottom: 10px;
+		color: darkgray;
+		border-bottom: 1px solid #eee;
+	}
+
+	&-detail {
+		display: flex;
+		flex: 1;
+		justify-content: space-around;
+		border-top: 1px solid lightgray;
+		border-left: 1px solid lightgray;
+		font-size: 16px;
+		height: 60px;
+		margin: 0;
+		flex-wrap: wrap;
+		min-width: 160px;
+		padding: 18px 0 0 5px;
+	}
+
+	&-item-to-basket {
+		display: flex;
+		justify-content: space-around;
+		flex: 0.5;
+		flex-wrap: wrap;
+		border-top: 1px solid lightgray;
+		border-left: 1px solid lightgray;
+		margin: 0;
+		min-width: 160px;
+		max-width: 160px;
+		padding: 5px 0 10px 0;
+		text-align: center;
+	}
+
+	&-no-characteristics {
+		display: flex;
+		margin-top: 20px;
+		padding: 10px;
+		color: $blue;
+		align-items: center;
+		align-self: center;
+		justify-content: center
+	}
+
+	&-items-container {
+		display: flex;
+		flex: 1;
+		flex-wrap: unset;
+	}
+
+	&-instance-characteristics {
+		display: flex;
+		flex: 1;
+	}
+}

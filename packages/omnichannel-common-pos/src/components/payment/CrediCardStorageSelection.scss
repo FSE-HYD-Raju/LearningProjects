@@ -1,0 +1,15 @@
+@import '~omnichannel-common-pos/src/styles/_variables.scss';
+.CreditCardStorageSelection {
+
+	$subitem-indent: $custom-control-indicator-size + $custom-control-gutter;
+
+	&-credit-card-storage-description {
+		margin: .5rem 0 0 $subitem-indent;
+	}
+
+	&-payment-recurring-top-up-container {
+		margin: 1rem 0 0 $subitem-indent;
+		border-top: 1px solid gray("200");
+		padding-top: 1rem;
+	}
+}

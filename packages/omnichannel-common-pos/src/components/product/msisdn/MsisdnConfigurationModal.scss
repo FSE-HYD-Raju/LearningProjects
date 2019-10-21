@@ -1,0 +1,38 @@
+@import '../../../variables.scss';
+
+.MsisdnConfigurationModal {
+	display: flex;
+	align-items: flex-start;
+
+	&-modal-container {
+		display: flex;
+	}
+	&-pattern-selector {
+		flex: 2;
+		height: fit-content;
+	}
+	&-price-component {
+		flex: 2;
+		margin-left: 8rem;
+		border-bottom: $border-bottom;
+		box-shadow: $box-shadow;
+		height: fit-content;
+	}
+	&-button-wrapper {
+		padding: 20px;
+		background: $background-color;
+		border-top: $border-top;
+	}
+    @include media-breakpoint-between(xs, sm) {
+		&-modal-container {
+			display: block;
+		}
+		&-pattern-selector {
+			flex: 4;
+		}
+		&-price-component {
+			flex: 4;
+			margin-left: unset;
+		}
+	}
+}

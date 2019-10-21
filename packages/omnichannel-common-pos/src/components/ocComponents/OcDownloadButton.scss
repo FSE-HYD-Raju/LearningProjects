@@ -1,0 +1,11 @@
+.OcDownloadButton {
+    border: 1px solid #DCDCDC;
+    color: theme-color("primary");
+    font-weight: 400;
+    text-transform: none;
+    &::before {
+        content: '\f019';
+        font-family: FontAwesome;
+        padding: 5px 15px 0 0;
+    }
+}

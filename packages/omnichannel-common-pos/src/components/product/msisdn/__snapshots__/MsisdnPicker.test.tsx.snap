@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MsisdnPicker succeeds at shallow mount without props 1`] = `
+<div>
+  <div
+    className="MsisdnPicker-msisdnSelectTable"
+  >
+    <OcInput
+      checked={true}
+      className="MsisdnPicker-msisdn-input"
+      id="choosePickNewNumber-0"
+      key="choosePickNewNumber-0"
+      label="1234567"
+      name="numberSelect"
+      onChange={[Function]}
+      type="radio"
+    />
+    <OcInput
+      checked={false}
+      className="MsisdnPicker-msisdn-input"
+      id="choosePickNewNumber-1"
+      key="choosePickNewNumber-1"
+      label="1232323"
+      name="numberSelect"
+      onChange={[Function]}
+      type="radio"
+    />
+    <OcInput
+      checked={false}
+      className="MsisdnPicker-msisdn-input"
+      id="choosePickNewNumber-2"
+      key="choosePickNewNumber-2"
+      label="2132132"
+      name="numberSelect"
+      onChange={[Function]}
+      type="radio"
+    />
+  </div>
+</div>
+`;

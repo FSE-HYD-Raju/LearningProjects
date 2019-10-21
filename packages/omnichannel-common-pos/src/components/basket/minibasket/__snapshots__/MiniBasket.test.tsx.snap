@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MiniBasket succeeds at shallow mount with minimal props 1`] = `
+<div
+  className="MiniBasket w-box MiniBasket-empty-basket"
+>
+  <h3>
+    <FormattedMessageWrapper
+      defaultMessage="Basket"
+      description="Title for mini basket"
+      id="sd-minibasket-title"
+      wrapperType="wrapper"
+    />
+  </h3>
+  <Connect(ActiveAgreementSelect)
+    flux={
+      Object {
+        "actions": Object {
+          "BasketActions": Object {},
+          "CustomerCaseActions": Object {
+            "changeCustomerActiveAgreement": [MockFunction],
+          },
+          "DigitalLifeActions": Object {
+            "getAgreement": [MockFunction],
+          },
+          "POSCheckoutActions": Object {
+            "setPOSDeliveryType": Object {
+              "defer": [Function],
+            },
+          },
+        },
+        "reduxStore": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "stores": Object {
+          "BasketStore": Object {},
+          "DigitalLifeStore": Object {},
+          "POSCheckoutStore": Object {},
+          "UserStore": Object {},
+        },
+      }
+    }
+  />
+  <div
+    className="MiniBasket-empty-basket-message"
+  >
+    <i
+      className="fa fa-shopping-cart MiniBasket-empty-basket-icon"
+    />
+    <FormattedMessageWrapper
+      defaultMessage="Basket is empty"
+      description="Minibasket, basket is empty"
+      id="sd-minibasket-basket-is-empty"
+      wrapperType="wrapper"
+    />
+  </div>
+</div>
+`;

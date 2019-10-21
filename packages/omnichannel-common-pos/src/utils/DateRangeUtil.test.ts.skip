@@ -1,0 +1,25 @@
+import { DateRangeUtil } from "./DateRangeUtil";
+
+/**
+ * Below tests will fail when run in different timezone, as expected formatted date range strings mentioned in toBe are not timezone adaptable
+ * However, adding this test file to repo to use locally in development machines / to demonstrate how DateRangeUtil.format() works
+ */
+describe("DateRangeUtil", () => {
+	describe("format", () => {
+		it("should return nice format when both datetime parts are different", () => {
+			expect(DateRangeUtil.format("2019-06-06T15:56:27.999+05:30", "2019-06-07T15:56:27.999+05:30")).toBe("Jun 6, 3:56 PM - Jun 7, 3:56 PM");
+		});
+		it("should return nice format when dates are in different years", () => {
+			expect(DateRangeUtil.format("2019-06-06T15:56:27.999+05:30", "2020-06-07T15:56:27.999+05:30")).toBe("Jun 6, 2019, 3:56 PM - Jun 7, 2020, 3:56 PM");
+		});
+		it("should return nice format when dates are equals but time parts are different by a minute", () => {
+			expect(DateRangeUtil.format("2019-06-06T15:56:27.999+05:30", "2019-06-06T15:57:27.999+05:30")).toBe("Jun 6, 3:56 - 3:57 PM");
+		});
+		it("should return nice format when time parts are AM and PM", () => {
+			expect(DateRangeUtil.format("2019-06-06T02:56:27.999+05:30", "2019-06-06T15:57:27.999+05:30")).toBe("Jun 6, 2:56 AM - 3:57 PM");
+		});
+		it("would return empty string when both startDateTime and endDateTime are equal", () => {
+			expect(DateRangeUtil.format("2019-06-06T02:56:27.999+05:30", "2019-06-06T02:56:27.999+05:30")).toBe("");
+		});
+	});
+});

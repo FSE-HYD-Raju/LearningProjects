@@ -1,0 +1,114 @@
+.GridProduct {
+	&-cell {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0;
+	}
+	&-information-block {
+		display: flex;
+		flex-direction: column;
+		order: 1;
+		width: 100%;
+		padding: 1rem;
+	}
+	&-image {
+		width: 100%;
+	}
+	&-caption {
+		width: 100%;
+		font-weight: 600;
+		font-size: 1.125rem;
+		padding: 0 0 1rem 0;
+	}
+	&-select-plan {
+		padding: 0 0 1rem 0;
+		&-button {
+			display: block;
+			width: 100%;
+			margin: 0 auto;
+		}
+	}
+	&-plan-details {
+		text-align: center;
+	}
+	&-plan-services {
+		display: flex;
+		flex-direction: column;
+		padding: 0 0 0.625rem 0;
+		.AllowanceInfoRow {
+			&-container {
+				padding: 0 0 0.25rem 0;
+			}
+			&-label {
+				font-size: 0.875rem;
+				font-weight: 500;
+			}
+			&-value {
+				font-weight: 700;
+			}
+		}
+	}
+	&-prices-block {
+		display: flex;
+		flex-direction: row;
+		padding: 0 0 1rem 0;
+		justify-content: start;
+	}
+
+	@include media-breakpoint-up(sm) {
+		&-caption {
+			padding: 0 0 2rem 0;
+		}
+		&-cell {
+			flex-direction: row;
+		}
+		div &-information-block {
+			order: 0;
+			width: 50%;
+			padding: 2rem;
+		}
+		&-image {
+			flex: 0 1 50%;
+		}
+		&-select-plan-or-details-block {
+			display: flex;
+			flex-direction: row;
+		}
+		&-select-plan {
+			width: 50%;
+
+		}
+		&-plan-services {
+			flex-direction: row;
+			padding: 0 0 1.625rem 0;
+			.AllowanceInfoRow {
+				&-container {
+					padding: 0 1.25rem 0 0;
+				}
+			}
+		}
+		&-plan-details {
+			display: flex;
+			align-items: center;
+			width: 50%;
+			padding: 0;
+			text-align: left;
+		}
+		&-prices-block {
+			padding: 0 0 2rem 0;
+			.LargePrice {
+				padding-right: 2rem;
+			}
+		}
+		&-select-plan {
+			padding: 0 2rem 0 0;
+		}
+	}
+	.ShopProductImage-image {
+		@include media-breakpoint-up(sm) {
+			max-height: 17rem;
+		}
+	}
+}
+

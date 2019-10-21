@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CallForwardingConfigurationForm succeeds at shallow mount with min props 1`] = `
+<div
+  className="CallForwardingConfigurationForm"
+>
+  <Uncontrolled(Form)
+    onChange={[MockFunction]}
+    schema={Object {}}
+    value={
+      Object {
+        "type": "",
+      }
+    }
+  >
+    <div
+      className="CallForwardingConfigurationForm-toggle-super-switch-container"
+    >
+      <div>
+        <OcToggle
+          disabledLabel={
+            <FormattedMessageWrapper
+              defaultMessage="Off"
+              description="Toggle off position"
+              id="call-forward-toggler-off-text"
+              wrapperType="wrapper"
+            />
+          }
+          enabledLabel={
+            <FormattedMessageWrapper
+              defaultMessage="On"
+              description="Toggle on position"
+              id="call-forward-toggler-on-text"
+              wrapperType="wrapper"
+            />
+          }
+          handleClick={[MockFunction]}
+          id="call-forwarding-toggle-super-switch"
+        />
+      </div>
+    </div>
+    <div
+      className="CallForwardingConfigurationForm-forward-all-calls-container"
+    >
+      <div
+        className="CallForwardingConfigurationForm-radio-button"
+      >
+        <OcInput
+          checked={false}
+          id="call-forward-radio-forward-all-calls"
+          label={
+            <FormattedMessageWrapper
+              defaultMessage="Forward all calls"
+              description="Call forwarding, Forward all calls radio button, label"
+              id="call-forward-radio-forward-all-calls-label"
+              wrapperType="wrapper"
+            />
+          }
+          onChange={[Function]}
+          type="radio"
+        />
+      </div>
+      <div
+        className="CallForwardingConfigurationForm-phone-number"
+      >
+        <Field
+          exclusive={false}
+          id="forwardAllCallsPhoneNumber"
+          inputType="text"
+          name="configuration.CFUFWD.inputtedCharacteristics.CFMSISDN"
+          placeholder={
+            <FormattedMessageWrapper
+              defaultMessage="Phone number"
+              description="In digital life, CallForwardingConfigurationForm, all calls phone number"
+              id="call-forward-all-phone-number"
+              wrapperType="wrapper"
+            />
+          }
+          required={true}
+          type={[Function]}
+        />
+      </div>
+    </div>
+    <div
+      className="CallForwardingConfigurationForm-forward-if-busy-container"
+    >
+      <div
+        className="CallForwardingConfigurationForm-radio-button"
+      >
+        <OcInput
+          checked={false}
+          id="call-forward-radio-forward-if-busy"
+          label={
+            <FormattedMessageWrapper
+              defaultMessage="Forward if busy"
+              description="Call forwarding, Forward if busy radio button, label"
+              id="call-forward-radio-forward-if-busy-label"
+              wrapperType="wrapper"
+            />
+          }
+          onChange={[Function]}
+          type="radio"
+        />
+      </div>
+      <div
+        className="CallForwardingConfigurationForm-phone-number"
+      >
+        <Field
+          exclusive={false}
+          id="forwardIfBusyPhoneNumber"
+          inputType="text"
+          name="configuration.CFBFWD.inputtedCharacteristics.CFMSISDN"
+          placeholder={
+            <FormattedMessageWrapper
+              defaultMessage="Phone number"
+              description="In digital life, CallForwardingConfigurationForm, if busy phone number placeholder"
+              id="call-forward-if-busy-phone-number"
+              wrapperType="wrapper"
+            />
+          }
+          required={true}
+          type={[Function]}
+        />
+      </div>
+    </div>
+    <div
+      className="CallForwardingConfigurationForm-forward-if-out-of-reach-container"
+    >
+      <div
+        className="CallForwardingConfigurationForm-forward-if-out-of-reach-title"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="if out of reach"
+          description="In digital life, CallForwardingConfigurationForm, if busy out of reach phone number label"
+          id="call-forwarding-forward-if-out-of-reach"
+          wrapperType="wrapper"
+        />
+      </div>
+      <div
+        className="CallForwardingConfigurationForm-phone-number"
+      >
+        <Field
+          exclusive={false}
+          id="forwardIfOutOfReachPhoneNumber"
+          inputType="text"
+          name="configuration.CFNRYFWD.inputtedCharacteristics.CFMSISDN"
+          placeholder={
+            <FormattedMessageWrapper
+              defaultMessage="Phone number"
+              description="In digital life, CallForwardingConfigurationForm, if busy, out of reach phone number"
+              id="call-forward-if-busy-out-of-reach-phone-number"
+              wrapperType="wrapper"
+            />
+          }
+          required={true}
+          type={[Function]}
+        />
+      </div>
+    </div>
+    <div
+      className="CallForwardingConfigurationForm-forward-if-no-answer-container"
+    >
+      <div
+        className="CallForwardingConfigurationForm-forward-if-no-answer-title"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="if no answer"
+          description="In digital life, CallForwardingConfigurationForm, if no answer phone number label"
+          id="call-forwarding-forward-if-no-answer"
+          wrapperType="wrapper"
+        />
+      </div>
+      <div
+        className="CallForwardingConfigurationForm-forward-if-no-answer-opt"
+      >
+        <Field
+          defaultValue=""
+          exclusive={false}
+          id="forwardIfNoAnswerOpt"
+          name="configuration.CFNRYFWD.inputtedCharacteristics.CFTIME"
+          placeholder={
+            <FormattedMessageWrapper
+              defaultMessage="Select"
+              description="Select option"
+              id="call-forward-if-busy-if-no-answer-opt"
+              wrapperType="wrapper"
+            />
+          }
+          type={[Function]}
+        />
+      </div>
+      <div
+        className="CallForwardingConfigurationForm-forward-if-no-answer-phone-number"
+      >
+        <Field
+          exclusive={false}
+          id="forwardIfNoAnswerPhoneNumber"
+          inputType="text"
+          name="configuration.CFNRCFWD.inputtedCharacteristics.CFMSISDN"
+          placeholder={
+            <FormattedMessageWrapper
+              defaultMessage="Phone number"
+              description="In digital life, CallForwardingConfigurationForm, if busy, no answer phone number"
+              id="call-forward-if-busy-if-no-answer-phone-number"
+              wrapperType="wrapper"
+            />
+          }
+          required={true}
+          type={[Function]}
+        />
+      </div>
+    </div>
+  </Uncontrolled(Form)>
+</div>
+`;

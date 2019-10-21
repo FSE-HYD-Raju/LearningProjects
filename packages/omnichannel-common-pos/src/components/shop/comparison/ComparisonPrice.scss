@@ -1,0 +1,18 @@
+.ComparisonPrice {
+	&-container {
+		border-bottom: 0 solid #eee;
+		padding-bottom: 10px;
+	}
+
+	&-prices {
+		margin: 5px 0;
+	}
+
+	&-price-message {
+		font-weight: bold;
+	}
+
+	&-condition {
+		margin-left: 5px;
+	}
+}

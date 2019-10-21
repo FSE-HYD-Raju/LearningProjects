@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BasketItems succeeds at shallow mount with minimal props 1`] = `
+<div
+  className="BasketItems"
+>
+  <table
+    className="table BasketItems-mini-basket-table"
+  >
+    <thead>
+      <tr>
+        <th
+          className="BasketItems-width-50"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="NAME"
+            description="minibasket, table header name"
+            id="minibasket-table-header-name"
+            wrapperType="wrapper"
+          />
+        </th>
+        <th
+          className="BasketItems-width-20"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="RECURRING"
+            description="minibasket, table header recurring"
+            id="minibasket-table-header-recurring"
+            wrapperType="wrapper"
+          />
+        </th>
+        <th
+          className="BasketItems-width-20"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="UPFRONT"
+            description="minibasket, table header upfront"
+            id="minibasket-table-header-upfront"
+            wrapperType="wrapper"
+          />
+        </th>
+        <th
+          className="BasketItems-width-10"
+        />
+      </tr>
+    </thead>
+    <tbody
+      className="BasketItems-total-cost-table"
+    >
+      <tr>
+        <th
+          className="BasketItems-width-50"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="BASKET TOTAL"
+            description="minibasket, table header total"
+            id="minibasket-table-header-total"
+            wrapperType="wrapper"
+          />
+        </th>
+        <th
+          className="BasketItems-width-20"
+        >
+          <span
+            className="BasketItems-recurring"
+          >
+            <span
+              className="BasketItems-prices-by-type"
+            />
+            <span
+              className="oc-currency"
+            >
+              0
+            </span>
+          </span>
+        </th>
+        <th
+          className="BasketItems-width-20"
+        >
+          <span
+            className="BasketItems-upfront"
+          >
+            <span
+              className="BasketItems-prices-by-type"
+            />
+            <span
+              className="oc-currency"
+            >
+              0
+            </span>
+          </span>
+        </th>
+        <th
+          className="BasketItems-width-10"
+        />
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckableAddon succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="card CheckableAddon"
+>
+  <div
+    className="card-body"
+  >
+    <OcInput
+      checked={true}
+      id="CheckableAddon-1"
+      name="nodejs"
+      onChange={[MockFunction]}
+      type="checkbox"
+    />
+    <div
+      className="CheckableAddon-title-block"
+    >
+      <h4
+        className="card-title CheckableAddon-title"
+      >
+        Extra SIM with 4 GB data
+      </h4>
+    </div>
+    <div
+      className="CheckableAddon-price-section text-right"
+    >
+      <span
+        className="CheckableAddon-price"
+      >
+        5.50 $
+      </span>
+      <span
+        className="CheckableAddon-period"
+        data-test-name="period"
+      >
+        <FormattedMessageWrapper
+          defaultMessage=" / mo"
+          description="Monthly price text, shorthand"
+          id="b2c-shop-generic-price-interval-monthly-shorthand"
+          wrapperType="wrapper"
+        />
+      </span>
+    </div>
+    <div
+      className="CheckableAddon-short-description"
+    >
+      Get additional SIM card to use with this card
+    </div>
+    <div
+      className="CheckableAddon-long-description-button"
+    >
+      <OcButton
+        buttonType="LINK"
+        onClick={[Function]}
+      >
+        <FormattedMessageWrapper
+          defaultMessage="View more"
+          description="checkable addon, bottom, view more button"
+          id="checkable-addon-bottom-button-view-more"
+          wrapperType="wrapper"
+        />
+      </OcButton>
+      <CheckableAddonModalComponent
+        descriptionModalVisible={false}
+        longDescription="Get additional SIM card to use with this card"
+        onClose={[Function]}
+        title="Extra SIM with 4 GB data"
+      />
+    </div>
+  </div>
+</div>
+`;

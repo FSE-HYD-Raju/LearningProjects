@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerDetailsNotificationsEdit succeeds at shallow mount without props 1`] = `
+<div
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <Flex
+    alignItems=""
+    alignSelf=""
+    className="CustomerDetailsNotificationsEdit-subDetails-field"
+    flex={1}
+    justifyContent=""
+    style={
+      Object {
+        "margin": "20px 0",
+      }
+    }
+    wrap="nowrap"
+  >
+    <div
+      className="CustomerDetailsNotificationsEdit-subDetails-field-name"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Marketing permissions"
+        description="Pos customer details marketing permissions"
+        id="pos-customer-details-marketing-permissions"
+        wrapperType="wrapper"
+      />
+    </div>
+    <Flex
+      alignItems=""
+      alignSelf=""
+      direction="row"
+      flex={1}
+      justifyContent=""
+      wrap="nowrap"
+    >
+      <Flex
+        alignItems="center"
+        alignSelf=""
+        className="CustomerDetailsNotificationsEdit-toggler"
+        direction="column"
+        flex={1}
+        justifyContent=""
+        wrap="wrap"
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "4px",
+              "textAlign": "center",
+            }
+          }
+        >
+          <FormattedMessageWrapper
+            defaultMessage="Email"
+            description="service-desk, new customer, label email"
+            id="newcustomer-email"
+            wrapperType="wrapper"
+          />
+        </div>
+        <OcToggle
+          disabledLabel={
+            <FormattedMessageWrapper
+              defaultMessage="No"
+              description="Disabled label"
+              id="service-desk-disabled-label"
+              wrapperType="wrapper"
+            />
+          }
+          enabledLabel={
+            <FormattedMessageWrapper
+              defaultMessage="Yes"
+              description="Enabled Label"
+              id="enabled-label"
+              wrapperType="wrapper"
+            />
+          }
+          handleClick={[Function]}
+          id="CustomerDetailsNotificationsEdit-toggler-own-marketing-email"
+        />
+      </Flex>
+      <Flex
+        alignItems="center"
+        alignSelf=""
+        className="CustomerDetailsNotificationsEdit-toggler"
+        direction="column"
+        flex={1}
+        justifyContent=""
+        wrap="wrap"
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "4px",
+              "textAlign": "center",
+            }
+          }
+        >
+          <FormattedMessageWrapper
+            defaultMessage="SMS"
+            description="service-desk, customer details, label sms"
+            id="customer-details-sms"
+            wrapperType="wrapper"
+          />
+        </div>
+        <OcToggle
+          disabledLabel={
+            <FormattedMessageWrapper
+              defaultMessage="No"
+              description="Disabled label"
+              id="service-desk-disabled-label"
+              wrapperType="wrapper"
+            />
+          }
+          enabledLabel={
+            <FormattedMessageWrapper
+              defaultMessage="Yes"
+              description="Enabled Label"
+              id="enabled-label"
+              wrapperType="wrapper"
+            />
+          }
+          handleClick={[Function]}
+          id="CustomerDetailsNotificationsEdit-toggler-own-marketing-sms"
+        />
+      </Flex>
+    </Flex>
+  </Flex>
+  <Flex
+    alignItems=""
+    alignSelf=""
+    className="CustomerDetailsNotificationsEdit-subDetails-field"
+    flex={1}
+    justifyContent=""
+    style={
+      Object {
+        "margin": "20px 0",
+      }
+    }
+    wrap="nowrap"
+  >
+    <div
+      className="CustomerDetailsNotificationsEdit-subDetails-field-name"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="3rd party marketing"
+        description="Pos customer details 3rd party marketing"
+        id="pos-customer-details-third-party-marketing"
+        wrapperType="wrapper"
+      />
+    </div>
+    <Flex
+      alignItems=""
+      alignSelf=""
+      direction="row"
+      flex={1}
+      justifyContent=""
+      wrap="nowrap"
+    >
+      <Flex
+        alignItems="center"
+        alignSelf=""
+        className="CustomerDetailsNotificationsEdit-toggler"
+        direction="column"
+        flex={1}
+        justifyContent=""
+        wrap="wrap"
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "4px",
+              "textAlign": "center",
+            }
+          }
+        >
+          <FormattedMessageWrapper
+            defaultMessage="Email"
+            description="service-desk, new customer, label email"
+            id="newcustomer-email"
+            wrapperType="wrapper"
+          />
+        </div>
+        <OcToggle
+          disabledLabel={
+            <FormattedMessageWrapper
+              defaultMessage="No"
+              description="Disabled label"
+              id="service-desk-disabled-label"
+              wrapperType="wrapper"
+            />
+          }
+          enabledLabel={
+            <FormattedMessageWrapper
+              defaultMessage="Yes"
+              description="Enabled Label"
+              id="enabled-label"
+              wrapperType="wrapper"
+            />
+          }
+          handleClick={[Function]}
+          id="CustomerDetailsNotificationsEdit-toggler-third-party-marketing-email"
+        />
+      </Flex>
+      <Flex
+        alignItems="center"
+        alignSelf=""
+        className="CustomerDetailsNotificationsEdit-toggler"
+        direction="column"
+        flex={1}
+        justifyContent=""
+        wrap="wrap"
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "4px",
+              "textAlign": "center",
+            }
+          }
+        >
+          <FormattedMessageWrapper
+            defaultMessage="SMS"
+            description="service-desk, customer details, label sms"
+            id="customer-details-sms"
+            wrapperType="wrapper"
+          />
+        </div>
+        <OcToggle
+          disabledLabel={
+            <FormattedMessageWrapper
+              defaultMessage="No"
+              description="Disabled label"
+              id="service-desk-disabled-label"
+              wrapperType="wrapper"
+            />
+          }
+          enabledLabel={
+            <FormattedMessageWrapper
+              defaultMessage="Yes"
+              description="Enabled Label"
+              id="enabled-label"
+              wrapperType="wrapper"
+            />
+          }
+          handleClick={[Function]}
+          id="CustomerDetailsNotificationsEdit-toggler-third-party-marketing-sms"
+        />
+      </Flex>
+    </Flex>
+  </Flex>
+  <Flex
+    alignItems=""
+    alignSelf=""
+    className="CustomerDetailsNotificationsEdit-action-buttons"
+    direction="row-reverse"
+    justifyContent=""
+    style={
+      Object {
+        "marginRight": "30px",
+      }
+    }
+    wrap="wrap"
+  >
+    <OcButton
+      buttonType="SUCCESS"
+      htmlBtnType="submit"
+      onClick={[Function]}
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Save"
+        description="Save"
+        id="service-desk-save"
+        wrapperType="wrapper"
+      />
+    </OcButton>
+  </Flex>
+</div>
+`;

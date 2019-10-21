@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewOrganizationInfo succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="organization-creation-success"
+>
+  <FormattedMessageWrapper
+    defaultMessage="Organization was created successfully!"
+    description="Create organizational customer success"
+    id="organization-creation-form-success"
+    wrapperType="wrapper"
+  />
+  <footer
+    className="customerDataFormFooter modal-footer"
+  >
+    <OcButton
+      buttonType="SUCCESS"
+      htmlBtnType="submit"
+      id="organization-creation-success-ok-button"
+      onClick={[Function]}
+    >
+      <FormattedMessageWrapper
+        defaultMessage="OK"
+        description="Organization customer created, press OK to proceed"
+        id="organization-creation-success-ok-button"
+        wrapperType="wrapper"
+      />
+    </OcButton>
+  </footer>
+</div>
+`;

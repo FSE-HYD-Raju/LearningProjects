@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutMonthlyTopUpForm succeeds at shallow mount with minimal props 1`] = `
+<div
+  className="CheckoutMonthlyTopUpForm-column-group"
+  data-test-name="monthly-field-group"
+>
+  <Field
+    alwaysShowLabel={true}
+    exclusive={false}
+    id="RecurringTopUpConfigurationForm-monthly-top-up-amount-field"
+    label="Limit in a month"
+    name="topUpAmountMonthly"
+    type={[Function]}
+  >
+    <option
+      disabled={true}
+      id="RecurringTopUpConfigurationForm-limit-in-month-option-empty"
+      key="limit-in-month_0"
+      value=""
+    >
+      Choose limit in a month value
+    </option>
+    <option
+      id="RecurringTopUpConfigurationForm-limit-in-month-option-10"
+      key="limit-in-month_0"
+      value="10"
+    >
+      10
+    </option>
+    <option
+      id="RecurringTopUpConfigurationForm-limit-in-month-option-20"
+      key="limit-in-month_1"
+      value="20"
+    >
+      20
+    </option>
+  </Field>
+</div>
+`;

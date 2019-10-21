@@ -1,0 +1,285 @@
+@import '~omnichannel-common-pos/lib/styles/_variables.scss';
+
+$orange-color: #ff6700;
+$error-red: #CC3333;
+$success-green: #6FBC1C;
+$border-gray: #D9D9D9;
+$light-gray-color: #D8D8D8;
+$dark-gray-color: #7D7D7D;
+$white: #FFFFFF;
+$blue: #3E86B9;
+
+.CustomerDetailsView {
+	&-header {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	&-avatar {
+		margin-right: 10px;
+		height: 45px;
+		width: auto;
+	}
+
+	&-section-label {
+		color: $orange-color;
+		/* Notifications & mark: */
+		font-size: 18px;
+		letter-spacing: -0.29px;
+	}
+}
+
+.CustomerDetails {
+	@include media-breakpoint-up(xl) {
+		&-body {
+			@include make-row();
+			align-items: stretch;
+		}
+
+		&-navigation {
+			@include make-col-ready();
+			flex: 0 0 16rem;
+		}
+
+		&-content {
+			@include make-col-ready();
+			flex: 1 0 0;
+		}
+	}
+
+	.w-nav-vertical-subitem {
+		padding-left: 1.55rem;
+	}
+
+	&-section-label {
+		color: $orange-color;
+		/* Notifications & mark: */
+		font-size: 18px;
+		letter-spacing: -0.29px;
+	}
+
+	.CustomerDetailsView-subDetails {
+		//width: 350px;
+		margin-left: 10px;
+
+		.CustomerDetailsView-marketing-allowed, .CustomerDetailsView-surveys-yes {
+			color: $success-green;
+
+			span {
+				margin-right: 15px;
+			}
+		}
+		.CustomerDetailsView-marketing-not-allowed, .CustomerDetailsView-surveys-no {
+			color: $error-red;
+			span {
+				margin-right: 10px;
+			}
+		}
+
+		.CustomerDetailsView-subDetails-field-name {
+			color: #a3a3a3;
+			margin-right: 5px;
+			width: 30%;
+		}
+
+		.CustomerDetailsNotificationsEdit-subDetails-field-name {
+			color: #a3a3a3;
+			margin-right: 5px;
+			width: 75px;
+		}
+
+		.CustomerDetailsView-subDetails-field-value {
+			font-size: 14px;
+			color: #4B4B4B;
+			line-height: 25px;
+			font-weight: 600;
+		}
+
+		.CustomerDetailsView-subDetails-field {
+			margin-bottom: 2px;
+			min-height: 35px;
+		}
+
+		.CustomerDetailsNotificationsEdit-subDetails-field {
+			margin-bottom: 10px;
+		}
+
+		.CustomerDetailsNotificationsEdit-toggler {
+			font-size: 12px;
+			font-weight: 600;
+		}
+
+		.OcInput-active-input {
+			padding-top: 6px;
+		}
+
+		.CustomerDetailsView-action-buttons {
+			button {
+				margin: 10px 2px 5px 2px;
+			}
+		}
+	}
+	.CustomerDetailsView-subDetails-actions {
+		a {
+			margin: 5px 0;
+			padding: 0 5px;
+		}
+		a:nth-child(2) {
+			margin: 5px 0;
+			padding: 0 5px;
+			border-left: 1px solid #d6d5d5;
+			border-right: 1px solid #d6d5d5;
+		}
+	}
+
+	.CustomerDetailsView-subDetails > div {
+		margin-bottom: 50px;
+
+		.OcInput {
+			margin-bottom: 2px;
+		}
+	}
+
+	.SidebarItem-content {
+		margin: 5px 5px 10px 5px;
+		border: 1px solid $border-gray;
+		border-top: 2px solid $orange-color;
+		-webkit-border-bottom-right-radius: 2px;
+		-webkit-border-bottom-left-radius: 2px;
+		-moz-border-radius-bottomright: 2px;
+		-moz-border-radius-bottomleft: 2px;
+		border-bottom-right-radius: 2px;
+		border-bottom-left-radius: 2px;
+		font-size: 13px;
+		background: #FFFFFF;
+	}
+
+	.SidebarItem-content > div:first-child {
+		border-bottom: 1px solid #D9D9D9;
+		height: 35px;
+		margin-left: 10px;
+	}
+
+	.SidebarItem-header {
+		text-transform: uppercase;
+		color: $orange-color;
+		flex: 8;
+		padding: 10px 0 10px 0;
+	}
+	.SidebarItem-link {
+		flex: 1;
+		padding: 10px 0 10px 10px;
+		i {
+			margin-left: 5px;
+		}
+	}
+	.SidebarItem-body {
+		margin: 10px;
+	}
+	.SidebarItem-timestamp {
+		color: $light-gray-color;
+	}
+	.SidebarItem-body-header {
+		color: $dark-gray-color;
+	}
+	.SidebarItem-body-content {
+		color: $light-gray-color;
+	}
+
+	.CustomerDetailsOffersContainer-offers {
+	}
+
+	.CustomerDetailsOfferItem-item {
+		flex: 1;
+		background: $white;
+		border: 1px solid #E6E6E6;
+		box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.04);
+		border-radius: 2px;
+		max-width: 350px;
+		min-width: 350px;
+		margin: 0 30px 10px 0;
+	}
+	.CustomerDetailsOfferItem-item-type {
+		background: $blue;
+		border-radius: 2px 2px 0 0;
+		font-size: 13px;
+		color: $white;
+		line-height: 27px;
+		text-transform: uppercase;
+		padding-left: 10px;
+	}
+
+	.CustomerDetailsOfferItem-item-content {
+		margin: 10px;
+	}
+	.CustomerDetailsOfferItem-item-header {
+		font-size: 18px;
+		color: #3E86B9;
+	}
+
+	.CustomerDetailsOfferItem-item-actions {
+		margin: 10px 5px;
+		button {
+			background: #89BA17;
+			border-radius: 2px;
+			font-size: 14px;
+			color: #FFFFFF;
+			line-height: 20px;
+		}
+	}
+
+	.CustomerDetailsOfferItem-item-details {
+		width: 50%;
+		padding: 5px;
+	}
+	.CustomerDetailsView-customerDetailsLegalDocuments-field {
+		margin-bottom: 15px !important;
+	}
+
+	a.link {
+		border-bottom: 1px solid RGBA(233, 233, 233, 1.00);
+		width: 100%;
+		justify-content: flex-start;
+		padding: 10px 20px;
+		min-height: 40px;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	a.link.sub-item {
+		margin: 0 0 0 30px;
+	}
+
+	a.link:hover {
+		color: #23527C !important;
+		text-decoration: none;
+	}
+
+	a.active-link, a.link.active-link:active, a.link.active-link:focus, a.link.active-link:hover {
+		color: #FF6700 !important;
+		text-decoration: none;
+	}
+}
+
+.search-or-create-customer {
+	display: flex;
+	align-items: center;
+	position: relative;
+	form {
+		flex: 1 0 0;
+	}
+	.or {
+		padding: 0 1rem;
+	}
+}
+
+.modal-dialog .btn.btn-default.dropdown-toggle {
+	right: 1px;
+	border: 1px solid #c8c8c8;
+	border-right-width: 0px;
+}
+
+#buttonBackToCustomerFromNewCustomerInfo {
+	margin-right: auto;
+}

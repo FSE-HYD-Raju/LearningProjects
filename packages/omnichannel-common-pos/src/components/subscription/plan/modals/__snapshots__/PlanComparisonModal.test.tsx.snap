@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanComparisonModal succeeds at shallow mount with minimum props 1`] = `
+<OcModal
+  className="PlanComparisonModal-comparison"
+  extraLargeModal={false}
+  hideCloseButton={false}
+  largeModal={true}
+  onClose={[Function]}
+  reverseFooter={true}
+  showModal={true}
+  title={
+    <FormattedMessageWrapper
+      defaultMessage="Compare {productType}s"
+      description="Service Desk, title for plan comparison modal"
+      id="compare-plans-modal-title"
+      values={
+        Object {
+          "productType": <span
+            className="PlanComparisonModal-product-type"
+          >
+            <FormattedMessageWrapper
+              defaultMessage="plan"
+              description="Word for product type plan"
+              id="product-type-plan"
+              wrapperType="wrapper"
+            />
+          </span>,
+        }
+      }
+      wrapperType="wrapper"
+    />
+  }
+>
+  <div
+    className="PlanComparisonModal"
+  >
+    <div
+      className="PlanComparisonModal-container"
+    />
+  </div>
+</OcModal>
+`;

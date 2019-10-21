@@ -1,0 +1,40 @@
+.OcTab-empty-area {
+  background: rgba(255, 255, 255, 0.15);
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+  margin-right: 0 !important;
+  border-radius: 0;
+  color: #eee;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.OcTab-inactive {
+  background: rgba(255, 255, 255, 0.15);
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+  border-radius: 0;
+  color: #eee;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.OcTab-inactive {
+  margin-left: 0;
+}
+
+.OcTab-active {
+  margin-top: 2px !important;
+  margin-bottom: 0 !important;
+  background: $light-grey-lighter !important;
+  margin-bottom: 0;
+  color: #FF6700;
+
+  &:active, &:focus, &:hover {
+    color: #FF6700;
+  }
+}

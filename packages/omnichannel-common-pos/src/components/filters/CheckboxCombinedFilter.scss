@@ -1,0 +1,11 @@
+@import '../../variables.scss';
+@import '../../styles/mixins';
+
+.checkbox-combined-filter{
+	@include form-field-text;
+
+	&-input{
+		max-height: $form-field-line-height;
+		margin-bottom: 20px;
+	}
+}

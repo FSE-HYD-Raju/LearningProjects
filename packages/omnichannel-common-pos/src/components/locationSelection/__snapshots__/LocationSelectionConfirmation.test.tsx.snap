@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationSelectionConfirmation succeeds at shallow mount without props 1`] = `
+<div
+  className="LocationSelectionConfirmation-container"
+>
+  <span
+    className="LocationSelectionConfirmation-suggestion"
+    id="you-are-here-message"
+  >
+    <span
+      className="LocationSelectionConfirmation-map-marker"
+    >
+      <i
+        className="fa fa-map-marker"
+      />
+    </span>
+    <FormattedMessageWrapper
+      defaultMessage="\`You are here: {selectedLocation}?\`"
+      description="Language selection you are here message"
+      id="language-selection-you-are-here-message"
+      values={
+        Object {
+          "selectedLocation": "en",
+        }
+      }
+      wrapperType="wrapper"
+    />
+  </span>
+  <OcButton
+    buttonType="LINK"
+    className="LocationSelectionConfirmation-accept"
+    id="yes-right-button"
+    onClick={[MockFunction]}
+  >
+    <i
+      className="fas fa-check-circle"
+    />
+    <FormattedMessageWrapper
+      defaultMessage="Yes, Right!"
+      description="Location selection yes right button message"
+      id="location-selection-yes-right-button-message"
+      wrapperType="wrapper"
+    />
+  </OcButton>
+  <OcButton
+    buttonType="LINK"
+    className="LocationSelectionConfirmation-decline"
+    id="no-another-area-message"
+    onClick={[MockFunction]}
+  >
+    <i
+      className="fas fa-times"
+    />
+    <FormattedMessageWrapper
+      defaultMessage="No, another area"
+      description="Location selection no another area message"
+      id="location-selection-no-another-area-message"
+      wrapperType="wrapper"
+    />
+  </OcButton>
+</div>
+`;

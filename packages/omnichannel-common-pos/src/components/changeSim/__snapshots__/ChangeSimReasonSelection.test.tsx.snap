@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChangeSimReasonSelection succeeds at shallow mount with minimal props  1`] = `
+<div
+  className="ChangeSim-row ChangeSim-reason-selection"
+>
+  <div
+    className="ChangeSim-label"
+  >
+    <FormattedMessageWrapper
+      defaultMessage="Reason"
+      description="Change SIM modal reason dropdown label"
+      id="change-sim-modal-reason-dropdown-label"
+      wrapperType="wrapper"
+    />
+    <i
+      className="fa fa-asterisk ChangeSim-required-field-icon"
+    />
+  </div>
+  <div
+    className="ChangeSim-data"
+  >
+    <OcSelect
+      id="change-sim-reason-select"
+      name="change-sim-reason-select"
+      noLabel={true}
+      onChange={[Function]}
+      placeholder="Select reason"
+    >
+      <option
+        id="change-sim-reason-option-test_id_1"
+        key="change-sim-reason-option-test_id_1"
+        value="test_id_1"
+      >
+        product offering name
+      </option>
+      <option
+        id="change-sim-reason-option-test_id_2"
+        key="change-sim-reason-option-test_id_2"
+        value="test_id_2"
+      >
+        product offering name
+      </option>
+    </OcSelect>
+  </div>
+</div>
+`;

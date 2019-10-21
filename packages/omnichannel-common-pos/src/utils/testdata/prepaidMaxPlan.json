@@ -1,0 +1,368 @@
+{
+	"id": "max-sub-po",
+	"type": "contextualProducts",
+	"attributes": {
+		"commercialEnrichments": [],
+		"featureCharacteristics": [],
+		"specificationId": null,
+		"instanceCharacteristics": {
+		},
+		"productOfferings": [
+			{
+				"categories": [],
+				"commercialEnrichments": [],
+				"featureCharacteristics": [],
+				"id": "max-voice-data-po",
+				"name": "Max voice and data plans",
+				"inputCharacteristics": {
+				},
+				"instanceCharacteristics": {
+				},
+				"prices": [],
+				"priority": null,
+				"productOfferingGroups": [],
+				"productOfferings": [
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "data50-po",
+						"name": "Data 50Mb/s",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+							"data": {
+								"values": [
+									{
+										"value": "50Mbps",
+										"name": "50Mbps"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": false,
+								"validation": null,
+								"name": null,
+								"priority": null
+							}
+						},
+						"prices": [
+							{
+								"type": "RECURRENT",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 19.95,
+								"taxRate": 0,
+								"recurringChargePeriod": {
+									"count": 1,
+									"interval": "MONTH"
+								},
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "data50",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					},
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "voicesms-2-po",
+						"name": "Voice 1000min SMS 500pc package",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+							"voice": {
+								"values": [
+									{
+										"value": "1000",
+										"name": "1000 minutes"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": null,
+								"priority": null
+							},
+							"sms": {
+								"values": [
+									{
+										"value": "500",
+										"name": "500 pieces"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": null,
+								"priority": null
+							}
+						},
+						"prices": [
+							{
+								"type": "RECURRENT",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 15,
+								"taxRate": 0,
+								"recurringChargePeriod": {
+									"count": 1,
+									"interval": "MONTH"
+								},
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "voicesms-2",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					}
+				],
+				"specificationId": null,
+				"msisdns": null,
+				"bundlingProductOfferings": null
+			},
+			{
+				"categories": [],
+				"commercialEnrichments": [],
+				"featureCharacteristics": [],
+				"id": "msisdn-sim-po",
+				"name": "MSISDN and SIM",
+				"inputCharacteristics": {
+				},
+				"instanceCharacteristics": {
+				},
+				"prices": [],
+				"priority": null,
+				"productOfferingGroups": [],
+				"productOfferings": [
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "msisdn-po",
+						"name": "msisdn",
+						"inputCharacteristics": {
+							"number": {
+								"values": [],
+								"description": "phone number",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "MSISDN",
+								"priority": null
+							},
+							"number-type": {
+								"values": [
+									{
+										"value": "regular",
+										"name": "regular"
+									},
+									{
+										"value": "golden",
+										"name": "golden"
+									},
+									{
+										"value": "platinum",
+										"name": "platinum"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "Number Type",
+								"priority": null
+							}
+						},
+						"instanceCharacteristics": {
+							"lookup-href": {
+								"values": [
+									{
+										"value": "/api/msisdns?filter=(AND%20(EQ%20stock.id%20\"sales-num-stock\")%20(AND%20(EQ%20lifecycle-status%20\"available\")%20(EQ%20number-type%20\"voice\")))",
+										"name": "/api/msisdns?filter=(AND%20(EQ%20stock.id%20\"sales-num-stock\")%20(AND%20(EQ%20lifecycle-status%20\"available\")%20(EQ%20number-type%20\"voice\")))"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "MSISDN lookup hyperlink",
+								"priority": null
+							}
+						},
+						"prices": [
+							{
+								"type": "ONE_TIME",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 500,
+								"taxRate": 0,
+								"recurringChargePeriod": null,
+								"currency": "EUR",
+								"conditions": {
+									"number-type": "platinum"
+								},
+								"originalPrice": null
+							},
+							{
+								"type": "ONE_TIME",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 50,
+								"taxRate": 0,
+								"recurringChargePeriod": null,
+								"currency": "EUR",
+								"conditions": {
+									"number-type": "golden"
+								},
+								"originalPrice": null
+							},
+							{
+								"type": "ONE_TIME",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 0,
+								"taxRate": 0,
+								"recurringChargePeriod": null,
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "msisdn",
+						"msisdns": null,
+						"bundlingProductOfferings": null,
+						"inputtedCharacteristics": {
+							"number-type": "regular"
+						}
+					},
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "sim-po",
+						"name": "sim",
+						"inputCharacteristics": {
+							"sim-type": {
+								"values": [
+									{
+										"value": "micro",
+										"name": "micro"
+									},
+									{
+										"value": "nano",
+										"name": "nano"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "Sim Type",
+								"priority": null
+							},
+							"icc": {
+								"values": [],
+								"description": "SIM card serial number",
+								"source": null,
+								"subType": null,
+								"mandatory": true,
+								"validation": null,
+								"name": "ICC",
+								"priority": null
+							}
+						},
+						"instanceCharacteristics": {
+						},
+						"prices": [
+							{
+								"type": "ONE_TIME",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 1,
+								"taxRate": 0,
+								"recurringChargePeriod": null,
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "sim",
+						"msisdns": null,
+						"bundlingProductOfferings": null,
+						"inputtedCharacteristics": {
+							"sim-type": "micro"
+						}
+					}
+				],
+				"specificationId": null,
+				"msisdns": null,
+				"bundlingProductOfferings": null
+			}
+		],
+		"name": "Prepaid MAX Plan",
+		"categories": [],
+		"inputCharacteristics": {
+		},
+		"prices": [],
+		"priority": null,
+		"productOfferingGroups": []
+	}
+}

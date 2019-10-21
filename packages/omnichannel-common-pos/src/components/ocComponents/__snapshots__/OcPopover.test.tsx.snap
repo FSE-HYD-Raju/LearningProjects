@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcPopover succeeds at deep mount with min props 1`] = `
+<OcPopover
+  content="some stuff"
+  id="popover-id"
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+  placement="top"
+  show={true}
+  title=""
+  trigger="click"
+>
+  <OverlayTrigger
+    defaultOverlayShown={false}
+    overlay={
+      <Popover
+        bsClass="popover"
+        className="popover show bs-popover-top"
+        id="popover-id"
+        placement="right"
+        title=""
+      >
+        some stuff
+      </Popover>
+    }
+    placement="top"
+    trigger="click"
+  >
+    <div
+      onClick={[Function]}
+    />
+  </OverlayTrigger>
+</OcPopover>
+`;
+
+exports[`OcPopover succeeds at shallow mount with min props 1`] = `
+<OverlayTrigger
+  defaultOverlayShown={false}
+  overlay={
+    <Popover
+      bsClass="popover"
+      className="popover show bs-popover-top"
+      id="popover-id"
+      placement="right"
+      title=""
+    >
+      some stuff
+    </Popover>
+  }
+  placement="top"
+  trigger="click"
+>
+  <div>
+    <span />
+  </div>
+</OverlayTrigger>
+`;

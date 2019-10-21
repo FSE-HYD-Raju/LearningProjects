@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivateProductLoanModal succeeds at shallow mount with minimum props 1`] = `
+<OcModal
+  className="ActivateProductLoanModal"
+  hideCloseButton={false}
+  largeModal={true}
+  okButtonLabel={
+    <FormattedMessageWrapper
+      defaultMessage="Confirm"
+      description="Activate product loan modal, confirm"
+      id="activate-product-loan-modal-confirm"
+      wrapperType="wrapper"
+    />
+  }
+  okDisabled={true}
+  onClose={[Function]}
+  onOk={[Function]}
+  showModal={true}
+  title={
+    <FormattedMessageWrapper
+      defaultMessage="Activate Product Loan"
+      description="Activate product loan modal header"
+      id="activate-product-loan-header"
+      wrapperType="wrapper"
+    />
+  }
+>
+  <div
+    className="ActivateProductLoanModal-container"
+  >
+    <div
+      className="ActivateProductLoanModal-info-title-section"
+    >
+      <i
+        className="fas fa-info-circle"
+      />
+      <div
+        className="ActivateProductLoanModal-messages"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="You are about to take loan for {msisdn}"
+          description="Activate product loan modal, intention reminder"
+          id="about-to-take-loan-reminder"
+          values={
+            Object {
+              "msisdn": <span
+                className="ActivateProductLoanModal-bold"
+              >
+                +38 099 1234 567
+              </span>,
+            }
+          }
+          wrapperType="wrapper"
+        />
+        <FormattedMessageWrapper
+          defaultMessage="These are the details of the loan: "
+          description="Activate product loan modal, loan details header text"
+          id="loan-details-header-text"
+          wrapperType="wrapper"
+        />
+      </div>
+    </div>
+    <div
+      className="ActivateProductLoanModal-loan-details-section"
+    >
+      <div
+        className="ActivateProductLoanModal-line"
+      >
+        <div
+          className="ActivateProductLoanModal-label"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="Loaned balance"
+            description="Activate product loan modal, loaned balance"
+            id="activate-product-loan-balance"
+            wrapperType="wrapper"
+          />
+        </div>
+        <div
+          className="ActivateProductLoanModal-data"
+        >
+          <OcCurrency
+            cost={25}
+            currency="EUR"
+          />
+        </div>
+      </div>
+      <div
+        className="ActivateProductLoanModal-line"
+      >
+        <div
+          className="ActivateProductLoanModal-label"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="Loan fee"
+            description="Activate product loan modal, loan fee"
+            id="activate-product-loan-fee"
+            wrapperType="wrapper"
+          />
+        </div>
+        <div
+          className="ActivateProductLoanModal-data"
+        >
+          <OcCurrency
+            cost={5}
+            currency="EUR"
+          />
+        </div>
+      </div>
+      <div
+        className="ActivateProductLoanModal-line"
+      >
+        <div
+          className="ActivateProductLoanModal-label"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="Total credit"
+            description="Activate product loan modal, total credit"
+            id="activate-product-loan-total-credit"
+            wrapperType="wrapper"
+          />
+        </div>
+        <div
+          className="ActivateProductLoanModal-data"
+        >
+          <OcCurrency
+            cost={-30}
+            currency="EUR"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="ActivateProductLoanModal-confirmation-section"
+    >
+      <div
+        className="custom-checkbox custom-control"
+      >
+        <input
+          checked={false}
+          className="custom-control-input"
+          id="loan-terms-and-conditions"
+          name="loan-terms-and-conditions"
+          onChange={[Function]}
+          type="checkbox"
+          value="loan-terms-and-conditions"
+        />
+        <label
+          className="custom-control-label"
+          htmlFor="loan-terms-and-conditions"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="I have read terms and conditions and agree to them"
+            description="Activate product loan modal, terms and conditions agreement confirmation"
+            id="terms-agreement-confirmation"
+            wrapperType="wrapper"
+          />
+        </label>
+      </div>
+      <div
+        className="ActivateProductLoanModal-messages ActivateProductLoanModal-confirmation-request"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Please confirm that you want to add the loan to your subscription by clicking \\"Confirm\\"."
+          description="Adding loan confirmation request message"
+          id="adding-loan-confirmation-request-message"
+          wrapperType="wrapper"
+        />
+      </div>
+    </div>
+  </div>
+</OcModal>
+`;

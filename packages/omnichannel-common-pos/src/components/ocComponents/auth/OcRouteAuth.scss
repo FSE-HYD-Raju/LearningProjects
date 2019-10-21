@@ -1,0 +1,13 @@
+.OcRouteAuthForm {
+	&-form-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding-top: 60px;
+	}
+
+	&-need-auth-message {
+		color: white;
+	}
+}

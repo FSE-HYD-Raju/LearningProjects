@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeliveryAddressSelection succeeds at shallow mount with minimal props 1`] = `
+<fieldset
+  className="CheckoutDelivery-section-address"
+>
+  <legend>
+    <div
+      className="CheckoutDelivery-legend-inner"
+    >
+      <div
+        className="CheckoutDelivery-legend-number"
+      >
+        1
+      </div>
+      <h3
+        className="CheckoutDelivery-legend-title"
+      >
+        Select your delivery address
+      </h3>
+    </div>
+  </legend>
+  <div
+    className="CheckoutDelivery-section-body"
+  >
+    <OcInput
+      checked={true}
+      defaultValue="HOME"
+      disabled={false}
+      id="checkout-delivery-address-residential"
+      label="Delivery to my residential address (110th street,
+				Jackie Brown,
+				555
+				New Yourk,
+				
+				USA)"
+      name="residentialDeliveryAddress"
+      onChange={[Function]}
+      standalone={true}
+      type="radio"
+    />
+    <OcInput
+      checked={false}
+      defaultValue="NEW"
+      id="checkout-delivery-address-new"
+      label="Delivery to another address"
+      name="isAnotherDeliveryAddressChecked"
+      onChange={[Function]}
+      standalone={true}
+      type="radio"
+    />
+  </div>
+</fieldset>
+`;

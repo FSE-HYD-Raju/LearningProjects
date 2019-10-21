@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RootContainer succeeds at shallow mount with minimal props 1`] = `
+<div>
+  <Connect(IntlProvider)>
+    <RootProvider
+      application={[Function]}
+      flux={Object {}}
+      store={Object {}}
+    />
+  </Connect(IntlProvider)>
+</div>
+`;

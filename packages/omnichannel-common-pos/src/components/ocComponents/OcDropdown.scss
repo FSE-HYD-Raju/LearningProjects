@@ -1,0 +1,123 @@
+.OcDropdown {
+	&-container {
+		top: 85%;
+		position: absolute;
+		min-width: 12.5rem;
+		left: 0.75rem;
+		z-index: 99999;
+		display: flex;
+		flex-direction: column;
+		background: transparent;
+
+		&.OcDropdown-no-triangle {
+			position: relative;
+			top: 0;
+			left: 0;
+			min-width: 11.125rem;
+			max-width: 14.125rem;
+		}
+
+		&-hidden {
+			display: none;
+		}
+	}
+
+	&-container-right {
+		left: auto;
+		right: 0px;
+	}
+
+	&-inner-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+
+		.OcDropdown-no-triangle & {
+			margin-top: 0 !important;
+		}
+	}
+
+	&-inner-container-left {
+		display: flex;
+		flex-direction: row !important;
+		width: 100%;
+
+		.OcDropdown-no-triangle & {
+			margin-top: 0 !important;
+		}
+	}
+
+	&-triangle {
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 0.625rem 0.625rem;
+		border-color: transparent transparent white transparent;
+		position: relative;
+		margin: 0 0.625rem;
+		display: flex;
+		align-self: flex-start;
+
+		.OcDropdown-no-triangle & {
+			display: none;
+		}
+	}
+
+	&-triangle-right {
+		align-self: flex-end;
+	}
+
+	&-triangle-top {
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 0.625rem 0.625rem 0.625rem;
+		border-color: transparent transparent white transparent;
+		display: flex;
+	}
+
+	&-triangle-left {
+		align-self: flex-start;
+		border-width: 0.625rem 0.625rem 0.625rem 0;
+		border-color: transparent white transparent transparent;
+		margin-top: 0.625rem;
+		margin-right: 0 !important;
+	}
+
+	&-content {
+		display: flex;
+		flex-direction: column;
+		color: black;
+		background: white;
+		border-top: 0.1875rem solid white;
+		border-radius: 0.125rem;
+		box-shadow: 0 0.25rem 1rem rgba(25, 25, 25, 0.35);
+		width: 100%;
+		padding: 0.5rem;
+
+		.OcButtonWithDropdown & {
+			padding: 0;
+
+			p {
+				margin: 0;
+			}
+
+			a,
+			button {
+				background-color: #fff;
+				display: block;
+				padding: 0.5rem 1rem;
+				text-align: left;
+				border: none;
+				color: $gray-900;
+				font-size: $font-size-sm;
+
+				&:hover {
+					background-color: $primary;
+					color: #fff;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

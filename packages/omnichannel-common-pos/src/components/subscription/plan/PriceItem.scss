@@ -1,0 +1,13 @@
+.PriceItem {
+
+	&-price {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-price > .oc-currency {
+		font-size: 28px;
+		font-weight: 300;
+		margin-top: 6px;
+	}
+}

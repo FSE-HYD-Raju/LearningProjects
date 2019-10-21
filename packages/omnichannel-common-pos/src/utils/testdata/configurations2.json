@@ -1,0 +1,32 @@
+{
+	"max-sub-po": {
+		"id": "max-sub-po",
+		"inputtedCharacteristics": {},
+		"productOfferings": [
+			{
+				"id": "msisdn-sim-po",
+				"inputtedCharacteristics": {},
+				"productOfferings": [
+					{
+						"id": "sim-po",
+						"inputtedCharacteristics": {
+							"icc": "9000"
+						},
+						"productOfferings": [],
+						"productOfferingGroups": []
+					},
+					{
+						"id": "msisdn-po",
+						"inputtedCharacteristics": {
+							"number": "0123006285"
+						},
+						"productOfferings": [],
+						"productOfferingGroups": []
+					}
+				],
+				"productOfferingGroups": []
+			}
+		],
+		"productOfferingGroups": []
+	}
+}

@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTableHeaderBuilder succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="ProductTable-header"
+>
+  <div
+    className="ProductTable-header-cell"
+    id="ProductTableHeader-name"
+    key="name"
+    onClick={[Function]}
+    style={
+      Object {
+        "flex": 2,
+      }
+    }
+  >
+    <Flex
+      alignItems="center"
+      alignSelf=""
+      flex={1}
+      justifyContent=""
+      wrap="nowrap"
+    >
+      Name
+    </Flex>
+  </div>
+  <div
+    className="ProductTable-header-cell"
+    id="ProductTableHeader-contains"
+    key="contains"
+    onClick={[Function]}
+    style={
+      Object {
+        "flex": 2,
+      }
+    }
+  >
+    <Flex
+      alignItems="center"
+      alignSelf=""
+      flex={1}
+      justifyContent=""
+      wrap="nowrap"
+    >
+      Contains
+    </Flex>
+  </div>
+  <div
+    className="ProductTable-header-cell"
+    id="ProductTableHeader-recurringPrice"
+    key="recurringPrice"
+    onClick={[Function]}
+    style={
+      Object {
+        "flex": 0.35,
+      }
+    }
+  >
+    <Flex
+      alignItems="center"
+      alignSelf=""
+      flex={1}
+      justifyContent=""
+      wrap="nowrap"
+    >
+      Recurring
+    </Flex>
+  </div>
+  <div
+    className="ProductTable-header-cell"
+    id="ProductTableHeader-oneTimePrice"
+    key="oneTimePrice"
+    onClick={[Function]}
+    style={
+      Object {
+        "flex": 0.35,
+      }
+    }
+  >
+    <Flex
+      alignItems="center"
+      alignSelf=""
+      flex={1}
+      justifyContent=""
+      wrap="nowrap"
+    >
+      Upfront
+    </Flex>
+  </div>
+  <div
+    className="ProductTable-header-cell"
+    id="ProductTableHeader-compare"
+    key="compare"
+    onClick={[Function]}
+    style={
+      Object {
+        "flex": 0.4,
+      }
+    }
+  >
+    <Flex
+      alignItems="center"
+      alignSelf=""
+      flex={1}
+      justifyContent=""
+      wrap="nowrap"
+    >
+      Compare
+    </Flex>
+  </div>
+  <div
+    className="ProductTable-header-cell"
+    id="ProductTableHeader-"
+    key="col_label__5"
+    onClick={[Function]}
+    style={
+      Object {
+        "flex": 0.5,
+      }
+    }
+  >
+    <Flex
+      alignItems="center"
+      alignSelf=""
+      flex={1}
+      justifyContent=""
+      wrap="nowrap"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChangeSimFee succeeds at shallow mount with minimal props  1`] = `
+<div
+  className="ChangeSim-row ChangeSim-fee-container"
+>
+  <div
+    className="ChangeSim-label"
+  >
+    <FormattedMessageWrapper
+      defaultMessage="Fee"
+      description="Change SIM modal fee label"
+      id="change-sim-modal-fee-label"
+      wrapperType="wrapper"
+    />
+  </div>
+  <div
+    className="ChangeSim-data ChangeSim-fee-row"
+  >
+    <span>
+      test
+    </span>
+    <span
+      className="ChangeSim-fee-amount"
+    >
+      <OcCurrency
+        cost={1}
+        currency="EUR"
+        ignoreSpaces={true}
+        round={true}
+      />
+    </span>
+  </div>
+</div>
+`;

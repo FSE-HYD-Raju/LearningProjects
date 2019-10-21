@@ -1,0 +1,44 @@
+@import "../../../styles/variables";
+@import "../../../styles/mixins";
+
+.PersonDetailsPostalAddressForm {
+	&-form {
+		margin-top: 0;
+		&.OrderNewSimAddressForm {
+			> div.form-group {
+				@include flex-container(row, stretch);
+				align-items: center;
+				width: 100%;
+				margin: 0.5rem 0;
+				&.OcInput-error {
+					.invalid-feedback {
+						margin-left: 0.5rem;
+						line-height: 1.2;
+					}
+				}
+				div {
+					width: 18.75rem;
+				}
+				label {
+					width: 10.25rem;
+				}
+				input {
+					width: 18.75rem;
+				}
+				select {
+					width: 18.75rem;
+					background-color: inherit;
+				}
+			}
+		}
+	}
+	&-submit-wrapper {
+		margin-top: 1.875rem;
+		display: flex;
+		align-items: center;
+
+		div.OcLoadingSpinner-flex {
+			margin-left: 0.75rem;
+		}
+	}
+}

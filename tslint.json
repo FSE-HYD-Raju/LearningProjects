@@ -1,0 +1,359 @@
+{
+	"defaultSeverity": "warn",
+	"extends": ["tslint-microsoft-contrib"],
+	"rulesDirectory": ["node_modules/tslint-microsoft-contrib", "node_modules/tslint-react/rules"],
+	"jsRules": {},
+	"rules": {
+		"array-type": [ // https://palantir.github.io/tslint/rules/array-type/
+			false,
+			"array" // enforces use of T[] for all types T.
+		],
+		"arrow-return-shorthand": [ // https://palantir.github.io/tslint/rules/arrow-return-shorthand/ #DISCUSS
+			false,
+			"multiline"
+		],
+		"await-promise": [ // https://palantir.github.io/tslint/rules/await-promise/
+			true,
+			"AxiosPromise"
+		],
+		"adjacent-overload-signatures": true, // https://palantir.github.io/tslint/rules/adjacent-overload-signatures/
+		"align": [ // https://palantir.github.io/tslint/rules/align/
+			true
+		],
+		"arrow-parens": false, // https://palantir.github.io/tslint/rules/arrow-parens/
+		"ban": false, // https://palantir.github.io/tslint/rules/ban/
+		"callable-types": true, // https://palantir.github.io/tslint/rules/callable-types/
+		"chai-prefer-contains-to-index-of": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules/issues/180
+		"chai-vague-errors": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules/issues/83
+		"class-name": true, // https://palantir.github.io/tslint/rules/class-name/
+		"comment-format": [ // https://palantir.github.io/tslint/rules/comment-format/
+			true,
+			"check-space" // requires that all single-line comments must begin with a space, as in // comment
+		],
+		"completed-docs": [ // https://palantir.github.io/tslint/rules/completed-docs/ #DISCUSS
+			false
+		],
+		"curly": true, // https://palantir.github.io/tslint/rules/curly/
+		"cyclomatic-complexity": [ // https://palantir.github.io/tslint/rules/cyclomatic-complexity/ #DISCUSS
+			true
+		],
+		"eofline": true, // https://palantir.github.io/tslint/rules/eofline/
+		"export-name": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"file-header": [ // https://palantir.github.io/tslint/rules/file-header/
+			false
+		],
+		"forin": true, // https://palantir.github.io/tslint/rules/forin/
+		"function-name": [ // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+			true,
+			{
+				"method-regex": "^[a-z][\\w\\d]{1,50}$",
+				"private-method-regex": "^[a-z][\\w\\d]{1,50}$",
+				"protected-method-regex": "^[a-z][\\w\\d]{1,50}$",
+				"static-method-regex": "^[a-zA-Z_\\d]{1,50}$",
+				"function-regex": "^[a-z][\\w\\d]{1,50}$"
+			}
+		],
+		"import-blacklist": false, // https://palantir.github.io/tslint/rules/import-blacklist/
+		"import-name": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules #DISCUSS
+		"import-spacing": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"indent": [ // https://palantir.github.io/tslint/rules/indent/
+			false,
+			"spaces",
+			4
+		],
+		"insecure-random": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"interface-name": [ // https://palantir.github.io/tslint/rules/interface-name/
+			false,
+			"always-prefix"
+		],
+		"interface-over-type-literal": false, // https://palantir.github.io/tslint/rules/interface-over-type-literal/
+		"jsdoc-format": false, // https://palantir.github.io/tslint/rules/jsdoc-format/
+		"jsx-use-translation-function": {
+			"severity": "error" // https://github.com/palantir/tslint-react
+		},
+		"label-position": true, // https://palantir.github.io/tslint/rules/label-position/
+		"linebreak-style": [ // https://palantir.github.io/tslint/rules/linebreak-style/
+			true,
+			"LF"
+		],
+		"max-classes-per-file": [ // https://palantir.github.io/tslint/rules/max-classes-per-file/
+			true,
+			1
+		],
+		"max-file-line-count": [ // https://palantir.github.io/tslint/rules/max-file-line-count/ #DISCUSS
+			false,
+			500
+		],
+		"max-func-body-length": [ // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+			true,
+			500,
+			{
+				"ignore-parameters-to-function-regex": "describe"
+			}
+		],
+		"max-line-length": [ // https://palantir.github.io/tslint/rules/max-line-length/
+			true,
+			160
+		],
+		"member-access": false, // https://palantir.github.io/tslint/rules/member-access/
+		"member-ordering": [ // https://palantir.github.io/tslint/rules/member-ordering/
+			true,
+			{
+				"order": [
+					"static-field",
+					"instance-field",
+					"constructor",
+					"public-instance-method",
+					"protected-instance-method",
+					"private-instance-method"
+				]
+			}
+		],
+		"missing-jsdoc": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"missing-optional-annotation": true, // (DEPRECATED) https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"mocha-avoid-only": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"mocha-no-side-effect-code": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"mocha-unneeded-done": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"new-parens": true, // https://palantir.github.io/tslint/rules/new-parens/
+		"newline-before-return": false,
+		"newline-per-chained-call": false, // https://palantir.github.io/tslint/rules/newline-per-chained-call/
+		"no-angle-bracket-type-assertion": false, // https://palantir.github.io/tslint/rules/no-angle-bracket-type-assertion/
+		"no-any": false, // https://palantir.github.io/tslint/rules/no-any/
+		"no-arg": true, // https://palantir.github.io/tslint/rules/no-arg/
+		"no-backbone-get-set-outside-model": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules -- caused a conflict with this.axios.get('https://www.google.com/search?q=bhtp')
+		"no-banned-terms": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-bitwise": true, // https://palantir.github.io/tslint/rules/no-bitwise/
+		"no-boolean-literal-compare": false, // https://palantir.github.io/tslint/rules/no-boolean-literal-compare/
+		"no-conditional-assignment": true, // https://palantir.github.io/tslint/rules/no-conditional-assignment/
+		"no-consecutive-blank-lines": [ // https://palantir.github.io/tslint/rules/no-consecutive-blank-lines/
+			true
+		],
+		"no-console": [ // https://palantir.github.io/tslint/rules/no-console/
+			true,
+			"debug",
+			"info",
+			"time",
+			"timeEnd",
+			"trace"
+		],
+		"no-constant-condition": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-construct": true, // https://palantir.github.io/tslint/rules/no-construct/
+		"no-control-regex": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-cookies": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-debugger": true, // https://palantir.github.io/tslint/rules/no-debugger/
+		"no-default-export": false, // https://palantir.github.io/tslint/rules/no-default-export/
+		"no-delete-expression": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-disable-auto-sanitization": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-document-domain": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-document-write": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-duplicate-switch-case": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-duplicate-parameter-names": true, // (DEPRECATED) https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-duplicate-super": true, // https://palantir.github.io/tslint/rules/no-duplicate-super/
+		"no-duplicate-variable": true, // https://palantir.github.io/tslint/rules/no-duplicate-variable/
+		"no-empty": false, // https://palantir.github.io/tslint/rules/no-empty/
+		"no-empty-interface": false, // https://palantir.github.io/tslint/rules/no-empty-interface/
+		"no-empty-line-after-opening-brace": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-eval": true, // https://palantir.github.io/tslint/rules/no-eval/
+		"no-exec-script": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-floating-promises": true, // https://palantir.github.io/tslint/rules/no-floating-promises/
+		"no-for-in": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-for-in-array": false, // https://palantir.github.io/tslint/rules/no-for-in-array/
+		"no-function-constructor-with-string-args": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-function-expression": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-http-string": [ // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+			true
+		],
+		"no-import-side-effect": [ // https://palantir.github.io/tslint/rules/no-import-side-effect/
+			true,
+			{
+				"ignore-module": "reflect-metadata"
+			}
+		],
+		"no-increment-decrement": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules #DISCUSS
+		"no-inferrable-types": [ // https://palantir.github.io/tslint/rules/no-inferrable-types/
+			false
+		],
+		"no-inferred-empty-object-type": true, // https://palantir.github.io/tslint/rules/no-inferred-empty-object-type/
+		"no-inner-html": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-internal-module": true, // https://palantir.github.io/tslint/rules/no-internal-module/
+		"no-invalid-regexp": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-invalid-template-strings": true, // https://palantir.github.io/tslint/rules/no-invalid-template-strings/
+		"no-invalid-this": true, // https://palantir.github.io/tslint/rules/no-invalid-this/
+		"no-magic-numbers": false, // https://palantir.github.io/tslint/rules/no-magic-numbers/ #DISCUSS
+		"no-mergeable-namespace": false, // https://palantir.github.io/tslint/rules/no-mergeable-namespace/
+		"no-missing-visibility-modifiers": false, // (DEPRECATED) https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-misused-new": true, // https://palantir.github.io/tslint/rules/no-misused-new/
+		"no-multiline-string": [ // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+			false
+		],
+		"no-multiple-var-decl": true, // (DEPRECATED) https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-namespace": true, // https://palantir.github.io/tslint/rules/no-namespace/
+		"no-null-keyword": false, // https://palantir.github.io/tslint/rules/no-null-keyword/
+		"no-octal-literal": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-parameter-properties": true, // https://palantir.github.io/tslint/rules/no-parameter-properties/
+		"no-reference": true, // https://palantir.github.io/tslint/rules/no-reference/
+		"no-reference-import": true, // https://palantir.github.io/tslint/rules/no-reference-import/
+		"no-regex-spaces": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-relative-imports": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-require-imports": false, // https://palantir.github.io/tslint/rules/no-require-imports/
+		"no-reserved-keywords": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-shadowed-variable": true, // https://palantir.github.io/tslint/rules/no-shadowed-variable/
+		"no-single-line-block-comment": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-sparse-arrays": true, // https://palantir.github.io/tslint/rules/no-sparse-arrays/
+		"no-unnecessary-class": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-string-based-set-immediate": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-string-based-set-interval": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-string-based-set-timeout": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-string-literal": true, // https://palantir.github.io/tslint/rules/no-string-literal/
+		"no-string-throw": true, // https://palantir.github.io/tslint/rules/no-string-throw/
+		"no-suspicious-comment": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-switch-case-fall-through": true, // no-switch-case-fall-through
+		"no-trailing-whitespace": true, // https://palantir.github.io/tslint/rules/no-trailing-whitespace/
+		"no-typeof-undefined": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-unbound-method": false, // https://palantir.github.io/tslint/rules/no-unbound-method/
+		"no-unnecessary-bind": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-unnecessary-callback-wrapper": true, // https://palantir.github.io/tslint/rules/no-unnecessary-callback-wrapper/
+		"no-unnecessary-field-initialization": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-unnecessary-initializer": true, // https://palantir.github.io/tslint/rules/no-unnecessary-initializer/
+		"no-unnecessary-local-variable": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-unnecessary-override": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-unnecessary-qualifier": false, // https://palantir.github.io/tslint/rules/no-unnecessary-qualifier/
+		"no-unnecessary-semicolons": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-unsafe-any": false, // https://palantir.github.io/tslint/rules/no-unsafe-any/
+		"no-unsafe-finally": true, // https://palantir.github.io/tslint/rules/no-unsafe-finally/
+		"no-useless-files": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-unsupported-browser-code": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-unused-expression": true, // https://palantir.github.io/tslint/rules/no-unused-expression/
+		"no-use-before-declare": true, // https://palantir.github.io/tslint/rules/no-use-before-declare/
+		"no-var-keyword": true, // https://palantir.github.io/tslint/rules/no-var-keyword/
+		"no-var-requires": false, // https://palantir.github.io/tslint/rules/no-var-requires/
+		"no-this-assignment": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-void-expression": false, // https://palantir.github.io/tslint/rules/no-void-expression/
+		"no-with-statement": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"no-implicit-dependencies": false,
+		"no-non-null-assertion": false,
+		"no-submodule-imports": false,
+		"no-object-literal-type-assertion": false,
+		"react-a11y-role-has-required-aria-props": false,
+		"react-a11y-event-has-role": false,
+		"react-a11y-anchors": false,
+		"react-a11y-img-has-alt": false,
+		"react-a11y-input-elements": false,
+		"non-literal-require": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"object-literal-key-quotes": [ // https://palantir.github.io/tslint/rules/object-literal-key-quotes/
+			true,
+			"as-needed"
+		],
+		"object-literal-shorthand": false, // https://palantir.github.io/tslint/rules/object-literal-shorthand/
+		"object-literal-sort-keys": false, // https://palantir.github.io/tslint/rules/object-literal-sort-keys/
+		"one-line": [ // https://palantir.github.io/tslint/rules/one-line/
+			true,
+			"check-open-brace",
+			"check-whitespace"
+		],
+		"one-variable-per-declaration": true, // https://palantir.github.io/tslint/rules/one-variable-per-declaration/
+		"only-arrow-functions": [ // https://palantir.github.io/tslint/rules/only-arrow-functions/
+			true,
+			"allow-declarations",
+			"allow-named-functions"
+		],
+		"ordered-imports": [ // https://palantir.github.io/tslint/rules/ordered-imports/
+			false,
+			{
+				"import-sources-order": "case-insensitive",
+				"named-imports-order": "case-insensitive"
+			}
+		],
+		"possible-timing-attack": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"prefer-array-literal": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"prefer-const": true, // https://palantir.github.io/tslint/rules/prefer-const/
+		"prefer-for-of": true, // https://palantir.github.io/tslint/rules/prefer-for-of/
+		"prefer-function-over-method": false, // https://palantir.github.io/tslint/rules/prefer-function-over-method/
+		"prefer-method-signature": false, // https://palantir.github.io/tslint/rules/prefer-method-signature/
+		"prefer-template": [ // https://palantir.github.io/tslint/rules/prefer-template/
+			true,
+			"allow-single-concat"
+		],
+		"prefer-type-cast": false, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rulesF
+		"promise-function-async": false, // https://palantir.github.io/tslint/rules/promise-function-async/
+		"promise-must-complete": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"quotemark": [ // https://palantir.github.io/tslint/rules/quotemark/
+			true,
+			"double",
+			"avoid-template",
+			"avoid-escape"
+		],
+		"radix": false, // https://palantir.github.io/tslint/rules/radix/
+		"restrict-plus-operands": false, // https://palantir.github.io/tslint/rules/restrict-plus-operands/
+		"semicolon": [
+			true,
+			"always",
+			"ignore-bound-class-methods"
+		],
+		"space-before-function-paren": [ // https://palantir.github.io/tslint/rules/space-before-function-paren/
+			true,
+			{
+				"anonymous": "always",
+				"named": "never",
+				"asyncArrow": "always"
+			}
+		],
+		"strict-boolean-expressions": false, // https://palantir.github.io/tslint/rules/strict-boolean-expressions/
+		"strict-type-predicates": true, // https://palantir.github.io/tslint/rules/strict-type-predicates/
+		"switch-default": false, // https://palantir.github.io/tslint/rules/switch-default/ #DISCUSS
+		"trailing-comma": [ // https://palantir.github.io/tslint/rules/trailing-comma/
+			false,
+			{
+				"singleline": "never",
+				"multiline": "always"
+			}
+		],
+		"triple-equals": [ // https://palantir.github.io/tslint/rules/triple-equals/
+			true,
+			"allow-null-check"
+		],
+		"typedef": [ // https://palantir.github.io/tslint/rules/typedef/
+			true,
+			"parameter",
+			"property-declaration",
+			"member-variable-declaration"
+		],
+		"typedef-whitespace": [ // https://palantir.github.io/tslint/rules/typedef-whitespace/
+			true,
+			{
+				"call-signature": "nospace",
+				"index-signature": "nospace",
+				"parameter": "nospace",
+				"property-declaration": "nospace",
+				"variable-declaration": "nospace"
+			},
+			{
+				"call-signature": "onespace",
+				"index-signature": "onespace",
+				"parameter": "onespace",
+				"property-declaration": "onespace",
+				"variable-declaration": "onespace"
+			}
+		],
+		"underscore-consistent-invocation": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"unified-signatures": true, // https://palantir.github.io/tslint/rules/unified-signatures/
+		"use-isnan": true, // https://palantir.github.io/tslint/rules/use-isnan/
+		"use-named-parameter": true, // https://github.com/Microsoft/tslint-microsoft-contrib#supported-rules
+		"use-simple-attributes": false,
+		"variable-name": [ // https://palantir.github.io/tslint/rules/variable-name/
+			false,
+			"check-format",
+			"allow-snake-case",
+			"ban-keywords"
+		],
+		"whitespace": [ // https://palantir.github.io/tslint/rules/whitespace/
+			true,
+			"check-branch",
+			"check-decl",
+			"check-module",
+			"check-operator",
+			"check-separator",
+			"check-type"
+		]
+	}
+}

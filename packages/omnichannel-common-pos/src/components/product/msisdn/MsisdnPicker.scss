@@ -1,0 +1,9 @@
+.msisdnSelectTable {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	&-msisdn-input {
+		height: 30px;
+	}
+}

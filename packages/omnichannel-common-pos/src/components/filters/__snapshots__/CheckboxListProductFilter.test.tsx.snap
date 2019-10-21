@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxListProductFilter succeeds at shallow mount without props 1`] = `
+<div
+  className="checkbox-list-filter"
+>
+  <h5
+    className="checkbox-list-filter-title"
+  />
+  <div
+    className="checkbox-list-filter-group"
+  />
+</div>
+`;

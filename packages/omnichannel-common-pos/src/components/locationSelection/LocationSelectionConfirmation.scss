@@ -1,0 +1,37 @@
+.LocationSelectionConfirmation {
+	&-container {
+		display: flex;
+		align-items: center;
+	}
+
+	&-map-marker {
+		margin-right: 8px;
+	}
+
+	&-suggestion {
+		display: inline-block;
+		padding: $btn-padding-y $btn-padding-x;
+		border: $input-border-width solid transparent;
+		line-height: $btn-line-height;
+	}
+
+	&-accept, &-decline {
+		color: $b2c-nav-item-color-base;
+		background-color: transparent;
+		&:hover, &:focus, &:active {
+			color: $b2c-nav-item-color-hover;
+			background-color: $b2c-nav-background-hover;
+			text-decoration: none;
+		}
+	}
+
+	&-accept .fas {
+		color: lighten(theme-color("success"), 10%);
+		margin-right: 8px;
+	}
+
+	&-decline .fas {
+		color: theme-color("warning");
+		margin-right: 8px;
+	}
+}

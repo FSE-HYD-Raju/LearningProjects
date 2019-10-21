@@ -1,0 +1,24 @@
+.OcDocumentReviewer {
+    &-wrapper {
+        overflow: scroll;
+        padding: 0 30px;
+        &::before {
+            background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 62%, rgba(255, 255, 255, 0) 100%);
+            content: ' ';
+            height: 50px;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        &::after {
+            background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0) 62%, rgba(255, 255, 255, 0) 100%);
+            bottom: 0;
+            content: ' ';
+            height: 50px;
+            left: 0;
+            position: absolute;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShopProductImage succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="ShopProductImage-container"
+>
+  <img
+    className="ShopProductImage-image ShopProductImage-placeholder"
+    id="-undefined"
+    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+    style={Object {}}
+  />
+</div>
+`;

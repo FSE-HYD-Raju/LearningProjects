@@ -1,0 +1,59 @@
+@import "../../styles/_variables.scss";
+
+.AddressValidationDropdown {
+	&-container {
+		position: relative;
+		left: 2.5rem;
+		top: -2.8125;
+
+		.OcDropdown {
+			&-container {
+				min-width: 18.75rem;
+				left: 100%;
+				right: 0;
+				top: 100%;
+
+				#address-validation-save-anyway-confirm-checkbox {
+					margin-top: 1rem;
+					margin-right: 0.35rem;
+				}
+
+				#addressSaveButton {
+					justify-content: end;
+				}
+			}
+
+			&-inner-container {
+				flex-direction: row;
+
+				&.OcDropdown-inner-container-left {
+					margin-top: 0 !important;
+				}
+			}
+
+			&-triangle {
+				border-width: 0.625rem 0.625rem 0.625rem 0;
+				border-color: transparent $babyblue transparent transparent;
+				margin: 0.9375rem 0;
+			}
+
+			&-content {
+				background: $babyblue;
+				border-top: 0.1875rem solid $babyblue;
+				padding: 0.3125rem 0.625rem 1rem 1.25rem;
+
+				.address-not-found-message {
+					font-weight: bold;
+				}
+
+				.OcInput-label {
+					position: absolute;
+				}
+			}
+		}
+
+		&-proposals-container {
+			padding: 0.9375rem;
+		}
+	}
+}

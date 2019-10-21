@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FluidContainer shallow mount with minimum props 1`] = `
+<Collapse
+  fixedHeight={-1}
+  forceInitialAnimation={false}
+  hasNestedCollapse={false}
+  isOpened={true}
+  onMeasure={[Function]}
+  onRender={[Function]}
+  onRest={[Function]}
+  style={Object {}}
+  theme={
+    Object {
+      "collapse": "ReactCollapse--collapse",
+      "content": "ReactCollapse--content",
+    }
+  }
+>
+  <div>
+    content
+  </div>
+</Collapse>
+`;

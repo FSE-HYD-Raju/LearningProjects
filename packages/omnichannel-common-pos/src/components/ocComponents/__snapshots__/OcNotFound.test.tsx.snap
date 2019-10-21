@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcNotFound succeeds at shallow mount without props 1`] = `
+<h1>
+  <FormattedMessageWrapper
+    defaultMessage="Not found 404"
+    description="Not found page 404 title"
+    id="404-not-found"
+    wrapperType="wrapper"
+  />
+</h1>
+`;

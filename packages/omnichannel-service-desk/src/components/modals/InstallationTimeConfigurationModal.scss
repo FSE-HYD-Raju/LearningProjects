@@ -1,0 +1,16 @@
+.InstallationTimeConfigurationModal {
+	&-holder {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 30px;
+	}
+	&-info {
+		padding: 0 0 15px 0;
+	}
+	&-info i {
+		font-size: 24px;
+		color: #4287B7;
+		padding-right: 5px
+	}
+}

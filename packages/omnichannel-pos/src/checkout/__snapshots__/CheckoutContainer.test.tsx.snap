@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutContainer succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="CheckoutContainer"
+>
+  <div
+    className="CheckoutContainer-wizard-container"
+  >
+    <div>
+      <CheckoutWizard
+        checkoutSteps={Object {}}
+        clientWidth="desktop"
+        saveCheckoutConfigurationToBasket={[Function]}
+      />
+    </div>
+    <CheckoutContainerRoutes
+      flux={
+        Object {
+          "persist": [Function],
+          "reduxStore": Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          },
+        }
+      }
+      saveCheckoutConfigurationToBasket={[Function]}
+    />
+  </div>
+  <div
+    className="CheckoutContainer-mini-basket-container"
+  >
+    <Connect(MiniBasket)
+      flux={
+        Object {
+          "persist": [Function],
+          "reduxStore": Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          },
+        }
+      }
+    />
+  </div>
+</div>
+`;

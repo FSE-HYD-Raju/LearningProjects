@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcListWidget succeeds at shallow mount with min props 1`] = `
+<OcAccordionList
+  active={false}
+  expandedContent={
+    <div
+      className="OcListWidget OcListWidget-withMargin"
+    >
+      <OcListWidgetTableHeaderBuilder
+        headers={Array []}
+      />
+      <div
+        className="OcListWidget-rows"
+      >
+        <h3
+          className="OcListWidget-no-content"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="No content found"
+            description="Label shown when ListWidget has no expanded content"
+            id="list-widget-nothing-found"
+            wrapperType="wrapper"
+          />
+        </h3>
+      </div>
+    </div>
+  }
+  handleClick={[Function]}
+  id="id"
+  rowContent={
+    <div
+      className="OcListWidget-widgetTitle"
+    >
+      <h3
+        id="id"
+      >
+        <i
+          className="fa fa-caret-right"
+        />
+      </h3>
+    </div>
+  }
+/>
+`;

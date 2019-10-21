@@ -1,0 +1,51 @@
+{
+	"id": "base",
+	"attributes": {
+		"productOfferingGroups": [
+			{
+				"id": "cool-group-with-sub-products",
+				"productOfferings": [								
+					{
+						"id": "wrong-sub-product"
+					}, {
+						"id": "sub-product",
+						"productOfferingGroups": [
+							{
+								"id": "mega-pog",
+								"productOfferings": [
+									{
+										"id": "yet-another-po",
+										"productOfferingGroups": [
+											{
+												"id": "final-group",
+												"productOfferings": [
+													{
+														"id": "final-po"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "less-cool-group",
+				"productOfferings": [
+					{
+						"id": "lame-sub-product"
+					}
+				]
+			}
+		],
+		"productOfferings": [
+			{
+				"id": "child-po"
+			}
+		]
+	}
+
+}

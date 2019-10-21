@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BarcodeInput succeeds at shallow mount with minimal props 1`] = `
+<div
+  className="BarcodeInput input-group"
+>
+  <div
+    className="input-group-prepend"
+  >
+    <div
+      className="input-group-text"
+    >
+      <i
+        className="fas fa-barcode"
+      />
+    </div>
+  </div>
+  <input
+    className="form-control"
+    id="BarcodeInput"
+    onChange={[Function]}
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Enter barcode..."
+    type="text"
+    value=""
+  />
+</div>
+`;

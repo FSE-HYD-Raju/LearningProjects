@@ -1,0 +1,55 @@
+.BasketDiscountContainer {
+	&-select-link {
+		line-height: 20px;
+		margin-top: 10px;
+		cursor: pointer;
+	}
+
+	&-remove-link {
+		line-height: 20px;
+		cursor: pointer;
+	}
+
+	&-change-discount-link {
+		line-height: 20px;
+		cursor: pointer;
+	}
+
+	&-container {
+		display: flex;
+		justify-content: flex-end;
+		width: 100%;
+		margin-bottom: 7px;
+	}
+
+	&-discount-selection {
+		display: flex;
+		flex: 1;
+		justify-content: flex-end;
+		margin-top: 10px
+	}
+
+	&-inner-container {
+		display: flex;
+	}
+
+	&-discount-line {
+		display: flex;
+		justify-content: space-between;
+		line-height: 20px;
+	}
+
+	&-selected-discount-name {
+		color: #333;
+		margin-right: 6px;
+	}
+
+	&-columns {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-discount-label {
+		margin-right: 6px;
+	}
+}

@@ -1,0 +1,10 @@
+@import '../../styles/_variables.scss';
+@import '../../styles/mixins.scss';
+
+.OcDropdownDatePicker {
+
+	&-required-field-icon {
+		@include required-field-icon();
+	}
+
+}

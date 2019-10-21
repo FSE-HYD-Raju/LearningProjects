@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcTransition succeeds at shallow mount with min props and with child 1`] = `
+<div
+  className="oc-transition"
+>
+  <FluidContainer
+    height={0}
+  >
+    <span />
+  </FluidContainer>
+</div>
+`;

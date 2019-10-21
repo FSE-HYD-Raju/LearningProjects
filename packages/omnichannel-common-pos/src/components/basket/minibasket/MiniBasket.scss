@@ -1,0 +1,49 @@
+@import "../../../styles/_variables";
+
+.MiniBasket {
+	&-header {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+
+	> h5 {
+		padding: 10px;
+		margin: 0;
+		background: $almost-white;
+		border-bottom: 1px solid $gray;
+		font-weight: bold;
+		font-size: 15px;
+	}
+
+	&-empty-basket-message {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 2rem;
+		color: gray("300");
+		border: 2px dashed gray("200");
+		margin-top: 1rem;
+		font-size: $h3-font-size;
+	}
+
+	&-empty-basket-icon {
+		font-size: 58px;
+		color: gray("200");
+		margin-bottom: 0.8rem;
+	}
+
+	&-reference-number-text {
+		color: $pebble;
+		font-weight: 600;
+	}
+
+	footer {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	&-pointer {
+		cursor: pointer;
+	}
+}

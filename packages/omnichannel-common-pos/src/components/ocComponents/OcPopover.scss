@@ -1,0 +1,32 @@
+.popover {
+	background-color: $popover-bg;
+	box-shadow: $popover-box-shadow;
+	font-size: $popover-font-size;
+	max-width: $popover-max-width;
+	border-width: $popover-border-width;
+	border-color: $popover-border-color;
+}
+
+.popover-title {
+	color: $popover-header-color;
+	background-color: $popover-header-bg;
+	padding: $popover-header-padding-y $popover-header-padding-x;
+}
+
+.popover-content {
+	color: $popover-body-color;
+	padding: $popover-body-padding-y $popover-body-padding-x;
+}
+
+.popover .popover-arrow {
+	width: $popover-arrow-width;
+	height: $popover-arrow-height;
+	color: $popover-arrow-color; 
+	border-top-color: $popover-arrow-outer-color;
+}
+
+@media(max-width:320px) {
+	.popover {
+		max-width: 320px;
+	}
+}

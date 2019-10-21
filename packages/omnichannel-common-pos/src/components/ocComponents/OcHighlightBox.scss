@@ -1,0 +1,38 @@
+@import '../../styles/_variables.scss';
+
+.OcHighlightBox {
+        background: $body-bg;
+        border: 0px solid #4287B6;
+
+    &-top {
+        border-width: 3px 0 0 0;
+        >div {
+            border: 1px solid #E1E1E1;
+            border-top: transparent;
+        }
+    }
+
+    &-right {
+        border-width: 0 3px 0 0;
+        >div {
+            border: 1px solid #E1E1E1;
+            border-right: transparent;
+        }
+    }
+
+    &-bottom {
+        border-width: 0 0 3px 0;
+        >div {
+            border: 1px solid #E1E1E1;
+            border-bottom: transparent;
+        }
+    }
+
+    &-left {
+        border-width: 0 0 0 3px;
+        >div {
+            border: 1px solid #E1E1E1;
+            border-left: transparent;
+        }
+    }
+}

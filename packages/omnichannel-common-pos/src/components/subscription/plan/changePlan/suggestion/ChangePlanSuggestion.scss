@@ -1,0 +1,41 @@
+.ChangePlanSuggestion {
+	div &-suggestion-header {
+		display: block;
+		padding-bottom: 1.5625rem;
+	}
+	div &-suggestion-body {
+		padding: 0 0.62rem;
+	}
+	&-link-to-subscription-summary-page {
+		display: flex;
+		padding-bottom: 1.5625rem;
+
+		&-icon {
+			font-size: 1.5rem;
+			color: $sapphire-blue;
+			padding-right: 0.1rem;
+		}
+		i::before {
+			margin-left: -0.3rem;
+		}
+	}
+	&-plans {
+		display: block;
+		align-items: flex-start;
+	}
+	&-plans h4 {
+		font-size: 1.125rem;
+		font-weight: 600;
+	}
+	&-available-plans {
+		margin-top: 1.875rem;
+	}
+	&-container .PlanInfo-plan-label {
+		display: none;
+	}
+	@include media-breakpoint-up(sm) {
+		div &-suggestion-body {
+			padding: 0 1.5625rem 1.5625rem;
+		}
+	}
+}

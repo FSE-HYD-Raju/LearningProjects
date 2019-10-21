@@ -1,0 +1,72 @@
+@import '../../styles/_variables.scss';
+
+.BasketMenu {
+	$basket-menu-spacer: $popover-body-padding-x;
+
+	padding: 0 $basket-menu-spacer $basket-menu-spacer;
+
+	&-notification {
+		display: flex;
+		align-items: center;
+		padding: $basket-menu-spacer;
+		margin: 0 (-$basket-menu-spacer);
+		border-bottom: 1px solid $weasel-border-color-solid;
+		&-text {
+			flex: 1 0 0;
+			color: theme-color("success");
+		}
+		&-icon {
+			margin-right: 0.5rem;
+			color: theme-color("success");
+		}
+		&-close {
+			margin-left: 0.5rem;
+			color: gray("300");
+		}
+	}
+
+	&-products {
+		list-style: none;
+		padding: 0;
+		margin: 0 (-$basket-menu-spacer) $basket-menu-spacer;
+	}
+
+	&-product {
+		display: flex;
+		padding: ($basket-menu-spacer * .6) $basket-menu-spacer;
+		border-bottom: 1px solid $weasel-border-color-solid;
+		&-count {
+			flex: 0 0 0;
+			white-space: nowrap;
+			margin-right: 0.5rem;
+			color: theme-color("success");
+		}
+		&-name {
+			flex: 1 0 0;
+		}
+	}
+
+	&-fees {
+		margin-bottom: $basket-menu-spacer;
+	}
+
+	&-fee-upfront, &-fee-monthly {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&-fee-label {
+		color: gray("600");
+	}
+
+	&-fee-amount {
+		color: theme-color("success");
+	}
+
+	&-actions {
+		display: flex;
+		.btn + .btn {
+			margin-left: $basket-menu-spacer;
+		}
+	}
+}

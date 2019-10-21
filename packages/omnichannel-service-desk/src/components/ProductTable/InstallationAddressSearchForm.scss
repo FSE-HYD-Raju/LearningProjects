@@ -1,0 +1,18 @@
+.InstallationAddressSearchForm {
+	&-search-results {
+		padding-top: 2%;
+	}
+	&-container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	&-item {
+		flex-basis: 33.33%;
+		padding-right: 5px;
+        padding-left: 5px;
+	}
+	&-search-results p{
+		margin-bottom: 5px;
+	}
+}

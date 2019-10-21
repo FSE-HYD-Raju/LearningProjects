@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacteristicsTextInputList should shallow mount with min props 1`] = `
+<div>
+  <div
+    className="CharacteristicsTextInputList-wrapper"
+    id="CharacteristicsTextInputList-a-0"
+    key="CharacteristicsTextInputList-a-0"
+  >
+    <div
+      className="CharacteristicsTextInputList-textInputWrapper"
+    >
+      <CharacteristicsTextInput
+        characteristicKey="a"
+        characteristicValue="a"
+        index={0}
+        onChange={[MockFunction]}
+        tabIndex={0}
+      />
+    </div>
+    <div
+      className="CharacteristicsTextInputList-closeIconWrapper"
+    />
+  </div>
+  <div
+    className="CharacteristicsTextInputList-wrapper"
+    id="CharacteristicsTextInputList-a-1"
+    key="CharacteristicsTextInputList-a-1"
+  >
+    <div
+      className="CharacteristicsTextInputList-textInputWrapper"
+    >
+      <CharacteristicsTextInput
+        characteristicKey="a"
+        characteristicValue="b"
+        index={1}
+        onChange={[MockFunction]}
+        tabIndex={0}
+      />
+    </div>
+    <div
+      className="CharacteristicsTextInputList-closeIconWrapper"
+    >
+      <i
+        className="fa fa-times"
+        id="CharacteristicsTextInputList-a-close-1"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+.AddonPrice {
+	&-container {
+		display: flex;
+		flex: 1;
+		justify-content: flex-end;
+		margin-left: 3px;
+		&.justify-start {
+			justify-content: flex-start;
+		}
+	}
+	&-starts-from {
+		&-text {
+			font-weight: 400;
+		}
+		&-currency {
+			font-weight: $font-weight-bold;
+			color: #89ba17;
+		}
+	}
+	&-currency {
+
+	}
+}

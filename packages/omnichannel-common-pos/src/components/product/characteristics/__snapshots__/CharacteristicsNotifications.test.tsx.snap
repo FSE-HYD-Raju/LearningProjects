@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacteristicsNotifications should display an error message below a specific characteristic input field 1`] = `
+<CharacteristicsNotifications
+  clearProductOfferingErrors={[MockFunction]}
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+  mappedProductOfferingErrors={
+    Array [
+      Object {
+        "characteristic": "CH_Friend_Number",
+        "errCode": "ERR_MSISDN_DOES_NOT_BELONG_TO_OPERATOR",
+        "messageId": "msisdnDoesNotBelongToOperator",
+        "target": "",
+      },
+    ]
+  }
+  targetCharacteristic="CH_Friend_Number"
+>
+  <div>
+    <div
+      className="CharacteristicsNotifications-characteristic-error-notification"
+      id="error-id-ERR_MSISDN_DOES_NOT_BELONG_TO_OPERATOR"
+      key="error-key-ERR_MSISDN_DOES_NOT_BELONG_TO_OPERATOR"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Msisdn does not belong to the operator"
+        description="Shown when FnF validation returns msisdn does not belong with operator"
+        id="msisdn-does-not-belong-to-operator"
+        wrapperType="wrapper"
+      >
+        <Connect(IntlProvider)>
+          <IntlProvider
+            dispatch={[Function]}
+            locale="en-DE"
+            messages={Object {}}
+          >
+            <FormattedMessage
+              defaultMessage="Msisdn does not belong to the operator"
+              description="Shown when FnF validation returns msisdn does not belong with operator"
+              id="msisdn-does-not-belong-to-operator"
+              values={Object {}}
+            >
+              <span>
+                Msisdn does not belong to the operator
+              </span>
+            </FormattedMessage>
+          </IntlProvider>
+        </Connect(IntlProvider)>
+      </FormattedMessageWrapper>
+    </div>
+  </div>
+</CharacteristicsNotifications>
+`;

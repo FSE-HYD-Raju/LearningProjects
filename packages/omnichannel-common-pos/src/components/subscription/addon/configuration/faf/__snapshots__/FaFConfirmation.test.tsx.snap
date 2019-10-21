@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FaFConfirmation succeeds at shallow mount with props 1`] = `
+<div
+  className="FaFNumberModal-confirmModal"
+>
+  <FormattedMessageWrapper
+    defaultMessage="Adding {number} to Friends & Family costs {price}. The balance on your subscription is too low to add this number to your Friends & Family."
+    description="Error message for removing number from friends and family list"
+    id="friends-and-family-confirm-add-balance-error"
+    values={
+      Object {
+        "number": "123",
+        "price": "100e",
+      }
+    }
+    wrapperType="wrapper"
+  />
+</div>
+`;

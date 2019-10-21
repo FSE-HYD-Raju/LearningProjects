@@ -1,0 +1,23 @@
+@import '~omnichannel-common-pos/lib/styles/_variables.scss';
+@import '~omnichannel-common-pos/lib/styles/mixins.scss';
+.CheckoutPayment {
+    &-continue-btn {
+        @include max-width();
+        display: flex;
+        justify-content: space-between;
+    }
+    &-total-sum {
+        color: theme-color("success");
+    }
+	&-errors {
+		font-weight: bold;
+		color: #d9534f;
+	}
+	footer {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 1rem;
+		padding-top: 1rem;
+		border-top: 1px solid $weasel-border-color-solid;
+	}
+}

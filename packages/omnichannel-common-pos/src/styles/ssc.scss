@@ -1,0 +1,47 @@
+@import 'mixins.scss';
+
+.content-box {
+	@include content-box();
+}
+
+.content-box-no-margin {
+	@include content-box();
+	max-width: 1680px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.oc-content-box {
+	@include content-box();
+}
+
+.oc-content-box-no-margin {
+	@include content-box();
+	max-width: 1680px;
+	margin-left: 0;
+	margin-right: 0;
+	margin: 0;
+	@media (min-width: 1200px) {
+		margin: 0;
+	}
+	@media (min-width: 1680px) {
+		margin: 0;
+	}
+	@media (max-width: 480px) {
+		margin: 0;
+	}
+}
+.oc-max-width {
+	max-width: 1680px;
+}
+
+
+::-ms-clear {
+  	width: 0;
+  	height: 0;
+}
+
+::-ms-reveal {
+	width: 0;
+	height: 0;
+}

@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginContainerRedux succeeds at shallow mount without props but with a mocked context 1`] = `
+<withRouter(LoginContainer)
+  actions={
+    Object {
+      "login": undefined,
+      "logout": [Function],
+    }
+  }
+  flux={
+    Object {
+      "actions": Object {
+        "BasketActions": Object {
+          "getState": [Function],
+        },
+        "UserActions": Object {
+          "getState": [Function],
+        },
+      },
+      "reduxStore": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+      "stores": Object {
+        "BasketStore": Object {
+          "_listeners": Array [],
+          "config": Object {
+            "setState": [Function],
+          },
+          "emitChange": [Function],
+          "getState": [Function],
+          "listen": [Function],
+          "setState": [Function],
+        },
+        "UserStore": Object {
+          "_listeners": Array [],
+          "config": Object {
+            "setState": [Function],
+          },
+          "emitChange": [Function],
+          "getState": [Function],
+          "listen": [Function],
+          "setState": [Function],
+        },
+      },
+    }
+  }
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+>
+  <div />
+</withRouter(LoginContainer)>
+`;

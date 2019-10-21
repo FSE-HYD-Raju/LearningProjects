@@ -1,0 +1,129 @@
+@import '../../../variables';
+
+.SimpleSubscriptionPriceRenderer {
+	display: flex;
+	flex: 1 1 auto;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0;
+	width: 100%;
+
+	&-pricelines-container {
+		background-color: $light-gray-2;
+		border-top: 1px solid $light-gray;
+		border-bottom: 1px solid $light-gray;
+		box-shadow: 0 0 14px 0 $light;
+		color: black;
+		display: block;
+		justify-content: space-between;
+		padding: 10px 20px 10px 19px;
+	}
+
+	&-price-line {
+		align-items: center;
+		align-self: flex-start;
+		color: $pebble;
+		display: flex;
+		font-size: $font-size-base;
+		justify-content: space-between;
+		padding: 5px 0 5px 0;
+		width: 100%;
+
+		&-price-value {
+			align-self: flex-end;
+			align-items: center;
+			color: $pebble;
+			display: inline-block;
+			justify-content: flex-end;
+			padding-right: 6px;
+		}
+	}
+
+	&-priceSum-container {
+		padding: 5px 0 0 0;
+	}
+
+	&-price-title {
+		align-items: center;
+		align-self: flex-start;
+		display: flex;
+		flex: 1 0 6rem;
+		max-width: 185px;
+	}
+
+	&-price-sum-header {
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+		line-height: 1;
+	}
+
+	&-price-type {
+		font-size: $price-type-font-size;
+		font-weight: 600;
+		justify-content: space-between;
+		text-transform: uppercase;
+	}
+
+	&-price-type-additional {
+		display: flex;
+		flex-direction: column;
+		font-size: $font-size-base;
+		font-weight: normal;
+	}
+
+	&-price-amount {
+		font-size: $price-font-size;
+		font-weight: bold;
+		margin-left: auto;
+	}
+
+	&-pay-now {
+		color: $darker-green;
+		font-size: $h3-font-size;
+	}
+
+	&-price-value {
+		align-self: flex-end;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+
+	&-price-container {
+		display: flex;
+	}
+
+	&-recurring-payment-type-text {
+		color: $lighter-smoke;
+		font-size: $font-size-sm;
+		font-weight: $font-weight-normal;
+		margin-top: -8px;
+	}
+
+	&-payment-type-text {
+		color: $lighter-smoke;
+		font-weight: $font-weight-normal;
+		padding-left: 3px;
+		font-size: 0.6rem;
+		margin-top: 5px;
+	}
+
+
+	&-price-block {
+		align-items: center;
+		justify-content: flex-start;
+		display: flex;
+		padding: 25px 15px 5px 15px;
+	}
+
+	&-tooltip-icon {
+		flex-direction: row;
+		color: $dark-blue;
+		font-size: 15px;
+		padding-right: 10px;
+		.OcTooltip {
+			z-index: 999;
+		}
+	}
+}

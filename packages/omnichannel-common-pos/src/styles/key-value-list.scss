@@ -1,0 +1,45 @@
+.oc-key-value {
+	$kv-padding-y: 0.15rem;
+	$kv-padding-x: 0.5rem;
+	$kv-key-color: gray("500");
+	&-list {
+		display: table;
+	}
+	&-row {
+		display: table-row;
+		.oc-key, .oc-value {
+			display: table-cell;
+			vertical-align: top;
+		}
+		.oc-key {
+			padding: $kv-padding-y $kv-padding-x $kv-padding-y 0;
+			color: $kv-key-color;
+		}
+		.oc-value {
+			padding: $kv-padding-y 0 $kv-padding-y $kv-padding-x;
+		}
+	}
+	&-list-group {
+		display: table;
+	}
+	&-list-group &-list {
+		display: table-cell;
+		vertical-align: top;
+		padding: 0 1.5rem;
+		border-right: 1px solid $weasel-border-color-transparent;
+		&:first-child {
+			padding-left: 0;
+		}
+		&:last-child {
+			padding-right: 0;
+			border-right: 0;
+		}
+	}
+
+	@include media-breakpoint-down('sm') {
+		&-list-group &-list {
+			display: table-row-group;
+		}
+	}
+}
+

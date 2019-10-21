@@ -1,0 +1,13 @@
+{
+  "lerna": "2.9.0",
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "skipTempTag": "true",
+      "skipGit": "true"
+    }
+  },
+  "hoist": true
+}

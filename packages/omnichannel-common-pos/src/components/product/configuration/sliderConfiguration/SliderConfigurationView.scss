@@ -1,0 +1,83 @@
+@import "../../../../variables";
+
+.SliderConfigurationView {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-bottom: 10px;
+	height: 70px;
+
+	&-selection {
+		flex-direction: column;
+		align-items: start;
+		justify-content: space-between;
+		display: flex;
+		width: 100px;
+		padding: 8px;
+		border: 1px solid $light-gray;
+		background: $light-gray;
+		&-title {
+			display: flex;
+		}
+		&-icon {
+			color: $main-blue;
+			padding-top: 3px;
+			padding-right: 5px;
+		}
+
+		&-message {
+			color: $main-blue;
+		}
+
+		&-value {
+			font-weight: $font-weight-bold;
+			font-size: 16px;
+		}
+	}
+
+	&-slider {
+		flex: 7;
+		border: 1px solid $light-gray;
+		padding: 20px 40px;
+
+		.rc-slider {
+			&-mark {
+				padding-top: 5px;
+			}
+			&-track {
+				background-color: $main-blue;
+				height: 10px;
+				z-index: 2;
+			}
+			&-rail {
+				height: 10px;
+			}
+			&-step {
+				&-dot {
+					height: 22px;
+					width: 8px;
+					bottom: -12px;
+					border-radius: 3px;
+					background: #e9eae9;
+					z-index: 1;
+				}
+				&-dot-active {
+					height: 22px;
+					width: 8px;
+					bottom: -12px;
+					border-radius: 3px;
+					background: #e9eae9;
+					border-color: #e9eae9;
+					z-index: 1;
+				}
+			}
+			&-handle {
+				height: 20px;
+				width: 20px;
+				border: solid 4px #4287b7;
+				z-index: 3;
+				box-shadow: 0px 0px 9px 1px;
+			}
+		}
+	}
+}

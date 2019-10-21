@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerSelection succeeds at shallow mount with minimum props 1`] = `
+<form
+  className="NavBar-customer-selection"
+  id="w-app-search"
+  onSubmit={[Function]}
+>
+  <div
+    className="input-group"
+  >
+    <Connect(IntlProvider)>
+      <OnClickOutside(NavBarSearchMenu)
+        criteria="name"
+        eventTypes={
+          Array [
+            "mousedown",
+            "touchstart",
+          ]
+        }
+        excludeScrollbar={false}
+        handleCriteriaChange={[Function]}
+        outsideClickIgnoreClass="ignore-react-onclickoutside"
+        preventDefault={false}
+        stopPropagation={false}
+        unparsedSearchConfigs="{\\"POSSearchConfigs\\":[{\\"id\\": \\"name\\", \\"enabled\\": true},{\\"id\\": \\"phone-number\\",\\"enabled\\": true},{\\"id\\": \\"passport\\",\\"identificationType\\": \\"passport\\",\\"enabled\\": true},{\\"id\\": \\"minor-ID\\",\\"identificationType\\": \\"minor-ID\\",\\"enabled\\": true},{\\"id\\": \\"ID-card\\",\\"identificationType\\": \\"identification-card\\",\\"enabled\\": true},{\\"id\\": \\"military-ID\\",\\"identificationType\\": \\"military-ID\\",\\"enabled\\": true},{\\"id\\": \\"foreign-document\\",\\"identificationType\\": \\"foreign-document\\",\\"enabled\\": true},{\\"id\\": \\"diplomatic-carnet\\",\\"identificationType\\": \\"diplomatic-carnet\\",\\"enabled\\": true},{\\"id\\": \\"student-ID\\",\\"identificationType\\": \\"student-ID\\",\\"enabled\\": true},{\\"id\\": \\"tax-ID\\",\\"identificationType\\": \\"tax-ID\\",\\"enabled\\": true},{\\"id\\": \\"drivers-licence\\",\\"identificationType\\": \\"drivers-licence\\",\\"enabled\\": true},{\\"id\\": \\"residence-number\\",\\"identificationType\\": \\"residence-number\\",\\"enabled\\": true},{\\"id\\": \\"work-permit\\",\\"identificationType\\": \\"work-permit\\",\\"enabled\\": true},{\\"id\\": \\"disability-cell\\",\\"identificationType\\": \\"disability-cell\\",\\"enabled\\": true},{\\"id\\": \\"facebook\\",\\"identificationType\\": \\"facebook\\",\\"enabled\\": true},{\\"id\\": \\"twitter\\",\\"identificationType\\": \\"twitter\\",\\"enabled\\": true},{\\"id\\": \\"instagram\\",\\"identificationType\\": \\"instagram\\",\\"enabled\\": true},{\\"id\\": \\"tigold\\",\\"identificationType\\": \\"tigold\\",\\"enabled\\": true},{\\"id\\": \\"national-electorial-court\\",\\"identificationType\\": \\"national-electorial-court\\",\\"enabled\\": true},{\\"id\\": \\"other\\",\\"identificationType\\": \\"other\\",\\"enabled\\": true}]}"
+      />
+    </Connect(IntlProvider)>
+    <input
+      className="form-control"
+      id="navbar-search"
+      onChange={[Function]}
+      value="Timo Isokoski"
+    />
+    <div
+      className="input-group-append"
+    >
+      <OcButton
+        buttonType="DEFAULT"
+        htmlBtnType="submit"
+        id="navbar_search_button"
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-search"
+        />
+      </OcButton>
+    </div>
+  </div>
+</form>
+`;

@@ -1,0 +1,55 @@
+$oc-switch-height: 30px;
+$oc-switch-min-width: 100px;
+$oc-switch-toggler-bleed: 1px;
+
+.OcSwitch {
+	display: inline-flex;
+	align-items: center;
+	position: relative;
+	border-radius: $border-radius;
+	height: $oc-switch-height;
+	background: $weasel-background-solid;
+	border: 1px solid $weasel-border-color-solid;
+	min-width: $oc-switch-min-width;
+
+	&, &:hover, &:focus, &:active {
+		text-decoration: none;
+	}
+
+	&-ocToggleInactive, &-ocToggleActive {
+		flex: 1 0 0;
+		overflow: hidden;
+		position: relative;
+		z-index: 1;
+		padding: 0 .8rem;
+		line-height: 2;
+		text-align: center;
+		transition: color .25s ease-in-out
+	}
+
+	&-ocToggleInactive {
+		color: gray("500");
+		cursor: pointer;
+	}
+
+	&-ocToggleActive {
+		color: #fff;
+	}
+
+	&-toggler {
+		position: absolute;
+		left: -$oc-switch-toggler-bleed;
+		top: -$oc-switch-toggler-bleed;
+		bottom: -$oc-switch-toggler-bleed;
+		right: 50%;
+		background: theme-color("success");
+		border-radius: $border-radius;
+		border: 1px solid darken(theme-color("success"), 5%);
+		transition: left .25s ease-in-out, right .25s ease-in-out;
+		&-active {
+			left: 50%;
+			right: -$oc-switch-toggler-bleed;
+		}
+	}
+
+}

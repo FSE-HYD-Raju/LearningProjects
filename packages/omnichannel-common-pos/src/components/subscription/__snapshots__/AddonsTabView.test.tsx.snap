@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddonsTabView should succeed at shallow mount without props 1`] = `
+<div
+  className="AddonsTabView"
+  data-customizable={true}
+>
+  <Connect(AddonsViewContent)
+    agreementId=""
+    flux={
+      Object {
+        "persist": [Function],
+        "reduxStore": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+      }
+    }
+    lifecycleFilter="All"
+    product={Object {}}
+    showActions={true}
+  />
+  <Connect(ProductLoansList)
+    agreementId=""
+    lifecycleFilter="All"
+    selectedSubscriptionProduct={Object {}}
+  />
+  <Connect(ProductServicesByActivity)
+    agreementId=""
+    flux={
+      Object {
+        "persist": [Function],
+        "reduxStore": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+      }
+    }
+    lifecycleFilter="All"
+    product={Object {}}
+  />
+</div>
+`;

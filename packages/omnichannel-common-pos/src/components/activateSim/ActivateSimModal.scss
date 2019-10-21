@@ -1,0 +1,51 @@
+.ActivateSimModal {
+	&-container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	&-verification-block {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		margin: 0.5rem 0 1rem;
+	}
+	&-label {
+		min-width: 10.25rem;
+		color: $gray-600;
+	}
+	&-sim-block {
+		width: 100%;
+		margin-left: 10.25rem;
+	}
+	&-inputNormal {
+		max-width: 7.5rem;
+		height: 2.5rem;
+		padding: 0 0.3rem;
+		outline: none;
+		border: 0.0625rem solid $weasel-border-color-solid;
+		&:active {
+			outline: none;
+		}
+	}
+	&-error {
+		border: 0.0625rem solid $danger;
+	}
+
+	&-error-alert {
+		position: absolute;
+		bottom: 0.625rem;
+		display: flex;
+		align-items: center;
+		flex-wrap: nowrap;
+		color: red;
+
+		i {
+			margin-right: 0.3125rem;
+		}
+	}
+}
+
+button#activate-sim-cancel-button {
+	padding: 0.565rem;
+}

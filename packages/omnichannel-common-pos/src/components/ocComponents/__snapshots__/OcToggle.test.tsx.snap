@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcToggle succeeds at deep mount without props 1`] = `
+<OcToggle
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+>
+  <div
+    className="OcToggle-wrapper"
+    onClick={[Function]}
+  >
+    <div
+      className="OcToggle-label OcToggle-enabled-label"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="On"
+        description="Oc toggle default enabled label"
+        id="oc-toggle-on"
+        wrapperType="wrapper"
+      >
+        <Connect(IntlProvider)>
+          <IntlProvider
+            dispatch={[Function]}
+            locale="en-DE"
+            messages={Object {}}
+          >
+            <FormattedMessage
+              defaultMessage="On"
+              description="Oc toggle default enabled label"
+              id="oc-toggle-on"
+              values={Object {}}
+            >
+              <span>
+                On
+              </span>
+            </FormattedMessage>
+          </IntlProvider>
+        </Connect(IntlProvider)>
+      </FormattedMessageWrapper>
+    </div>
+    <div
+      className="OcToggle-label OcToggle-disabled-label"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Off"
+        description="Oc toggle default disabled label"
+        id="oc-toggle-off"
+        wrapperType="wrapper"
+      >
+        <Connect(IntlProvider)>
+          <IntlProvider
+            dispatch={[Function]}
+            locale="en-DE"
+            messages={Object {}}
+          >
+            <FormattedMessage
+              defaultMessage="Off"
+              description="Oc toggle default disabled label"
+              id="oc-toggle-off"
+              values={Object {}}
+            >
+              <span>
+                Off
+              </span>
+            </FormattedMessage>
+          </IntlProvider>
+        </Connect(IntlProvider)>
+      </FormattedMessageWrapper>
+    </div>
+    <Transition
+      component={false}
+      enter={
+        Object {
+          "borderBottomLeftRadius": Object {
+            "damping": 10,
+            "precision": 0.01,
+            "stiffness": 100,
+            "val": 4,
+          },
+          "borderBottomRightRadius": Object {
+            "damping": 10,
+            "precision": 0.01,
+            "stiffness": 100,
+            "val": 0,
+          },
+          "borderTopLeftRadius": Object {
+            "damping": 10,
+            "precision": 0.01,
+            "stiffness": 100,
+            "val": 4,
+          },
+          "borderTopRightRadius": Object {
+            "damping": 10,
+            "precision": 0.01,
+            "stiffness": 100,
+            "val": 0,
+          },
+          "left": 0,
+          "translateX": Object {
+            "damping": 18,
+            "precision": 0.01,
+            "stiffness": 145,
+            "val": 0,
+          },
+        }
+      }
+      leave={
+        Object {
+          "borderBottomLeftRadius": 0,
+          "borderBottomRightRadius": 0,
+          "borderTopLeftRadius": 0,
+          "borderTopRightRadius": 0,
+          "left": 0,
+          "translateX": 0,
+        }
+      }
+      onEnter={[Function]}
+      onLeave={[Function]}
+      runOnMount={true}
+    >
+      <Component
+        defaultStyles={
+          Array [
+            Object {
+              "data": <div
+                className="OcToggle-toggler"
+              />,
+              "key": "toggler",
+              "style": Object {
+                "borderBottomLeftRadius": 0,
+                "borderBottomRightRadius": 0,
+                "borderTopLeftRadius": 0,
+                "borderTopRightRadius": 0,
+                "left": 0,
+                "translateX": 0,
+              },
+            },
+          ]
+        }
+        didLeave={[Function]}
+        styles={
+          Array [
+            Object {
+              "data": <div
+                className="OcToggle-toggler"
+              />,
+              "key": "toggler",
+              "style": Object {
+                "borderBottomLeftRadius": Object {
+                  "damping": 10,
+                  "precision": 0.01,
+                  "stiffness": 100,
+                  "val": 4,
+                },
+                "borderBottomRightRadius": Object {
+                  "damping": 10,
+                  "precision": 0.01,
+                  "stiffness": 100,
+                  "val": 0,
+                },
+                "borderTopLeftRadius": Object {
+                  "damping": 10,
+                  "precision": 0.01,
+                  "stiffness": 100,
+                  "val": 4,
+                },
+                "borderTopRightRadius": Object {
+                  "damping": 10,
+                  "precision": 0.01,
+                  "stiffness": 100,
+                  "val": 0,
+                },
+                "left": Object {
+                  "damping": 26,
+                  "precision": 0.01,
+                  "stiffness": 170,
+                  "val": 0,
+                },
+                "translateX": Object {
+                  "damping": 18,
+                  "precision": 0.01,
+                  "stiffness": 145,
+                  "val": 0,
+                },
+              },
+            },
+          ]
+        }
+        willEnter={[Function]}
+        willLeave={[Function]}
+      >
+        <div
+          className="OcToggle-toggler"
+          key="toggler"
+          style={
+            Object {
+              "borderBottomLeftRadius": 0,
+              "borderBottomRightRadius": 0,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
+              "left": 0,
+              "transform": "translateX(0px) ",
+            }
+          }
+        />
+      </Component>
+    </Transition>
+  </div>
+</OcToggle>
+`;
+
+exports[`OcToggle succeeds at shallow mount without props 1`] = `
+<div
+  className="OcToggle-wrapper"
+  onClick={[Function]}
+>
+  <div
+    className="OcToggle-label OcToggle-enabled-label"
+  >
+    <FormattedMessageWrapper
+      defaultMessage="On"
+      description="Oc toggle default enabled label"
+      id="oc-toggle-on"
+      wrapperType="wrapper"
+    />
+  </div>
+  <div
+    className="OcToggle-label OcToggle-disabled-label"
+  >
+    <FormattedMessageWrapper
+      defaultMessage="Off"
+      description="Oc toggle default disabled label"
+      id="oc-toggle-off"
+      wrapperType="wrapper"
+    />
+  </div>
+  <Transition
+    component={false}
+    enter={
+      Object {
+        "borderBottomLeftRadius": Object {
+          "damping": 10,
+          "precision": 0.01,
+          "stiffness": 100,
+          "val": 4,
+        },
+        "borderBottomRightRadius": Object {
+          "damping": 10,
+          "precision": 0.01,
+          "stiffness": 100,
+          "val": 0,
+        },
+        "borderTopLeftRadius": Object {
+          "damping": 10,
+          "precision": 0.01,
+          "stiffness": 100,
+          "val": 4,
+        },
+        "borderTopRightRadius": Object {
+          "damping": 10,
+          "precision": 0.01,
+          "stiffness": 100,
+          "val": 0,
+        },
+        "left": 0,
+        "translateX": Object {
+          "damping": 18,
+          "precision": 0.01,
+          "stiffness": 145,
+          "val": 0,
+        },
+      }
+    }
+    leave={
+      Object {
+        "borderBottomLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderTopRightRadius": 0,
+        "left": 0,
+        "translateX": 0,
+      }
+    }
+    onEnter={[Function]}
+    onLeave={[Function]}
+    runOnMount={true}
+  >
+    <div
+      className="OcToggle-toggler"
+      key="toggler"
+    />
+  </Transition>
+</div>
+`;

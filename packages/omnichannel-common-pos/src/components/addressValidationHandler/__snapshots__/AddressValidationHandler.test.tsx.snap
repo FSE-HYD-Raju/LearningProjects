@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressValidationHandler succeeds at shallow mount with minimum props 1`] = `
+<OcModal
+  className="AddressValidationHandler-modal"
+  fitScreen={true}
+  hideCloseButton={false}
+  okButtonLabel={
+    <FormattedMessageWrapper
+      defaultMessage="Save anyway"
+      description="Address validation handler save anyway button message"
+      id="address-validation-handler-save-anyway-button-message"
+      wrapperType="wrapper"
+    />
+  }
+  okDisabled={false}
+  onClose={[Function]}
+  onOk={[Function]}
+  showModal={true}
+  smallModal={true}
+  title={
+    <div>
+      <i
+        className="fa fa-info-circle"
+      />
+      <FormattedMessageWrapper
+        defaultMessage="Address not found"
+        description="Address validation handler address not found title"
+        id="address-validation-handler-address-not-found-title"
+        wrapperType="wrapper"
+      />
+    </div>
+  }
+>
+  <div
+    className="modal-content"
+  >
+    <div
+      data-test-name="address-not-found-save-anyway-question"
+    >
+      <FormattedHTMLMessageWrapper
+        defaultMessage="Address <b>{address}</b> not found. Do you want to save it anyway?"
+        description="Address validation handler address not found save anyway message"
+        id="address-validation-handler-address-not-found-save-anyway-message"
+        values={
+          Object {
+            "address": "Mikonkatu 1,
+			
+			00100
+			Helsinki,
+			
+			FI",
+          }
+        }
+        wrapperType="wrapper"
+      />
+    </div>
+  </div>
+</OcModal>
+`;

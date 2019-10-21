@@ -1,0 +1,15 @@
+@import "../../../variables";
+
+.SubscriptionCreditInfo {
+	&-title {
+		font-size: 0.9rem;
+		i {
+			color: $main-blue;
+			padding-left: 0.7rem;
+		}
+	}
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 1rem;
+}

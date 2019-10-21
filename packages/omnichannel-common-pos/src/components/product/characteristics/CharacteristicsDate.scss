@@ -1,0 +1,29 @@
+#CharacteristicsDate-datepicker {
+	min-width: 250px;
+}
+
+.CharacteristicsDate {
+	&-container {
+		flex-flow: row wrap;
+		justify-content: space-between;
+		display: flex;
+	}
+	&-description {
+		flex-flow: wrap;
+		align-self: center;
+		display: flex;
+	}
+	&-single-datepicker-container {
+		div {
+			label {
+				min-width: 120px;
+				padding-top: 11px;
+				padding-right: 6px;
+				margin-bottom: 0px;
+			}
+		}
+	}
+	&-period-datepicker-container {
+		margin-bottom: 5px;
+	}
+}

@@ -1,0 +1,74 @@
+.PlanInfo {
+	&-plan-info {
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+		background-color: $gray-100;
+		padding: 1.25rem;
+	}
+	&-plan-name-container {
+		display: flex;
+		flex-direction: column;
+	}
+	&-plan-fee {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	&-plan-label,
+	&-plan-fee-label {
+		font-weight: 500;
+		font-size: 0.75rem;
+	}
+	&-plan-fee-value {
+		font-weight: 400;
+		font-size: 0.75rem;
+	}
+
+	&-plan-name {
+		font-weight: 600;
+		font-size: 1rem;
+	}
+	&-plan-services {
+		display: flex;
+		flex-direction: column;
+
+		.AllowanceInfoRow-container {
+			padding: 0 0 0.25rem 0;
+		}
+	}
+	@include media-breakpoint-up(sm) {
+		&-plan-label,
+		&-plan-fee-label {
+			font-weight: 400;
+			font-size: 0.75rem;
+			color: $gray-500;
+		}
+		&-plan-fee-value {
+			font-weight: 500;
+			font-size: 0.875rem;
+		}
+
+		&-plan-name-container {
+			flex: 0 1 14rem;
+		}
+		&-plan-info {
+			flex-direction: row;
+		}
+		&-plan-services {
+			flex-direction: row;
+			.AllowanceInfoRow-container {
+				padding: 0 1.25rem;
+			}
+		}
+		&-plan-fee {
+			padding: 0 1.25rem;
+			flex-direction: column;
+			justify-content: initial;
+		}
+		&-plan-fees {
+			padding: 0 0 0 1.25rem;
+		}
+	}
+}

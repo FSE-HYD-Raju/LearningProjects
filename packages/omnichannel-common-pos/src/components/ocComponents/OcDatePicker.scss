@@ -1,0 +1,115 @@
+@import '../../styles/_variables.scss';
+@import '../../styles/mixins.scss';
+
+.OcDatePicker.OcInput {
+    background-color: transparent;
+
+	.OcInput-range-row {
+		@include flex-row(flex-start);
+
+		.DateRangePicker {
+			.DateInput {
+				width: calc(50% - 13px);
+			}
+		}
+
+		.OcInput-presets-row {
+			@include flex-row(flex-start);
+			padding-left: 10px;
+
+			.OcInput-preset-label {
+				background: $body-bg;
+				border-radius: 2px;
+				border: 1px solid $main-blue;
+				color: $main-blue;
+				cursor: pointer;
+				height: 28px;
+				margin: 3px 15px 0 0;
+				padding: 2px 5px;
+				position: relative;
+
+				&::after,
+				&::before {
+					border-style: solid;
+					content: '';
+					display: block;
+					height: 0;
+					position: absolute;
+					width: 0;
+				}
+
+				&::after {
+					border-color: transparent white transparent transparent;
+					border-width: 7px;
+					left: -14px;
+					top: 6px;
+				}
+
+				&::before {
+					border-color: transparent $main-blue transparent transparent;
+					border-width: 9px;
+					left: -18px;
+					top: 4px;
+				}
+			}
+
+			@include media-breakpoint-down(md) {
+				.OcInput-preset-label {
+					margin: 12px 3px 0 0;
+
+					&::after {
+						border-color: transparent transparent white transparent;
+						left: 6px;
+						top: -14px;
+					}
+					&::before {
+						border-color: transparent transparent $main-blue transparent;
+						left: 4px;
+						top: -18px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.OcDatePicker.OcInput-label-set {
+    margin-bottom: 15px;
+    position: relative;
+    padding-top: 11px;
+	width: 100%;
+
+	&-horizontal {
+		display: flex;
+	}
+
+	label.OcInput-control-label {
+		margin-bottom: 5px;
+		display: inline-flex;
+		align-items: center;
+	}
+
+	.rw-datetimepicker {
+		border-radius: $input-border-radius;
+
+		input.rw-input {
+			height: 39px;
+		}
+
+		&.rw-state-focus {
+			@include input-focus();
+		}
+	}
+
+	.rw-header, .rw-calendar-grid, .rw-footer {
+		text-transform: capitalize;
+		button {
+			text-transform: capitalize;
+		}
+	}
+
+	.OcInput-label-on-left {
+		display: block;
+		flex: 1 0 0;
+	}
+}

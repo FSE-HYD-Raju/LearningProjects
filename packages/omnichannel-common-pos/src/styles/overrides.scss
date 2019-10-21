@@ -1,0 +1,18 @@
+// Remove browser defaults from Bootstrap custom <select> style in Webkit.
+// Possibly redundant if Autoprefixer settings are adjusted
+.custom-select {
+	-webkit-appearance: none;
+}
+
+// Reveal broken react-bootstrap modals
+.fade.in.modal-backdrop {opacity: 0.5;}
+.fade.in.modal {opacity: 1;}
+.fade.modal .modal-dialog {transform: translate(0,0);}
+// Switch react-bootstrap close button and title placement
+.legacy-bootstrap-modal {
+	.modal-header {flex-direction: row-reverse;}
+	.modal-body:empty {display: none;}
+}
+
+// Expand modal-footers inexplicably stuffed into modal-body
+.modal-body .modal-footer {margin: $modal-inner-padding (-$modal-inner-padding) (-$modal-inner-padding);}

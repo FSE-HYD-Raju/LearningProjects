@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacteristicsTextInput should shallow mount with minimum props 1`] = `
+<OcTextInput
+  className="CharacteristicsTextInput"
+  id="icc_input__key-0"
+  label="key"
+  labelPosition="LEFT"
+  labelWidth="120px"
+  onChange={[Function]}
+  pattern=".*"
+  placeholder="key"
+  style={Object {}}
+  tabIndex={0}
+  value="none"
+/>
+`;

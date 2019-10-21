@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SessionStatePollingIFrame mounts with minimum props 1`] = `
+<iframe
+  frameBorder="0"
+  height="0"
+  id="SessionStatePollingIFrame"
+  src="http://localhost:80/iframe"
+  width="0"
+/>
+`;

@@ -1,0 +1,33 @@
+@import '../../styles/_variables.scss';
+
+.RecurringTopUpConfigurationForm {
+	&-main-form-container > .form-group {
+		margin-bottom: .1rem;
+	}
+
+	&-top-ups {
+		margin: 1rem 0;
+	}
+
+	&-column-group {
+		margin: .2rem 0 .25rem .4rem;
+		border-left: .25rem solid gray("200");
+		padding: 1rem 0 1rem 1rem;
+		max-width: 25rem;
+	}
+
+	&-top-up-amount-with-presets {
+		display: flex;
+		align-items: center;
+
+		.PriceHolder {
+			margin-top: .6rem;
+		}
+	}
+
+	@include media-breakpoint-up(sm){
+		&-column-group {
+			padding: 1rem 2rem;
+		}
+	}
+}

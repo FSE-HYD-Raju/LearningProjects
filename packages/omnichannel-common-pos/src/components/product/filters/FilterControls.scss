@@ -1,0 +1,87 @@
+@import '../../../variables';
+@import '../../../styles/mixins';
+
+.b2c-products-filter{
+
+	&-main {
+		display: flex;
+		background: $light-grey-lighter;
+		margin: 1rem 0;
+		background: #f8f8f8;
+		padding: 0 0.5rem;
+	}
+
+	&-price-range {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		margin-top: 0;
+		min-width: 300px;
+		max-width: 300px;
+		width: 300px;
+
+		&-option {
+			max-height: $form-field-line-height;
+			margin-bottom: 0;
+			&.custom-radio {
+				margin-bottom: 0.625rem;
+			}
+		}
+
+		&-slider {
+			margin-top: 10px;
+			display: flex;
+			flex: 1;
+			align-items: center;
+			justify-content: space-between;
+
+			&-container {
+				display: flex;
+				flex-direction: column;
+				margin-left: 6px;
+				margin-top: 0.625rem;
+			}
+			&-legit {
+				opacity: 1.0;
+				pointer-events: auto;
+			}
+			&-nonlegit {
+				opacity: 0.35;
+				pointer-events: none;
+			}
+			&-label {
+				font-size: $form-field-text-font-size;
+				color: $graphite-lighter;
+				&-currency {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+
+	&-inner-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-minutes-range {
+		min-width: 300px;
+		margin-left: 12px;
+
+	}
+
+	&-container {
+		padding: 4px;
+		margin-right: 60px;
+	}
+
+	&-title {
+		@include form-field-text;
+		padding-bottom: 0.5rem;
+	}
+
+	&-voice {
+		max-height: $form-field-line-height;
+		margin-bottom: 20px;
+	}
+}

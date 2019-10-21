@@ -1,0 +1,19 @@
+@import '~omnichannel-common-pos/lib/styles/mixins.scss';
+@import '~omnichannel-common-pos/lib/styles/_variables.scss';
+
+.CheckoutContainer {
+
+	@include media-breakpoint-up(lg) {
+		@include make-row();
+
+		&-wizard-container {
+			@include make-col-ready();
+			flex: 1 0 0;
+		}
+
+		&-mini-basket-container {
+			@include make-col-ready();
+			flex: 0 0 25rem;
+		}
+	}
+}

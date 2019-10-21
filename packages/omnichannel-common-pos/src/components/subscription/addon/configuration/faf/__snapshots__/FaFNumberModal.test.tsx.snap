@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FaFNumberModal succeeds at shallow mount with props 1`] = `
+<OcModal
+  hideCloseButton={false}
+  okButtonLabel={null}
+  okDisabled={false}
+  onClose={[Function]}
+  showModal={true}
+  smallModal={true}
+  title={
+    <FormattedMessageWrapper
+      defaultMessage="Configure Friends & Family"
+      description="Title of Friends and Family configuration modal"
+      id="addon-configuration-friends-and-family-title"
+      wrapperType="wrapper"
+    />
+  }
+>
+  <FaFNumberList
+    addNumber={[Function]}
+    descriptionText=""
+    maximumNumbers={10}
+    numbers={
+      Array [
+        "099 938 1835",
+        "099 938 1836",
+        "099 938 1837",
+      ]
+    }
+    removeNumber={[Function]}
+    validationPattern="\\\\d*"
+  />
+</OcModal>
+`;

@@ -1,0 +1,61 @@
+.comparison-table {
+	display: flex;
+	flex-direction: row;
+
+	.table-headers {
+		display: flex;
+		flex-direction: column;
+		flex: 0.5;
+		max-width: 200px;
+
+		.header-cell {
+			border: 1px solid #ccc;
+			border-left: 0;
+			border-top: 0;
+			display: flex;
+			flex: 1;
+			min-height: 65px;
+
+			> span {
+				padding: 8px;
+			}
+		}
+	}
+
+	.table-cells {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		flex: 1;
+
+		.product {
+			border: 1px solid #ccc;
+			border-left: 0;
+			border-top: 0;
+			display: flex;
+			flex-direction: row;
+			height: 110px;
+			max-height: 110px;
+			min-height: 110px;
+			flex: 1;
+
+			.img-holder {
+				display: inline-block;
+				width: 110px;
+			}
+		}
+
+		.table-cell {
+			border: 1px solid #ccc;
+			border-left: 0;
+			border-top: 0;
+			display: flex;
+			flex: 1;
+			min-height: 65px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: normal;
+			padding: 8px;
+		}
+	}
+}

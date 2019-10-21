@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcFileUpload succeeds at shallow mount with min props 1`] = `
+<div>
+  <Dropzone
+    accept={
+      Array [
+        "doc",
+        "docx",
+        "pdf",
+        "png",
+        "jpg",
+        "jpeg",
+      ]
+    }
+    className="OcFileUpload-file-dropzone"
+    disableClick={false}
+    disablePreview={false}
+    maxSize={Infinity}
+    minSize={0}
+    multiple={false}
+    onDrop={[Function]}
+    preventDropOnDocument={true}
+  >
+    <span />
+  </Dropzone>
+</div>
+`;

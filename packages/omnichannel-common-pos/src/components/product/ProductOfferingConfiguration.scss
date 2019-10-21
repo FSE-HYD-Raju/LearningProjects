@@ -1,0 +1,35 @@
+.ProductOfferingConfiguration {
+	.Flex-pog-select-container {
+		@media only screen and (min-width: 1200px) {
+			margin-left: 120px;
+		}
+	}
+	&-po-short-name {
+		font-weight: 600;
+		font-size: 14px;
+		color: rgb(69, 69, 69);
+		letter-spacing: -0.47px;
+		margin: 0;
+	}
+
+	&-poc-child,
+	&-poc-child-layout-column {
+		display: flex;
+		flex: 1;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	&-poc-child-layout-column {
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	&-po-config-price {
+		display: flex;
+		flex: 1;
+		align-items: center;
+		justify-content: flex-start;
+		margin: 10px 0;
+	}
+}

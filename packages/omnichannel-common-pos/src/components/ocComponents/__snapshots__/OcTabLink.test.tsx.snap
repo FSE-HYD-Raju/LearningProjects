@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcTabLink succeeds at shallow mount without props 1`] = `
+<NavLink
+  activeClassName="active "
+  ariaCurrent="true"
+  className="nav-link "
+  exact={false}
+  style={Object {}}
+  to="/"
+/>
+`;

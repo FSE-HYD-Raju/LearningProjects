@@ -1,0 +1,431 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StateChangeModal succeeds at shallow mount with minimum props for addon service state transition 1`] = `
+<StateChangeModalConfirmation
+  currency="EUR"
+  description=""
+  handleClose={[Function]}
+  handleOkClick={[Function]}
+  handleSelectPaymentMethod={[Function]}
+  handleSelectReason={[Function]}
+  isAddon={true}
+  modification={
+    Object {
+      "basket": Object {
+        "attributes": Object {
+          "billingAddress": undefined,
+          "created": undefined,
+          "createdAt": "2017-09-14T15:10:19.602Z",
+          "expiresAt": undefined,
+          "id": "a5828bac-8cb8-40b1-a021-26a96a90441e",
+          "lastModifiedAt": undefined,
+          "lifecycleStatus": "OPEN",
+          "modified": undefined,
+          "referenceNumber": "e9c80c2b-a88f-49ec-8fe5-8bf4eab734cb",
+          "totalPrices": Array [],
+        },
+        "id": "a5828bac-8cb8-40b1-a021-26a96a90441e",
+      },
+      "basketItems": Array [
+        Object {
+          "attributes": Object {
+            "action": undefined,
+            "childBasketItems": Array [],
+            "createdAt": "2017-09-14T15:10:19.628Z",
+            "inputtedCharacteristics": Object {},
+            "lastModifiedAt": "2017-09-14T15:10:19.628Z",
+            "product": Object {
+              "bundlingProductOfferings": undefined,
+              "categories": Array [],
+              "commercialEnrichments": Array [],
+              "featureCharacteristics": Array [],
+              "id": "fav-num-po",
+              "inputCharacteristics": Object {
+                "number1": Object {
+                  "description": "The mobile number of a person close to your heart.",
+                  "mandatory": true,
+                  "name": "Favorite number",
+                  "priority": undefined,
+                  "source": undefined,
+                  "subType": undefined,
+                  "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+                  "values": Array [],
+                },
+                "number2": Object {
+                  "description": "The mobile number of a person close to your heart.",
+                  "mandatory": false,
+                  "name": "Favorite number",
+                  "priority": undefined,
+                  "source": undefined,
+                  "subType": undefined,
+                  "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+                  "values": Array [],
+                },
+                "number3": Object {
+                  "description": "The mobile number of a person close to your heart.",
+                  "mandatory": false,
+                  "name": "Favorite number",
+                  "priority": undefined,
+                  "source": undefined,
+                  "subType": undefined,
+                  "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+                  "values": Array [],
+                },
+                "number4": Object {
+                  "description": "The mobile number of a person close to your heart.",
+                  "mandatory": false,
+                  "name": "Favorite number",
+                  "priority": undefined,
+                  "source": undefined,
+                  "subType": undefined,
+                  "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+                  "values": Array [],
+                },
+                "number5": Object {
+                  "description": "The mobile number of a person close to your heart.",
+                  "mandatory": false,
+                  "name": "Favorite number",
+                  "priority": undefined,
+                  "source": undefined,
+                  "subType": undefined,
+                  "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+                  "values": Array [],
+                },
+              },
+              "instanceCharacteristics": Object {},
+              "msisdns": undefined,
+              "name": "Favorite numbers",
+              "prices": Array [
+                Object {
+                  "chargedUnit": Object {
+                    "amount": 1,
+                    "currency": undefined,
+                    "unitOfMeasure": "PIECES",
+                  },
+                  "conditions": undefined,
+                  "currency": "EUR",
+                  "name": undefined,
+                  "originalPrice": undefined,
+                  "recurringChargePeriod": undefined,
+                  "taxAmount": undefined,
+                  "taxFreeAmount": 1,
+                  "taxRate": 0,
+                  "type": "ONE_TIME",
+                },
+                Object {
+                  "chargedUnit": Object {
+                    "amount": 1,
+                    "currency": undefined,
+                    "unitOfMeasure": "PIECES",
+                  },
+                  "conditions": undefined,
+                  "currency": "EUR",
+                  "name": undefined,
+                  "originalPrice": undefined,
+                  "recurringChargePeriod": Object {
+                    "count": 1,
+                    "interval": "MONTH",
+                  },
+                  "taxAmount": undefined,
+                  "taxFreeAmount": 4.5,
+                  "taxRate": 0,
+                  "type": "RECURRENT",
+                },
+              ],
+              "priority": undefined,
+              "productOfferingGroups": Array [],
+              "productOfferings": Array [],
+              "specificationId": "fav-num",
+            },
+            "quantity": 1,
+            "targetAgreementId": "juanita-agreement1-sub",
+            "targetLifecycleStatus": "terminated",
+            "totalPrices": Array [],
+            "unitPrices": Array [],
+          },
+          "id": "2ab15884-771b-4360-a220-cdd40a2a0659",
+        },
+      ],
+      "products": Array [
+        Object {
+          "bundlingProductOfferings": undefined,
+          "categories": Array [],
+          "commercialEnrichments": Array [],
+          "featureCharacteristics": Array [],
+          "id": "fav-num-po",
+          "inputCharacteristics": Object {
+            "number1": Object {
+              "description": "The mobile number of a person close to your heart.",
+              "mandatory": true,
+              "name": "Favorite number",
+              "priority": undefined,
+              "source": undefined,
+              "subType": undefined,
+              "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+              "values": Array [],
+            },
+            "number2": Object {
+              "description": "The mobile number of a person close to your heart.",
+              "mandatory": false,
+              "name": "Favorite number",
+              "priority": undefined,
+              "source": undefined,
+              "subType": undefined,
+              "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+              "values": Array [],
+            },
+            "number3": Object {
+              "description": "The mobile number of a person close to your heart.",
+              "mandatory": false,
+              "name": "Favorite number",
+              "priority": undefined,
+              "source": undefined,
+              "subType": undefined,
+              "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+              "values": Array [],
+            },
+            "number4": Object {
+              "description": "The mobile number of a person close to your heart.",
+              "mandatory": false,
+              "name": "Favorite number",
+              "priority": undefined,
+              "source": undefined,
+              "subType": undefined,
+              "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+              "values": Array [],
+            },
+            "number5": Object {
+              "description": "The mobile number of a person close to your heart.",
+              "mandatory": false,
+              "name": "Favorite number",
+              "priority": undefined,
+              "source": undefined,
+              "subType": undefined,
+              "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+              "values": Array [],
+            },
+          },
+          "instanceCharacteristics": Object {},
+          "msisdns": undefined,
+          "name": "Favorite numbers",
+          "prices": Array [
+            Object {
+              "chargedUnit": Object {
+                "amount": 1,
+                "currency": undefined,
+                "unitOfMeasure": "PIECES",
+              },
+              "conditions": undefined,
+              "currency": "EUR",
+              "name": undefined,
+              "originalPrice": undefined,
+              "recurringChargePeriod": undefined,
+              "taxAmount": undefined,
+              "taxFreeAmount": 1,
+              "taxRate": 0,
+              "type": "ONE_TIME",
+            },
+            Object {
+              "chargedUnit": Object {
+                "amount": 1,
+                "currency": undefined,
+                "unitOfMeasure": "PIECES",
+              },
+              "conditions": undefined,
+              "currency": "EUR",
+              "name": undefined,
+              "originalPrice": undefined,
+              "recurringChargePeriod": Object {
+                "count": 1,
+                "interval": "MONTH",
+              },
+              "taxAmount": undefined,
+              "taxFreeAmount": 4.5,
+              "taxRate": 0,
+              "type": "RECURRENT",
+            },
+          ],
+          "priority": undefined,
+          "productOfferingGroups": Array [],
+          "productOfferings": Array [],
+          "specificationId": "fav-num",
+        },
+      ],
+      "resource": Object {
+        "id": "123",
+      },
+    }
+  }
+  name="CFS_voice_1000"
+  phoneNumber=""
+  reasons={Array []}
+  requireReasonSelect={true}
+  selectedReason="default"
+  showDisable={false}
+  stateTransitionCode=""
+/>
+`;
+
+exports[`StateChangeModal succeeds at shallow mount with minimum props for service state transition 1`] = `
+<StateChangeModalConfirmation
+  currency="EUR"
+  description=""
+  handleClose={[Function]}
+  handleOkClick={[Function]}
+  handleSelectPaymentMethod={[Function]}
+  handleSelectReason={[Function]}
+  isAddon={true}
+  modification={
+    Object {
+      "basket": Object {
+        "attributes": Object {
+          "billingAddress": undefined,
+          "created": undefined,
+          "createdAt": "2017-09-14T15:10:19.602Z",
+          "expiresAt": undefined,
+          "id": "a5828bac-8cb8-40b1-a021-26a96a90441e",
+          "lastModifiedAt": undefined,
+          "lifecycleStatus": "OPEN",
+          "modified": undefined,
+          "referenceNumber": "e9c80c2b-a88f-49ec-8fe5-8bf4eab734cb",
+          "totalPrices": Array [],
+        },
+        "id": "a5828bac-8cb8-40b1-a021-26a96a90441e",
+      },
+      "basketItems": Array [
+        Object {
+          "attributes": Object {
+            "action": undefined,
+            "childBasketItems": Array [],
+            "createdAt": "2017-09-14T15:10:19.628Z",
+            "inputtedCharacteristics": Object {},
+            "lastModifiedAt": "2017-09-14T15:10:19.628Z",
+            "product": Object {
+              "bundlingProductOfferings": undefined,
+              "categories": Array [],
+              "commercialEnrichments": Array [],
+              "featureCharacteristics": Array [],
+              "id": "fav-num-po",
+              "inputCharacteristics": Object {
+                "number1": Object {
+                  "description": "The mobile number of a person close to your heart.",
+                  "mandatory": true,
+                  "name": "Favorite number",
+                  "priority": undefined,
+                  "source": undefined,
+                  "subType": undefined,
+                  "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+                  "values": Array [],
+                },
+                "number2": Object {
+                  "description": "The mobile number of a person close to your heart.",
+                  "mandatory": false,
+                  "name": "Favorite number",
+                  "priority": undefined,
+                  "source": undefined,
+                  "subType": undefined,
+                  "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+                  "values": Array [],
+                },
+                "number3": Object {
+                  "description": "The mobile number of a person close to your heart.",
+                  "mandatory": false,
+                  "name": "Favorite number",
+                  "priority": undefined,
+                  "source": undefined,
+                  "subType": undefined,
+                  "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+                  "values": Array [],
+                },
+                "number4": Object {
+                  "description": "The mobile number of a person close to your heart.",
+                  "mandatory": false,
+                  "name": "Favorite number",
+                  "priority": undefined,
+                  "source": undefined,
+                  "subType": undefined,
+                  "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+                  "values": Array [],
+                },
+                "number5": Object {
+                  "description": "The mobile number of a person close to your heart.",
+                  "mandatory": false,
+                  "name": "Favorite number",
+                  "priority": undefined,
+                  "source": undefined,
+                  "subType": undefined,
+                  "validation": "^\\\\+358 [1-9](\\\\d) (\\\\d){7}$",
+                  "values": Array [],
+                },
+              },
+              "instanceCharacteristics": Object {},
+              "msisdns": undefined,
+              "name": "Favorite numbers",
+              "prices": Array [
+                Object {
+                  "chargedUnit": Object {
+                    "amount": 1,
+                    "currency": undefined,
+                    "unitOfMeasure": "PIECES",
+                  },
+                  "conditions": undefined,
+                  "currency": "EUR",
+                  "name": undefined,
+                  "originalPrice": undefined,
+                  "recurringChargePeriod": undefined,
+                  "taxAmount": undefined,
+                  "taxFreeAmount": 1,
+                  "taxRate": 0,
+                  "type": "ONE_TIME",
+                },
+                Object {
+                  "chargedUnit": Object {
+                    "amount": 1,
+                    "currency": undefined,
+                    "unitOfMeasure": "PIECES",
+                  },
+                  "conditions": undefined,
+                  "currency": "EUR",
+                  "name": undefined,
+                  "originalPrice": undefined,
+                  "recurringChargePeriod": Object {
+                    "count": 1,
+                    "interval": "MONTH",
+                  },
+                  "taxAmount": undefined,
+                  "taxFreeAmount": 4.5,
+                  "taxRate": 0,
+                  "type": "RECURRENT",
+                },
+              ],
+              "priority": undefined,
+              "productOfferingGroups": Array [],
+              "productOfferings": Array [],
+              "specificationId": "fav-num",
+            },
+            "quantity": 1,
+            "targetAgreementId": "juanita-agreement1-sub",
+            "targetLifecycleStatus": "terminated",
+            "totalPrices": Array [],
+            "unitPrices": Array [],
+          },
+          "id": "2ab15884-771b-4360-a220-cdd40a2a0659",
+        },
+      ],
+      "products": Array [],
+      "resource": Object {
+        "attributes": Object {
+          "serviceName": "Favorite numbers",
+        },
+      },
+    }
+  }
+  name="CFS_voice_1000"
+  phoneNumber=""
+  reasons={Array []}
+  requireReasonSelect={true}
+  selectedReason="default"
+  showDisable={false}
+  stateTransitionCode=""
+/>
+`;

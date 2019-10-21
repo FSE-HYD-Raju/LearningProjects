@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsageDonut succeeds at shallow mount with minimum props 1`] = `
+<svg
+  className="UsageDonut"
+  height="100%"
+  viewBox="0 0 42 42"
+  width="100%"
+>
+  <defs>
+    <linearGradient
+      id="UsageDonut-gradient"
+    >
+      <stop
+        className="UsageDonut-gradient-start"
+        offset="15%"
+      />
+      <stop
+        className="UsageDonut-gradient-end"
+        offset="95%"
+      />
+    </linearGradient>
+  </defs>
+  <circle
+    className="UsageDonut-track"
+    cx={21}
+    cy={21}
+    r={19}
+    strokeDasharray="101.47344271095031 17.907078125461823"
+    strokeDashoffset={-38.798669271833944}
+  />
+  <circle
+    className="UsageDonut-graph UsageDonut-graph-default"
+    cx={21}
+    cy={21}
+    r={19}
+    strokeDasharray="86.25242630430776 33.12809453210437"
+    strokeDashoffset={-38.798669271833944}
+  />
+</svg>
+`;

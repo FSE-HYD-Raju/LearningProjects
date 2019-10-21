@@ -1,0 +1,97 @@
+@import '../../../styles/_variables.scss';
+
+.OcButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        >a {
+            text-decoration: none;
+        }
+    }
+
+    >a {
+        text-decoration: none;
+        width: 100%;
+    }
+
+    >span {
+        text-decoration: none;
+        width: 100%;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &-error {
+		//@include ocbutton();
+		color: theme-color("danger");
+		border: 1px solid theme-color("danger");
+		background: white;
+		&:hover {
+
+		}
+    }
+
+    &-error_filled {
+		//@include ocbutton();
+        color: white;
+		border: 1px solid theme-color("danger");
+        background: theme-color("danger");
+        color: white;
+        &:hover {
+            background: lighten(theme-color("danger"), 5%);
+            color: white;
+        }
+    }
+
+	&-large {
+		font-size: $font-size-base;
+		max-height: 40px;
+        min-height: 40px;
+	}
+
+	&-ghost {
+		//@include ocbutton();
+		//border: 1px solid #DCDCDC;
+        border: 1px solid white;
+		color: theme-color("primary");
+        background: white;
+        box-shadow: 0 0 4px #e0e0e0;
+		&:hover {
+			border: 1px solid #DCDCDC;
+			color: lighten(#555, 5%);
+		}
+	}
+
+	&-ghost_filled {
+
+	}
+
+	&-borderless {
+		border: 1px solid transparent;
+		background: transparent;
+		color: theme-color("primary");
+
+		&:hover {
+			color: lighten(theme-color("primary"), 10%);
+		    border: 1px solid transparent;
+		}
+	}
+
+	&-small {
+		max-height: 29px !important;
+		padding: 4px 8px !important;
+	}
+
+	&-block {
+		width: 100%;
+	}
+
+	&-disabled {
+		opacity: 0.3;
+        cursor: not-allowed;
+        pointer-events: none;
+	}
+}

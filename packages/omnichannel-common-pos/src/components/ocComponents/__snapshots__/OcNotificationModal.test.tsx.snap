@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcNotificationModal succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="modal fade show"
+  role="dialog"
+  tabIndex={-1}
+>
+  <div
+    className="fade modal-backdrop in"
+  />
+  <div
+    className="modal-dialog"
+    role="document"
+  >
+    <div
+      className="modal-content"
+    >
+      <div
+        className="modal-header"
+      >
+        <h5
+          className="modal-title"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="Order cancellation"
+            description="Digital life cancel order modal, notification modal title"
+            id="digital-life-cancel-order-notification-modal-title"
+            wrapperType="wrapper"
+          />
+        </h5>
+      </div>
+      <div
+        className="modal-body"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Order cancellation successful"
+          description="Digital life cancel order modal, notification text cancellation status success"
+          id="digital-life-cancel-order-notification-text-status-success"
+          wrapperType="wrapper"
+        />
+      </div>
+      <div
+        className="modal-footer"
+      >
+        <OcButton
+          buttonType="PRIMARY"
+          onClick={[Function]}
+        >
+          <FormattedMessageWrapper
+            defaultMessage="OK"
+            description="notification modal OK button"
+            id="digital-life-cancel-order-notification-modal-ok-button"
+            wrapperType="wrapper"
+          />
+        </OcButton>
+      </div>
+    </div>
+  </div>
+</div>
+`;

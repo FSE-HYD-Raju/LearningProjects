@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectPrivacyConsent succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-sm-6"
+  >
+    <div
+      className="SelectPrivacyConsent-privacy-consent-input-label"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Encuestas TIGO SMS"
+        description="Customer privacy consent capture label"
+        id="privacy-consent-capture-label"
+        wrapperType="wrapper"
+      />
+    </div>
+    <span
+      className="SelectPrivacyConsent-privacy-consent-input-description SelectPrivacyConsent-text-muted"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Encuestas TIGO SMS"
+        description="Customer privacy consent description"
+        id="privacy-consent-capture-description"
+        wrapperType="wrapper"
+      />
+    </span>
+  </div>
+  <div
+    className="SelectPrivacyConsent-privacy-consent-input-radio-inline col-sm-4"
+  >
+    <OcInput
+      checked={false}
+      className="SelectPrivacyConsent-privacy-consent-radio-button"
+      defaultValue="Encuestas TIGO SMS-default-yes"
+      id="yes-Encuestas TIGO SMS"
+      key="POSCheckoutPrivacyConsent-input-Encuestas TIGO SMS-yes"
+      label="Yes"
+      name="Encuestas TIGO SMS"
+      onChange={[Function]}
+      type="radio"
+    />
+    <OcInput
+      checked={false}
+      className="SelectPrivacyConsent-privacy-consent-radio-button"
+      defaultValue="Encuestas TIGO SMS-default-no"
+      id="no-Encuestas TIGO SMS"
+      key="POSCheckoutPrivacyConsent-input-Encuestas TIGO SMS-no"
+      label="No"
+      name="Encuestas TIGO SMS"
+      onChange={[Function]}
+      type="radio"
+    />
+  </div>
+</div>
+`;

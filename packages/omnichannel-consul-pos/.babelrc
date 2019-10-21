@@ -1,0 +1,9 @@
+{
+    "presets": ["es2015", "stage-0"],
+    "plugins": [
+        ["transform-es2015-classes", {"loose": true}],
+        "transform-class-properties",
+        "add-module-exports",
+        "transform-proto-to-assign"
+    ]
+}

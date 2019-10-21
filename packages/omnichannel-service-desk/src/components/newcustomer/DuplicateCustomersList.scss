@@ -1,0 +1,60 @@
+.DuplicateCustomersList {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+
+	&-button-container {
+		background: #f8f8f8;
+		margin-top: 40px;
+		border-top: 1px solid #e1e1e1;
+	}
+
+	&-button-container > div {
+		display: flex;
+		flex: 1;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px;
+	}
+
+	&-table-item {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		padding: 0 20px 20px 20px;
+	}
+
+	&-table-container {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+	}
+
+	&-table {
+		width: 100%;
+		padding: 16px;
+	}
+
+	&-table-head {
+		border-bottom: 1px solid #e1e1e1;
+		background: #fbfbfb;
+	}
+
+	&-table-row {
+		padding: 10px;
+		height: 40px;
+	}
+
+	&-duplicate-customers-row {
+		height: 50px;
+		border-bottom: 1px solid #e1e1e1;
+	}
+
+	&-duplicate-customers-row > td > a {
+		cursor: pointer;
+	}
+
+	&-button-wide {
+		width: 100%;
+	}
+}

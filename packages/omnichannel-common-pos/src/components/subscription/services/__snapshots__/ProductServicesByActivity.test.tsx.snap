@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductServicesByActivity succeeds at shallow mount without props 1`] = `
+<div
+  className="ProductServicesByActivity"
+>
+  <Connect(CallForwardingConfigurationModal)
+    agreementId="juanita-agreement1-sub"
+    flux={
+      Object {
+        "reduxStore": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "stores": Object {
+          "SalesStore": Object {
+            "_listeners": Array [],
+            "config": Object {
+              "setState": [Function],
+            },
+            "emitChange": [Function],
+            "getState": [Function],
+            "listen": [Function],
+            "products": Array [],
+            "setState": [Function],
+          },
+          "UserStore": Object {
+            "_listeners": Array [],
+            "config": Object {
+              "setState": [Function],
+            },
+            "emitChange": [Function],
+            "getState": [Function],
+            "listen": [Function],
+            "setState": [Function],
+            "user": Object {
+              "id": "",
+            },
+          },
+        },
+      }
+    }
+    services={Array []}
+    showModal={false}
+    toggleModal={[Function]}
+  />
+  <div
+    className="ProductServicesByActivity-content"
+    id="services-juanita-agreement1-sub"
+  >
+    <AddonsSection
+      activeHeader={
+        Object {
+          "defaultMessage": "Services",
+          "description": "In Service plan & products, active services, title",
+          "id": "digital-life-service-plan-and-products-active-services-title",
+        }
+      }
+      hasData={false}
+      id="product-services"
+      inactiveHeader={
+        Object {
+          "defaultMessage": "Services (none available)",
+          "description": "In Service plan & products, no active services available, title",
+          "id": "digital-life-service-plan-and-products-no-active-services-title",
+        }
+      }
+    >
+      <ServicesAccordion
+        onCallForwardingClick={[Function]}
+        onServiceClick={[Function]}
+        serviceStateTransitionByActionName={Object {}}
+        services={Array []}
+      />
+    </AddonsSection>
+  </div>
+</div>
+`;

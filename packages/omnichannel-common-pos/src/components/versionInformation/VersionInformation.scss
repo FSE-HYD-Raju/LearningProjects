@@ -1,0 +1,68 @@
+.VersionInformation {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 9000100;
+	.list-group {
+		min-width: 220px;
+		margin-bottom: 0;
+		.list-group-item .badge {
+			margin-left: 20px;
+		}
+		.list-group-item > div {
+			width: 100%;
+			> button {
+				margin-right: -10px;
+			}
+		}
+	}
+	> span.label {
+		background: #DDDDDD;
+		padding: 4px 8px;
+		font-weight: bolder;
+		cursor: pointer;
+	}
+
+	&-open {
+		box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+	}
+
+	&-artifacts-info {
+		background-color: #fff;
+		color: $smoke;
+		padding: 6px 20px;
+		font-size: 12px;
+	}
+
+	&-artifact-row {
+		display: grid;
+		grid-template-columns: 140px 70px auto;
+		padding: 6px 0;
+	}
+
+	&-header {
+		font-weight: bold;
+	}
+
+	&-artifact-cell {
+		padding-right: 5px;
+	}
+
+	&-build-info-container,
+	&-mock-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&-artifact-item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&-mock-group {
+		display: flex;
+		align-self: flex-end;
+	}
+}

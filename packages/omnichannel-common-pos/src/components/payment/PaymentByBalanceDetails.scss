@@ -1,0 +1,60 @@
+@import "../../variables";
+
+.PaymentByBalanceDetails {
+	&-payment-by-balance-details {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-price-block {
+		width: 50%;
+		text-align: right;
+	}
+
+	&-details-grey-block {
+		border: $light-gray solid 2px;
+		border-radius: 3px;
+		background: $light-grey-lighter;
+		padding: 0 1rem;
+		display: flex;
+		flex-direction: column;
+		justify-self: flex-end;
+		margin-left: 0 !important;
+	}
+
+	&-remaining-balance {
+		border-top: 1px solid $light-gray-2;
+		font-weight: 500;
+	}
+
+	&-details-row {
+		display: flex;
+		width: 100%;
+		padding: 0.3rem 0.5rem;
+	}
+
+	&-type {
+		width: 50%;
+	}
+
+	&-red-label {
+		color: $red;
+	}
+
+	&-not-enough-balance-message {
+		align-items: center;
+		flex-wrap: nowrap;
+		color: red;
+		margin-bottom: 1rem;
+	}
+
+	@include media-breakpoint-up(sm) {
+		&-payment-by-balance-details {
+			margin-left: 10.25rem;
+		}
+
+		&-price-block {
+			width: 3.75rem;
+		}
+	}
+}

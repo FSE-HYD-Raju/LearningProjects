@@ -1,0 +1,54 @@
+.CustomerDetailsSubscriptionDetails {
+	&-subscription-name {
+		display: flex;
+		flex: 1;
+		justify-content: space-between;
+	}
+	&-subscription-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-devices {
+		display: flex;
+		flex-direction: row;
+		flex: 1;
+		justify-content: space-between;
+		h5 {
+			margin-top: 2px;
+		}
+
+		&-list {
+			display: flex;
+			flex: 1;
+			justify-content: flex-end;
+		}
+	}
+
+	&-table-header {
+		width: 90%;
+		line-height: 30px;
+		margin-bottom: 10px;
+	}
+
+	&-deviceName, &-no-phone-connected {
+		margin-left: 15px;
+	}
+
+	&-subscription-information-container {
+		display: flex;
+		max-width: 90%;
+	}
+
+	&-subscription-information {
+		max-width: 450px;
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+	}
+
+	#linkToShopPhonePage {
+		margin: 0 0 10px 15px;
+		padding: 0;
+	}
+}

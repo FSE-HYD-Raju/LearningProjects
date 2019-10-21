@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BasketDiscountModal succeeds at shallow mount with minimum props 1`] = `
+<OcModal
+  hideCloseButton={false}
+  okButtonLabel={
+    <FormattedMessageWrapper
+      defaultMessage="Done"
+      description="Done button in discount modal"
+      id="shop-basket-preview-discount-modal-done-button"
+      wrapperType="wrapper"
+    />
+  }
+  okDisabled={true}
+  onClose={[Function]}
+  onOk={[Function]}
+  showModal={true}
+  smallModal={true}
+  title={
+    <FormattedMessageWrapper
+      defaultMessage="Select discount"
+      description="Select discount modal title"
+      id="basket-dicount-select-discount-modal-title"
+      wrapperType="wrapper"
+    />
+  }
+>
+  <FormattedMessageWrapper
+    defaultMessage="No available discounts"
+    description="Shop basket preview no available discounts"
+    id="basket-discount-no-available-discounts"
+    wrapperType="wrapper"
+  />
+</OcModal>
+`;

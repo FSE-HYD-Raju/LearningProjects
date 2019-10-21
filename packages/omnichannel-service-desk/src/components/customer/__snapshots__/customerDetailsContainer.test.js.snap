@@ -1,0 +1,2892 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerDetailsContainer CustomerDetailsView / CustomerDetailsForm works 1`] = `
+<Connect(CustomerDetailsContainer)
+  activeCustomerCase={
+    Object {
+      "attributes": Object {
+        "activeCustomer": Object {
+          "firstName": "Juanita",
+          "id": "juanita",
+        },
+      },
+    }
+  }
+  agreements={
+    Array [
+      Object {
+        "attributes": Object {
+          "lifeCycleStatus": "ACTIVE",
+          "products": Array [
+            Object {
+              "id": "juanita-agreement1-sub",
+              "name": "hulabaloosub",
+            },
+          ],
+        },
+        "id": "juanita-agreement1",
+      },
+    ]
+  }
+  enableChangeCustomerData={true}
+  getAgreements={[Function]}
+  getCustomerOffers={[Function]}
+  getSidebarNotifications={[Function]}
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "key": "mockKey",
+          "pathname": "/",
+          "search": "",
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "key": "mockKey",
+        "pathname": "/",
+        "search": "",
+      },
+      "push": [MockFunction],
+      "replace": [Function],
+    }
+  }
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+  location={
+    Object {
+      "hash": "",
+      "key": "mockKey",
+      "pathname": "/",
+      "search": "",
+    }
+  }
+  posShowSummaryData={true}
+>
+  <CustomerDetailsContainer
+    activeCustomerCase={
+      Object {
+        "attributes": Object {
+          "activeCustomer": Object {
+            "firstName": "Juanita",
+            "id": "juanita",
+          },
+        },
+      }
+    }
+    agreements={
+      Array [
+        Object {
+          "attributes": Object {
+            "lifeCycleStatus": "ACTIVE",
+            "products": Array [
+              Object {
+                "id": "juanita-agreement1-sub",
+                "name": "hulabaloosub",
+              },
+            ],
+          },
+          "id": "juanita-agreement1",
+        },
+      ]
+    }
+    dispatch={[Function]}
+    getAgreements={[Function]}
+    getCustomerOffers={[Function]}
+    getSidebarNotifications={[Function]}
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "mockKey",
+            "pathname": "/",
+            "search": "",
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "mockKey",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [MockFunction],
+        "replace": [Function],
+      }
+    }
+    intl={
+      Object {
+        "defaultFormats": Object {},
+        "defaultLocale": "en",
+        "formatDate": [Function],
+        "formatHTMLMessage": [Function],
+        "formatMessage": [Function],
+        "formatNumber": [Function],
+        "formatPlural": [Function],
+        "formatRelative": [Function],
+        "formatTime": [Function],
+        "formats": Object {},
+        "formatters": Object {
+          "getDateTimeFormat": [Function],
+          "getMessageFormat": [Function],
+          "getNumberFormat": [Function],
+          "getPluralFormat": [Function],
+          "getRelativeFormat": [Function],
+        },
+        "locale": "en",
+        "messages": Object {},
+        "now": [Function],
+        "onError": [Function],
+        "textComponent": "span",
+        "timeZone": null,
+      }
+    }
+    location={
+      Object {
+        "hash": "",
+        "key": "mockKey",
+        "pathname": "/",
+        "search": "",
+      }
+    }
+  >
+    <div
+      className="CustomerDetails"
+    >
+      <header
+        className="CustomerDetails-header w-view-header"
+      >
+        <h1>
+          <FormattedMessageWrapper
+            defaultMessage="Customer"
+            description="Pos customer details customer"
+            id="pos-customer-details-customer"
+            wrapperType="wrapper"
+          >
+            <Connect(IntlProvider)>
+              <IntlProvider
+                dispatch={[Function]}
+                locale="en-DE"
+                messages={Object {}}
+              >
+                <FormattedMessage
+                  defaultMessage="Customer"
+                  description="Pos customer details customer"
+                  id="pos-customer-details-customer"
+                  values={Object {}}
+                >
+                  <span>
+                    Customer
+                  </span>
+                </FormattedMessage>
+              </IntlProvider>
+            </Connect(IntlProvider)>
+          </FormattedMessageWrapper>
+        </h1>
+      </header>
+      <div
+        className="CustomerDetails-body"
+      >
+        <div
+          className="CustomerDetails-navigation"
+        >
+          <nav
+            className="w-nav-vertical"
+          >
+            <NavLink
+              activeClassName="active"
+              ariaCurrent="true"
+              className="w-nav-vertical-item"
+              onlyActiveOnIndex={true}
+              to="/servicedesk/customer"
+            >
+              <Route
+                path="/servicedesk/customer"
+              >
+                <Link
+                  aria-current={false}
+                  className="w-nav-vertical-item"
+                  onlyActiveOnIndex={true}
+                  replace={false}
+                  to="/servicedesk/customer"
+                >
+                  <a
+                    aria-current={false}
+                    className="w-nav-vertical-item"
+                    href="/servicedesk/customer"
+                    onClick={[Function]}
+                    onlyActiveOnIndex={true}
+                  >
+                    <i
+                      className="fa fa-user fa-fw btn-icon-left"
+                    />
+                    <FormattedMessageWrapper
+                      defaultMessage="Customer"
+                      description="Pos customer details customer"
+                      id="pos-customer-details-customer"
+                      wrapperType="wrapper"
+                    >
+                      <Connect(IntlProvider)>
+                        <IntlProvider
+                          dispatch={[Function]}
+                          locale="en-DE"
+                          messages={Object {}}
+                        >
+                          <FormattedMessage
+                            defaultMessage="Customer"
+                            description="Pos customer details customer"
+                            id="pos-customer-details-customer"
+                            values={Object {}}
+                          >
+                            <span>
+                              Customer
+                            </span>
+                          </FormattedMessage>
+                        </IntlProvider>
+                      </Connect(IntlProvider)>
+                    </FormattedMessageWrapper>
+                  </a>
+                </Link>
+              </Route>
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              ariaCurrent="true"
+              className="w-nav-vertical-item"
+              id="linkPresentCustomerSubscriptions"
+              onlyActiveOnIndex={true}
+              to="#"
+            >
+              <Route
+                path="#"
+              >
+                <Link
+                  aria-current={false}
+                  className="w-nav-vertical-item"
+                  id="linkPresentCustomerSubscriptions"
+                  onlyActiveOnIndex={true}
+                  replace={false}
+                  to="#"
+                >
+                  <a
+                    aria-current={false}
+                    className="w-nav-vertical-item"
+                    href="#"
+                    id="linkPresentCustomerSubscriptions"
+                    onClick={[Function]}
+                    onlyActiveOnIndex={true}
+                  >
+                    <i
+                      className="fa fa-file fa-fw btn-icon-left"
+                    />
+                    <FormattedMessageWrapper
+                      defaultMessage="Subscriptions"
+                      description="service-desk, new customer, subscriptions section title"
+                      id="customer-subscriptions"
+                      wrapperType="wrapper"
+                    >
+                      <Connect(IntlProvider)>
+                        <IntlProvider
+                          dispatch={[Function]}
+                          locale="en-DE"
+                          messages={Object {}}
+                        >
+                          <FormattedMessage
+                            defaultMessage="Subscriptions"
+                            description="service-desk, new customer, subscriptions section title"
+                            id="customer-subscriptions"
+                            values={Object {}}
+                          >
+                            <span>
+                              Subscriptions
+                            </span>
+                          </FormattedMessage>
+                        </IntlProvider>
+                      </Connect(IntlProvider)>
+                    </FormattedMessageWrapper>
+                  </a>
+                </Link>
+              </Route>
+            </NavLink>
+            <NavLink
+              activeClassName="active-link"
+              ariaCurrent="true"
+              className="w-nav-vertical-subitem"
+              id="juanita-agreement1-sub"
+              key="juanita-agreement1-sub"
+              to="/servicedesk/customer/agreements/juanita-agreement1/juanita-agreement1-sub"
+            >
+              <Route
+                path="/servicedesk/customer/agreements/juanita-agreement1/juanita-agreement1-sub"
+              >
+                <Link
+                  aria-current={false}
+                  className="w-nav-vertical-subitem"
+                  id="juanita-agreement1-sub"
+                  replace={false}
+                  to="/servicedesk/customer/agreements/juanita-agreement1/juanita-agreement1-sub"
+                >
+                  <a
+                    aria-current={false}
+                    className="w-nav-vertical-subitem"
+                    href="/servicedesk/customer/agreements/juanita-agreement1/juanita-agreement1-sub"
+                    id="juanita-agreement1-sub"
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="CustomerDetailsContainer-plan-name"
+                    >
+                       
+                      hulabaloosub
+                       
+                    </span>
+                  </a>
+                </Link>
+              </Route>
+            </NavLink>
+          </nav>
+        </div>
+        <div
+          className="CustomerDetails-content"
+        >
+          <CustomerDetailsMainView
+            activeCustomerCase={
+              Object {
+                "attributes": Object {
+                  "activeCustomer": Object {
+                    "firstName": "Juanita",
+                    "id": "juanita",
+                  },
+                },
+              }
+            }
+            agreements={
+              Array [
+                Object {
+                  "attributes": Object {
+                    "lifeCycleStatus": "ACTIVE",
+                    "products": Array [
+                      Object {
+                        "id": "juanita-agreement1-sub",
+                        "name": "hulabaloosub",
+                      },
+                    ],
+                  },
+                  "id": "juanita-agreement1",
+                },
+              ]
+            }
+            customer={
+              Object {
+                "firstName": "Juanita",
+                "id": "juanita",
+              }
+            }
+            dispatch={[Function]}
+            getAgreements={[Function]}
+            getCustomerOffers={[Function]}
+            getSidebarNotifications={[Function]}
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "key": "mockKey",
+                    "pathname": "/",
+                    "search": "",
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "key": "mockKey",
+                  "pathname": "/",
+                  "search": "",
+                },
+                "push": [MockFunction],
+                "replace": [Function],
+              }
+            }
+            intl={
+              Object {
+                "defaultFormats": Object {},
+                "defaultLocale": "en",
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "formats": Object {},
+                "formatters": Object {
+                  "getDateTimeFormat": [Function],
+                  "getMessageFormat": [Function],
+                  "getNumberFormat": [Function],
+                  "getPluralFormat": [Function],
+                  "getRelativeFormat": [Function],
+                },
+                "locale": "en",
+                "messages": Object {},
+                "now": [Function],
+                "onError": [Function],
+                "textComponent": "span",
+                "timeZone": null,
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "key": "mockKey",
+                "pathname": "/",
+                "search": "",
+              }
+            }
+          >
+            <div
+              className="CustomerDetailsView w-box w-box-stretch"
+            >
+              <header
+                className="CustomerDetailsView-header"
+              >
+                <img
+                  alt="Avatar"
+                  className="CustomerDetailsView-avatar"
+                  src="/static/undefined"
+                />
+              </header>
+              <Flex
+                alignItems=""
+                alignSelf=""
+                justifyContent="space-between"
+                wrap="wrap"
+              >
+                <div
+                  className="Flex Flex-justify-space-between Flex-wrap"
+                  style={
+                    Object {
+                      "WebkitFlex": "initial",
+                      "flex": "initial",
+                    }
+                  }
+                >
+                  <Flex
+                    alignItems=""
+                    alignSelf=""
+                    flex={2.5}
+                    justifyContent=""
+                    wrap="wrap"
+                  >
+                    <div
+                      className="Flex Flex-wrap"
+                      style={
+                        Object {
+                          "WebkitFlex": 2.5,
+                          "flex": 2.5,
+                        }
+                      }
+                    >
+                      <Flex
+                        alignItems=""
+                        alignSelf=""
+                        justifyContent=""
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                        wrap="wrap"
+                      >
+                        <div
+                          className="Flex Flex-wrap"
+                          style={
+                            Object {
+                              "WebkitFlex": "initial",
+                              "flex": "initial",
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <Flex
+                            alignItems=""
+                            alignSelf=""
+                            className="CustomerDetailsView-subDetails"
+                            flex={1}
+                            justifyContent=""
+                            wrap="wrap"
+                          >
+                            <div
+                              className="Flex Flex-wrap CustomerDetailsView-subDetails"
+                              style={
+                                Object {
+                                  "WebkitFlex": 1,
+                                  "flex": 1,
+                                }
+                              }
+                            >
+                              <CustomerDetailsView
+                                activeCustomerCase={
+                                  Object {
+                                    "attributes": Object {
+                                      "activeCustomer": Object {
+                                        "firstName": "Juanita",
+                                        "id": "juanita",
+                                      },
+                                    },
+                                  }
+                                }
+                                agreements={
+                                  Array [
+                                    Object {
+                                      "attributes": Object {
+                                        "lifeCycleStatus": "ACTIVE",
+                                        "products": Array [
+                                          Object {
+                                            "id": "juanita-agreement1-sub",
+                                            "name": "hulabaloosub",
+                                          },
+                                        ],
+                                      },
+                                      "id": "juanita-agreement1",
+                                    },
+                                  ]
+                                }
+                                customer={
+                                  Object {
+                                    "firstName": "Juanita",
+                                    "id": "juanita",
+                                  }
+                                }
+                                dispatch={[Function]}
+                                editMode={false}
+                                fieldData={
+                                  Array [
+                                    Object {
+                                      "fieldName": "firstName",
+                                      "required": true,
+                                      "value": "Juanita",
+                                    },
+                                    Object {
+                                      "fieldName": "lastName",
+                                      "required": true,
+                                      "value": undefined,
+                                    },
+                                    Object {
+                                      "fieldName": "nationality",
+                                      "options": Array [
+                                        Object {
+                                          "code": "Not defined",
+                                          "locale": "en",
+                                          "name": "Not defined",
+                                        },
+                                      ],
+                                      "type": "select",
+                                      "value": "Not defined",
+                                    },
+                                    Object {
+                                      "fieldName": "gender",
+                                      "options": Array [],
+                                      "type": "select",
+                                      "value": undefined,
+                                    },
+                                    Object {
+                                      "fieldName": "birthDay",
+                                      "type": "date",
+                                      "value": undefined,
+                                    },
+                                  ]
+                                }
+                                getAgreements={[Function]}
+                                getCustomerOffers={[Function]}
+                                getSidebarNotifications={[Function]}
+                                header="demographic"
+                                history={
+                                  Object {
+                                    "action": "POP",
+                                    "block": [Function],
+                                    "canGo": [Function],
+                                    "createHref": [Function],
+                                    "entries": Array [
+                                      Object {
+                                        "hash": "",
+                                        "key": "mockKey",
+                                        "pathname": "/",
+                                        "search": "",
+                                      },
+                                    ],
+                                    "go": [Function],
+                                    "goBack": [Function],
+                                    "goForward": [Function],
+                                    "index": 0,
+                                    "length": 1,
+                                    "listen": [Function],
+                                    "location": Object {
+                                      "hash": "",
+                                      "key": "mockKey",
+                                      "pathname": "/",
+                                      "search": "",
+                                    },
+                                    "push": [MockFunction],
+                                    "replace": [Function],
+                                  }
+                                }
+                                intl={
+                                  Object {
+                                    "defaultFormats": Object {},
+                                    "defaultLocale": "en",
+                                    "formatDate": [Function],
+                                    "formatHTMLMessage": [Function],
+                                    "formatMessage": [Function],
+                                    "formatNumber": [Function],
+                                    "formatPlural": [Function],
+                                    "formatRelative": [Function],
+                                    "formatTime": [Function],
+                                    "formats": Object {},
+                                    "formatters": Object {
+                                      "getDateTimeFormat": [Function],
+                                      "getMessageFormat": [Function],
+                                      "getNumberFormat": [Function],
+                                      "getPluralFormat": [Function],
+                                      "getRelativeFormat": [Function],
+                                    },
+                                    "locale": "en",
+                                    "messages": Object {},
+                                    "now": [Function],
+                                    "onError": [Function],
+                                    "textComponent": "span",
+                                    "timeZone": null,
+                                  }
+                                }
+                                location={
+                                  Object {
+                                    "hash": "",
+                                    "key": "mockKey",
+                                    "pathname": "/",
+                                    "search": "",
+                                  }
+                                }
+                                onSubmit={[Function]}
+                                toggleEditMode={[Function]}
+                              >
+                                <div
+                                  style={
+                                    Object {
+                                      "maxWidth": "340px",
+                                      "width": "100%",
+                                    }
+                                  }
+                                >
+                                  <Flex
+                                    alignItems="center"
+                                    alignSelf=""
+                                    direction="row"
+                                    justifyContent=""
+                                    wrap="wrap"
+                                  >
+                                    <div
+                                      className="Flex Flex-align-center Flex-flex-row Flex-wrap"
+                                      style={
+                                        Object {
+                                          "WebkitFlex": "initial",
+                                          "flex": "initial",
+                                        }
+                                      }
+                                    >
+                                      <h5>
+                                        <FormattedMessageWrapper
+                                          defaultMessage="Demographic information"
+                                          description="Pos customer details demographic information"
+                                          id="pos-customer-details-demographic-information"
+                                          wrapperType="wrapper"
+                                        >
+                                          <Connect(IntlProvider)>
+                                            <IntlProvider
+                                              dispatch={[Function]}
+                                              locale="en-DE"
+                                              messages={Object {}}
+                                            >
+                                              <FormattedMessage
+                                                defaultMessage="Demographic information"
+                                                description="Pos customer details demographic information"
+                                                id="pos-customer-details-demographic-information"
+                                                values={Object {}}
+                                              >
+                                                <span>
+                                                  Demographic information
+                                                </span>
+                                              </FormattedMessage>
+                                            </IntlProvider>
+                                          </Connect(IntlProvider)>
+                                        </FormattedMessageWrapper>
+                                        <span
+                                          style={
+                                            Object {
+                                              "color": "#337ab7",
+                                              "cursor": "pointer",
+                                              "marginLeft": "10px",
+                                            }
+                                          }
+                                        />
+                                      </h5>
+                                    </div>
+                                  </Flex>
+                                  <CustomerSubDetailsView
+                                    fields={
+                                      Array [
+                                        Object {
+                                          "fieldName": "firstName",
+                                          "required": true,
+                                          "value": "Juanita",
+                                        },
+                                        Object {
+                                          "fieldName": "lastName",
+                                          "required": true,
+                                          "value": undefined,
+                                        },
+                                        Object {
+                                          "fieldName": "nationality",
+                                          "options": Array [
+                                            Object {
+                                              "code": "Not defined",
+                                              "locale": "en",
+                                              "name": "Not defined",
+                                            },
+                                          ],
+                                          "type": "select",
+                                          "value": "Not defined",
+                                        },
+                                        Object {
+                                          "fieldName": "gender",
+                                          "options": Array [],
+                                          "type": "select",
+                                          "value": undefined,
+                                        },
+                                        Object {
+                                          "fieldName": "birthDay",
+                                          "type": "date",
+                                          "value": undefined,
+                                        },
+                                      ]
+                                    }
+                                    key=".0"
+                                  >
+                                    <div>
+                                      <Flex
+                                        alignItems="center"
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        key="firstName"
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-align-center Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="First name"
+                                              description="service-desk, new customer, label first name"
+                                              id="newcustomer-first-name"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="First name"
+                                                    description="service-desk, new customer, label first name"
+                                                    id="newcustomer-first-name"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      First name
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-value"
+                                          >
+                                            Juanita
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                      <Flex
+                                        alignItems="center"
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        key="lastName"
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-align-center Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Last name"
+                                              description="service-desk, new customer, label last name"
+                                              id="newcustomer-last-name"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Last name"
+                                                    description="service-desk, new customer, label last name"
+                                                    id="newcustomer-last-name"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Last name
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-value"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Not available"
+                                              description="Pos customer details no information available"
+                                              id="pos-customer-details-no-information"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Not available"
+                                                    description="Pos customer details no information available"
+                                                    id="pos-customer-details-no-information"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Not available
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                      <Flex
+                                        alignItems="center"
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        key="nationality"
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-align-center Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Nationality"
+                                              description="Pos customer details nationality"
+                                              id="pos-customer-details-nationality"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Nationality"
+                                                    description="Pos customer details nationality"
+                                                    id="pos-customer-details-nationality"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Nationality
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-value"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Not available"
+                                              description="Pos customer details no information available"
+                                              id="pos-customer-details-no-information"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Not available"
+                                                    description="Pos customer details no information available"
+                                                    id="pos-customer-details-no-information"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Not available
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                      <Flex
+                                        alignItems="center"
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        key="gender"
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-align-center Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Gender"
+                                              description="Pos customer details gender"
+                                              id="pos-customer-details-gender"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Gender"
+                                                    description="Pos customer details gender"
+                                                    id="pos-customer-details-gender"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Gender
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-value"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Not available"
+                                              description="Pos customer details no information available"
+                                              id="pos-customer-details-no-information"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Not available"
+                                                    description="Pos customer details no information available"
+                                                    id="pos-customer-details-no-information"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Not available
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                      <Flex
+                                        alignItems="center"
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        key="birthDay"
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-align-center Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Date of birth"
+                                              description="Pos customer details date Of birth"
+                                              id="pos-customer-details-date-of-birth"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Date of birth"
+                                                    description="Pos customer details date Of birth"
+                                                    id="pos-customer-details-date-of-birth"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Date of birth
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-value"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Not available"
+                                              description="Pos customer details no information available"
+                                              id="pos-customer-details-no-information"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Not available"
+                                                    description="Pos customer details no information available"
+                                                    id="pos-customer-details-no-information"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Not available
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                    </div>
+                                  </CustomerSubDetailsView>
+                                </div>
+                              </CustomerDetailsView>
+                              <CustomerDetailsView
+                                activeCustomerCase={
+                                  Object {
+                                    "attributes": Object {
+                                      "activeCustomer": Object {
+                                        "firstName": "Juanita",
+                                        "id": "juanita",
+                                      },
+                                    },
+                                  }
+                                }
+                                agreements={
+                                  Array [
+                                    Object {
+                                      "attributes": Object {
+                                        "lifeCycleStatus": "ACTIVE",
+                                        "products": Array [
+                                          Object {
+                                            "id": "juanita-agreement1-sub",
+                                            "name": "hulabaloosub",
+                                          },
+                                        ],
+                                      },
+                                      "id": "juanita-agreement1",
+                                    },
+                                  ]
+                                }
+                                customHeaderElement={
+                                  <OcSelect
+                                    id="CustomerDetailsView-locations-header-input"
+                                    noLabel={false}
+                                    onChange={[Function]}
+                                  />
+                                }
+                                customer={
+                                  Object {
+                                    "firstName": "Juanita",
+                                    "id": "juanita",
+                                  }
+                                }
+                                dispatch={[Function]}
+                                editMode={false}
+                                fieldData={
+                                  Array [
+                                    Object {
+                                      "fieldName": "street",
+                                      "required": true,
+                                      "value": undefined,
+                                    },
+                                    Object {
+                                      "fieldName": "postalCode",
+                                      "required": true,
+                                      "value": undefined,
+                                    },
+                                    Object {
+                                      "fieldName": "province",
+                                      "required": false,
+                                      "value": undefined,
+                                    },
+                                    Object {
+                                      "fieldName": "city",
+                                      "required": true,
+                                      "value": undefined,
+                                    },
+                                    Object {
+                                      "fieldName": "country",
+                                      "options": Array [
+                                        Object {
+                                          "code": "Not defined",
+                                          "locale": "en",
+                                          "name": "Not defined",
+                                        },
+                                      ],
+                                      "required": true,
+                                      "type": "select",
+                                      "value": undefined,
+                                    },
+                                  ]
+                                }
+                                getAgreements={[Function]}
+                                getCustomerOffers={[Function]}
+                                getSidebarNotifications={[Function]}
+                                header="locations"
+                                history={
+                                  Object {
+                                    "action": "POP",
+                                    "block": [Function],
+                                    "canGo": [Function],
+                                    "createHref": [Function],
+                                    "entries": Array [
+                                      Object {
+                                        "hash": "",
+                                        "key": "mockKey",
+                                        "pathname": "/",
+                                        "search": "",
+                                      },
+                                    ],
+                                    "go": [Function],
+                                    "goBack": [Function],
+                                    "goForward": [Function],
+                                    "index": 0,
+                                    "length": 1,
+                                    "listen": [Function],
+                                    "location": Object {
+                                      "hash": "",
+                                      "key": "mockKey",
+                                      "pathname": "/",
+                                      "search": "",
+                                    },
+                                    "push": [MockFunction],
+                                    "replace": [Function],
+                                  }
+                                }
+                                intl={
+                                  Object {
+                                    "defaultFormats": Object {},
+                                    "defaultLocale": "en",
+                                    "formatDate": [Function],
+                                    "formatHTMLMessage": [Function],
+                                    "formatMessage": [Function],
+                                    "formatNumber": [Function],
+                                    "formatPlural": [Function],
+                                    "formatRelative": [Function],
+                                    "formatTime": [Function],
+                                    "formats": Object {},
+                                    "formatters": Object {
+                                      "getDateTimeFormat": [Function],
+                                      "getMessageFormat": [Function],
+                                      "getNumberFormat": [Function],
+                                      "getPluralFormat": [Function],
+                                      "getRelativeFormat": [Function],
+                                    },
+                                    "locale": "en",
+                                    "messages": Object {},
+                                    "now": [Function],
+                                    "onError": [Function],
+                                    "textComponent": "span",
+                                    "timeZone": null,
+                                  }
+                                }
+                                location={
+                                  Object {
+                                    "hash": "",
+                                    "key": "mockKey",
+                                    "pathname": "/",
+                                    "search": "",
+                                  }
+                                }
+                                onSubmit={[Function]}
+                                toggleEditMode={[Function]}
+                              >
+                                <div
+                                  style={
+                                    Object {
+                                      "maxWidth": "340px",
+                                      "width": "100%",
+                                    }
+                                  }
+                                >
+                                  <Flex
+                                    alignItems="center"
+                                    alignSelf=""
+                                    direction="row"
+                                    justifyContent=""
+                                    wrap="wrap"
+                                  >
+                                    <div
+                                      className="Flex Flex-align-center Flex-flex-row Flex-wrap"
+                                      style={
+                                        Object {
+                                          "WebkitFlex": "initial",
+                                          "flex": "initial",
+                                        }
+                                      }
+                                    >
+                                      <h5>
+                                        <FormattedMessageWrapper
+                                          defaultMessage="Locations"
+                                          description="Pos customer details locations"
+                                          id="pos-customer-details-locations"
+                                          wrapperType="wrapper"
+                                        >
+                                          <Connect(IntlProvider)>
+                                            <IntlProvider
+                                              dispatch={[Function]}
+                                              locale="en-DE"
+                                              messages={Object {}}
+                                            >
+                                              <FormattedMessage
+                                                defaultMessage="Locations"
+                                                description="Pos customer details locations"
+                                                id="pos-customer-details-locations"
+                                                values={Object {}}
+                                              >
+                                                <span>
+                                                  Locations
+                                                </span>
+                                              </FormattedMessage>
+                                            </IntlProvider>
+                                          </Connect(IntlProvider)>
+                                        </FormattedMessageWrapper>
+                                        <span
+                                          style={
+                                            Object {
+                                              "color": "#337ab7",
+                                              "cursor": "pointer",
+                                              "marginLeft": "10px",
+                                            }
+                                          }
+                                        />
+                                      </h5>
+                                      <div
+                                        style={
+                                          Object {
+                                            "marginLeft": "10px",
+                                          }
+                                        }
+                                      >
+                                        <OcSelect
+                                          id="CustomerDetailsView-locations-header-input"
+                                          noLabel={false}
+                                          onChange={[Function]}
+                                        >
+                                          <div
+                                            className="OcInput form-group OcInput-form-group-unfilled"
+                                          >
+                                            <label
+                                              className="OcInput-label-control custom-select-label"
+                                              htmlFor="CustomerDetailsView-locations-header-input"
+                                            >
+                                              <span
+                                                className="OcInput-label-text"
+                                              />
+                                            </label>
+                                            <select
+                                              className="custom-select"
+                                              id="CustomerDetailsView-locations-header-input"
+                                              onBlur={[Function]}
+                                              onChange={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyDown={[Function]}
+                                              required={false}
+                                              value=""
+                                            />
+                                          </div>
+                                        </OcSelect>
+                                      </div>
+                                    </div>
+                                  </Flex>
+                                  <CustomerSubDetailsView
+                                    fields={
+                                      Array [
+                                        Object {
+                                          "fieldName": "street",
+                                          "required": true,
+                                          "value": undefined,
+                                        },
+                                        Object {
+                                          "fieldName": "postalCode",
+                                          "required": true,
+                                          "value": undefined,
+                                        },
+                                        Object {
+                                          "fieldName": "province",
+                                          "required": false,
+                                          "value": undefined,
+                                        },
+                                        Object {
+                                          "fieldName": "city",
+                                          "required": true,
+                                          "value": undefined,
+                                        },
+                                        Object {
+                                          "fieldName": "country",
+                                          "options": Array [
+                                            Object {
+                                              "code": "Not defined",
+                                              "locale": "en",
+                                              "name": "Not defined",
+                                            },
+                                          ],
+                                          "required": true,
+                                          "type": "select",
+                                          "value": undefined,
+                                        },
+                                      ]
+                                    }
+                                    key=".0"
+                                  >
+                                    <div>
+                                      <Flex
+                                        alignItems="center"
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        key="street"
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-align-center Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Street address"
+                                              description="service-desk, new customer, label street address"
+                                              id="newcustomer-street-address"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Street address"
+                                                    description="service-desk, new customer, label street address"
+                                                    id="newcustomer-street-address"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Street address
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-value"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Not available"
+                                              description="Pos customer details no information available"
+                                              id="pos-customer-details-no-information"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Not available"
+                                                    description="Pos customer details no information available"
+                                                    id="pos-customer-details-no-information"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Not available
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                      <Flex
+                                        alignItems="center"
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        key="postalCode"
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-align-center Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Postal code"
+                                              description="service-desk, new customer, label postal code"
+                                              id="newcustomer-psotal-code"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Postal code"
+                                                    description="service-desk, new customer, label postal code"
+                                                    id="newcustomer-psotal-code"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Postal code
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-value"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Not available"
+                                              description="Pos customer details no information available"
+                                              id="pos-customer-details-no-information"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Not available"
+                                                    description="Pos customer details no information available"
+                                                    id="pos-customer-details-no-information"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Not available
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                      <Flex
+                                        alignItems="center"
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        key="province"
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-align-center Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Province"
+                                              description="service-desk, new customer, label province"
+                                              id="newcustomer-province"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Province"
+                                                    description="service-desk, new customer, label province"
+                                                    id="newcustomer-province"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Province
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-value"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Not available"
+                                              description="Pos customer details no information available"
+                                              id="pos-customer-details-no-information"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Not available"
+                                                    description="Pos customer details no information available"
+                                                    id="pos-customer-details-no-information"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Not available
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                      <Flex
+                                        alignItems="center"
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        key="city"
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-align-center Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="City"
+                                              description="service-desk, new customer, label city"
+                                              id="newcustomer-city"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="City"
+                                                    description="service-desk, new customer, label city"
+                                                    id="newcustomer-city"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      City
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-value"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Not available"
+                                              description="Pos customer details no information available"
+                                              id="pos-customer-details-no-information"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Not available"
+                                                    description="Pos customer details no information available"
+                                                    id="pos-customer-details-no-information"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Not available
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                      <Flex
+                                        alignItems="center"
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        key="country"
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-align-center Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Country"
+                                              description="service-desk, new customer, label country"
+                                              id="newcustomer-country"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Country"
+                                                    description="service-desk, new customer, label country"
+                                                    id="newcustomer-country"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Country
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-value"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Not available"
+                                              description="Pos customer details no information available"
+                                              id="pos-customer-details-no-information"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Not available"
+                                                    description="Pos customer details no information available"
+                                                    id="pos-customer-details-no-information"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Not available
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                    </div>
+                                  </CustomerSubDetailsView>
+                                </div>
+                              </CustomerDetailsView>
+                            </div>
+                          </Flex>
+                          <Flex
+                            alignItems=""
+                            alignSelf=""
+                            className="CustomerDetailsView-subDetails"
+                            flex={1}
+                            justifyContent=""
+                            wrap="wrap"
+                          >
+                            <div
+                              className="Flex Flex-wrap CustomerDetailsView-subDetails"
+                              style={
+                                Object {
+                                  "WebkitFlex": 1,
+                                  "flex": 1,
+                                }
+                              }
+                            >
+                              <CustomerDetailsView
+                                activeCustomerCase={
+                                  Object {
+                                    "attributes": Object {
+                                      "activeCustomer": Object {
+                                        "firstName": "Juanita",
+                                        "id": "juanita",
+                                      },
+                                    },
+                                  }
+                                }
+                                agreements={
+                                  Array [
+                                    Object {
+                                      "attributes": Object {
+                                        "lifeCycleStatus": "ACTIVE",
+                                        "products": Array [
+                                          Object {
+                                            "id": "juanita-agreement1-sub",
+                                            "name": "hulabaloosub",
+                                          },
+                                        ],
+                                      },
+                                      "id": "juanita-agreement1",
+                                    },
+                                  ]
+                                }
+                                customer={
+                                  Object {
+                                    "firstName": "Juanita",
+                                    "id": "juanita",
+                                  }
+                                }
+                                dispatch={[Function]}
+                                editMode={false}
+                                fieldData={
+                                  Array [
+                                    Object {
+                                      "fieldName": "contactEmail",
+                                      "value": undefined,
+                                    },
+                                    Object {
+                                      "fieldName": "msisdn",
+                                      "regex": "^$|^(\\\\+?)([0-9 ]+)$",
+                                      "value": undefined,
+                                    },
+                                    Object {
+                                      "fieldName": "contactFixedLineNumber",
+                                      "regex": "^$|^(\\\\+?)([0-9 ]+)$",
+                                      "value": undefined,
+                                    },
+                                    Object {
+                                      "fieldName": "language",
+                                      "label": "contactLanguage",
+                                      "options": Array [
+                                        Object {
+                                          "code": "Not defined",
+                                          "name": "Not defined",
+                                        },
+                                      ],
+                                      "type": "select",
+                                      "value": undefined,
+                                    },
+                                  ]
+                                }
+                                getAgreements={[Function]}
+                                getCustomerOffers={[Function]}
+                                getSidebarNotifications={[Function]}
+                                header="preferences"
+                                history={
+                                  Object {
+                                    "action": "POP",
+                                    "block": [Function],
+                                    "canGo": [Function],
+                                    "createHref": [Function],
+                                    "entries": Array [
+                                      Object {
+                                        "hash": "",
+                                        "key": "mockKey",
+                                        "pathname": "/",
+                                        "search": "",
+                                      },
+                                    ],
+                                    "go": [Function],
+                                    "goBack": [Function],
+                                    "goForward": [Function],
+                                    "index": 0,
+                                    "length": 1,
+                                    "listen": [Function],
+                                    "location": Object {
+                                      "hash": "",
+                                      "key": "mockKey",
+                                      "pathname": "/",
+                                      "search": "",
+                                    },
+                                    "push": [MockFunction],
+                                    "replace": [Function],
+                                  }
+                                }
+                                intl={
+                                  Object {
+                                    "defaultFormats": Object {},
+                                    "defaultLocale": "en",
+                                    "formatDate": [Function],
+                                    "formatHTMLMessage": [Function],
+                                    "formatMessage": [Function],
+                                    "formatNumber": [Function],
+                                    "formatPlural": [Function],
+                                    "formatRelative": [Function],
+                                    "formatTime": [Function],
+                                    "formats": Object {},
+                                    "formatters": Object {
+                                      "getDateTimeFormat": [Function],
+                                      "getMessageFormat": [Function],
+                                      "getNumberFormat": [Function],
+                                      "getPluralFormat": [Function],
+                                      "getRelativeFormat": [Function],
+                                    },
+                                    "locale": "en",
+                                    "messages": Object {},
+                                    "now": [Function],
+                                    "onError": [Function],
+                                    "textComponent": "span",
+                                    "timeZone": null,
+                                  }
+                                }
+                                location={
+                                  Object {
+                                    "hash": "",
+                                    "key": "mockKey",
+                                    "pathname": "/",
+                                    "search": "",
+                                  }
+                                }
+                                onSubmit={[Function]}
+                                toggleEditMode={[Function]}
+                              >
+                                <div
+                                  style={
+                                    Object {
+                                      "maxWidth": "340px",
+                                      "width": "100%",
+                                    }
+                                  }
+                                >
+                                  <Flex
+                                    alignItems="center"
+                                    alignSelf=""
+                                    direction="row"
+                                    justifyContent=""
+                                    wrap="wrap"
+                                  >
+                                    <div
+                                      className="Flex Flex-align-center Flex-flex-row Flex-wrap"
+                                      style={
+                                        Object {
+                                          "WebkitFlex": "initial",
+                                          "flex": "initial",
+                                        }
+                                      }
+                                    >
+                                      <h5>
+                                        <FormattedMessageWrapper
+                                          defaultMessage="Preferences"
+                                          description="Pos customer details preferences"
+                                          id="pos-customer-details-preferences"
+                                          wrapperType="wrapper"
+                                        >
+                                          <Connect(IntlProvider)>
+                                            <IntlProvider
+                                              dispatch={[Function]}
+                                              locale="en-DE"
+                                              messages={Object {}}
+                                            >
+                                              <FormattedMessage
+                                                defaultMessage="Preferences"
+                                                description="Pos customer details preferences"
+                                                id="pos-customer-details-preferences"
+                                                values={Object {}}
+                                              >
+                                                <span>
+                                                  Preferences
+                                                </span>
+                                              </FormattedMessage>
+                                            </IntlProvider>
+                                          </Connect(IntlProvider)>
+                                        </FormattedMessageWrapper>
+                                        <span
+                                          style={
+                                            Object {
+                                              "color": "#337ab7",
+                                              "cursor": "pointer",
+                                              "marginLeft": "10px",
+                                            }
+                                          }
+                                        />
+                                      </h5>
+                                    </div>
+                                  </Flex>
+                                  <CustomerSubDetailsView
+                                    fields={
+                                      Array [
+                                        Object {
+                                          "fieldName": "contactEmail",
+                                          "value": undefined,
+                                        },
+                                        Object {
+                                          "fieldName": "msisdn",
+                                          "regex": "^$|^(\\\\+?)([0-9 ]+)$",
+                                          "value": undefined,
+                                        },
+                                        Object {
+                                          "fieldName": "contactFixedLineNumber",
+                                          "regex": "^$|^(\\\\+?)([0-9 ]+)$",
+                                          "value": undefined,
+                                        },
+                                        Object {
+                                          "fieldName": "language",
+                                          "label": "contactLanguage",
+                                          "options": Array [
+                                            Object {
+                                              "code": "Not defined",
+                                              "name": "Not defined",
+                                            },
+                                          ],
+                                          "type": "select",
+                                          "value": undefined,
+                                        },
+                                      ]
+                                    }
+                                    key=".0"
+                                  >
+                                    <div>
+                                      <Flex
+                                        alignItems="center"
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        key="contactEmail"
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-align-center Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Contact email"
+                                              description="Pos customer details contact email"
+                                              id="pos-customer-details-contact-email"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Contact email"
+                                                    description="Pos customer details contact email"
+                                                    id="pos-customer-details-contact-email"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Contact email
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-value"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Not available"
+                                              description="Pos customer details no information available"
+                                              id="pos-customer-details-no-information"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Not available"
+                                                    description="Pos customer details no information available"
+                                                    id="pos-customer-details-no-information"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Not available
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                      <Flex
+                                        alignItems="center"
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        key="msisdn"
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-align-center Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="MSISDN"
+                                              description="service-desk, existing customer, assistance request customer table header, MSISDN"
+                                              id="msisdn"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="MSISDN"
+                                                    description="service-desk, existing customer, assistance request customer table header, MSISDN"
+                                                    id="msisdn"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      MSISDN
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-value"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Not available"
+                                              description="Pos customer details no information available"
+                                              id="pos-customer-details-no-information"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Not available"
+                                                    description="Pos customer details no information available"
+                                                    id="pos-customer-details-no-information"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Not available
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                      <Flex
+                                        alignItems="center"
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        key="contactFixedLineNumber"
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-align-center Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Fixed line number"
+                                              description="Pos customer details contact fixed line number"
+                                              id="pos-customer-details-contact-fixed-line-number"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Fixed line number"
+                                                    description="Pos customer details contact fixed line number"
+                                                    id="pos-customer-details-contact-fixed-line-number"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Fixed line number
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-value"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Not available"
+                                              description="Pos customer details no information available"
+                                              id="pos-customer-details-no-information"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Not available"
+                                                    description="Pos customer details no information available"
+                                                    id="pos-customer-details-no-information"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Not available
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                      <Flex
+                                        alignItems="center"
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        key="language"
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-align-center Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Language"
+                                              description="Pos customer details language"
+                                              id="pos-customer-details-contact-language"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Language"
+                                                    description="Pos customer details language"
+                                                    id="pos-customer-details-contact-language"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Language
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-value"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Not available"
+                                              description="Pos customer details no information available"
+                                              id="pos-customer-details-no-information"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Not available"
+                                                    description="Pos customer details no information available"
+                                                    id="pos-customer-details-no-information"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Not available
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                    </div>
+                                  </CustomerSubDetailsView>
+                                </div>
+                              </CustomerDetailsView>
+                              <CustomerDetailsView
+                                activeCustomerCase={
+                                  Object {
+                                    "attributes": Object {
+                                      "activeCustomer": Object {
+                                        "firstName": "Juanita",
+                                        "id": "juanita",
+                                      },
+                                    },
+                                  }
+                                }
+                                agreements={
+                                  Array [
+                                    Object {
+                                      "attributes": Object {
+                                        "lifeCycleStatus": "ACTIVE",
+                                        "products": Array [
+                                          Object {
+                                            "id": "juanita-agreement1-sub",
+                                            "name": "hulabaloosub",
+                                          },
+                                        ],
+                                      },
+                                      "id": "juanita-agreement1",
+                                    },
+                                  ]
+                                }
+                                customer={
+                                  Object {
+                                    "firstName": "Juanita",
+                                    "id": "juanita",
+                                  }
+                                }
+                                dispatch={[Function]}
+                                editMode={false}
+                                getAgreements={[Function]}
+                                getCustomerOffers={[Function]}
+                                getSidebarNotifications={[Function]}
+                                header="notificationsAndMarketing"
+                                history={
+                                  Object {
+                                    "action": "POP",
+                                    "block": [Function],
+                                    "canGo": [Function],
+                                    "createHref": [Function],
+                                    "entries": Array [
+                                      Object {
+                                        "hash": "",
+                                        "key": "mockKey",
+                                        "pathname": "/",
+                                        "search": "",
+                                      },
+                                    ],
+                                    "go": [Function],
+                                    "goBack": [Function],
+                                    "goForward": [Function],
+                                    "index": 0,
+                                    "length": 1,
+                                    "listen": [Function],
+                                    "location": Object {
+                                      "hash": "",
+                                      "key": "mockKey",
+                                      "pathname": "/",
+                                      "search": "",
+                                    },
+                                    "push": [MockFunction],
+                                    "replace": [Function],
+                                  }
+                                }
+                                intl={
+                                  Object {
+                                    "defaultFormats": Object {},
+                                    "defaultLocale": "en",
+                                    "formatDate": [Function],
+                                    "formatHTMLMessage": [Function],
+                                    "formatMessage": [Function],
+                                    "formatNumber": [Function],
+                                    "formatPlural": [Function],
+                                    "formatRelative": [Function],
+                                    "formatTime": [Function],
+                                    "formats": Object {},
+                                    "formatters": Object {
+                                      "getDateTimeFormat": [Function],
+                                      "getMessageFormat": [Function],
+                                      "getNumberFormat": [Function],
+                                      "getPluralFormat": [Function],
+                                      "getRelativeFormat": [Function],
+                                    },
+                                    "locale": "en",
+                                    "messages": Object {},
+                                    "now": [Function],
+                                    "onError": [Function],
+                                    "textComponent": "span",
+                                    "timeZone": null,
+                                  }
+                                }
+                                location={
+                                  Object {
+                                    "hash": "",
+                                    "key": "mockKey",
+                                    "pathname": "/",
+                                    "search": "",
+                                  }
+                                }
+                                onSubmit={[Function]}
+                                toggleEditMode={[Function]}
+                              >
+                                <div
+                                  style={
+                                    Object {
+                                      "maxWidth": "340px",
+                                      "width": "100%",
+                                    }
+                                  }
+                                >
+                                  <Flex
+                                    alignItems="center"
+                                    alignSelf=""
+                                    direction="row"
+                                    justifyContent=""
+                                    wrap="wrap"
+                                  >
+                                    <div
+                                      className="Flex Flex-align-center Flex-flex-row Flex-wrap"
+                                      style={
+                                        Object {
+                                          "WebkitFlex": "initial",
+                                          "flex": "initial",
+                                        }
+                                      }
+                                    >
+                                      <h5>
+                                        <FormattedMessageWrapper
+                                          defaultMessage="Notifications and marketing"
+                                          description="Pos customer details notifications and marketing"
+                                          id="pos-customer-details-notifications-and-marketing"
+                                          wrapperType="wrapper"
+                                        >
+                                          <Connect(IntlProvider)>
+                                            <IntlProvider
+                                              dispatch={[Function]}
+                                              locale="en-DE"
+                                              messages={Object {}}
+                                            >
+                                              <FormattedMessage
+                                                defaultMessage="Notifications and marketing"
+                                                description="Pos customer details notifications and marketing"
+                                                id="pos-customer-details-notifications-and-marketing"
+                                                values={Object {}}
+                                              >
+                                                <span>
+                                                  Notifications and marketing
+                                                </span>
+                                              </FormattedMessage>
+                                            </IntlProvider>
+                                          </Connect(IntlProvider)>
+                                        </FormattedMessageWrapper>
+                                        <span
+                                          style={
+                                            Object {
+                                              "color": "#337ab7",
+                                              "cursor": "pointer",
+                                              "marginLeft": "10px",
+                                            }
+                                          }
+                                        />
+                                      </h5>
+                                    </div>
+                                  </Flex>
+                                  <CustomerDetailsNotificationsShow
+                                    key=".0"
+                                  >
+                                    <div>
+                                      <Flex
+                                        alignItems=""
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="Marketing permissions"
+                                              description="Pos customer details marketing permissions"
+                                              id="pos-customer-details-marketing-permissions"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="Marketing permissions"
+                                                    description="Pos customer details marketing permissions"
+                                                    id="pos-customer-details-marketing-permissions"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      Marketing permissions
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span>
+                                            <span
+                                              className="CustomerDetailsView-marketing-not-allowed"
+                                            >
+                                              <i
+                                                className="fa fa-ban btn-icon-left"
+                                                id="CustomerDetailsNotificationsShow-marketing-permissions-email-not-allowed"
+                                              />
+                                              <FormattedMessageWrapper
+                                                defaultMessage="Email"
+                                                description="service-desk, new customer, label email"
+                                                id="newcustomer-email"
+                                                wrapperType="wrapper"
+                                              >
+                                                <Connect(IntlProvider)>
+                                                  <IntlProvider
+                                                    dispatch={[Function]}
+                                                    locale="en-DE"
+                                                    messages={Object {}}
+                                                  >
+                                                    <FormattedMessage
+                                                      defaultMessage="Email"
+                                                      description="service-desk, new customer, label email"
+                                                      id="newcustomer-email"
+                                                      values={Object {}}
+                                                    >
+                                                      <span>
+                                                        Email
+                                                      </span>
+                                                    </FormattedMessage>
+                                                  </IntlProvider>
+                                                </Connect(IntlProvider)>
+                                              </FormattedMessageWrapper>
+                                            </span>
+                                            <span
+                                              className="CustomerDetailsView-marketing-not-allowed"
+                                            >
+                                              <i
+                                                className="fa fa-ban btn-icon-left"
+                                                id="CustomerDetailsNotificationsShow-marketing-permissions-phone-not-allowed"
+                                              />
+                                              <FormattedMessageWrapper
+                                                defaultMessage="SMS"
+                                                description="service-desk, customer details, label sms"
+                                                id="customer-details-sms"
+                                                wrapperType="wrapper"
+                                              >
+                                                <Connect(IntlProvider)>
+                                                  <IntlProvider
+                                                    dispatch={[Function]}
+                                                    locale="en-DE"
+                                                    messages={Object {}}
+                                                  >
+                                                    <FormattedMessage
+                                                      defaultMessage="SMS"
+                                                      description="service-desk, customer details, label sms"
+                                                      id="customer-details-sms"
+                                                      values={Object {}}
+                                                    >
+                                                      <span>
+                                                        SMS
+                                                      </span>
+                                                    </FormattedMessage>
+                                                  </IntlProvider>
+                                                </Connect(IntlProvider)>
+                                              </FormattedMessageWrapper>
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                      <Flex
+                                        alignItems=""
+                                        alignSelf=""
+                                        className="CustomerDetailsView-subDetails-field"
+                                        justifyContent=""
+                                        wrap="wrap"
+                                      >
+                                        <div
+                                          className="Flex Flex-wrap CustomerDetailsView-subDetails-field"
+                                          style={
+                                            Object {
+                                              "WebkitFlex": "initial",
+                                              "flex": "initial",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="CustomerDetailsView-subDetails-field-name"
+                                          >
+                                            <FormattedMessageWrapper
+                                              defaultMessage="3rd party marketing"
+                                              description="Pos customer details 3rd party marketing"
+                                              id="pos-customer-details-third-party-marketing"
+                                              wrapperType="wrapper"
+                                            >
+                                              <Connect(IntlProvider)>
+                                                <IntlProvider
+                                                  dispatch={[Function]}
+                                                  locale="en-DE"
+                                                  messages={Object {}}
+                                                >
+                                                  <FormattedMessage
+                                                    defaultMessage="3rd party marketing"
+                                                    description="Pos customer details 3rd party marketing"
+                                                    id="pos-customer-details-third-party-marketing"
+                                                    values={Object {}}
+                                                  >
+                                                    <span>
+                                                      3rd party marketing
+                                                    </span>
+                                                  </FormattedMessage>
+                                                </IntlProvider>
+                                              </Connect(IntlProvider)>
+                                            </FormattedMessageWrapper>
+                                          </span>
+                                          <span>
+                                            <span
+                                              className="CustomerDetailsView-marketing-not-allowed"
+                                            >
+                                              <i
+                                                className="fa fa-ban btn-icon-left"
+                                                id="CustomerDetailsNotificationsShow-third-party-marketing-email-not-allowed"
+                                              />
+                                              <FormattedMessageWrapper
+                                                defaultMessage="Email"
+                                                description="service-desk, new customer, label email"
+                                                id="newcustomer-email"
+                                                wrapperType="wrapper"
+                                              >
+                                                <Connect(IntlProvider)>
+                                                  <IntlProvider
+                                                    dispatch={[Function]}
+                                                    locale="en-DE"
+                                                    messages={Object {}}
+                                                  >
+                                                    <FormattedMessage
+                                                      defaultMessage="Email"
+                                                      description="service-desk, new customer, label email"
+                                                      id="newcustomer-email"
+                                                      values={Object {}}
+                                                    >
+                                                      <span>
+                                                        Email
+                                                      </span>
+                                                    </FormattedMessage>
+                                                  </IntlProvider>
+                                                </Connect(IntlProvider)>
+                                              </FormattedMessageWrapper>
+                                            </span>
+                                            <span
+                                              className="CustomerDetailsView-marketing-not-allowed"
+                                            >
+                                              <i
+                                                className="fa fa-ban btn-icon-left"
+                                                id="CustomerDetailsNotificationsShow-third-party-marketing-phone-not-allowed"
+                                              />
+                                              <FormattedMessageWrapper
+                                                defaultMessage="SMS"
+                                                description="service-desk, customer details, label sms"
+                                                id="customer-details-sms"
+                                                wrapperType="wrapper"
+                                              >
+                                                <Connect(IntlProvider)>
+                                                  <IntlProvider
+                                                    dispatch={[Function]}
+                                                    locale="en-DE"
+                                                    messages={Object {}}
+                                                  >
+                                                    <FormattedMessage
+                                                      defaultMessage="SMS"
+                                                      description="service-desk, customer details, label sms"
+                                                      id="customer-details-sms"
+                                                      values={Object {}}
+                                                    >
+                                                      <span>
+                                                        SMS
+                                                      </span>
+                                                    </FormattedMessage>
+                                                  </IntlProvider>
+                                                </Connect(IntlProvider)>
+                                              </FormattedMessageWrapper>
+                                            </span>
+                                          </span>
+                                        </div>
+                                      </Flex>
+                                    </div>
+                                  </CustomerDetailsNotificationsShow>
+                                </div>
+                              </CustomerDetailsView>
+                            </div>
+                          </Flex>
+                        </div>
+                      </Flex>
+                    </div>
+                  </Flex>
+                </div>
+              </Flex>
+            </div>
+          </CustomerDetailsMainView>
+        </div>
+      </div>
+    </div>
+  </CustomerDetailsContainer>
+</Connect(CustomerDetailsContainer)>
+`;
+
+exports[`CustomerDetailsContainer succeeds at shallow mount without props 1`] = `
+<CustomerDetailsContainer
+  dispatch={[Function]}
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+/>
+`;

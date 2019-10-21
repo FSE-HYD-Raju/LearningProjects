@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivateSimBanner succeeds at shallow mount with minimum props 1`] = `
+<Fragment>
+  <div
+    className="ActivateSimBanner-container"
+  >
+    <h3
+      className="ActivateSimBanner-header"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Welcome to your eCare account, {name}!"
+        description="Activate SIM banner, header text"
+        id="activate-sim-banner-header"
+        values={
+          Object {
+            "name": "Anna",
+          }
+        }
+        wrapperType="wrapper"
+      />
+    </h3>
+    <p
+      className="ActivateSimBanner-message"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="You are about to receive your new SIM card, you only need to activate it!"
+        description="Activate SIM banner, message text"
+        id="activate-sim-banner-message"
+        wrapperType="wrapper"
+      />
+    </p>
+    <OcButton
+      buttonType="PRIMARY"
+      id="activate-sim-button"
+      onClick={[Function]}
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Activate SIM"
+        description="Activate SIM banner, activate button label"
+        id="activate-sim-button-label"
+        wrapperType="wrapper"
+      />
+    </OcButton>
+  </div>
+  <ActivateSimModal
+    closeModal={[Function]}
+    show={false}
+  />
+</Fragment>
+`;

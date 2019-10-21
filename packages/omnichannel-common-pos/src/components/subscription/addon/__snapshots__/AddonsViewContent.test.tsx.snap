@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddonsViewContent succeeds at shallow mount with minimum props 1`] = `
+<Fragment>
+  <AddonsSection
+    activeHeader={
+      Object {
+        "defaultMessage": "Addons",
+        "description": "In POS, Customer subscriptions, available addons, title",
+        "id": "customer-subscriptions-available-addons-title",
+      }
+    }
+    hasData={false}
+    id="product-addons"
+    inactiveHeader={
+      Object {
+        "defaultMessage": "Addons (none available)",
+        "description": "In POS, Customer subscriptions, no available addons, title",
+        "id": "customer-subscriptions-available-addons-none-available-title",
+      }
+    }
+  >
+    <withRouter(AddonsAccordion)
+      addons={Array []}
+      initializeStateTransition={[MockFunction]}
+      isActive={[Function]}
+      lifecycleStatus="Active"
+      onChangeAddon={[Function]}
+      selectAddonForActivation={[Function]}
+      showActions={true}
+    />
+  </AddonsSection>
+  <div
+    className="AddonRows-show-more-button"
+  />
+</Fragment>
+`;

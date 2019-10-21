@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanChangeResultModal succeeds at shallow mount with minimum props 1`] = `
+<OcModal
+  className="modal"
+  hideCloseButton={false}
+  onClose={[MockFunction]}
+  showModal={true}
+  title={
+    <FormattedMessageWrapper
+      defaultMessage="Change result"
+      description="Title for change result presentation"
+      id="plan-change-result-modal-title"
+      wrapperType="wrapper"
+    />
+  }
+>
+  <div
+    className="message-container"
+  >
+    <FormattedMessageWrapper
+      defaultMessage="Purchase successful"
+      description="Plan change result modal, success text"
+      id="plan-change-result-modal-success-text"
+      wrapperType="wrapper"
+    />
+  </div>
+</OcModal>
+`;

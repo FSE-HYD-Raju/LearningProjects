@@ -1,0 +1,57 @@
+@import "../../styles/_variables.scss";
+
+.AddressValidationHandler-field {
+	margin: 10px 10px 10px 0;
+}
+
+.AddressValidationHandler-modal {
+
+	.fa {
+		margin-right: 10px;
+	}
+
+	.fa-exclamation-triangle {
+		color: $error-red;
+	}
+
+	.fa-info-circle, .fa-spin {
+		color: $main-blue;
+	}
+
+	.AddressValidationHandlerProposals-address-proposal {
+		padding: 5px 15px 5px 5px;
+	}
+}
+
+.AddressValidationHandler-modal .OcButton {
+	font-size: 15px;
+	line-height: 16px;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);
+	text-transform: capitalize !important;
+	font-weight: 100;
+}
+.AddressValidationHandler-apply-button {
+	width: 100%
+}
+.AddressValidationHandler-modal-content {
+	border-top: 1px solid $gray-line;
+	margin: 20px 30px 30px 30px;
+	padding-top: 20px;
+	width: 100%;
+}
+
+.AddressValidationHandler-field > div {
+}
+
+.AddressValidationHandler-zip-code-field > div {
+	width: 30%;
+}
+
+.AddressValidationHandler-city-field > div, .AddressValidationHandler-country-field > div {
+	width: 80%;
+}
+
+.AddressValidationHandler-required {
+	margin: auto 5px;
+	color: $error-red;
+}

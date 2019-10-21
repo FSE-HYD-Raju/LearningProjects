@@ -1,0 +1,208 @@
+.StateChangeModal {
+	&-modal-content {
+		margin: 20px;
+	}
+
+	&-confirm-button {
+		text-transform: uppercase;
+	}
+	
+	&-confirmation-modal {
+		padding: 10px 0;
+
+		&-flex {
+			display: flex;
+			flex: 1 1 auto;
+			&-column {
+				flex-direction: column;
+			}
+		}
+
+		&-fee {
+			flex: 6;
+			&-label {
+				flex: 2;
+			}
+			&-value {
+				flex: 4;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+		}
+
+		&-currency {
+			margin-right: 30px;
+		}
+
+		&-addon {
+			margin-top: 20px;
+		}
+	}
+	&-consequences {
+		margin: 0px 20px 20px;
+		width: 100%;
+
+		&-basket-item {
+			width: 100%;
+			justify-content: space-between;
+		}
+
+		&-product-name {
+			flex: 4;
+			align-items: center;
+			justify-content: flex-end;
+		}
+
+		&-icon {
+			flex: 1;
+			align-items: center;
+			justify-content: center;
+			& > i {
+				color: #444;
+				font-size: 18px;
+			}
+		}
+
+		&-resulting-state {
+			flex: 4;
+			align-items: center;;
+			justify-content: flex-start;
+			&-price {
+				margin-left: 6px;
+				margin-right: 6px;
+			}
+		}
+	}
+	&-payment-methods {
+		flex: 6;
+		&-label {
+			flex: 2;
+			align-items: start;
+		}
+		&-values {
+			flex: 4;
+			align-items: center;
+		}
+		&-single {
+			flex: 2;
+			margin: 0;
+		}
+
+	}
+	&-top-container {
+		display: flex;
+		padding-bottom: 1.2rem;
+	}
+
+	&-deactivate-service-main-container {
+		display: flex;
+		flex-direction: column;
+		border-bottom: 0.0625rem solid $gray-200;
+	}
+
+	&-container {
+		display: flex;
+		flex: 1 1 auto;
+		flex-direction: column;
+		margin: 1.25rem;
+		width: inherit !important;
+	}
+
+	&-deactivation-modal {
+		margin: 0 0 1.25rem;
+	}
+
+	&-title {
+		display: flex;
+		flex: 2;
+		width: 10.25rem;
+		color: $gray-600;
+	}
+
+	&-modal-row {
+		display: flex;
+		padding: 0.625rem 0;
+		min-height: 3.75rem;
+	}
+
+	&-label {
+		display: flex;
+		align-items: center;
+		flex: 2;
+		color: $gray-600;
+	}
+
+	&-data {
+		display: flex;
+		flex: 4;
+		align-items: center;
+		justify-content: flex-start;
+		&>form-group {
+			min-height: inherit !important;
+			display: flex;
+			margin: 0 !important;
+		}
+	}
+
+	#buttonAcceptServiceStateTransition {
+		text-transform: uppercase;
+		padding: 0.563rem 0.9rem;
+	}
+
+	&-state-transition-name {
+		text-transform: lowercase;
+	}
+
+	&-payment-method-radio {
+		& > .OcInput {
+			height: auto;
+		}
+		align-items: center;
+		justify-content: flex-start;
+
+	}
+
+	&-payment-method-selected {
+		flex: 4;
+	}
+
+	&-balance {
+		background-color: $light-grey-lighter;
+		margin: 0.75rem 0 0 0;
+		padding: 0.75rem;
+	}
+
+	&-balance > div {
+		justify-content: space-between;
+		padding: 0.5625rem 0;
+		width: 100%;
+	}
+
+	&-balance-top-up-alert {
+		color: red;
+		flex-wrap: nowrap;
+
+		i {
+			margin-top: 0.1875rem;
+			margin-right: 0.625rem;
+		}
+	}
+
+	&-amount {
+		margin: 0 0.5625rem 0 0;
+		padding-right: 0.5625rem;
+	}
+
+	&-negative .oc-currency {
+		color: red;
+	}
+
+	&-action-row {
+		background-color: #f2f2f2;
+	}
+
+	&-total-row {
+		border-top: 0.0625rem solid #ddd;
+		margin-top: 0.75rem;
+	}
+}

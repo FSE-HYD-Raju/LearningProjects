@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManageAddonModal succeeds at shallow mount with props 1`] = `
+<OcModal
+  className="ManageAddonModal"
+  hideCloseButton={false}
+  okButtonLabel={
+    <FormattedMessageWrapper
+      defaultMessage="Deactivate"
+      description="Addon Deactivation Modal, deactivate button label"
+      id="customer-subscriptions-deactivate-addon-button"
+      wrapperType="wrapper"
+    />
+  }
+  onClose={[Function]}
+  onOk={[Function]}
+  showModal={true}
+  smallModal={true}
+  title={
+    <FormattedMessageWrapper
+      defaultMessage="Manage add-on"
+      description="Addon Deactivation Modal, title label"
+      id="customer-subscriptions-manage-addon-title"
+      wrapperType="wrapper"
+    />
+  }
+>
+  <div
+    className="ManageAddonModal-main-container"
+  >
+    <div
+      className="ManageAddonModal-info-container"
+    >
+      <div
+        className="ManageAddonModal-label"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Phone number"
+          description="Add-on activation modal, msisdn label"
+          id="addon-activation-modal-msisdn-label"
+          wrapperType="wrapper"
+        />
+      </div>
+      <span
+        className="ManageAddonModal-phone-number"
+      >
+        3920991234
+      </span>
+    </div>
+    <div
+      className="ManageAddonModal-info-container ManageAddonModal-new-section"
+    >
+      <div
+        className="ManageAddonModal-label"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Service name"
+          description="Add-on name label"
+          id="customer-details-available-addons-name-label"
+          wrapperType="wrapper"
+        />
+      </div>
+      <span
+        className="ManageAddonModal-name"
+      >
+        Some Add-on extended name
+      </span>
+    </div>
+    <div
+      className="ManageAddonModal-info-container"
+    >
+      <div
+        className="ManageAddonModal-label"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Description"
+          description="Add-on activation modal, description label"
+          id="addon-activation-modal-description-label"
+          wrapperType="wrapper"
+        />
+      </div>
+      <span
+        className="ManageAddonModal-description"
+      >
+        Some Add-on short description
+      </span>
+    </div>
+  </div>
+</OcModal>
+`;

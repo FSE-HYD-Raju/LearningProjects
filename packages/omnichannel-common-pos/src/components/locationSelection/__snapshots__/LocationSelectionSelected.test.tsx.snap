@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationSelectionSelected succeeds at shallow mount without props 1`] = `
+<div
+  className="LocationSelectionSelected"
+>
+  <div
+    className="LocationSelectionSelected-w-app-b2c-location"
+  >
+    <div
+      className="LocationSelectionSelected-w-app-b2c-location-city"
+    >
+      <div
+        className="LocationSelectionSelected-w-box-header"
+      >
+        <h2>
+          <FormattedMessageWrapper
+            defaultMessage="Choose location"
+            description="LocationSelectionSelected, choose location title"
+            id="location-selection-selected-choose-location"
+            wrapperType="wrapper"
+          />
+        </h2>
+        <a
+          className="btn btn-link"
+          onClick={[MockFunction]}
+        >
+          <i
+            className="fa fa-fw fa-times"
+          />
+          <FormattedMessageWrapper
+            defaultMessage="Close"
+            description="LocationSelectionSelected, close"
+            id="location-selection-selected-close-link"
+            wrapperType="wrapper"
+          />
+        </a>
+      </div>
+      <div
+        className="LocationSelectionSelected-breadcrumbs"
+      />
+      <ul>
+        <li
+          className=""
+          id="location-option-1"
+          key="location-option-1-0"
+          onClick={[Function]}
+        >
+          <span>
+             
+            <i
+              className="fa fa-check pull-right"
+            />
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

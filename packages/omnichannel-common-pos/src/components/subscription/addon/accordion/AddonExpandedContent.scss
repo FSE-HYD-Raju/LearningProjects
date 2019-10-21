@@ -1,0 +1,80 @@
+@import '../../../../styles/_variables.scss';
+
+.AddonsTabView-addon-expanded-content {
+
+	display: flex;
+	flex: 1 0 0;
+	flex-direction: column;
+	padding: 0 2.5rem 0.5rem;
+	background-color: $gray-100;
+	border-top: 1px solid $weasel-border-color-solid;
+	font-size: $font-size-sm;
+
+	&-characteristics-list {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		margin: 0.625rem -1rem;
+		border-top: 1px solid $weasel-border-color-solid;
+		padding: 0.5rem 1rem;
+		background-color: #fff;
+		font-size: $font-size-base;
+	}
+
+	&-addon-details {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+		&-name {
+			display: grid;
+			grid-template-columns: 1fr 4fr;
+			justify-content: flex-start;
+		}
+		&-price {
+			display: flex;
+			flex-direction: row;
+			flex: 2;
+			&-upfront {
+				display: flex;
+				flex: 1 0 0;
+				margin-right: 10px;
+			}
+			&-recurrent {
+				flex: 1 0 0;
+				display: flex;
+			}
+		}
+	}
+
+	&-characteristic-list {
+		flex-direction: column;
+	}
+
+	&-characteristic-list-item {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		font-size: 13px;
+		padding-top: 0.2rem;
+		font-size: 13px;
+	}
+
+	&-characteristic-name {
+		color: gray("600");
+	}
+
+	&-characteristic-value {
+		margin-left: 10px;
+	}
+
+	&-addon-description {
+		font-size: 13px;
+		line-height: 13px;
+		white-space: pre-wrap;
+		margin-right: 25px;
+	}
+
+}

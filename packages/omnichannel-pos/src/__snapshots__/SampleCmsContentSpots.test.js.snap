@@ -1,0 +1,459 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SampleCmsContentSpots succeeds at deep mount with props 1`] = `
+<SampleCmsContentSpots
+  CMSAdminStore={
+    Object {
+      "_listeners": Array [],
+      "config": Object {
+        "setState": [Function],
+      },
+      "emitChange": [Function],
+      "getState": [Function],
+      "listen": [Function],
+      "previewData": [Function],
+      "setState": [Function],
+    }
+  }
+  UserStore={
+    Object {
+      "_listeners": Array [],
+      "config": Object {
+        "setState": [Function],
+      },
+      "emitChange": [Function],
+      "getState": [Function],
+      "isLoggedIn": [Function],
+      "listen": [Function],
+      "setState": [Function],
+    }
+  }
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+>
+  <div
+    className="oc-max-width"
+  >
+    <CMSComponent
+      CMSAdminStore={
+        Object {
+          "_listeners": Array [],
+          "config": Object {
+            "setState": [Function],
+          },
+          "emitChange": [Function],
+          "getState": [Function],
+          "listen": [Function],
+          "previewData": [Function],
+          "setState": [Function],
+        }
+      }
+      UserStore={
+        Object {
+          "_listeners": Array [],
+          "config": Object {
+            "setState": [Function],
+          },
+          "emitChange": [Function],
+          "getState": [Function],
+          "isLoggedIn": [Function],
+          "listen": [Function],
+          "setState": [Function],
+        }
+      }
+      fragment="spot1"
+      intl={
+        Object {
+          "defaultFormats": Object {},
+          "defaultLocale": "en",
+          "formatDate": [Function],
+          "formatHTMLMessage": [Function],
+          "formatMessage": [Function],
+          "formatNumber": [Function],
+          "formatPlural": [Function],
+          "formatRelative": [Function],
+          "formatTime": [Function],
+          "formats": Object {},
+          "formatters": Object {
+            "getDateTimeFormat": [Function],
+            "getMessageFormat": [Function],
+            "getNumberFormat": [Function],
+            "getPluralFormat": [Function],
+            "getRelativeFormat": [Function],
+          },
+          "locale": "en",
+          "messages": Object {},
+          "now": [Function],
+          "onError": [Function],
+          "textComponent": "span",
+          "timeZone": null,
+        }
+      }
+      publishTarget="pos"
+    >
+      <div
+        className="cms_content_placeholder"
+        data-fragment="spot1"
+        data-publish-target="pos"
+      />
+    </CMSComponent>
+    <div
+      style={
+        Object {
+          "paddingBottom": "20px",
+        }
+      }
+    />
+    <CMSComponent
+      CMSAdminStore={
+        Object {
+          "_listeners": Array [],
+          "config": Object {
+            "setState": [Function],
+          },
+          "emitChange": [Function],
+          "getState": [Function],
+          "listen": [Function],
+          "previewData": [Function],
+          "setState": [Function],
+        }
+      }
+      UserStore={
+        Object {
+          "_listeners": Array [],
+          "config": Object {
+            "setState": [Function],
+          },
+          "emitChange": [Function],
+          "getState": [Function],
+          "isLoggedIn": [Function],
+          "listen": [Function],
+          "setState": [Function],
+        }
+      }
+      fragment="spot2"
+      intl={
+        Object {
+          "defaultFormats": Object {},
+          "defaultLocale": "en",
+          "formatDate": [Function],
+          "formatHTMLMessage": [Function],
+          "formatMessage": [Function],
+          "formatNumber": [Function],
+          "formatPlural": [Function],
+          "formatRelative": [Function],
+          "formatTime": [Function],
+          "formats": Object {},
+          "formatters": Object {
+            "getDateTimeFormat": [Function],
+            "getMessageFormat": [Function],
+            "getNumberFormat": [Function],
+            "getPluralFormat": [Function],
+            "getRelativeFormat": [Function],
+          },
+          "locale": "en",
+          "messages": Object {},
+          "now": [Function],
+          "onError": [Function],
+          "textComponent": "span",
+          "timeZone": null,
+        }
+      }
+      publishTarget="pos"
+    >
+      <div
+        className="cms_content_placeholder"
+        data-fragment="spot2"
+        data-publish-target="pos"
+      />
+    </CMSComponent>
+    <div
+      style={
+        Object {
+          "paddingBottom": "20px",
+        }
+      }
+    />
+    <CMSComponent
+      CMSAdminStore={
+        Object {
+          "_listeners": Array [],
+          "config": Object {
+            "setState": [Function],
+          },
+          "emitChange": [Function],
+          "getState": [Function],
+          "listen": [Function],
+          "previewData": [Function],
+          "setState": [Function],
+        }
+      }
+      UserStore={
+        Object {
+          "_listeners": Array [],
+          "config": Object {
+            "setState": [Function],
+          },
+          "emitChange": [Function],
+          "getState": [Function],
+          "isLoggedIn": [Function],
+          "listen": [Function],
+          "setState": [Function],
+        }
+      }
+      fragment="spot3"
+      intl={
+        Object {
+          "defaultFormats": Object {},
+          "defaultLocale": "en",
+          "formatDate": [Function],
+          "formatHTMLMessage": [Function],
+          "formatMessage": [Function],
+          "formatNumber": [Function],
+          "formatPlural": [Function],
+          "formatRelative": [Function],
+          "formatTime": [Function],
+          "formats": Object {},
+          "formatters": Object {
+            "getDateTimeFormat": [Function],
+            "getMessageFormat": [Function],
+            "getNumberFormat": [Function],
+            "getPluralFormat": [Function],
+            "getRelativeFormat": [Function],
+          },
+          "locale": "en",
+          "messages": Object {},
+          "now": [Function],
+          "onError": [Function],
+          "textComponent": "span",
+          "timeZone": null,
+        }
+      }
+      publishTarget="pos"
+    >
+      <div
+        className="cms_content_placeholder"
+        data-fragment="spot3"
+        data-publish-target="pos"
+      />
+    </CMSComponent>
+  </div>
+</SampleCmsContentSpots>
+`;
+
+exports[`SampleCmsContentSpots succeeds at shallow mount with props 1`] = `
+<div
+  className="oc-max-width"
+>
+  <CMSComponent
+    CMSAdminStore={
+      Object {
+        "_listeners": Array [],
+        "config": Object {
+          "setState": [Function],
+        },
+        "emitChange": [Function],
+        "getState": [Function],
+        "listen": [Function],
+        "previewData": [Function],
+        "setState": [Function],
+      }
+    }
+    UserStore={
+      Object {
+        "_listeners": Array [],
+        "config": Object {
+          "setState": [Function],
+        },
+        "emitChange": [Function],
+        "getState": [Function],
+        "isLoggedIn": [Function],
+        "listen": [Function],
+        "setState": [Function],
+      }
+    }
+    fragment="spot1"
+    intl={
+      Object {
+        "defaultFormats": Object {},
+        "defaultLocale": "en",
+        "formatDate": [Function],
+        "formatHTMLMessage": [Function],
+        "formatMessage": [Function],
+        "formatNumber": [Function],
+        "formatPlural": [Function],
+        "formatRelative": [Function],
+        "formatTime": [Function],
+        "formats": Object {},
+        "formatters": Object {
+          "getDateTimeFormat": [Function],
+          "getMessageFormat": [Function],
+          "getNumberFormat": [Function],
+          "getPluralFormat": [Function],
+          "getRelativeFormat": [Function],
+        },
+        "locale": "en",
+        "messages": Object {},
+        "now": [Function],
+        "onError": [Function],
+        "textComponent": "span",
+        "timeZone": null,
+      }
+    }
+    publishTarget="pos"
+  />
+  <div
+    style={
+      Object {
+        "paddingBottom": "20px",
+      }
+    }
+  />
+  <CMSComponent
+    CMSAdminStore={
+      Object {
+        "_listeners": Array [],
+        "config": Object {
+          "setState": [Function],
+        },
+        "emitChange": [Function],
+        "getState": [Function],
+        "listen": [Function],
+        "previewData": [Function],
+        "setState": [Function],
+      }
+    }
+    UserStore={
+      Object {
+        "_listeners": Array [],
+        "config": Object {
+          "setState": [Function],
+        },
+        "emitChange": [Function],
+        "getState": [Function],
+        "isLoggedIn": [Function],
+        "listen": [Function],
+        "setState": [Function],
+      }
+    }
+    fragment="spot2"
+    intl={
+      Object {
+        "defaultFormats": Object {},
+        "defaultLocale": "en",
+        "formatDate": [Function],
+        "formatHTMLMessage": [Function],
+        "formatMessage": [Function],
+        "formatNumber": [Function],
+        "formatPlural": [Function],
+        "formatRelative": [Function],
+        "formatTime": [Function],
+        "formats": Object {},
+        "formatters": Object {
+          "getDateTimeFormat": [Function],
+          "getMessageFormat": [Function],
+          "getNumberFormat": [Function],
+          "getPluralFormat": [Function],
+          "getRelativeFormat": [Function],
+        },
+        "locale": "en",
+        "messages": Object {},
+        "now": [Function],
+        "onError": [Function],
+        "textComponent": "span",
+        "timeZone": null,
+      }
+    }
+    publishTarget="pos"
+  />
+  <div
+    style={
+      Object {
+        "paddingBottom": "20px",
+      }
+    }
+  />
+  <CMSComponent
+    CMSAdminStore={
+      Object {
+        "_listeners": Array [],
+        "config": Object {
+          "setState": [Function],
+        },
+        "emitChange": [Function],
+        "getState": [Function],
+        "listen": [Function],
+        "previewData": [Function],
+        "setState": [Function],
+      }
+    }
+    UserStore={
+      Object {
+        "_listeners": Array [],
+        "config": Object {
+          "setState": [Function],
+        },
+        "emitChange": [Function],
+        "getState": [Function],
+        "isLoggedIn": [Function],
+        "listen": [Function],
+        "setState": [Function],
+      }
+    }
+    fragment="spot3"
+    intl={
+      Object {
+        "defaultFormats": Object {},
+        "defaultLocale": "en",
+        "formatDate": [Function],
+        "formatHTMLMessage": [Function],
+        "formatMessage": [Function],
+        "formatNumber": [Function],
+        "formatPlural": [Function],
+        "formatRelative": [Function],
+        "formatTime": [Function],
+        "formats": Object {},
+        "formatters": Object {
+          "getDateTimeFormat": [Function],
+          "getMessageFormat": [Function],
+          "getNumberFormat": [Function],
+          "getPluralFormat": [Function],
+          "getRelativeFormat": [Function],
+        },
+        "locale": "en",
+        "messages": Object {},
+        "now": [Function],
+        "onError": [Function],
+        "textComponent": "span",
+        "timeZone": null,
+      }
+    }
+    publishTarget="pos"
+  />
+</div>
+`;

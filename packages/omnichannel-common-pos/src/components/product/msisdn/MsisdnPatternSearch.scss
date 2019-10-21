@@ -1,0 +1,31 @@
+.MsisdnPatternSearch {
+	display: flex;
+	&-inputContainer {
+		margin-bottom: 20px;
+	}
+
+	&-pattern-container {
+		display: flex;
+	}
+
+	&-msisdnPatternSearchInput {
+		text-indent: 10px;
+	}
+
+	&-search-button {
+		margin-left: 1.50rem;
+		width: 41%;
+		margin-top: auto;
+	}
+	@include media-breakpoint-between(xs, sm) {
+		&-search-button {
+			margin-left: 1.50rem;
+			width: 46%;
+			margin-top: auto;
+		}
+		&-msisdnPatternSearchInput {
+			text-indent: 10px;
+			width: 45%;
+		}
+	}
+}

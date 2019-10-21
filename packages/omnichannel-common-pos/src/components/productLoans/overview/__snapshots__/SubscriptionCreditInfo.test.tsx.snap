@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubscriptionCreditInfo succeeds at shallow mount with minimal props 1`] = `
+<div
+  className="SubscriptionCreditInfo"
+>
+  <div
+    className="SubscriptionCreditInfo-title"
+  >
+    <FormattedMessageWrapper
+      defaultMessage="Credit"
+      description="Subscription overview (balances section) credit info title"
+      id="subscription-overview-credit-info-title"
+      wrapperType="wrapper"
+    />
+    <i
+      className="fa fa-info-circle"
+      id="credit-info-button"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="SubscriptionCreditInfo-amount"
+  >
+    <OcCurrency
+      cost={-6}
+      currency="EUR"
+    />
+  </div>
+  <CreditInfoModal
+    dueDate={2018-10-30T21:15:30.000Z}
+    loanAmountToPayBack={
+      Object {
+        "currency": "EUR",
+        "taxFreeAmount": 4,
+      }
+    }
+    loanDescription="test description"
+    loanFeeToPayBack={
+      Object {
+        "currency": "EUR",
+        "taxFreeAmount": 5,
+      }
+    }
+    onClose={[Function]}
+    onPayBack={[Function]}
+    originalLoanAmount={
+      Object {
+        "currency": "EUR",
+        "taxFreeAmount": 2,
+      }
+    }
+    originalLoanFee={
+      Object {
+        "currency": "EUR",
+        "taxFreeAmount": 1,
+      }
+    }
+    remainingLoanAmount={
+      Object {
+        "currency": "EUR",
+        "taxFreeAmount": 3,
+      }
+    }
+    showModal={false}
+    totalRemainingCredit={
+      Object {
+        "currency": "EUR",
+        "taxFreeAmount": 6,
+      }
+    }
+  />
+</div>
+`;

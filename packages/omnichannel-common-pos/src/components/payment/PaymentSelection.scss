@@ -1,0 +1,35 @@
+@import '~omnichannel-common-pos/lib/styles/variables';
+@import '~omnichannel-common-pos/lib/styles/mixins';
+
+.PaymentSelection {
+	&-no-stored-credit-cards {
+		padding-left: $custom-control-indicator-size + $custom-control-gutter;
+	}
+
+	&-credit-card-radio-buttons {
+		padding-left: 20px;
+	}
+
+	&-credit-card-payment-section,
+	&-payment-on-delivery-container {
+		margin: .2rem 0 .25rem .4rem;
+		border-left: .25rem solid gray("200");
+		padding: 1rem 0 1rem 1rem;
+	}
+
+	&-passcode-section {
+		font-size: 14px;
+	}
+
+	&-info-step-section {
+		margin-top: 5px;
+		font-size: 12px;
+	}
+
+	@include media-breakpoint-up(sm){
+		&-credit-card-payment-section,
+		&-payment-on-delivery-container{
+			padding: 1rem 2rem;
+		}
+	}
+}

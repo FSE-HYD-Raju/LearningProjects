@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SalesOrganizationModal succeeds at shallow mount with minimum props 1`] = `
+<OcModal
+  backdropStyle={
+    Object {
+      "zIndex": 1050,
+    }
+  }
+  className="SalesOrganizationModal"
+  hideCloseButton={true}
+  okButtonLabel={
+    <FormattedMessageWrapper
+      defaultMessage="Make active"
+      description="Activate button message for sales organization selection modal"
+      id="sales-organization-modal-make-active"
+      wrapperType="wrapper"
+    />
+  }
+  okDisabled={true}
+  onClose={[Function]}
+  onOk={[Function]}
+  showModal={false}
+  title={
+    <FormattedMessageWrapper
+      defaultMessage="Select sales organization"
+      description="Service desk sales organization selection modal title"
+      id="service-desk-sales-organization-modal-title"
+      wrapperType="wrapper"
+    />
+  }
+>
+  <section
+    className="SalesOrganizationModal-form"
+  >
+    <div
+      className="alert alert-danger"
+    >
+      <i
+        className="fa fa-exclamation-circle btn-icon-left"
+      />
+      <FormattedMessageWrapper
+        defaultMessage="No eligible sales organizations found."
+        description="Message informing about errors while finding "
+        id="sales-organization-modal-no-organizations-error-message"
+        wrapperType="wrapper"
+      />
+    </div>
+    <div
+      className="SalesOrganizationModal-search-organization form-group dropdown"
+    >
+      <label
+        htmlFor="servicedesk-container-organization-search"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Organization"
+          description="Title for organization select in organization selection modal"
+          id="sales-organization-modal-organization-select-label"
+          wrapperType="wrapper"
+        />
+      </label>
+      <div
+        className="input-group"
+      >
+        <input
+          className="form-control"
+          id="servicedesk-container-organization-search"
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="search"
+          value=""
+        />
+        <div
+          className="input-group-append"
+        >
+          <OcButton
+            buttonType="PRIMARY"
+            id="sales-organization-modal-search-organization"
+            onClick={[Function]}
+            outline={true}
+          >
+            <i
+              className="fa fa-chevron-down"
+            />
+          </OcButton>
+        </div>
+      </div>
+      <div
+        className="organization-list-dropdown dropdown-menu"
+      />
+    </div>
+    <div
+      className="SalesOrganizationModal-search-inventory form-group dropdown"
+    >
+      <label
+        htmlFor="servicedesk-container-inventory-search"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Inventory"
+          description="Title for inventory select in organization selection modal"
+          id="sales-organization-modal-inventory-select-label"
+          wrapperType="wrapper"
+        />
+      </label>
+      <div
+        className="input-group"
+      >
+        <input
+          className="form-control"
+          disabled={true}
+          id="servicedesk-container-inventory-search"
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="search"
+          value=""
+        />
+        <div
+          className="input-group-append"
+        >
+          <OcButton
+            buttonType="PRIMARY"
+            disabled={true}
+            id="sales-organization-modal-search-inventory"
+            onClick={[Function]}
+            outline={true}
+          >
+            <i
+              className="fa fa-chevron-down"
+            />
+          </OcButton>
+        </div>
+      </div>
+      <div
+        className="inventory-list-dropdown dropdown-menu"
+      />
+    </div>
+  </section>
+</OcModal>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxCombinedFilter succeeds at shallow mount with min props 1`] = `
+<div>
+  <div
+    className="checkbox-combined-filter"
+  >
+    test
+  </div>
+  <div>
+    <OcInput
+      checked={false}
+      className="checkbox-combined-filter-input"
+      id="shop-container-filters-show-only-test"
+      label={
+        <FormattedMessageWrapper
+          defaultMessage="Show only {filterValue} plans"
+          description="Show only filter label"
+          id="show-only-filter-label"
+          values={
+            Object {
+              "filterValue": "test",
+            }
+          }
+          wrapperType="wrapper"
+        />
+      }
+      onChange={[Function]}
+      type="checkbox"
+    />
+  </div>
+</div>
+`;

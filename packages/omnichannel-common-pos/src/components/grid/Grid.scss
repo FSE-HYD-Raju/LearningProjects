@@ -1,0 +1,29 @@
+.Grid {
+	&-container {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	&-inner {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	&-leftAligned {
+		justify-content: flex-start;
+	}
+	@media (max-width: 1280px) {
+		&-leftAligned {
+			width: 41.875rem;
+		}
+	}
+	@media (max-width: 930px) {
+		&-leftAligned {
+			width: 23.5rem;
+			justify-content: center;
+		}
+	}
+}
+
+

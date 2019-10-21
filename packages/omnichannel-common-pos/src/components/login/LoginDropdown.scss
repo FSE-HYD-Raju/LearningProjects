@@ -1,0 +1,42 @@
+@import '/../../variables.scss';
+
+.LoginDropdown {
+	&-with-user-container {
+		padding: 18px;
+		display: flex;
+		flex-direction: column;
+
+		&>* {
+			display: flex;
+			margin: 5px 0;
+		}
+
+		&>#navbar-sign-out {
+			margin-top: 15px;
+			justify-content: center;
+		}
+	}
+}
+
+.LoginContainer {
+	.login-dropdown {
+		width: 250px;
+		padding: 18px;
+	}
+	.login-dropdown-register {
+		&>span {
+			color: #777;
+		}
+		&>a {
+			padding-left: 6px;
+		}
+	}
+}
+
+.LoginForm {
+	&-dropdown-button {
+		color: $white;
+		textDecoration: "none"
+	}
+
+}

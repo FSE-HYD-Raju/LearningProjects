@@ -1,0 +1,39 @@
+@import "../../variables.scss";
+
+.NewSupportCaseModal {
+	&-support-case-modal-container {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 0.4rem;
+	}
+	&-label {
+		color: $lighter-smoke;
+		width: 10.25rem;
+	}
+
+	&-info-container {
+		display: flex;
+		width: 100%;
+	}
+
+	.text-danger {
+		margin-left: 0.125rem;
+		color: $danger;
+	}
+
+	&-content {
+		width: 18.75rem;
+
+		.form-group {
+			margin-bottom: 0.875rem;
+		}
+	}
+
+	&-description-margin {
+		margin-bottom: 0.5625rem;
+	}
+}
+
+#post-support-case-confirm-button {
+	padding: 0.563rem 3.05rem;
+}

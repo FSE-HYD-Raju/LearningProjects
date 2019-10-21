@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationSelectionView succeeds at shallow mount with min props 1`] = `
+<div
+  className="LocationSelectionView"
+>
+  <LocationSelectionSelected
+    getFormattedLocation={[MockFunction]}
+    handleLocationClick={[MockFunction]}
+    intl={
+      Object {
+        "defaultFormats": Object {},
+        "defaultLocale": "en",
+        "formatDate": [Function],
+        "formatHTMLMessage": [Function],
+        "formatMessage": [Function],
+        "formatNumber": [Function],
+        "formatPlural": [Function],
+        "formatRelative": [Function],
+        "formatTime": [Function],
+        "formats": Object {},
+        "formatters": Object {
+          "getDateTimeFormat": [Function],
+          "getMessageFormat": [Function],
+          "getNumberFormat": [Function],
+          "getPluralFormat": [Function],
+          "getRelativeFormat": [Function],
+        },
+        "locale": "en",
+        "messages": Object {},
+        "now": [Function],
+        "onError": [Function],
+        "textComponent": "span",
+        "timeZone": null,
+      }
+    }
+    locations={
+      Array [
+        Object {
+          "attributes": Object {
+            "city": "null",
+            "externalId": "external_id_1",
+            "label": "Western Finland",
+            "level": 0,
+            "postalCode": "null",
+          },
+          "id": "1",
+          "relationships": Object {
+            "parent": null,
+          },
+          "type": "geolocations",
+        },
+      ]
+    }
+    selectLocation={[MockFunction]}
+    selectedLocation="loc"
+    showingLocations={false}
+  />
+</div>
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortIn Successful initial rendering of component 1`] = `
+<div>
+  <RadioButton
+    checked={true}
+    id="change"
+    label={
+      <FormattedMessageWrapper
+        defaultMessage="Get new number"
+        description="Get new number message for PortIn"
+        id="portin-message-newnumber"
+        wrapperType="wrapper"
+      />
+    }
+    name="portin"
+    onChange={[Function]}
+    value="false"
+  />
+  <RadioButton
+    checked=""
+    id="keep"
+    label={
+      <FormattedMessageWrapper
+        defaultMessage="Transfer old number"
+        description="Transfer old number"
+        id="portin-message-oldnumber"
+        wrapperType="wrapper"
+      />
+    }
+    name="portin"
+    onChange={[Function]}
+    value="true"
+  />
+</div>
+`;

@@ -1,0 +1,52 @@
+@import "../../../variables";
+
+.RecurringTopUpBaseForm {
+	&-header,
+	&-container {
+		display: flex;
+		flex-direction: column;
+	}
+	&-section-container {
+		padding-top: 20px;
+		display: flex;
+		flex-direction: row;
+	}
+	&-section-label {
+		font-weight: bold;
+		display: flex;
+		width: 10.25rem;
+	}
+	&-section-data {
+		width: 18.75rem;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+		word-break: normal;
+	}
+	&-model-form {
+		display: flex;
+	}
+	&-subscription-container {
+		border-bottom: $border-top;
+		padding-bottom: 1.875rem;
+	}
+	&-payment-container {
+		border-top: $border-top;
+		margin-top: 1rem;
+	}
+	&-actions-container {
+		display: flex;
+		justify-content: space-between;
+	}
+	.OcInput-label-control {
+		opacity: 1;
+	}
+	&-payment-select {
+		margin-top: -0.3125rem;
+	}
+
+	@include media-breakpoint-down(xs) {
+		&-section-container {
+			display: block;
+		}
+	}
+}

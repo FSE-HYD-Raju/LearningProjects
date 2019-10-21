@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerDetailsForm RUBT-65825 renders an asterisk representing field mandatoriness -- snapshot 1`] = `
+<div>
+  <Uncontrolled(Form)
+    onSubmit={[Function]}
+    schema={
+      ObjectSchema {
+        "_blacklist": BadSet {
+          "_map": Object {},
+          "_refs": Object {},
+        },
+        "_conditions": Array [],
+        "_defaultDefault": [Function],
+        "_deps": Array [],
+        "_excludedEdges": Array [
+          "undefined-undefined",
+        ],
+        "_exclusive": Object {},
+        "_mutate": false,
+        "_nodes": Array [
+          "country",
+          "city",
+          "postalCode",
+          "street",
+        ],
+        "_options": Object {
+          "abortEarly": true,
+          "recursive": true,
+        },
+        "_type": "object",
+        "_typeError": [Function],
+        "_whitelist": BadSet {
+          "_map": Object {},
+          "_refs": Object {},
+        },
+        "fields": Object {
+          "city": StringSchema {
+            "_blacklist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "required": false,
+            },
+            "_mutate": false,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "string",
+            "_typeError": [Function],
+            "_whitelist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "tests": Array [
+              [Function],
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+          },
+          "country": StringSchema {
+            "_blacklist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "required": false,
+            },
+            "_mutate": false,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "string",
+            "_typeError": [Function],
+            "_whitelist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "tests": Array [
+              [Function],
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+          },
+          "postalCode": StringSchema {
+            "_blacklist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {},
+            "_mutate": false,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "string",
+            "_typeError": [Function],
+            "_whitelist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "tests": Array [],
+            "transforms": Array [
+              [Function],
+            ],
+          },
+          "street": StringSchema {
+            "_blacklist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "required": false,
+            },
+            "_mutate": false,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "string",
+            "_typeError": [Function],
+            "_whitelist": BadSet {
+              "_map": Object {},
+              "_refs": Object {},
+            },
+            "tests": Array [
+              [Function],
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+          },
+        },
+        "tests": Array [],
+        "transforms": Array [
+          [Function],
+        ],
+      }
+    }
+  >
+    <Flex
+      alignItems="center"
+      alignSelf=""
+      justifyContent=""
+      key="street-0"
+      style={
+        Object {
+          "height": "50px",
+          "marginBottom": "2px",
+        }
+      }
+      wrap="wrap"
+    >
+      <Field
+        events={
+          Array [
+            "onBlur",
+            "onChange",
+            "onSubmit",
+          ]
+        }
+        exclusive={false}
+        id="CustomerDetailsForm-input-street"
+        label={
+          <FormattedMessageWrapper
+            defaultMessage="Street address"
+            description="service-desk, new customer, label street address"
+            id="newcustomer-street-address"
+            wrapperType="wrapper"
+          />
+        }
+        labelPosition="left"
+        labelWidth="124px"
+        name="street"
+        required={true}
+        type={[Function]}
+      />
+    </Flex>
+    <Flex
+      alignItems="center"
+      alignSelf=""
+      justifyContent=""
+      key="postalCode-1"
+      style={
+        Object {
+          "height": "50px",
+          "marginBottom": "2px",
+        }
+      }
+      wrap="wrap"
+    >
+      <Field
+        events={
+          Array [
+            "onBlur",
+            "onChange",
+            "onSubmit",
+          ]
+        }
+        exclusive={false}
+        id="CustomerDetailsForm-input-postalCode"
+        label={
+          <FormattedMessageWrapper
+            defaultMessage="Postal code"
+            description="service-desk, new customer, label postal code"
+            id="newcustomer-psotal-code"
+            wrapperType="wrapper"
+          />
+        }
+        labelPosition="left"
+        labelWidth="124px"
+        name="postalCode"
+        required={false}
+        type={[Function]}
+      />
+    </Flex>
+    <Flex
+      alignItems="center"
+      alignSelf=""
+      justifyContent=""
+      key="city-2"
+      style={
+        Object {
+          "height": "50px",
+          "marginBottom": "2px",
+        }
+      }
+      wrap="wrap"
+    >
+      <Field
+        events={
+          Array [
+            "onBlur",
+            "onChange",
+            "onSubmit",
+          ]
+        }
+        exclusive={false}
+        id="CustomerDetailsForm-input-city"
+        label={
+          <FormattedMessageWrapper
+            defaultMessage="City"
+            description="service-desk, new customer, label city"
+            id="newcustomer-city"
+            wrapperType="wrapper"
+          />
+        }
+        labelPosition="left"
+        labelWidth="124px"
+        name="city"
+        required={true}
+        type={[Function]}
+      />
+    </Flex>
+    <Flex
+      alignItems="center"
+      alignSelf=""
+      justifyContent=""
+      key="country-3"
+      style={
+        Object {
+          "height": "50px",
+          "marginBottom": "2px",
+        }
+      }
+      wrap="wrap"
+    >
+      <Field
+        events={
+          Array [
+            "onBlur",
+            "onChange",
+            "onSubmit",
+          ]
+        }
+        exclusive={false}
+        id="CustomerDetailsForm-select-country"
+        label={
+          <FormattedMessageWrapper
+            defaultMessage="Country"
+            description="service-desk, new customer, label country"
+            id="newcustomer-country"
+            wrapperType="wrapper"
+          />
+        }
+        labelPosition="left"
+        labelWidth="124px"
+        name="country"
+        required={true}
+        type={[Function]}
+      />
+    </Flex>
+    <Flex
+      alignItems="center"
+      alignSelf=""
+      className="CustomerDetailsView-action-buttons"
+      justifyContent="end"
+      wrap="wrap"
+    >
+      <Button
+        component="div"
+        events={
+          Array [
+            "onClick",
+          ]
+        }
+        type="submit"
+      >
+        <OcButton
+          buttonType="SUCCESS"
+          htmlBtnType="submit"
+          id="CustomerDetailsForm-submit-undefined"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="Save"
+            description="Save button for customer details form"
+            id="customer-details-form-save-button"
+            wrapperType="wrapper"
+          />
+        </OcButton>
+      </Button>
+    </Flex>
+  </Uncontrolled(Form)>
+</div>
+`;
+
+exports[`CustomerDetailsForm succeeds at shallow mount with minimal props 1`] = `
+<div>
+  <Uncontrolled(Form)
+    onSubmit={[Function]}
+  >
+    <Flex
+      alignItems="center"
+      alignSelf=""
+      className="CustomerDetailsView-action-buttons"
+      justifyContent="end"
+      wrap="wrap"
+    >
+      <Button
+        component="div"
+        events={
+          Array [
+            "onClick",
+          ]
+        }
+        type="submit"
+      >
+        <OcButton
+          buttonType="SUCCESS"
+          htmlBtnType="submit"
+          id="CustomerDetailsForm-submit-undefined"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="Save"
+            description="Save button for customer details form"
+            id="customer-details-form-save-button"
+            wrapperType="wrapper"
+          />
+        </OcButton>
+      </Button>
+    </Flex>
+  </Uncontrolled(Form)>
+</div>
+`;

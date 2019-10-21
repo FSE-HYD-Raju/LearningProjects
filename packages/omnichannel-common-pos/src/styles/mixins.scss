@@ -1,0 +1,98 @@
+@import '_variables.scss';
+
+//custom mixins
+
+@mixin max-width() {
+    max-width: 1200px;
+    margin: 20px;
+    @media (min-width: 1200px) {
+        margin: 20px auto;
+    }
+    @media (max-width: 480px) {
+        margin: 0;
+    }
+}
+
+@mixin content-box() {
+    background: #fff;
+    color: #666666;
+    border-radius: 2px;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0 0 14px 0 rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    @include max-width();
+}
+
+@mixin two-column-layout() {
+    >div {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        >div {
+            flex-basis: 0;
+        }
+        >div:first-child {
+            flex-grow: 1;
+        }
+        >div:last-child {
+            flex-grow: 2;
+        }
+    }
+}
+
+@mixin selected-box($border-width, $show-shadow: false) {
+    border: $border-width solid $selected-box;
+    @if $show-shadow == 'true' {
+        box-shadow: 0 2px 6px $selected-box;
+    }
+}
+
+@mixin required-field-icon() {
+    font-size: $font-size-base * .65;
+    vertical-align: 0.09rem;
+    margin-left: 0.35rem;
+    color: theme-color("danger");
+}
+
+@mixin input-focus() {
+    color: $input-focus-color;
+    background-color: $input-focus-bg;
+    border-color: $input-focus-border-color;
+    outline: 0;
+    box-shadow: $input-focus-box-shadow;
+}
+
+@mixin form-field-text(){
+    font-weight: 600;
+    font-size: $form-field-text-font-size;
+    margin-left: 6px;
+    color: $graphite-lighter;
+    line-height: $form-field-line-height;
+}
+
+@mixin flex-grow-1 {
+    display: flex;
+    flex-grow: 1;
+}
+
+@mixin flex-container ($direction: row, $justify-content: space-between, $align-items: center,
+                       $align-content: space-evenly, $flex-wrap: wrap, $display: flex) {
+    align-content: $align-content;
+    align-items: $align-items;
+    display: $display;
+    flex-direction: $direction;
+    flex-wrap: $flex-wrap;
+    justify-content: $justify-content;
+}
+
+@mixin flex-row ($justify-content: space-between, $align-items: center,
+                 $align-content: space-evenly, $flex-wrap: wrap, $display: flex) {
+	@include flex-container(row, $justify-content, $align-items, $align-content, $flex-wrap, $display);
+}
+@mixin flex-column ($justify-content: space-between, $align-items: center,
+                    $align-content: space-evenly, $flex-wrap: wrap, $display: flex) {
+	@include flex-container(column, $justify-content, $align-items, $align-content, $flex-wrap, $display);
+}

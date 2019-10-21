@@ -1,0 +1,28 @@
+{
+	"name": "omnichannel-flow-pos",
+	"version": "111.2.0",
+	"description": "Common flow types for omnichannel",
+	"main": "src/index.js",
+	"scripts": {
+		"build": "echo foo",
+		"test-ci": "echo not linting styles",
+		"lint": "echo not linting styles",
+		"lint-fix": "echo not linting styles"
+	},
+	"publishConfig": {
+		"registry": "https://artifactory.qvantel.net/artifactory/api/npm/npm-local"
+	},
+	"dependencies": {
+		"@types/react": "16.7.18",
+		"@types/react-dom": "16.0.5",
+		"@types/react-redux": "6.0.0",
+		"eslint-plugin-flowtype": "2.39.1"
+	},
+	"devDependencies": {
+		"@types/classnames": "2.2.6",
+		"@types/react-intl": "2.3.9",
+		"eslint-plugin-flowtype": "2.39.1",
+		"flow-bin": "0.70.0"
+	},
+	"commitInfo": "omni-ui-common-pos|184f176|1571059113|Venkata_Gangadhar_Kodela|develop"
+}

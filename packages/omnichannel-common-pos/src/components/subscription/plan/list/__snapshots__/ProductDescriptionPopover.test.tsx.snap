@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDescriptionPopover succeeds at shallow mount with minimum props 1`] = `
+<Popover
+  bsClass="popover"
+  className="Plans"
+  id="product-description-popover"
+  placement="right"
+>
+  <div
+    className="Plans-description-container"
+  >
+    detailed description
+  </div>
+  <div
+    className="Plans-region-container"
+  >
+    <span
+      className="Plans-popover-region-label"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Region"
+        description="Usage region label"
+        id="service-desk-customer-details-plan-product-description-region-label"
+        wrapperType="wrapper"
+      />
+    </span>
+    <span
+      className="Plans-popover-region-value"
+    >
+      my region
+    </span>
+  </div>
+  <div
+    className="Plans-allowances-container"
+  >
+    <div
+      className="Plans-allowances-list"
+    >
+      <h5>
+        <FormattedMessageWrapper
+          defaultMessage="Allowances"
+          description="Allowances header"
+          id="service-desk-customer-details-plan-product-description-allowances-header"
+          wrapperType="wrapper"
+        />
+      </h5>
+      <div
+        className="Plans-popover-main"
+        key="allowance"
+      >
+        <div
+          className="Plans-popover-container"
+        >
+          <i
+            aria-hidden="true"
+            className="fa fa-wifi"
+          />
+          <div
+            className="Plans-popover-label"
+          >
+            min
+          </div>
+        </div>
+        <div
+          className="Plans-unit-of-measure"
+        >
+          <UnitOfMeasure
+            unit="SMS"
+            value={10}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="Plans-costs-and-validity-list"
+    >
+      <h5>
+        <FormattedMessageWrapper
+          defaultMessage="Costs and Validity"
+          description="Costs and Validity header"
+          id="service-desk-customer-details-plan-product-description-costs-and-validity-header"
+          wrapperType="wrapper"
+        />
+      </h5>
+      <FormattedMessageWrapper
+        defaultMessage="No Costs and Validity data"
+        description="Text for the case when there is no No Costs and Validity data"
+        id="service-desk-customer-details-plan-product-description-no-costs-and-validity-data-text"
+        wrapperType="wrapper"
+      />
+    </div>
+  </div>
+</Popover>
+`;

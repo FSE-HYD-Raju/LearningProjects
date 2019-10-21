@@ -1,0 +1,27 @@
+{
+	"basic-hybrid-po": {
+		"id": "basic-hybrid-po",
+		"inputtedCharacteristics": {
+			"serial-number": "1234"
+		},
+		"productOfferingGroups": [
+			{
+				"id": "addons-pog",
+				"inputtedCharacteristics": {},
+				"productOfferingGroups": [],
+				"productOfferings": [
+					{
+						"id": "voicemail-po",
+						"selected": true
+					}
+				]
+			}
+		],
+		"productOfferings": [
+			{
+				"id": "msisdn-po",
+				"specificationId": "msisdn"
+			}
+		]
+	}
+}

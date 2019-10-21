@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddonActivationModal succeeds at shallow mount without props 1`] = `
+<OcModal
+  className="ActivationModal"
+  hideCloseButton={false}
+  okButtonLabel={
+    <FormattedMessageWrapper
+      defaultMessage="Activate"
+      description="Activate addon button label"
+      id="customer-subscription-confirm-addon-activation"
+      wrapperType="wrapper"
+    />
+  }
+  okDisabled={true}
+  onClose={[Function]}
+  onOk={[Function]}
+  showModal={true}
+  smallModal={true}
+  title={
+    <FormattedMessageWrapper
+      defaultMessage="Activate add-on"
+      description="Title for activate available addon modal"
+      id="customer-subscription-activate-available-addon-modal-title"
+      wrapperType="wrapper"
+    />
+  }
+>
+  <form
+    className="AddonActivationModal"
+    id="activateAddonModal"
+    name="activateAddonModal"
+  >
+    <div
+      className="AddonActivationModal-wrapper"
+    >
+      <div
+        className="AddonActivationModal-main-container"
+      >
+        <div
+          className="AddonActivationModal-info-container"
+        >
+          <div
+            className="AddonActivationModal-label"
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Phone number"
+              description="Add-on activation modal, msisdn label"
+              id="addon-activation-modal-msisdn-label"
+              wrapperType="wrapper"
+            />
+          </div>
+          <span
+            className="AddonActivationModal-data"
+          />
+        </div>
+        <div
+          className="AddonActivationModal-info-container AddonActivationModal-new-section"
+        >
+          <div
+            className="AddonActivationModal-label"
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Service name"
+              description="Add-on name label"
+              id="customer-details-available-addons-name-label"
+              wrapperType="wrapper"
+            />
+          </div>
+          <span
+            className="AddonActivationModal-data"
+          >
+            Favorite numbers
+          </span>
+        </div>
+        <div
+          className="AddonActivationModal-info-container"
+        >
+          <div
+            className="AddonActivationModal-label"
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Description"
+              description="Add-on activation modal, description label"
+              id="addon-activation-modal-description-label"
+              wrapperType="wrapper"
+            />
+          </div>
+          <span
+            className="AddonActivationModal-data"
+          />
+        </div>
+        <AddonActivationFees />
+      </div>
+    </div>
+  </form>
+</OcModal>
+`;

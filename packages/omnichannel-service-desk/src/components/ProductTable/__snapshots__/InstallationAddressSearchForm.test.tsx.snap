@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InstallationAddressSearchForm succeeds at shallow mount with minimum props 1`] = `
+<div>
+  <div
+    className="InstallationAddressSearchForm-form-container"
+  >
+    <Uncontrolled(Form)
+      debug={true}
+      onChange={[Function]}
+      schema={
+        Object {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "fields": Object {},
+          "isValid": [MockFunction],
+          "properties": Object {
+            "addressRegisterId": Object {
+              "required": false,
+              "type": "string",
+            },
+            "apartment": Object {
+              "required": false,
+              "type": "string",
+            },
+            "building": Object {
+              "required": true,
+              "type": "string",
+            },
+            "city": Object {
+              "required": true,
+              "type": "string",
+            },
+            "coAddress": Object {
+              "required": false,
+              "type": "string",
+            },
+            "country": Object {
+              "required": false,
+              "type": "string",
+            },
+            "county": Object {
+              "required": true,
+              "type": "string",
+            },
+            "description": Object {
+              "required": false,
+              "type": "string",
+            },
+            "postOfficeBox": Object {
+              "required": false,
+              "type": "string",
+            },
+            "postalCode": Object {
+              "required": false,
+              "type": "string",
+            },
+            "stateOrProvince": Object {
+              "required": false,
+              "type": "string",
+            },
+            "street": Object {
+              "required": true,
+              "type": "string",
+            },
+          },
+          "title": "InstallationAddressSearchForm",
+          "type": "object",
+          "validate": [MockFunction],
+        }
+      }
+      value={Object {}}
+    >
+      <div>
+        <div
+          className="InstallationAddressSearchForm-container"
+        />
+        <div
+          className="form-row"
+        >
+          <div
+            className="col-sm-12"
+          >
+            <OcButton
+              buttonType="PRIMARY"
+              className="InstallationAddressSearchForm-validateStreetAddressButton"
+              disabled={true}
+              onClick={[Function]}
+            >
+              Search
+            </OcButton>
+          </div>
+        </div>
+      </div>
+    </Uncontrolled(Form)>
+  </div>
+  <div>
+    <div
+      className="form-row InstallationAddressSearchForm-search-results"
+    >
+      <div
+        className="col-sm-12"
+      />
+    </div>
+  </div>
+</div>
+`;

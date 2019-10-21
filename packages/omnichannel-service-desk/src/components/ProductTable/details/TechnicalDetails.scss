@@ -1,0 +1,30 @@
+@import "../../../../../omnichannel-common-pos/src/variables.scss";
+
+.TechnicalDetails {
+	&-container {
+		display: flex;
+		margin: 16px;
+		border: 1px solid #ddd;
+		background: rgb(253, 253, 253);
+		flex-direction: column;
+		flex: 1;
+	}
+
+	&-name-container {
+		width: 50%;
+	}
+
+	&-characteristic-value,
+	&-name-container {
+		flex: 1;
+		align-items: center;
+		justify-content: space-between;
+		border-bottom: 1px solid $light-gray;
+		width: 100%;
+		padding: 0.625em;
+	}
+
+	&-name-container > h4 {
+		font-weight: 300;
+	}
+}

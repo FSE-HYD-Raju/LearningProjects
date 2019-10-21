@@ -1,0 +1,43 @@
+.LoginForm {
+	&-form-group {
+		margin-bottom: 20px;
+		> label {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+
+			@media screen and (max-width: 480px) {
+				flex-direction: column;
+				flex: 1;
+				align-items: flex-start;
+			}
+
+			> span {
+				min-width: 100px;
+				font-size: 15px;
+				font-weight: 400;
+
+			}
+
+			> div {
+				@media screen and (max-width: 480px) {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	&-login-button {
+		@media screen and (max-width: 480px) {
+			width: 100%;
+		}
+	}
+
+	&-login-button-container {
+		display: flex;
+		flex-direction: row;
+		@media screen and (min-width: 480px) {
+			justify-content: center;
+		}
+	}
+}

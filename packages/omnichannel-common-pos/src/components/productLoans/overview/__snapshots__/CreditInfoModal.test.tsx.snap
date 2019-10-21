@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditInfoModal succeeds at shallow mount with minimum props 1`] = `
+<OcModal
+  className="CreditInfoModal"
+  hideCloseButton={false}
+  largeModal={true}
+  okButtonLabel={
+    <FormattedMessageWrapper
+      defaultMessage="Pay back now"
+      description="Credit info modal, Pay back now button"
+      id="credit-info-modal-pay-back-button"
+      wrapperType="wrapper"
+    />
+  }
+  onClose={[MockFunction]}
+  onOk={[MockFunction]}
+  showModal={true}
+  title={
+    <FormattedMessageWrapper
+      defaultMessage="Credit info"
+      description="Credit info modal title"
+      id="overview-credit-info-modal-title"
+      wrapperType="wrapper"
+    />
+  }
+>
+  <CreditInfoContent
+    blocks={
+      Object {
+        "loanAmountToPayBack": Object {
+          "currency": "EUR",
+          "taxFreeAmount": -25,
+        },
+        "loanFeeToPayBack": Object {
+          "currency": "EUR",
+          "taxFreeAmount": -5,
+        },
+        "originalLoanAmount": Object {
+          "currency": "EUR",
+          "taxFreeAmount": 25,
+        },
+        "originalLoanFee": Object {
+          "currency": "EUR",
+          "taxFreeAmount": 5,
+        },
+        "remainingLoanAmount": Object {
+          "currency": "EUR",
+          "taxFreeAmount": 18.45,
+        },
+        "totalRemainingCredit": Object {
+          "currency": "EUR",
+          "taxFreeAmount": -30,
+        },
+      }
+    }
+    dueDate={2018-10-30T21:15:30.000Z}
+    twoColumn={false}
+  />
+  <div
+    className="CreditInfoModal-description-block"
+  >
+    test description
+  </div>
+</OcModal>
+`;

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CashPaymentCompleted succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="CashPaymentCompleted"
+  id="w-app-body"
+>
+  <div
+    className="summary-container w-box"
+  >
+    <div
+      className="message"
+    >
+      <i
+        className="fa fa-check-circle icon"
+      />
+      <h2>
+        <FormattedMessageWrapper
+          defaultMessage="Purchase received"
+          description="CashPaymentCompleted-title"
+          id="CashPaymentCompleted-title"
+          wrapperType="wrapper"
+        />
+      </h2>
+    </div>
+    <div
+      className="reference-number"
+    >
+      <div
+        className="reference-number-label"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="We have received information about this payment and your receipt id is:"
+          description="CashPaymentCompleted-message"
+          id="CashPaymentCompleted-message"
+          wrapperType="wrapper"
+        />
+      </div>
+      <div
+        className="reference-number-value"
+      >
+        <b>
+          3631
+        </b>
+      </div>
+      <Link
+        className="btn btn-primary continue-button"
+        id="continue"
+        replace={false}
+        to="/servicedesk/shop"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Continue to shop"
+          description="CashPaymentCompleted - Link back to shop after cash payment succeeded"
+          id="CashPaymentCompleted-shopping"
+          wrapperType="wrapper"
+        />
+      </Link>
+    </div>
+  </div>
+</div>
+`;

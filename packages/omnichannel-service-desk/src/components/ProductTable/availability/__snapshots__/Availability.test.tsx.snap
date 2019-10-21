@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Availability succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="Availability-main Availability-flex Availability-flex-column"
+>
+  <div
+    className="Availability-container"
+  >
+    <div>
+      <FormattedMessageWrapper
+        defaultMessage="This product availability in stores"
+        description="Service desk product table details availability tab description"
+        id="service-desk-product-table-details-availability-tab-description"
+        wrapperType="wrapper"
+      />
+    </div>
+    <ul
+      className="Availability-list-style-none"
+    />
+  </div>
+</div>
+`;

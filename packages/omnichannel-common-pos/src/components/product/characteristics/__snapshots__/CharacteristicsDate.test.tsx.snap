@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacteristicsDate should shallow mount with minimum props 1`] = `
+<div
+  className="CharacteristicsDate-container"
+>
+  <div
+    className="CharacteristicsDate-description"
+  />
+  <div
+    className="CharacteristicsDate-datepickers"
+  >
+    <div
+      className="CharacteristicsDate-single-datepicker-container"
+    >
+      <OcDatePicker
+        calendar={false}
+        dropUp={false}
+        id="CharacteristicsDate-datepicker"
+        labelPosition="left"
+        min={2018-04-23T18:09:11.319Z}
+        onChange={[Function]}
+        selectedDate={2018-04-23T18:09:11.319Z}
+        step={1}
+        withClock={false}
+      />
+    </div>
+  </div>
+</div>
+`;

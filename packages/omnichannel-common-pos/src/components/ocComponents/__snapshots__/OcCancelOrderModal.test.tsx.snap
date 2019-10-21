@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcCancelOrderModal succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="OcCancelOrderModal-container"
+>
+  <OcModal
+    customFooter={
+      <div
+        className="modal-footer justify-content-between"
+      >
+        <button
+          className="btn btn-outline-primary"
+          id="oc-modal-cancel-button"
+          onClick={[Function]}
+        >
+          <FormattedMessageWrapper
+            defaultMessage="No, keep"
+            description="Digital life, cancel order modal, abort cancellation"
+            id="digital-life-cancel-order-modal-close-button"
+            wrapperType="wrapper"
+          />
+        </button>
+        <button
+          className="btn btn-primary"
+          id="confirm-order-cancellation-button"
+          onClick={[Function]}
+          type="submit"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="Yes, cancel"
+            description="Digital life, cancel order modal, confirm cancellation"
+            id="digital-life-cancel-order-modal-confirm-button"
+            wrapperType="wrapper"
+          />
+        </button>
+      </div>
+    }
+    fitScreen={false}
+    hideCloseButton={false}
+    keyboard={true}
+    largeModal={true}
+    onClose={[Function]}
+    showModal={false}
+    title={
+      <FormattedMessageWrapper
+        defaultMessage="Cancel order"
+        description="Title of digital life cancel order modal"
+        id="digital-life-cancel-order-modal"
+        wrapperType="wrapper"
+      />
+    }
+  >
+    <FormattedMessageWrapper
+      defaultMessage="You are about to cancel order {itemName}"
+      description="Digital life cancel order statement"
+      id="digital-life-cancel-order-modal-statement"
+      values={
+        Object {
+          "itemName": "testItem",
+        }
+      }
+      wrapperType="wrapper"
+    />
+    <div
+      className="OcCancelOrderModal-reasons-block"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Cancel reason"
+        description="Digital life, cancel reason label"
+        id="digital-life-cancel-order-modal-reason-label"
+        wrapperType="wrapper"
+      />
+      <select
+        className="custom-select"
+        id="cancel_order_reason_testOrderId"
+        onChange={[Function]}
+        value="default"
+      >
+        <option
+          disabled={true}
+          value="default"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="Please select a reason"
+            description="Digital life cancel order modal, reason code dropdown placeholder"
+            id="digital-life-cancel-order-reason-dropdown-placeholder"
+            wrapperType="wrapper"
+          />
+        </option>
+        <option
+          id="treason1"
+          key="state_change_reason_select_testOrderId_0"
+          value="PRNS"
+        >
+          I found a better one
+        </option>
+        <option
+          id="treason2"
+          key="state_change_reason_select_testOrderId_1"
+          value="PRPC"
+        >
+          I found a better one
+        </option>
+      </select>
+    </div>
+  </OcModal>
+  <OcNotificationModal
+    onClose={[Function]}
+    show={false}
+    status="canceled"
+  />
+</div>
+`;

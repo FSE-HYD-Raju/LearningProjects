@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AffectedAddonsList snapshot with minimal props 1`] = `
+<div
+  className="AffectedAddonsList AffectedAddonsList-custom"
+>
+  <div
+    className="AffectedAddonsList-title-container"
+  >
+    <i
+      className="fa fa-test AffectedAddonsList-addon-icon"
+    />
+    <div
+      className="AffectedAddonsList-title"
+    >
+      <FormattedHTMLMessageWrapper
+        defaultMessage="here,{count},addons"
+        id="mid"
+        values={
+          Object {
+            "count": 2,
+          }
+        }
+        wrapperType="wrapper"
+      />
+    </div>
+  </div>
+  <div
+    className="AffectedAddonsList-addons-list"
+  >
+    <span
+      className="AffectedAddonsList-addons-list-item"
+      key="0"
+    >
+      one
+    </span>
+    <span
+      className="AffectedAddonsList-addons-list-item"
+      key="1"
+    >
+      two
+    </span>
+  </div>
+</div>
+`;

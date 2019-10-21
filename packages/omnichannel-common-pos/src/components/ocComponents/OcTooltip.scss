@@ -1,0 +1,22 @@
+.tooltip .tooltip-arrow {
+	position: absolute;
+	display: block;
+	width: 0.8rem;
+	height: 0.4rem;
+}
+
+.tooltip .tooltip-arrow::before {
+	position: absolute;
+	content: "";
+	border: 0 solid transparent;
+}
+
+.bs-tooltip-top .tooltip-arrow {
+	bottom: 0;
+}
+
+.bs-tooltip-top .tooltip-arrow::before {
+	top: 0;
+	border-width: 0.4rem 0.4rem 0;
+	border-top-color: black;
+}

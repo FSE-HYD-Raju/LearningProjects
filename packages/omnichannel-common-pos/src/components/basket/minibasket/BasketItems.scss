@@ -1,0 +1,71 @@
+@import "../../../variables";
+
+.BasketItems {
+
+	display: flex;
+	flex: 1 1 auto;
+	width: 100%;
+
+	&-basket-item {
+		width: 100%;
+		border: 1px solid $light-gray;
+		padding: 8px 12px 12px 12px;
+		font-size: $font-size-sm;
+	}
+
+	&-basket-item + &-basket-item {
+		border-top: 0;
+		border-bottom: 1px solid $light-gray;
+	}
+
+	&-remove-basket-item-button {
+		padding: 4px;
+		cursor: pointer;
+	}
+
+	&-product-name {
+		font-weight: 600;
+		font-size: 14px;
+		color: $graphite;
+		line-height: 20px;
+		margin: 0;
+	}
+
+	&-centred-text {
+		text-align: center;
+	}
+
+	&-white-text {
+		color: $white;
+	}
+
+	&-child-basket-item-cell {
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	&-total-cost-table {
+		border-top: 4px solid $light-gray;
+	}
+
+	&-prices-by-type {
+		margin-right: 6px;
+		font-weight: 400;
+	}
+
+	&-mini-basket-table {
+		margin-bottom: 0 !important;
+	}
+
+	&-width-10 {
+		width: 10%;
+	}
+
+	&-width-20 {
+		width: 20%;
+	}
+
+	&-width-50 {
+		width: 50%;
+	}
+}

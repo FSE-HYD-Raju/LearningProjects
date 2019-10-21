@@ -1,0 +1,38 @@
+@import '../../../variables';
+
+.ComparisonFooter {
+	&-container {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 99;
+		background: $body-bg;
+		box-shadow: -1px -2px 15px rgba(0, 0, 0, 0.1);
+	}
+	&-items {
+		display: flex;
+		align-items: stretch;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		margin: 2px;
+	}
+	&-control {
+		margin: 2px;
+	}
+	&-item {
+		margin: 2px;
+		border-color: gray("300");
+		cursor: default;
+		&-remove {
+			margin-left: 6px;
+		}
+	}
+	&-clear-button {
+		margin-left: auto;
+	}
+	&-position-fixed{
+		position: sticky;
+		margin:0 -30px -30px -30px;
+	}
+}

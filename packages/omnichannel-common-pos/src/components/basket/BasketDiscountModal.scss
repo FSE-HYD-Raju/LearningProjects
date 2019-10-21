@@ -1,0 +1,24 @@
+.BasketDiscountModal {
+	&-container {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		padding: 20px;
+	}
+
+	&-container > b {
+		margin-left: 8px;
+	}
+
+	&-discounts-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-discount-item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex: 1;
+	}
+}

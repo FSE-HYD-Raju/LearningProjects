@@ -1,0 +1,336 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddonCompatibilityView succeeds at shallow mount with simple props 1`] = `
+<AddonCompatibilityView
+  addons={
+    Object {
+      "compatible": Array [
+        Object {
+          "id": "compatible-addon-id-1",
+          "name": "compatible-addon-1-name",
+        },
+        Object {
+          "id": "compatible-addon-id-2",
+          "name": "compatible-addon-2-name",
+        },
+        Object {
+          "id": "compatible-addon-id-3",
+          "name": "compatible-addon-3-name",
+        },
+        Object {
+          "id": "compatible-addon-id-4",
+          "name": "compatible-addon-4-name",
+        },
+      ],
+      "incompatible": Array [
+        Object {
+          "id": "incompatible-addon-id-1",
+          "name": "incompatible-addon-1-name",
+        },
+        Object {
+          "id": "incompatible-addon-id-2",
+          "name": "incompatible-addon-2-name",
+        },
+        Object {
+          "id": "incompatible-addon-id-3",
+          "name": "incompatible-addon-3-name",
+        },
+      ],
+    }
+  }
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+>
+  <div
+    className="AddonCompatibilityView"
+  >
+    <IncompatibleAddons
+      incompatible={
+        Array [
+          Object {
+            "id": "incompatible-addon-id-1",
+            "name": "incompatible-addon-1-name",
+          },
+          Object {
+            "id": "incompatible-addon-id-2",
+            "name": "incompatible-addon-2-name",
+          },
+          Object {
+            "id": "incompatible-addon-id-3",
+            "name": "incompatible-addon-3-name",
+          },
+        ]
+      }
+    >
+      <div
+        className="incompatible"
+      >
+        <div
+          className="compatibility-heading"
+        >
+          <i
+            className="fa fa-exclamation-triangle text-danger"
+          />
+          <FormattedHTMLMessageWrapper
+            defaultMessage="<span class='text-danger'>{addonCount} add-on services</span> are incompatible with the new plan and will be disabled"
+            description="Addon compatibility view, label for incompatible addons"
+            id="addon-compatibility-view-incompatible-addons"
+            values={
+              Object {
+                "addonCount": 3,
+              }
+            }
+            wrapperType="wrapper"
+          >
+            <Connect(IntlProvider)>
+              <IntlProvider
+                dispatch={[Function]}
+                locale="en-DE"
+                messages={Object {}}
+              >
+                <FormattedHTMLMessage
+                  defaultMessage="<span class='text-danger'>{addonCount} add-on services</span> are incompatible with the new plan and will be disabled"
+                  description="Addon compatibility view, label for incompatible addons"
+                  id="addon-compatibility-view-incompatible-addons"
+                  values={
+                    Object {
+                      "addonCount": 3,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "<span class='text-danger'>3 add-on services</span> are incompatible with the new plan and will be disabled",
+                      }
+                    }
+                  />
+                </FormattedHTMLMessage>
+              </IntlProvider>
+            </Connect(IntlProvider)>
+          </FormattedHTMLMessageWrapper>
+        </div>
+        <CompatibilityItems
+          products={
+            Array [
+              Object {
+                "id": "incompatible-addon-id-1",
+                "name": "incompatible-addon-1-name",
+              },
+              Object {
+                "id": "incompatible-addon-id-2",
+                "name": "incompatible-addon-2-name",
+              },
+              Object {
+                "id": "incompatible-addon-id-3",
+                "name": "incompatible-addon-3-name",
+              },
+            ]
+          }
+        >
+          <div
+            className="compatibility-items"
+          >
+            <div
+              className="compatibility-item"
+              key="compatibility-item-incompatible-addon-id-1-idx-0"
+            >
+              incompatible-addon-1-name
+            </div>
+            <div
+              className="compatibility-item"
+              key="compatibility-item-incompatible-addon-id-2-idx-1"
+            >
+              incompatible-addon-2-name
+            </div>
+            <div
+              className="compatibility-item"
+              key="compatibility-item-incompatible-addon-id-3-idx-2"
+            >
+              incompatible-addon-3-name
+            </div>
+          </div>
+        </CompatibilityItems>
+      </div>
+    </IncompatibleAddons>
+    <CompatibleAddons
+      compatible={
+        Array [
+          Object {
+            "id": "compatible-addon-id-1",
+            "name": "compatible-addon-1-name",
+          },
+          Object {
+            "id": "compatible-addon-id-2",
+            "name": "compatible-addon-2-name",
+          },
+          Object {
+            "id": "compatible-addon-id-3",
+            "name": "compatible-addon-3-name",
+          },
+          Object {
+            "id": "compatible-addon-id-4",
+            "name": "compatible-addon-4-name",
+          },
+        ]
+      }
+    >
+      <div
+        className="compatible"
+      >
+        <div
+          className="compatibility-heading"
+        >
+          <i
+            className="fa fa-check text-success"
+          />
+          <FormattedHTMLMessageWrapper
+            defaultMessage="<span class='text-success'>{addonCount} add-on services</span> are incompatible with the new plan and will be migrated"
+            description="Addon compatibility view, label for compatible addons"
+            id="addon-compatibility-view-compatible-addons"
+            values={
+              Object {
+                "addonCount": 4,
+              }
+            }
+            wrapperType="wrapper"
+          >
+            <Connect(IntlProvider)>
+              <IntlProvider
+                dispatch={[Function]}
+                locale="en-DE"
+                messages={Object {}}
+              >
+                <FormattedHTMLMessage
+                  defaultMessage="<span class='text-success'>{addonCount} add-on services</span> are incompatible with the new plan and will be migrated"
+                  description="Addon compatibility view, label for compatible addons"
+                  id="addon-compatibility-view-compatible-addons"
+                  values={
+                    Object {
+                      "addonCount": 4,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "<span class='text-success'>4 add-on services</span> are incompatible with the new plan and will be migrated",
+                      }
+                    }
+                  />
+                </FormattedHTMLMessage>
+              </IntlProvider>
+            </Connect(IntlProvider)>
+          </FormattedHTMLMessageWrapper>
+        </div>
+        <CompatibilityItems
+          products={
+            Array [
+              Object {
+                "id": "compatible-addon-id-1",
+                "name": "compatible-addon-1-name",
+              },
+              Object {
+                "id": "compatible-addon-id-2",
+                "name": "compatible-addon-2-name",
+              },
+              Object {
+                "id": "compatible-addon-id-3",
+                "name": "compatible-addon-3-name",
+              },
+              Object {
+                "id": "compatible-addon-id-4",
+                "name": "compatible-addon-4-name",
+              },
+            ]
+          }
+        >
+          <div
+            className="compatibility-items"
+          >
+            <div
+              className="compatibility-item"
+              key="compatibility-item-compatible-addon-id-1-idx-0"
+            >
+              compatible-addon-1-name
+            </div>
+            <div
+              className="compatibility-item"
+              key="compatibility-item-compatible-addon-id-2-idx-1"
+            >
+              compatible-addon-2-name
+            </div>
+            <div
+              className="compatibility-item"
+              key="compatibility-item-compatible-addon-id-3-idx-2"
+            >
+              compatible-addon-3-name
+            </div>
+            <div
+              className="compatibility-item hide"
+              key="compatibility-item-compatible-addon-id-4-idx-3"
+            >
+              compatible-addon-4-name
+            </div>
+            <div
+              className="show-all-items btn-link"
+              onClick={[Function]}
+            >
+              <FormattedMessageWrapper
+                defaultMessage="Show all"
+                description="Addon compatibility view, label for no 'show all' addons"
+                id="addon-compatibility-more-items"
+                wrapperType="wrapper"
+              >
+                <Connect(IntlProvider)>
+                  <IntlProvider
+                    dispatch={[Function]}
+                    locale="en-DE"
+                    messages={Object {}}
+                  >
+                    <FormattedMessage
+                      defaultMessage="Show all"
+                      description="Addon compatibility view, label for no 'show all' addons"
+                      id="addon-compatibility-more-items"
+                      values={Object {}}
+                    >
+                      <span>
+                        Show all
+                      </span>
+                    </FormattedMessage>
+                  </IntlProvider>
+                </Connect(IntlProvider)>
+              </FormattedMessageWrapper>
+            </div>
+          </div>
+        </CompatibilityItems>
+      </div>
+    </CompatibleAddons>
+  </div>
+</AddonCompatibilityView>
+`;

@@ -1,0 +1,28 @@
+.MsisdnPortInSelector {
+	display: flex;
+
+	&-msisdn-inner-container {
+		display: flex;
+	}
+
+	&-select-new-msisdn-container, &-port-in-request-date-row, &-port-in-request-selected {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-port-in-row {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	&-row-label, &-row-input {
+		display: flex;
+		width: 180px;
+		margin: 0px 5px;
+	}
+
+	&-port-in-requested-port-in-date-container {
+		align-items: flex-start;
+	}
+}

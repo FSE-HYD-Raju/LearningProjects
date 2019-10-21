@@ -1,0 +1,92 @@
+{
+	"id": "basic-hybrid-po",
+	"attributes": {
+		"name": "Hybric Basic Plan",
+		"inputCharacteristics": {
+			"color": {
+				"values": [
+					{
+						"name": "black",
+						"value": "black"
+					}
+				]
+			},
+			"memory": {
+				"values": [
+					{
+						"name": "32Gb",
+						"value": "32Gb"
+					}
+				]
+			}
+		},
+		"productOfferingGroups": [
+			{
+				"cardinality": null,
+				"id": "addons-pog",
+				"productOfferings": [
+					{
+						"id": "debt-barring-po",
+						"selected": false
+					},
+					{
+						"id": "voicemail-po",
+						"selected": false
+					},
+					{
+						"id": "temp-barring-po",
+						"selected": false
+					}
+				]
+			}
+		],
+		"productOfferings": [
+			{
+				"id": "sim-po"
+			},
+			{
+				"id": "voicesms-2-po"
+			},
+			{
+				"id": "msisdn-po"
+			}
+		],
+		"prices": [
+			{
+				"type": "ONE_TIME",
+				"name": null,
+				"chargedUnit": {
+					"amount": 1,
+					"currency": null,
+					"unitOfMeasure": "PIECES"
+				},
+				"taxAmount": null,
+				"taxFreeAmount": 1,
+				"taxRate": 0,
+				"recurringChargePeriod": null,
+				"currency": "EUR",
+				"conditions": null,
+				"originalPrice": null
+			},
+			{
+				"type": "RECURRENT",
+				"name": null,
+				"chargedUnit": {
+					"amount": 1,
+					"currency": null,
+					"unitOfMeasure": "PIECES"
+				},
+				"taxAmount": null,
+				"taxFreeAmount": 9.95,
+				"taxRate": 0,
+				"currency": "EUR",
+				"conditions": null,
+				"originalPrice": null,
+				"recurringChargePeriod": {
+					"count": 1,
+					"interval": "MONTH"
+				}
+			}
+		]
+	}
+}

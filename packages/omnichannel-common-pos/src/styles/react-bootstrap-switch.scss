@@ -1,0 +1,200 @@
+@import '_variables.scss';
+
+$bootstrap-switch-base: bootstrap-switch;
+
+.#{$bootstrap-switch-base} {
+  display: inline-block;
+  direction: ltr;
+  cursor: pointer;
+  border-radius: $border-radius;
+  border: 1px solid;
+  border-color: theme-color("secondary");
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  line-height: 8px;
+  z-index: 0;
+  user-select: none;
+  vertical-align: middle;
+  @include transition("border-color ease-in-out .15s, box-shadow ease-in-out .15s");
+
+  .#{$bootstrap-switch-base}-container {
+    display: inline-block;
+    top: 0;
+    border-radius: $border-radius;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .#{$bootstrap-switch-base}-handle-on,
+  .#{$bootstrap-switch-base}-handle-off,
+  .#{$bootstrap-switch-base}-label {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block !important;
+    padding: $input-btn-padding-y $input-btn-padding-x;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+  }
+
+  .#{$bootstrap-switch-base}-handle-on,
+  .#{$bootstrap-switch-base}-handle-off {
+    text-align: center;
+    z-index: 1;
+
+    &.#{$bootstrap-switch-base}-primary {
+      color: #fff;
+      background: theme-color("primary");
+    }
+
+    &.#{$bootstrap-switch-base}-info {
+      color: #fff;
+      background: $info;
+    }
+
+    &.#{$bootstrap-switch-base}-success {
+      color: #fff;
+      background: theme-color("success");
+    }
+
+    &.#{$bootstrap-switch-base}-warning {
+      background: theme-color("warning");
+      color: #fff;
+    }
+
+    &.#{$bootstrap-switch-base}-danger {
+      color: #fff;
+      background: theme-color("danger");
+    }
+
+    &.#{$bootstrap-switch-base}-default {
+      color: #000;
+      background: theme-color("secondary");
+    }
+  }
+
+  .#{$bootstrap-switch-base}-label {
+    text-align: center;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    z-index: 100;
+    color: color-yiq(theme-color("secondary"));
+    background: theme-color("secondary");
+
+    &::before {
+      content: "\200b";
+    }
+  }
+
+  .#{$bootstrap-switch-base}-handle-on {
+    @include border-left-radius($border-radius - 1);
+  }
+
+  .#{$bootstrap-switch-base}-handle-off {
+    @include border-right-radius($border-radius - 1);
+  }
+
+  input[type='radio'],
+  input[type='checkbox'] {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  &.#{$bootstrap-switch-base}-mini {
+
+    .#{$bootstrap-switch-base}-handle-on,
+    .#{$bootstrap-switch-base}-handle-off,
+    .#{$bootstrap-switch-base}-label {
+      padding: ($input-btn-padding-y-sm / 2) ($input-btn-padding-y-sm / 2);
+      font-size: $font-size-sm;
+      line-height: $line-height-base;
+    }
+  }
+
+  &.#{$bootstrap-switch-base}-small {
+
+    .#{$bootstrap-switch-base}-handle-on,
+    .#{$bootstrap-switch-base}-handle-off,
+    .#{$bootstrap-switch-base}-label {
+      padding: $input-btn-padding-y-sm $input-btn-padding-x-sm;
+      font-size: $font-size-sm;
+      line-height: $line-height-base;
+    }
+  }
+
+  &.#{$bootstrap-switch-base}-large {
+
+    .#{$bootstrap-switch-base}-handle-on,
+    .#{$bootstrap-switch-base}-handle-off,
+    .#{$bootstrap-switch-base}-label {
+      padding: $input-btn-padding-y $input-btn-padding-x;
+      font-size: $font-size-lg;
+      line-height: $line-height-base;
+    }
+  }
+
+  &.#{$bootstrap-switch-base}-disabled,
+  &.#{$bootstrap-switch-base}-readonly,
+  &.#{$bootstrap-switch-base}-indeterminate {
+    cursor: default !important;
+
+    .#{$bootstrap-switch-base}-handle-on,
+    .#{$bootstrap-switch-base}-handle-off,
+    .#{$bootstrap-switch-base}-label {
+      opacity: .5;
+      cursor: default !important;
+    }
+  }
+
+  &.#{$bootstrap-switch-base}-animate {
+
+    .#{$bootstrap-switch-base}-container {
+      @include transition(margin-left .5s);
+    }
+  }
+
+  &.#{$bootstrap-switch-base}-inverse {
+
+    .#{$bootstrap-switch-base}-handle-on {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: $border-radius - 1;
+      border-bottom-right-radius: $border-radius - 1;
+    }
+
+    .#{$bootstrap-switch-base}-handle-off {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-top-left-radius: $border-radius - 1;
+      border-bottom-left-radius: $border-radius - 1;
+    }
+  }
+
+  &.#{$bootstrap-switch-base}-focused {
+    border-color: $input-btn-focus-color;
+    outline: 0;
+    box-shadow: $input-btn-focus-box-shadow;
+  }
+
+  &.#{$bootstrap-switch-base}-on,
+  &.#{$bootstrap-switch-base}-inverse.#{$bootstrap-switch-base}-off {
+
+    .#{$bootstrap-switch-base}-label {
+      border-top-right-radius: $border-radius - 1;
+      border-bottom-right-radius: $border-radius - 1;
+    }
+  }
+
+  &.#{$bootstrap-switch-base}-off,
+  &.#{$bootstrap-switch-base}-inverse.#{$bootstrap-switch-base}-on {
+
+
+    .#{$bootstrap-switch-base}-label {
+      border-top-left-radius: $border-radius - 1;
+      border-bottom-left-radius: $border-radius - 1;
+    }
+  }
+}

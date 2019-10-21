@@ -1,0 +1,5 @@
+{
+  "protectablePackageNameMatcher": ".*omnichannel.+",
+  "shrinkwrapGlobPattern": "./channels/**/npm-shrinkwrap.json",
+  "files": null
+}

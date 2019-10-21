@@ -1,0 +1,629 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerDetailsMainView RUBT-66438 Demographic information can be saved when Nationality and Date of birth are empty -- snapshot 1`] = `
+<div
+  className="CustomerDetailsView w-box w-box-stretch"
+>
+  <header
+    className="CustomerDetailsView-header"
+  >
+    <img
+      alt="Avatar"
+      className="CustomerDetailsView-avatar"
+      src="/static/undefined"
+    />
+  </header>
+  <Flex
+    alignItems=""
+    alignSelf=""
+    justifyContent="space-between"
+    wrap="wrap"
+  >
+    <Flex
+      alignItems=""
+      alignSelf=""
+      flex={2.5}
+      justifyContent=""
+      wrap="wrap"
+    >
+      <Flex
+        alignItems=""
+        alignSelf=""
+        justifyContent=""
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+        wrap="wrap"
+      >
+        <Flex
+          alignItems=""
+          alignSelf=""
+          className="CustomerDetailsView-subDetails"
+          flex={1}
+          justifyContent=""
+          wrap="wrap"
+        >
+          <CustomerDetailsView
+            editMode={false}
+            fieldData={
+              Array [
+                Object {
+                  "fieldName": "firstName",
+                  "required": true,
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "lastName",
+                  "required": true,
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "nationality",
+                  "options": Array [
+                    Object {
+                      "code": "Not defined",
+                      "locale": "en",
+                      "name": "Not defined",
+                    },
+                  ],
+                  "type": "select",
+                  "value": "Not defined",
+                },
+                Object {
+                  "fieldName": "gender",
+                  "options": Array [],
+                  "type": "select",
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "birthDay",
+                  "type": "date",
+                  "value": undefined,
+                },
+              ]
+            }
+            header="demographic"
+            intl={
+              Object {
+                "defaultFormats": Object {},
+                "defaultLocale": "en",
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "formats": Object {},
+                "formatters": Object {
+                  "getDateTimeFormat": [Function],
+                  "getMessageFormat": [Function],
+                  "getNumberFormat": [Function],
+                  "getPluralFormat": [Function],
+                  "getRelativeFormat": [Function],
+                },
+                "locale": "en",
+                "messages": Object {},
+                "now": [Function],
+                "onError": [Function],
+                "textComponent": "span",
+                "timeZone": null,
+              }
+            }
+            onSubmit={[Function]}
+            toggleEditMode={[Function]}
+            updateUserDemoGraphicInfo={[Function]}
+          >
+            <CustomerSubDetailsView />
+          </CustomerDetailsView>
+          <CustomerDetailsView
+            customHeaderElement={
+              <OcSelect
+                id="CustomerDetailsView-locations-header-input"
+                noLabel={false}
+                onChange={[Function]}
+              />
+            }
+            editMode={false}
+            fieldData={
+              Array [
+                Object {
+                  "fieldName": "street",
+                  "required": true,
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "postalCode",
+                  "required": true,
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "province",
+                  "required": false,
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "city",
+                  "required": true,
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "country",
+                  "options": Array [
+                    Object {
+                      "code": "Not defined",
+                      "locale": "en",
+                      "name": "Not defined",
+                    },
+                  ],
+                  "required": true,
+                  "type": "select",
+                  "value": undefined,
+                },
+              ]
+            }
+            header="locations"
+            intl={
+              Object {
+                "defaultFormats": Object {},
+                "defaultLocale": "en",
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "formats": Object {},
+                "formatters": Object {
+                  "getDateTimeFormat": [Function],
+                  "getMessageFormat": [Function],
+                  "getNumberFormat": [Function],
+                  "getPluralFormat": [Function],
+                  "getRelativeFormat": [Function],
+                },
+                "locale": "en",
+                "messages": Object {},
+                "now": [Function],
+                "onError": [Function],
+                "textComponent": "span",
+                "timeZone": null,
+              }
+            }
+            onSubmit={[Function]}
+            toggleEditMode={[Function]}
+            updateUserDemoGraphicInfo={[Function]}
+          >
+            <CustomerSubDetailsView />
+          </CustomerDetailsView>
+        </Flex>
+        <Flex
+          alignItems=""
+          alignSelf=""
+          className="CustomerDetailsView-subDetails"
+          flex={1}
+          justifyContent=""
+          wrap="wrap"
+        >
+          <CustomerDetailsView
+            editMode={false}
+            fieldData={
+              Array [
+                Object {
+                  "fieldName": "contactEmail",
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "msisdn",
+                  "regex": "^$|^(\\\\+?)([0-9 ]+)$",
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "contactFixedLineNumber",
+                  "regex": "^$|^(\\\\+?)([0-9 ]+)$",
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "language",
+                  "label": "contactLanguage",
+                  "options": Array [
+                    Object {
+                      "code": "Not defined",
+                      "name": "Not defined",
+                    },
+                  ],
+                  "type": "select",
+                  "value": undefined,
+                },
+              ]
+            }
+            header="preferences"
+            intl={
+              Object {
+                "defaultFormats": Object {},
+                "defaultLocale": "en",
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "formats": Object {},
+                "formatters": Object {
+                  "getDateTimeFormat": [Function],
+                  "getMessageFormat": [Function],
+                  "getNumberFormat": [Function],
+                  "getPluralFormat": [Function],
+                  "getRelativeFormat": [Function],
+                },
+                "locale": "en",
+                "messages": Object {},
+                "now": [Function],
+                "onError": [Function],
+                "textComponent": "span",
+                "timeZone": null,
+              }
+            }
+            onSubmit={[Function]}
+            toggleEditMode={[Function]}
+            updateUserDemoGraphicInfo={[Function]}
+          >
+            <CustomerSubDetailsView />
+          </CustomerDetailsView>
+          <CustomerDetailsView
+            editMode={false}
+            header="notificationsAndMarketing"
+            intl={
+              Object {
+                "defaultFormats": Object {},
+                "defaultLocale": "en",
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "formats": Object {},
+                "formatters": Object {
+                  "getDateTimeFormat": [Function],
+                  "getMessageFormat": [Function],
+                  "getNumberFormat": [Function],
+                  "getPluralFormat": [Function],
+                  "getRelativeFormat": [Function],
+                },
+                "locale": "en",
+                "messages": Object {},
+                "now": [Function],
+                "onError": [Function],
+                "textComponent": "span",
+                "timeZone": null,
+              }
+            }
+            onSubmit={[Function]}
+            toggleEditMode={[Function]}
+            updateUserDemoGraphicInfo={[Function]}
+          >
+            <CustomerDetailsNotificationsShow />
+          </CustomerDetailsView>
+        </Flex>
+      </Flex>
+    </Flex>
+  </Flex>
+</div>
+`;
+
+exports[`CustomerDetailsMainView succeeds at shallow mount without props 1`] = `
+<div
+  className="CustomerDetailsView w-box w-box-stretch"
+>
+  <header
+    className="CustomerDetailsView-header"
+  >
+    <img
+      alt="Avatar"
+      className="CustomerDetailsView-avatar"
+      src="/static/undefined"
+    />
+  </header>
+  <Flex
+    alignItems=""
+    alignSelf=""
+    justifyContent="space-between"
+    wrap="wrap"
+  >
+    <Flex
+      alignItems=""
+      alignSelf=""
+      flex={2.5}
+      justifyContent=""
+      wrap="wrap"
+    >
+      <Flex
+        alignItems=""
+        alignSelf=""
+        justifyContent=""
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+        wrap="wrap"
+      >
+        <Flex
+          alignItems=""
+          alignSelf=""
+          className="CustomerDetailsView-subDetails"
+          flex={1}
+          justifyContent=""
+          wrap="wrap"
+        >
+          <CustomerDetailsView
+            editMode={false}
+            fieldData={
+              Array [
+                Object {
+                  "fieldName": "firstName",
+                  "required": true,
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "lastName",
+                  "required": true,
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "nationality",
+                  "options": Array [
+                    Object {
+                      "code": "Not defined",
+                      "locale": "en",
+                      "name": "Not defined",
+                    },
+                  ],
+                  "type": "select",
+                  "value": "Not defined",
+                },
+                Object {
+                  "fieldName": "gender",
+                  "options": Array [],
+                  "type": "select",
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "birthDay",
+                  "type": "date",
+                  "value": undefined,
+                },
+              ]
+            }
+            header="demographic"
+            intl={
+              Object {
+                "defaultFormats": Object {},
+                "defaultLocale": "en",
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "formats": Object {},
+                "formatters": Object {
+                  "getDateTimeFormat": [Function],
+                  "getMessageFormat": [Function],
+                  "getNumberFormat": [Function],
+                  "getPluralFormat": [Function],
+                  "getRelativeFormat": [Function],
+                },
+                "locale": "en",
+                "messages": Object {},
+                "now": [Function],
+                "onError": [Function],
+                "textComponent": "span",
+                "timeZone": null,
+              }
+            }
+            onSubmit={[Function]}
+            toggleEditMode={[Function]}
+          >
+            <CustomerSubDetailsView />
+          </CustomerDetailsView>
+          <CustomerDetailsView
+            customHeaderElement={
+              <OcSelect
+                id="CustomerDetailsView-locations-header-input"
+                noLabel={false}
+                onChange={[Function]}
+              />
+            }
+            editMode={false}
+            fieldData={
+              Array [
+                Object {
+                  "fieldName": "street",
+                  "required": true,
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "postalCode",
+                  "required": true,
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "province",
+                  "required": false,
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "city",
+                  "required": true,
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "country",
+                  "options": Array [
+                    Object {
+                      "code": "Not defined",
+                      "locale": "en",
+                      "name": "Not defined",
+                    },
+                  ],
+                  "required": true,
+                  "type": "select",
+                  "value": undefined,
+                },
+              ]
+            }
+            header="locations"
+            intl={
+              Object {
+                "defaultFormats": Object {},
+                "defaultLocale": "en",
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "formats": Object {},
+                "formatters": Object {
+                  "getDateTimeFormat": [Function],
+                  "getMessageFormat": [Function],
+                  "getNumberFormat": [Function],
+                  "getPluralFormat": [Function],
+                  "getRelativeFormat": [Function],
+                },
+                "locale": "en",
+                "messages": Object {},
+                "now": [Function],
+                "onError": [Function],
+                "textComponent": "span",
+                "timeZone": null,
+              }
+            }
+            onSubmit={[Function]}
+            toggleEditMode={[Function]}
+          >
+            <CustomerSubDetailsView />
+          </CustomerDetailsView>
+        </Flex>
+        <Flex
+          alignItems=""
+          alignSelf=""
+          className="CustomerDetailsView-subDetails"
+          flex={1}
+          justifyContent=""
+          wrap="wrap"
+        >
+          <CustomerDetailsView
+            editMode={false}
+            fieldData={
+              Array [
+                Object {
+                  "fieldName": "contactEmail",
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "msisdn",
+                  "regex": "^$|^(\\\\+?)([0-9 ]+)$",
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "contactFixedLineNumber",
+                  "regex": "^$|^(\\\\+?)([0-9 ]+)$",
+                  "value": undefined,
+                },
+                Object {
+                  "fieldName": "language",
+                  "label": "contactLanguage",
+                  "options": Array [
+                    Object {
+                      "code": "Not defined",
+                      "name": "Not defined",
+                    },
+                  ],
+                  "type": "select",
+                  "value": undefined,
+                },
+              ]
+            }
+            header="preferences"
+            intl={
+              Object {
+                "defaultFormats": Object {},
+                "defaultLocale": "en",
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "formats": Object {},
+                "formatters": Object {
+                  "getDateTimeFormat": [Function],
+                  "getMessageFormat": [Function],
+                  "getNumberFormat": [Function],
+                  "getPluralFormat": [Function],
+                  "getRelativeFormat": [Function],
+                },
+                "locale": "en",
+                "messages": Object {},
+                "now": [Function],
+                "onError": [Function],
+                "textComponent": "span",
+                "timeZone": null,
+              }
+            }
+            onSubmit={[Function]}
+            toggleEditMode={[Function]}
+          >
+            <CustomerSubDetailsView />
+          </CustomerDetailsView>
+          <CustomerDetailsView
+            editMode={false}
+            header="notificationsAndMarketing"
+            intl={
+              Object {
+                "defaultFormats": Object {},
+                "defaultLocale": "en",
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "formats": Object {},
+                "formatters": Object {
+                  "getDateTimeFormat": [Function],
+                  "getMessageFormat": [Function],
+                  "getNumberFormat": [Function],
+                  "getPluralFormat": [Function],
+                  "getRelativeFormat": [Function],
+                },
+                "locale": "en",
+                "messages": Object {},
+                "now": [Function],
+                "onError": [Function],
+                "textComponent": "span",
+                "timeZone": null,
+              }
+            }
+            onSubmit={[Function]}
+            toggleEditMode={[Function]}
+          >
+            <CustomerDetailsNotificationsShow />
+          </CustomerDetailsView>
+        </Flex>
+      </Flex>
+    </Flex>
+  </Flex>
+</div>
+`;

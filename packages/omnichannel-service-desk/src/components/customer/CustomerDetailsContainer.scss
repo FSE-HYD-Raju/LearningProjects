@@ -1,0 +1,12 @@
+.CustomerDetailsContainer {
+	&-plan-name {
+		display: block;
+		font-size: 1.2em;	
+	}	
+	&-link {
+		span {
+			color: $main-blue;
+			cursor: pointer;
+		}
+	}
+}

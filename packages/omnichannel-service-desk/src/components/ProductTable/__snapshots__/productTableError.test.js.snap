@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTableError should display an error message on the UI 1`] = `
+<ProductTableError
+  errorToBeShownOnProductTable={
+    Object {
+      "code": "unmapped-error",
+    }
+  }
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+>
+  <div>
+    <div
+      className="product-error"
+    >
+      <OcAlert
+        alertType="DANGER"
+      >
+        <div
+          className="alert alert-danger"
+        >
+          <div
+            className="OcAlert-container"
+          >
+            <div
+              className="OcAlert-content"
+            >
+              An unrecognized error has occurred
+            </div>
+          </div>
+        </div>
+      </OcAlert>
+    </div>
+  </div>
+</ProductTableError>
+`;

@@ -1,0 +1,88 @@
+@import "~omnichannel-common-pos/src/styles/variables";
+
+$location-item-background: #f4f4f4;
+$location-item-background-active: #f0f0f0;
+
+.LocationSelectionSelected {
+	&:active {
+		background: $white;
+	}
+	&-breadcrumbs {
+		display: inline-block;
+		min-height: 35px;
+		padding: 10px 0;
+		font-weight: bold;
+		color: $black;
+		> span:not(:last-child) {
+			color: $blue;
+			cursor: pointer;
+		}
+		> span:not(:last-child):after {
+			content: "\0020>\0020";
+		}
+	}
+
+	&-w-box-header {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		color: $black;
+		h2 {
+			margin: 0;
+		}
+		a.btn-link {
+			color: $blue;
+		}
+	}
+
+	&-btn-link {
+		background: $blue;
+	}
+
+	&-w-app-b2c-location {
+		ul {
+			list-style: none;
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0 0 2rem;
+			padding: 0;
+		}
+		li {
+			flex: 0 0 20%;
+			margin: 0;
+			width: 20%;
+			cursor: pointer;
+			span {
+				display: block;
+				background: $location-item-background;
+				padding: 10px 16px;
+				margin: 1px;
+				color: $blue;
+				text-decoration: none;
+				.fa {
+					margin-top: 2px;
+					float: right;
+					display: none;
+				}
+				&:hover,
+				&:focus,
+				&:active {
+					background: $location-item-background-active;
+				}
+			}
+			&.active span {
+				background: $main-blue;
+				color: $white;
+				&:hover,
+				&:focus,
+				&:active {
+					background: $main-blue;
+					color: $white;
+				}
+				.fa {
+					display: inline;
+				}
+			}
+		}
+	}
+}

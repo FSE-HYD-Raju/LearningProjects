@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerDetailsActiveAddons succeeds at shallow mount with minimum props 1`] = `
+<div
+  style={
+    Object {
+      "width": "90%",
+    }
+  }
+>
+  <Connect(AddonsViewContent)
+    activeHeader={
+      Object {
+        "defaultMessage": "Active addons",
+        "description": "Active addons title when addons are available",
+        "id": "active-addons-list-title-addons-available",
+      }
+    }
+    addons={Array []}
+    agreementId=""
+    flux={
+      Object {
+        "persist": [Function],
+        "reduxStore": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+      }
+    }
+    inactiveHeader={
+      Object {
+        "defaultMessage": "Active addons (none available)",
+        "description": "Active addons title when no addons are available",
+        "id": "active-addons-list-title-no-addons-available",
+      }
+    }
+    lifecycleFilter="Active"
+    product={
+      Object {
+        "childProducts": Array [],
+        "id": "",
+        "name": "",
+      }
+    }
+    showActions={true}
+  />
+  <Connect(Plans)
+    flux={
+      Object {
+        "persist": [Function],
+        "reduxStore": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+      }
+    }
+    subscription={Object {}}
+  />
+</div>
+`;

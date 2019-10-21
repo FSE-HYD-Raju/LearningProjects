@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServiceDeskProductTable should mount with min props 1`] = `
+<div>
+  <Flex
+    alignItems="center"
+    alignSelf=""
+    flex={1}
+    id="ServiceDeskProductTable-children-wrapper"
+    justifyContent="center"
+    key="categoryBlacklisted"
+    style={
+      Object {
+        "background": "white",
+        "marginTop": "15px",
+        "minHeight": "240px",
+        "padding": "0 40px",
+      }
+    }
+    wrap="wrap"
+  >
+    <h3>
+      <FormattedMessageWrapper
+        defaultMessage="Please select an agreement."
+        description="Label shown when browsing a category with product offerings that need an applicable agreement"
+        id="service-browser-category-blacklisted"
+        wrapperType="wrapper"
+      />
+    </h3>
+  </Flex>
+</div>
+`;

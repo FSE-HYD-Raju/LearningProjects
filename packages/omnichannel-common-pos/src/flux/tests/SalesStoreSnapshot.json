@@ -1,0 +1,3553 @@
+{
+    "SalesStore": {
+        "product": null,
+        "barcode": "",
+        "productNotFound": false,
+        "products": [
+            {
+                "id": "zony-x5-compact-po",
+                "type": "contextualProducts",
+                "attributes": {
+                    "commercialEnrichments": [],
+                    "featureCharacteristics": [],
+                    "specificationId": null,
+                    "instanceCharacteristics": {},
+                    "productOfferings": [],
+                    "name": "Zony X5 Compact",
+                    "categories": [
+                        "device",
+                        "mobile-phone"
+                    ],
+                    "inputCharacteristics": {},
+                    "prices": [],
+                    "priority": null,
+                    "productOfferingGroups": [
+                        {
+                            "cardinality": {
+                                "max": 1,
+                                "min": 1
+                            },
+                            "commercialEnrichments": null,
+                            "id": "zony-x5-compact-pog",
+                            "name": "Pick a X5 Compact",
+                            "productOfferings": [
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new Compact is as essential as the shoes on your feet"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_w.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 Compact 32Gb white LTE",
+                                                "short-name": "Zony X5 Compact"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-compact32w-po",
+                                    "name": "Zony X5 Compact 32Gb white",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "32Gb",
+                                                    "name": "32Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "white",
+                                                    "name": "white"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "4.5inch",
+                                                    "name": "4.5inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 255,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-compact32w",
+                                    "msisdns": null,
+                                    "selected": true
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new X5 Compact almost as essential as an yPhone"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_b.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 Compact 64Gb black LTE",
+                                                "short-name": "Zony X5 Compact"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-compact64b-po",
+                                    "name": "Zony X5 Compact 64Gb black",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "64Gb",
+                                                    "name": "64Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "black",
+                                                    "name": "black"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "4.5inch",
+                                                    "name": "4.5inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 395,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-compact64b",
+                                    "msisdns": null
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new Compact is as essential as the shoes on your feet"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_w.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 Compact 64Gb white LTE",
+                                                "short-name": "Zony X5 Compact"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-compact64w-po",
+                                    "name": "Zony X5 Compact 64Gb white",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "64Gb",
+                                                    "name": "64Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "white",
+                                                    "name": "white"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "4.5inch",
+                                                    "name": "4.5inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 395,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-compact64w",
+                                    "msisdns": null
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new X5 Compact almost as essential as an yPhone"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_b.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 Compact 64Gb red LTE",
+                                                "short-name": "Zony X5 Compact"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-compact64r-po",
+                                    "name": "Zony X5 Compact 64Gb red",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "64Gb",
+                                                    "name": "64Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "red",
+                                                    "name": "red"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "4.5inch",
+                                                    "name": "4.5inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 395,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-compact64r",
+                                    "msisdns": null
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new Compact is as essential as the shoes on your feet"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_b.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 Compact 32Gb black LTE",
+                                                "short-name": "Zony X5 Compact"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-compact32b-po",
+                                    "name": "Zony X5 Compact 32Gb black",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "32Gb",
+                                                    "name": "32Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "black",
+                                                    "name": "black"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "4.5inch",
+                                                    "name": "4.5inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 255,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-compact32b",
+                                    "msisdns": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "relationships": {
+                    "msisdns": {
+                        "links": {
+                            "self": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/zony-x5-compact-po/relationships/msisdns",
+                            "related": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/zony-x5-compact-po/msisdns"
+                        }
+                    }
+                },
+                "links": {
+                    "self": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/zony-x5-compact-po"
+                }
+            },
+            {
+                "id": "yphone-po",
+                "type": "contextualProducts",
+                "attributes": {
+                    "commercialEnrichments": [],
+                    "featureCharacteristics": [],
+                    "specificationId": null,
+                    "instanceCharacteristics": {},
+                    "productOfferings": [],
+                    "name": "Appelsiini yPhone XS",
+                    "categories": [
+                        "device",
+                        "mobile-phone"
+                    ],
+                    "inputCharacteristics": {},
+                    "prices": [],
+                    "priority": null,
+                    "productOfferingGroups": [
+                        {
+                            "cardinality": {
+                                "max": 1,
+                                "min": 1
+                            },
+                            "commercialEnrichments": null,
+                            "id": "yphone-pog",
+                            "name": "Pick a yPhone",
+                            "productOfferings": [
+                                {
+                                    "categories": [
+                                        "device",
+                                        "handset",
+                                        "loyal-customer"
+                                    ],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new yPhone is as essential as the shoes on your feet. And to our loyal customers, this brilliant handset is now more affordable than ever."
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.appelsiiniphone.com/thumnail_w.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Appelsiini yPhone XS 64Gb white LTE for loyal customers",
+                                                "short-name": "Appelsiini yPhone XS for loyal customers"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "yphone64w-loyal-po",
+                                    "name": "Appelsiini yPhone XS 64Gb white - loyal",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "64Gb",
+                                                    "name": "64Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "white",
+                                                    "name": "white"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Appelsiini",
+                                                    "name": "Appelsiini"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 195.5,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "yphone64w",
+                                    "msisdns": null,
+                                    "selected": true
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new yPhone is as essential as the shoes on your feet"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.appelsiiniphone.com/thumnail_b.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Appelsiini yPhone XS 32Gb black LTE",
+                                                "short-name": "Appelsiini yPhone XS"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "yphone32b-po",
+                                    "name": "Appelsiini yPhone XS 32Gb black",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "32Gb",
+                                                    "name": "32Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "black",
+                                                    "name": "black"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Appelsiini",
+                                                    "name": "Appelsiini"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 295,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "yphone32b",
+                                    "msisdns": null
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new yPhone is as essential as the shoes on your feet"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.appelsiiniphone.com/thumnail_w.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Appelsiini yPhone XS 64Gb white LTE",
+                                                "short-name": "Appelsiini yPhone XS"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "yphone64w-po",
+                                    "name": "Appelsiini yPhone XS 64Gb white",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "64Gb",
+                                                    "name": "64Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "white",
+                                                    "name": "white"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Appelsiini",
+                                                    "name": "Appelsiini"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 445,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "yphone64w",
+                                    "msisdns": null
+                                },
+                                {
+                                    "categories": [
+                                        "device",
+                                        "handset",
+                                        "loyal-customer"
+                                    ],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new yPhone is as essential as the shoes on your feet. And to our loyal customers, this brilliant handset is now more affordable than ever."
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.appelsiiniphone.com/thumnail_b.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Appelsiini yPhone XS 64Gb black LTE for loyal customers",
+                                                "short-name": "Appelsiini yPhone XS for loyal customers"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "yphone64b-loyal-po",
+                                    "name": "Appelsiini yPhone XS 64Gb white - loyal",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "64Gb",
+                                                    "name": "64Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "black",
+                                                    "name": "black"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Appelsiini",
+                                                    "name": "Appelsiini"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 195.5,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "yphone64b",
+                                    "msisdns": null
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new yPhone is as essential as the shoes on your feet"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.appelsiiniphone.com/thumnail_b.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Appelsiini yPhone XS 64Gb black LTE",
+                                                "short-name": "Appelsiini yPhone XS"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "yphone64b-po",
+                                    "name": "Appelsiini yPhone XS 64Gb black",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "64Gb",
+                                                    "name": "64Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "black",
+                                                    "name": "black"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Appelsiini",
+                                                    "name": "Appelsiini"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 445,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "yphone64b",
+                                    "msisdns": null
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new yPhone is as essential as the shoes on your feet"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.appelsiiniphone.com/thumnail_w.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Appelsiini yPhone XS 32Gb white LTE",
+                                                "short-name": "Appelsiini yPhone XS"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "yphone32w-po",
+                                    "name": "Appelsiini yPhone XS 32Gb white",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "32Gb",
+                                                    "name": "32Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "white",
+                                                    "name": "white"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Appelsiini",
+                                                    "name": "Appelsiini"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 295,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "yphone32w",
+                                    "msisdns": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "relationships": {
+                    "msisdns": {
+                        "links": {
+                            "self": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/yphone-po/relationships/msisdns",
+                            "related": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/yphone-po/msisdns"
+                        }
+                    }
+                },
+                "links": {
+                    "self": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/yphone-po"
+                }
+            },
+            {
+                "id": "zony-x5-huge-po",
+                "type": "contextualProducts",
+                "attributes": {
+                    "commercialEnrichments": [],
+                    "featureCharacteristics": [],
+                    "specificationId": null,
+                    "instanceCharacteristics": {},
+                    "productOfferings": [],
+                    "name": "Zony X5 Huge",
+                    "categories": [
+                        "device",
+                        "mobile-phone"
+                    ],
+                    "inputCharacteristics": {},
+                    "prices": [],
+                    "priority": null,
+                    "productOfferingGroups": [
+                        {
+                            "cardinality": {
+                                "max": 1,
+                                "min": 1
+                            },
+                            "commercialEnrichments": null,
+                            "id": "zony-x5-huge-pog",
+                            "name": "Pick an X5 Huge",
+                            "productOfferings": [
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new X5 almost as essential as an yPhone"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_b.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 Huge 64Gb red LTE",
+                                                "short-name": "Zony X5 Huge"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-huge-64r-po",
+                                    "name": "Zony X5 Huge 64Gb red",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "64Gb",
+                                                    "name": "64Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "red",
+                                                    "name": "red"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "6.5inch",
+                                                    "name": "6.5inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 595,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-huge-64r",
+                                    "msisdns": null,
+                                    "selected": true
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new X5 almost as essential as an yPhone"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_b.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 Huge 64Gb black LTE",
+                                                "short-name": "Zony X5 Huge"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-huge-64b-po",
+                                    "name": "Zony X5 Huge 64Gb black",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "64Gb",
+                                                    "name": "64Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "black",
+                                                    "name": "black"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "6.5inch",
+                                                    "name": "6.5inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 595,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-huge-64b",
+                                    "msisdns": null
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new is as essential as the shoes on your feet"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_w.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 Huge 32Gb white LTE",
+                                                "short-name": "Zony X5 Huge"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-huge-32w-po",
+                                    "name": "Zony X5 Huge 32Gb white",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "32Gb",
+                                                    "name": "32Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "white",
+                                                    "name": "white"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "6.5inch",
+                                                    "name": "6.5inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 525,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-huge-32w",
+                                    "msisdns": null
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new is as essential as the shoes on your feet"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_b.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 Huge 32Gb black LTE",
+                                                "short-name": "Zony X5 Huge"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-huge-32b-po",
+                                    "name": "Zony X5 Huge 32Gb black",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "32Gb",
+                                                    "name": "32Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "black",
+                                                    "name": "black"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "6.5inch",
+                                                    "name": "6.5inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 525,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-huge-32b",
+                                    "msisdns": null
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new is as essential as the shoes on your feet"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_w.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 Huge 64Gb white LTE",
+                                                "short-name": "Zony X5 Huge"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-huge-64w-po",
+                                    "name": "Zony X5 Huge 64Gb white",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "64Gb",
+                                                    "name": "64Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "white",
+                                                    "name": "white"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "6.5inch",
+                                                    "name": "6.5inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 595,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-huge-64w",
+                                    "msisdns": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "relationships": {
+                    "msisdns": {
+                        "links": {
+                            "self": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/zony-x5-huge-po/relationships/msisdns",
+                            "related": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/zony-x5-huge-po/msisdns"
+                        }
+                    }
+                },
+                "links": {
+                    "self": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/zony-x5-huge-po"
+                }
+            },
+            {
+                "id": "zamzung-po",
+                "type": "contextualProducts",
+                "attributes": {
+                    "commercialEnrichments": [
+                        {
+                            "conditions": {
+                                "memory": "32Gb",
+                                "color": "white"
+                            },
+                            "descriptions": {},
+                            "media": {
+                                "thumbnail-image": "http://www.zamzung.com/phones/s5/pic1.png"
+                            },
+                            "names": {
+                                "long-name": "Zamzung Anarchy S5 32Gb white"
+                            }
+                        },
+                        {
+                            "conditions": {
+                                "memory": "32Gb",
+                                "color": "black"
+                            },
+                            "descriptions": {},
+                            "media": {
+                                "thumbnail-image": "http://www.zamzung.com/phones/s5/pic2.png"
+                            },
+                            "names": {
+                                "long-name": "Zamzung Anarchy S5 32Gb black"
+                            }
+                        },
+                        {
+                            "conditions": {},
+                            "descriptions": {},
+                            "media": {
+                                "thumbnail-image": "http://www.zamzung.com/phones/s5/pic2.png"
+                            },
+                            "names": {
+                                "long-name": "Zamzung Anarchy S5 64Gb black"
+                            }
+                        },
+                        {
+                            "conditions": {
+                                "memory": "32Gb",
+                                "color": "blue"
+                            },
+                            "descriptions": {},
+                            "media": {
+                                "thumbnail-image": "http://www.zamzung.com/phones/s5/pic3.png"
+                            },
+                            "names": {
+                                "long-name": "Zamzung Anarchy S5 32Gb blue"
+                            }
+                        },
+                        {
+                            "conditions": {},
+                            "descriptions": {},
+                            "media": {
+                                "thumbnail-image": "http://www.zamzung.com/phones/s5/pic1.png"
+                            },
+                            "names": {
+                                "long-name": "Zamzung Anarchy S5 64Gb white"
+                            }
+                        },
+                        {
+                            "conditions": {},
+                            "descriptions": {},
+                            "media": {
+                                "thumbnail-image": "http://www.zamzung.com/phones/s5/pic3.png"
+                            },
+                            "names": {
+                                "long-name": "Zamzung Anarchy S5 64Gb blue"
+                            }
+                        },
+                        {
+                            "conditions": {},
+                            "descriptions": {
+                                "detailed": "The Anarchy S5 is the best Zamzung mobile phone by far. Water resistant up to 1 meter and 30 minutes."
+                            },
+                            "media": {},
+                            "names": {
+                                "short-name": "Zamzung Anarchy S5"
+                            }
+                        }
+                    ],
+                    "featureCharacteristics": [
+                        {
+                            "value": "water resistant",
+                            "name": "Water Resistant"
+                        },
+                        {
+                            "value": "multitouch",
+                            "name": "Multitouch"
+                        },
+                        {
+                            "value": "Gorilla Glass 3",
+                            "name": "Gorilla Glass 3"
+                        }
+                    ],
+                    "specificationId": "zamzung",
+                    "instanceCharacteristics": {
+                        "os": {
+                            "values": [
+                                {
+                                    "value": "Android v4",
+                                    "name": "Android v4"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": false,
+                            "validation": null,
+                            "name": "OS",
+                            "priority": null
+                        },
+                        "sim-type": {
+                            "values": [
+                                {
+                                    "value": "nano",
+                                    "name": "nano"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": false,
+                            "validation": null,
+                            "name": "Sim Type",
+                            "priority": null
+                        },
+                        "secondary-camera": {
+                            "values": [
+                                {
+                                    "value": "2MP f/2.4",
+                                    "name": "2MP f/2.4"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": false,
+                            "validation": null,
+                            "name": "Secondary Camera",
+                            "priority": null
+                        },
+                        "primary-camera": {
+                            "values": [
+                                {
+                                    "value": "16MP f/2.2",
+                                    "name": "16MP f/2.2"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": false,
+                            "validation": null,
+                            "name": "Primary Camera",
+                            "priority": null
+                        },
+                        "resolution": {
+                            "values": [
+                                {
+                                    "value": "1080x1920",
+                                    "name": "1080x1920"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": false,
+                            "validation": null,
+                            "name": "Resolution",
+                            "priority": null
+                        },
+                        "brand": {
+                            "values": [
+                                {
+                                    "value": "Zamzung",
+                                    "name": "Zamzung"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": false,
+                            "validation": null,
+                            "name": "Brand",
+                            "priority": null
+                        }
+                    },
+                    "productOfferings": [],
+                    "name": "Zamzung Anarchy S5",
+                    "categories": [
+                        "device",
+                        "mobile-phone"
+                    ],
+                    "inputCharacteristics": {
+                        "memory": {
+                            "values": [
+                                {
+                                    "value": "32Gb",
+                                    "name": "32Gb"
+                                },
+                                {
+                                    "value": "64Gb",
+                                    "name": "64Gb"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": true,
+                            "validation": null,
+                            "name": "Memory",
+                            "priority": null
+                        },
+                        "color": {
+                            "values": [
+                                {
+                                    "value": "black",
+                                    "name": "black"
+                                },
+                                {
+                                    "value": "white",
+                                    "name": "white"
+                                },
+                                {
+                                    "value": "blue",
+                                    "name": "blue"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": true,
+                            "validation": null,
+                            "name": "Color",
+                            "priority": null
+                        },
+                        "serial-number": {
+                            "values": [],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": true,
+                            "validation": null,
+                            "name": "Serial Number",
+                            "priority": null
+                        }
+                    },
+                    "prices": [
+                        {
+                            "type": "ONE_TIME",
+                            "name": null,
+                            "unitOfMeasure": "PIECES",
+                            "taxAmount": null,
+                            "taxFreeAmount": 495,
+                            "taxRate": 0,
+                            "recurringChargePeriod": null,
+                            "currency": "EUR",
+                            "conditions": {
+                                "memory": "64Gb"
+                            },
+                            "originalPrice": null
+                        },
+                        {
+                            "type": "ONE_TIME",
+                            "name": null,
+                            "unitOfMeasure": "PIECES",
+                            "taxAmount": null,
+                            "taxFreeAmount": 245,
+                            "taxRate": 0,
+                            "recurringChargePeriod": null,
+                            "currency": "EUR",
+                            "conditions": {
+                                "memory": "32Gb"
+                            },
+                            "originalPrice": null
+                        }
+                    ],
+                    "priority": null,
+                    "productOfferingGroups": []
+                },
+                "relationships": {
+                    "msisdns": {
+                        "links": {
+                            "self": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/zamzung-po/relationships/msisdns",
+                            "related": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/zamzung-po/msisdns"
+                        }
+                    }
+                },
+                "links": {
+                    "self": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/zamzung-po"
+                },
+                "inputtedCharacteristics": {
+                    "memory": "32Gb",
+                    "color": "black"
+                }
+            },
+            {
+                "id": "oneminus-one-po",
+                "type": "contextualProducts",
+                "attributes": {
+                    "commercialEnrichments": [
+                        {
+                            "conditions": {},
+                            "descriptions": {
+                                "detailed": "The new OneMinus One sure is a great phone"
+                            },
+                            "media": {
+                                "thumbnail-image": "http://www.oneminusphone.com/thumnail_b.jpg"
+                            },
+                            "names": {
+                                "long-name": "OneMinus One 64Gb black",
+                                "short-name": "OneMinus One"
+                            }
+                        }
+                    ],
+                    "featureCharacteristics": [],
+                    "specificationId": "oneminus-one",
+                    "instanceCharacteristics": {
+                        "memory": {
+                            "values": [
+                                {
+                                    "value": "64Gb",
+                                    "name": "64Gb"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": false,
+                            "validation": null,
+                            "name": "Memory",
+                            "priority": null
+                        },
+                        "color": {
+                            "values": [
+                                {
+                                    "value": "black",
+                                    "name": "black"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": false,
+                            "validation": null,
+                            "name": "Color",
+                            "priority": null
+                        },
+                        "sim-type": {
+                            "values": [
+                                {
+                                    "value": "nano",
+                                    "name": "nano"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": false,
+                            "validation": null,
+                            "name": "Sim Type",
+                            "priority": null
+                        },
+                        "display-size": {
+                            "values": [
+                                {
+                                    "value": "5.5inch",
+                                    "name": "5.5inch"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": true,
+                            "validation": null,
+                            "name": "Display Size",
+                            "priority": null
+                        },
+                        "brand": {
+                            "values": [
+                                {
+                                    "value": "OneMinus",
+                                    "name": "OneMinus"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": false,
+                            "validation": null,
+                            "name": "Brand",
+                            "priority": null
+                        }
+                    },
+                    "productOfferings": [],
+                    "name": "OneMinus One",
+                    "categories": [
+                        "device",
+                        "mobile-phone"
+                    ],
+                    "inputCharacteristics": {
+                        "serial-number": {
+                            "values": [],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": true,
+                            "validation": null,
+                            "name": "Serial Number",
+                            "priority": null
+                        }
+                    },
+                    "prices": [
+                        {
+                            "type": "ONE_TIME",
+                            "name": null,
+                            "unitOfMeasure": "PIECES",
+                            "taxAmount": null,
+                            "taxFreeAmount": 395,
+                            "taxRate": 0,
+                            "recurringChargePeriod": null,
+                            "currency": "EUR",
+                            "conditions": null,
+                            "originalPrice": null
+                        }
+                    ],
+                    "priority": null,
+                    "productOfferingGroups": []
+                },
+                "relationships": {
+                    "msisdns": {
+                        "links": {
+                            "self": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/oneminus-one-po/relationships/msisdns",
+                            "related": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/oneminus-one-po/msisdns"
+                        }
+                    }
+                },
+                "links": {
+                    "self": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/oneminus-one-po"
+                }
+            },
+            {
+                "id": "zony-x5-po",
+                "type": "contextualProducts",
+                "attributes": {
+                    "commercialEnrichments": [],
+                    "featureCharacteristics": [],
+                    "specificationId": null,
+                    "instanceCharacteristics": {},
+                    "productOfferings": [],
+                    "name": "Zony X5",
+                    "categories": [
+                        "device",
+                        "mobile-phone"
+                    ],
+                    "inputCharacteristics": {},
+                    "prices": [],
+                    "priority": null,
+                    "productOfferingGroups": [
+                        {
+                            "cardinality": {
+                                "max": 1,
+                                "min": 1
+                            },
+                            "commercialEnrichments": null,
+                            "id": "zony-x5-pog",
+                            "name": "Pick a X5",
+                            "productOfferings": [
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new X5 almost as essential as an yPhone"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_b.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 64Gb red LTE",
+                                                "short-name": "Zony X5"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-64r-po",
+                                    "name": "Zony X5 64Gb red",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "64Gb",
+                                                    "name": "64Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "red",
+                                                    "name": "red"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "5.8inch",
+                                                    "name": "5.8inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 495,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-64r",
+                                    "msisdns": null,
+                                    "selected": true
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new is as essential as the shoes on your feet"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_w.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 32Gb white LTE",
+                                                "short-name": "Zony X5"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-32w-po",
+                                    "name": "Zony X5 32Gb white",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "32Gb",
+                                                    "name": "32Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "white",
+                                                    "name": "white"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "5.8inch",
+                                                    "name": "5.8inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 375,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-32w",
+                                    "msisdns": null
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new is as essential as the shoes on your feet"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_b.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 32Gb black LTE",
+                                                "short-name": "Zony X5"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-32b-po",
+                                    "name": "Zony X5 32Gb black",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "32Gb",
+                                                    "name": "32Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "black",
+                                                    "name": "black"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "5.8inch",
+                                                    "name": "5.8inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 375,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-32b",
+                                    "msisdns": null
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new is as essential as the shoes on your feet"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_w.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 64Gb white LTE",
+                                                "short-name": "Zony X5"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-64w-po",
+                                    "name": "Zony X5 64Gb white",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "64Gb",
+                                                    "name": "64Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "white",
+                                                    "name": "white"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "5.8inch",
+                                                    "name": "5.8inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 495,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-64w",
+                                    "msisdns": null
+                                },
+                                {
+                                    "categories": [],
+                                    "commercialEnrichments": [
+                                        {
+                                            "conditions": {},
+                                            "descriptions": {
+                                                "detailed": "The new X5 almost as essential as an yPhone"
+                                            },
+                                            "media": {
+                                                "thumbnail-image": "http://www.zonyphone.com/thumnail_b.jpg"
+                                            },
+                                            "names": {
+                                                "long-name": "Zony X5 64Gb black LTE",
+                                                "short-name": "Zony X5"
+                                            }
+                                        }
+                                    ],
+                                    "featureCharacteristics": [],
+                                    "id": "zony-x5-64b-po",
+                                    "name": "Zony X5 64Gb black",
+                                    "inputCharacteristics": {
+                                        "serial-number": {
+                                            "values": [],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Serial Number",
+                                            "priority": null
+                                        }
+                                    },
+                                    "instanceCharacteristics": {
+                                        "memory": {
+                                            "values": [
+                                                {
+                                                    "value": "64Gb",
+                                                    "name": "64Gb"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Memory",
+                                            "priority": null
+                                        },
+                                        "color": {
+                                            "values": [
+                                                {
+                                                    "value": "black",
+                                                    "name": "black"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Color",
+                                            "priority": null
+                                        },
+                                        "sim-type": {
+                                            "values": [
+                                                {
+                                                    "value": "nano",
+                                                    "name": "nano"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Sim Type",
+                                            "priority": null
+                                        },
+                                        "display-size": {
+                                            "values": [
+                                                {
+                                                    "value": "5.8inch",
+                                                    "name": "5.8inch"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": true,
+                                            "validation": null,
+                                            "name": "Display Size",
+                                            "priority": null
+                                        },
+                                        "brand": {
+                                            "values": [
+                                                {
+                                                    "value": "Zony",
+                                                    "name": "Zony"
+                                                }
+                                            ],
+                                            "description": null,
+                                            "source": null,
+                                            "subType": null,
+                                            "mandatory": false,
+                                            "validation": null,
+                                            "name": "Brand",
+                                            "priority": null
+                                        }
+                                    },
+                                    "prices": [
+                                        {
+                                            "type": "ONE_TIME",
+                                            "name": null,
+                                            "unitOfMeasure": "PIECES",
+                                            "taxAmount": null,
+                                            "taxFreeAmount": 495,
+                                            "taxRate": 0,
+                                            "recurringChargePeriod": null,
+                                            "currency": "EUR",
+                                            "conditions": null,
+                                            "originalPrice": null
+                                        }
+                                    ],
+                                    "priority": null,
+                                    "productOfferingGroups": [],
+                                    "productOfferings": [],
+                                    "specificationId": "zony-x5-64b",
+                                    "msisdns": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "relationships": {
+                    "msisdns": {
+                        "links": {
+                            "self": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/zony-x5-po/relationships/msisdns",
+                            "related": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/zony-x5-po/msisdns"
+                        }
+                    }
+                },
+                "links": {
+                    "self": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/zony-x5-po"
+                }
+            },
+            {
+                "id": "oneminus-two-po",
+                "type": "contextualProducts",
+                "attributes": {
+                    "commercialEnrichments": [
+                        {
+                            "conditions": {},
+                            "descriptions": {
+                                "detailed": "The new OneMinus Two isn't half bad"
+                            },
+                            "media": {
+                                "thumbnail-image": "http://www.oneminusphone.com/thumnail_c.jpg"
+                            },
+                            "names": {
+                                "long-name": "OneMinus Two 128Gb black",
+                                "short-name": "OneMinus Two"
+                            }
+                        }
+                    ],
+                    "featureCharacteristics": [],
+                    "specificationId": "oneminus-two",
+                    "instanceCharacteristics": {
+                        "memory": {
+                            "values": [
+                                {
+                                    "value": "128Gb",
+                                    "name": "128Gb"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": false,
+                            "validation": null,
+                            "name": "Memory",
+                            "priority": null
+                        },
+                        "color": {
+                            "values": [
+                                {
+                                    "value": "black",
+                                    "name": "black"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": false,
+                            "validation": null,
+                            "name": "Color",
+                            "priority": null
+                        },
+                        "sim-type": {
+                            "values": [
+                                {
+                                    "value": "nano",
+                                    "name": "nano"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": false,
+                            "validation": null,
+                            "name": "Sim Type",
+                            "priority": null
+                        },
+                        "display-size": {
+                            "values": [
+                                {
+                                    "value": "6.5inch",
+                                    "name": "6.5inch"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": true,
+                            "validation": null,
+                            "name": "Display Size",
+                            "priority": null
+                        },
+                        "brand": {
+                            "values": [
+                                {
+                                    "value": "OneMinus",
+                                    "name": "OneMinus"
+                                }
+                            ],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": false,
+                            "validation": null,
+                            "name": "Brand",
+                            "priority": null
+                        }
+                    },
+                    "productOfferings": [],
+                    "name": "OneMinus Two",
+                    "categories": [
+                        "device",
+                        "mobile-phone"
+                    ],
+                    "inputCharacteristics": {
+                        "serial-number": {
+                            "values": [],
+                            "description": null,
+                            "source": null,
+                            "subType": null,
+                            "mandatory": true,
+                            "validation": null,
+                            "name": "Serial Number",
+                            "priority": null
+                        }
+                    },
+                    "prices": [
+                        {
+                            "type": "ONE_TIME",
+                            "name": null,
+                            "unitOfMeasure": "PIECES",
+                            "taxAmount": null,
+                            "taxFreeAmount": 525,
+                            "taxRate": 0,
+                            "recurringChargePeriod": null,
+                            "currency": "EUR",
+                            "conditions": null,
+                            "originalPrice": null
+                        }
+                    ],
+                    "priority": null,
+                    "productOfferingGroups": []
+                },
+                "relationships": {
+                    "msisdns": {
+                        "links": {
+                            "self": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/oneminus-two-po/relationships/msisdns",
+                            "related": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/oneminus-two-po/msisdns"
+                        }
+                    }
+                },
+                "links": {
+                    "self": "http://52.19.87.245:8080/omnichannel-api/api/v0/contextualProducts/oneminus-two-po"
+                }
+            }
+        ],
+        "activeFilters": [
+            {
+                "type": "collection",
+                "matchers": [
+                    {
+                        "type": "instanceCharacteristic",
+                        "operator": "contains",
+                        "characteristic": "color"
+                    },
+                    {
+                        "type": "inputCharacteristic",
+                        "operator": "contains",
+                        "characteristic": "color"
+                    }
+                ],
+                "values": {
+                    "red": false,
+                    "black": false,
+                    "white": false,
+                    "blue": false
+                },
+                "filterLabel": "Color",
+                "id": "1aa2e887-9d6c-4c2e-a085-c21491e1895b"
+            },
+            {
+                "type": "collection",
+                "matchers": [
+                    {
+                        "type": "instanceCharacteristic",
+                        "operator": "contains",
+                        "characteristic": "memory"
+                    },
+                    {
+                        "type": "inputCharacteristic",
+                        "operator": "contains",
+                        "characteristic": "memory"
+                    }
+                ],
+                "values": {
+                    "64Gb": false,
+                    "128Gb": false,
+                    "32Gb": false
+                },
+                "filterLabel": "Memory",
+                "id": "ab974891-0d72-4f96-9941-aa867638b9cb"
+            },
+            {
+                "type": "collection",
+                "matchers": [
+                    {
+                        "type": "instanceCharacteristic",
+                        "operator": "contains",
+                        "characteristic": "brand"
+                    }
+                ],
+                "values": {
+                    "OneMinus": false,
+                    "Zony": false,
+                    "Zamzung": false,
+                    "Appelsiini": false
+                },
+                "filterLabel": "Brand",
+                "id": "4701ac4f-7fb5-445f-b2b6-5afaacff2f4f"
+            }
+        ],
+        "productCategory": "mobile-phone",
+        "onlyFilterUpdated": false,
+        "priceType": "upfront",
+        "priceRange": {
+            "characteristic": "price-range",
+            "upfront": {
+                "min": 195,
+                "max": 595
+            }
+        },
+        "searchTerm": "",
+        "showFilterControls": false,
+        "fetchingProducts": false,
+        "filters": [
+            {
+                "type": "collection",
+                "matchers": [
+                    {
+                        "type": "instanceCharacteristic",
+                        "operator": "contains",
+                        "characteristic": "color"
+                    },
+                    {
+                        "type": "inputCharacteristic",
+                        "operator": "contains",
+                        "characteristic": "color"
+                    }
+                ],
+                "values": {
+                    "red": "red",
+                    "black": "black",
+                    "white": "white",
+                    "blue": "blue"
+                },
+                "filterLabel": "Color",
+                "id": "1aa2e887-9d6c-4c2e-a085-c21491e1895b"
+            },
+            {
+                "type": "collection",
+                "matchers": [
+                    {
+                        "type": "instanceCharacteristic",
+                        "operator": "contains",
+                        "characteristic": "memory"
+                    },
+                    {
+                        "type": "inputCharacteristic",
+                        "operator": "contains",
+                        "characteristic": "memory"
+                    }
+                ],
+                "values": {
+                    "64Gb": "64Gb",
+                    "128Gb": "128Gb",
+                    "32Gb": "32Gb"
+                },
+                "filterLabel": "Memory",
+                "id": "ab974891-0d72-4f96-9941-aa867638b9cb"
+            },
+            {
+                "type": "collection",
+                "matchers": [
+                    {
+                        "type": "instanceCharacteristic",
+                        "operator": "contains",
+                        "characteristic": "brand"
+                    }
+                ],
+                "values": {
+                    "OneMinus": "OneMinus",
+                    "Zony": "Zony",
+                    "Zamzung": "Zamzung",
+                    "Appelsiini": "Appelsiini"
+                },
+                "filterLabel": "Brand",
+                "id": "4701ac4f-7fb5-445f-b2b6-5afaacff2f4f"
+            },
+            {
+                "type": "price-range",
+                "matchers": null,
+                "values": null,
+                "filterLabel": "price-range",
+                "id": "f3eeff7a-a322-4fc6-b2b3-559ae3bd58e2"
+            }
+        ]
+    }
+}

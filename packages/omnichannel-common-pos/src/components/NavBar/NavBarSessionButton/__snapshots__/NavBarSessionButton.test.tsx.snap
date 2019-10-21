@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBarSessionButton succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="NavBarSessionButton"
+  id="NavBarSessionButton"
+>
+  <div>
+    <a
+      href="javascript:"
+      id="NavBarSessionButton-start-session"
+      onClick={[Function]}
+    >
+      Start session
+    </a>
+  </div>
+  <div>
+    <a
+      href="javascript:;"
+      id="NavBarChangeSalesOrgButton"
+      onClick={[Function]}
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Change Sales Organization / Inventory"
+        description="Link to change sales organization and/or inventory in the POS navigation bar on top of the screen"
+        id="pos-header-change-sales-org-inventory"
+        wrapperType="wrapper"
+      />
+    </a>
+  </div>
+  <OcModal
+    hideCloseButton={false}
+    largeModal={true}
+    onClose={[Function]}
+    showModal={false}
+    title={
+      <FormattedMessageWrapper
+        defaultMessage="Start session"
+        description="salesrep-start-session-title"
+        id="salesrep-start-session-title"
+        wrapperType="wrapper"
+      />
+    }
+  >
+    <div />
+  </OcModal>
+</div>
+`;

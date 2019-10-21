@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcDownloadButton renders as a Button when file set 1`] = `
+<OcDownloadButton
+  file={
+    Object {
+      "filename": "product-description.pdf",
+      "filetype": "application/pdf",
+      "url": "http://shop.qvantel.com/product/1337.pdf",
+    }
+  }
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+>
+  <FormattedMessageWrapper
+    defaultMessage="Download as {filetype}"
+    description="Can be used as button text with buttons that download documents when clicked"
+    id="document-download-button-label"
+    values={
+      Object {
+        "filetype": "application/pdf",
+      }
+    }
+    wrapperType="wrapper"
+  >
+    <Connect(IntlProvider)>
+      <IntlProvider
+        dispatch={[Function]}
+        locale="en-DE"
+        messages={Object {}}
+      >
+        <FormattedMessage
+          defaultMessage="Download as {filetype}"
+          description="Can be used as button text with buttons that download documents when clicked"
+          id="document-download-button-label"
+          values={
+            Object {
+              "filetype": "application/pdf",
+            }
+          }
+        >
+          <a
+            className="btn btn-outline-secondary OcDownloadButton"
+            download="product-description.pdf"
+            href="http://shop.qvantel.com/product/1337.pdf"
+          >
+            Download as application/pdf
+          </a>
+        </FormattedMessage>
+      </IntlProvider>
+    </Connect(IntlProvider)>
+  </FormattedMessageWrapper>
+</OcDownloadButton>
+`;
+
+exports[`OcDownloadButton succeeds at shallow mount without props 1`] = `""`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressValidationHandlerProposals succeeds at shallow mount without props 1`] = `
+<div
+  className="AddressValidationHandlerProposals"
+>
+  <p
+    className="AddressValidationHandlerProposals-address-not-found-message"
+  >
+    <FormattedMessageWrapper
+      defaultMessage="Address not found"
+      description="Address validation handler address not found title"
+      id="address-validation-handler-address-not-found-title"
+      wrapperType="wrapper"
+    />
+  </p>
+  <FormattedHTMLMessageWrapper
+    defaultMessage="Address <b>{address}</b> not found."
+    description="Address validation handler proposals address not found"
+    id="Address-validation-handler-proposals-address-not-found"
+    values={
+      Object {
+        "address": "undefined,
+			
+			undefined
+			undefined,
+			
+			undefined",
+      }
+    }
+    wrapperType="wrapper"
+  />
+</div>
+`;

@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerDetailsLegalDocuments succeeds at shallow mount without props 1`] = `
+<div>
+  <h5>
+    <FormattedMessageWrapper
+      defaultMessage="Legal documents"
+      description="Pos customer details legal documents"
+      id="pos-customer-details-legal-documents"
+      wrapperType="wrapper"
+    />
+     
+     (dummy data)
+  </h5>
+  <Flex
+    alignItems=""
+    alignSelf=""
+    className="CustomerDetailsView-subDetails-field CustomerDetailsView-customerDetailsLegalDocuments-field"
+    direction="row"
+    justifyContent=""
+    wrap="wrap"
+  >
+    <div
+      className="CustomerDetailsView-subDetails-field-name"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Driver's licence"
+        description="Pos customer details drives licence"
+        id="pos-customer-details-drives-licence"
+        wrapperType="wrapper"
+      />
+    </div>
+    <div>
+      <Flex
+        alignItems=""
+        alignSelf=""
+        direction="column"
+        justifyContent=""
+        wrap="wrap"
+      >
+        <Link
+          replace={false}
+          to={
+            Object {
+              "hash": "#drivers-licence",
+              "pathname": "/servicedesk/customer/documents",
+            }
+          }
+        >
+          Scanned_ID_document.jpg
+        </Link>
+        <Flex
+          alignItems=""
+          alignSelf=""
+          className="CustomerDetailsView-subDetails-actions"
+          direction="row"
+          justifyContent="between"
+          wrap="wrap"
+        >
+          <Link
+            replace={false}
+            to={
+              Object {
+                "hash": "#driver-licence-print",
+                "pathname": "/servicedesk/customer/documents",
+              }
+            }
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Print"
+              description="Pos customer details print message"
+              id="pos-customer-details-print-message"
+              wrapperType="wrapper"
+            />
+          </Link>
+          <Link
+            replace={false}
+            to={
+              Object {
+                "hash": "#driver-licence-replace",
+                "pathname": "/servicedesk/customer/documents",
+              }
+            }
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Replace"
+              description="Pos customer details replace message"
+              id="pos-customer-details-replace-message"
+              wrapperType="wrapper"
+            />
+          </Link>
+          <Link
+            replace={false}
+            to={
+              Object {
+                "hash": "#driver-licence-remove",
+                "pathname": "/servicedesk/customer/documents",
+              }
+            }
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Remove"
+              description="Pos customer details remove message"
+              id="pos-customer-details-remove-message"
+              wrapperType="wrapper"
+            />
+          </Link>
+        </Flex>
+      </Flex>
+    </div>
+  </Flex>
+  <Flex
+    alignItems=""
+    alignSelf=""
+    className="CustomerDetailsView-subDetails-field CustomerDetailsView-customerDetailsLegalDocuments-field"
+    direction="row"
+    justifyContent=""
+    wrap="wrap"
+  >
+    <div
+      className="CustomerDetailsView-subDetails-field-name"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Contract"
+        description="Pos customer details contract"
+        id="pos-customer-details-contract"
+        wrapperType="wrapper"
+      />
+    </div>
+    <div>
+      <Flex
+        alignItems=""
+        alignSelf=""
+        direction="column"
+        justifyContent=""
+        wrap="wrap"
+      >
+        <Link
+          replace={false}
+          to={
+            Object {
+              "hash": "#contract",
+              "pathname": "/servicedesk/customer/documents",
+            }
+          }
+        >
+          Prepaid_silver_Contract.pdf
+        </Link>
+        <Flex
+          alignItems=""
+          alignSelf=""
+          className="CustomerDetailsView-subDetails-actions"
+          direction="row"
+          justifyContent="between"
+          wrap="wrap"
+        >
+          <Link
+            replace={false}
+            to={
+              Object {
+                "hash": "#contract-print",
+                "pathname": "/servicedesk/customer/documents/",
+              }
+            }
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Print"
+              description="Pos customer details print message"
+              id="pos-customer-details-print-message"
+              wrapperType="wrapper"
+            />
+          </Link>
+          <Link
+            replace={false}
+            to={
+              Object {
+                "hash": "#contract-replace",
+                "pathname": "/servicedesk/customer/documents",
+              }
+            }
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Replace"
+              description="Pos customer details replace message"
+              id="pos-customer-details-replace-message"
+              wrapperType="wrapper"
+            />
+          </Link>
+          <Link
+            replace={false}
+            to={
+              Object {
+                "hash": "#contract-remove",
+                "pathname": "/servicedesk/customer/documents",
+              }
+            }
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Remove"
+              description="Pos customer details remove message"
+              id="pos-customer-details-remove-message"
+              wrapperType="wrapper"
+            />
+          </Link>
+        </Flex>
+      </Flex>
+    </div>
+  </Flex>
+</div>
+`;

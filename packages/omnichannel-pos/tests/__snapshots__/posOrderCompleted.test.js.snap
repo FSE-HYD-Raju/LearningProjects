@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`POSOrderCompleted succeeds at shallow mount, without props 1`] = `
+<div
+  className="POSOrderCompleted"
+  id="w-app-body"
+>
+  <div
+    className="POSOrderCompleted-summary-container w-box"
+  >
+    <div
+      className="POSOrderCompleted-purchase-completed-message"
+    >
+      <i
+        className="fa fa-check-circle POSOrderCompleted-purchase-completed-icon"
+      />
+      <h2
+        className="POSOrderCompleted-payment-message"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Purchase completed"
+          description="Message shown when payment succeeded and user was returned to shop"
+          id="pos-order-completed-confirmation"
+          wrapperType="wrapper"
+        />
+      </h2>
+      <Link
+        className="btn btn-primary"
+        id="pos-order-completed-contunue-shopping-button"
+        replace={false}
+        to="/servicedesk/shop"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Continue to shop"
+          description="Link back to shop after payment succeeded"
+          id="pos-order-completed-continue-shopping"
+          wrapperType="wrapper"
+        />
+      </Link>
+    </div>
+    <div
+      className="POSOrderCompleted-purchase-summary"
+    >
+      <h2
+        className="POSOrderCompleted-purchase-summary-message"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Purchase summary"
+          description="Purchase summary title in pos order completed"
+          id="pos-order-completed-purchase-summary"
+          wrapperType="wrapper"
+        />
+      </h2>
+      <table
+        className="table table-bordered"
+        id="pos-order-completed-purchase-summary-table"
+      >
+        <colgroup
+          span="3"
+        />
+        <thead>
+          <tr>
+            <th
+              className="POSOrderCompleted-name"
+            >
+              <FormattedMessageWrapper
+                defaultMessage="Name"
+                description="Name field of basket list table"
+                id="pos-order-completed-basket-item-list-name"
+                wrapperType="wrapper"
+              />
+            </th>
+            <th
+              className="POSOrderCompleted-fee-upfront"
+            >
+              <FormattedMessageWrapper
+                defaultMessage="Upfront"
+                description="Upfront field of basket list table"
+                id="pos-order-completed-basket-item-list-upfront"
+                wrapperType="wrapper"
+              />
+            </th>
+            <th
+              className="POSOrderCompleted-fee-recurring"
+            >
+              <FormattedMessageWrapper
+                defaultMessage="Recurring"
+                description="Recurring field of basket list table"
+                id="pos-order-completed-basket-item-list-Recurring"
+                wrapperType="wrapper"
+              />
+            </th>
+          </tr>
+        </thead>
+        <tbody />
+        <tfoot>
+          <tr>
+            <th
+              className="POSOrderCompleted-name"
+            >
+              <FormattedMessageWrapper
+                defaultMessage="Final cost"
+                description="Final cost label in pos order completed basket list"
+                id="pos-order-completed-basket-item-list-final-cost"
+                wrapperType="wrapper"
+              />
+            </th>
+            <th
+              className="POSOrderCompleted-fee-upfront"
+            >
+              <span
+                className="oc-currency"
+              >
+                0
+              </span>
+            </th>
+            <th
+              className="POSOrderCompleted-fee-recurring"
+            >
+              <span
+                className="oc-currency"
+              >
+                0
+              </span>
+            </th>
+          </tr>
+        </tfoot>
+      </table>
+      <div
+        className="POSOrderCompleted-basket-reference-number"
+      >
+        <div
+          className="POSOrderCompleted-basket-reference-number-label"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="Basket reference number"
+            description="POS Order completed, basket reference number display"
+            id="pos-order-completed-reference-number"
+            wrapperType="wrapper"
+          />
+        </div>
+        <div
+          className="POSOrderCompleted-basket-reference-number-value"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

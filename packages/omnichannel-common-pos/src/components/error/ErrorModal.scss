@@ -1,0 +1,40 @@
+$modal-header-height: 4.65rem;
+$container-paddings: 4.8rem;
+$modal-header-borders-width: 0.3125rem;
+
+.ErrorModal {
+	.modal-dialog {
+		max-width: 100%;
+	}
+	.modal-body {
+		padding: 1.2rem 0 0;
+		min-height: calc(100vh - #{$modal-header-height} - #{$container-paddings} - #{$modal-header-borders-width});
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.modal-body-content {
+		padding: 1.2rem 1.2rem 2.4rem;
+		white-space: pre-wrap;
+		word-break: break-word;
+	}
+
+	.modal-footer {
+		margin: 0;
+	}
+
+	@include media-breakpoint-up(sm) {
+		.modal-dialog {
+			max-width: 300px;
+		}
+		.modal-body {
+			min-height: initial;
+			justify-content: flex-start;
+		}
+
+		.modal-footer {
+			margin: 0;
+		}
+	}
+}

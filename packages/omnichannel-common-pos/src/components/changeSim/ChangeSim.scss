@@ -1,0 +1,180 @@
+@import '~omnichannel-common-pos/src/styles/_variables.scss';
+@import "~omnichannel-common-pos/src/styles/mixins.scss";
+
+@mixin selection-area() {
+	margin: 0.625rem 1.25rem;
+	border: 0.0625rem $gray-200;
+	border-top-style: solid;
+}
+
+.ChangeSim .modal-body {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.ChangeSim {
+	&-general-delivery-container {
+		border-top: 0.125rem solid $weasel-border-color-solid;
+	}
+
+	&-postal-address {
+		width: 18.75rem;
+		white-space: pre-wrap;
+	}
+
+	&-delivery-info {
+		width: 100%;
+		&.ChangeDeliveryAddress-container {
+			div.inner-block-handler-container {
+				margin-left: 10.25rem;
+				div.AddressValidationDropdown-container {
+					position: inherit;
+					margin-bottom: 1rem;
+					.OcDropdown {
+						&-container {
+							position: inherit;
+						}
+						&-inner-container {
+							margin: 0 !important;
+							flex-direction: column !important;
+						}
+						&-triangle-top {
+							border-color: transparent transparent $weasel-background-solid transparent;
+							border-width: 0 0.625rem 0.625rem;
+							margin: 0 0.625rem;
+						}
+						&-content {
+							background: $weasel-background-solid;
+							border-top: 0.1875rem solid $weasel-background-solid;
+							box-shadow: none;
+							font-size: $font-size-sm;
+							div.OcInput.custom-control.custom-checkbox {
+								margin-top: 0.875rem;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&-delivery-selection {
+		@include selection-area();
+		font-size: $font-size-sm;
+
+		p {
+			span {
+				font-weight: bold;
+				font-size: $font-size-base;
+			}
+		}
+	}
+
+	&-card-selection {
+		@include selection-area();
+
+		p {
+			span:nth-child(1) {
+				font-weight: bold;
+    			margin-right: 0.5em;
+			}
+		}
+	}
+	&-selections {
+		width: 100%;
+		padding: 0 1.25rem 0.625rem 1.25rem;
+	}
+
+	.modal-body {
+		display: block!important;
+	}
+
+	&-return-message {
+		margin: 0.625rem 1.875rem;
+		span {
+			font-weight: bold;
+		}
+	}
+
+	&-row {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		padding-top: 0.5rem;
+		&.ChangeSim-payment-method-container {
+			align-items: flex-start;
+		}
+		&.ChangeSim-delivery-address-details {
+			padding: 0;
+		}
+		&.ChangeSim-fee-container {
+			border-top: 0.125rem solid $weasel-border-color-solid;
+		}
+	}
+
+	&-label {
+		width: 10.25rem;
+		color: $gray-600;
+	}
+
+	&-data {
+		width: 18.75rem;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+		word-break: break-all;
+		div.form-group {
+			.ChangeSim-row.ChangeSim-reason-selection & {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	&-change-address-btn {
+		display: flex;
+		align-items: center;
+		padding: 0;
+	}
+
+	&-fee-amount {
+		font-weight: $font-weight-bold;
+	}
+
+	&-hidden {
+		display: none;
+	}
+
+	&-required-field-icon {
+		@include required-field-icon();
+		margin-left: 0.125rem;
+		font-size: 0.7rem;
+		vertical-align: 0.2rem;
+	}
+
+	&-payment-container {
+		.PaymentByBalanceDetails {
+			margin-top: -0.5rem;
+			margin-left: 10.25rem;
+			margin-bottom: 2.45rem;
+		}
+	}
+
+	&-fee-row {
+		display: flex;
+		justify-content: space-between;
+		padding-right: 0.5rem;
+	}
+
+	@include media-breakpoint-up(sm) {
+		&-row {
+			padding: 1rem 0;
+		}
+		&-change-address-btn {
+			margin-left: 2rem;
+		}
+		&-fee-row {
+			padding-right: 2.725rem;
+		}
+		.invalid-feedback {
+			margin-left: 10.25rem !important;
+		}
+	}
+}

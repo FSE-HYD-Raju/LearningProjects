@@ -1,0 +1,341 @@
+{
+	"id": "accessory-bundle-po",
+	"type": "contextualProducts",
+	"attributes": {
+		"commercialEnrichments": [
+			{
+				"conditions": {},
+				"descriptions": {
+					"detailed": "Why settle for just one set of earphones, when you can have two?"
+				},
+				"media": {
+				},
+				"names": {
+					"short-name": "An enriched bundle of accessories"
+				}
+			}
+		],
+		"featureCharacteristics": [],
+		"specificationId": null,
+		"instanceCharacteristics": {
+		},
+		"productOfferings": [
+			{
+				"categories": [],
+				"commercialEnrichments": [],
+				"featureCharacteristics": [],
+				"id": "earplug1-po-has-one-time-price-of-40",
+				"name": "ZenHajzer SuperCool 32",
+				"inputCharacteristics": {
+				},
+				"instanceCharacteristics": {
+					"cable-length": {
+						"values": [
+							{
+								"value": "1m",
+								"name": "1m"
+							}
+						],
+						"description": null,
+						"source": null,
+						"subType": null,
+						"mandatory": false,
+						"validation": null,
+						"name": "Cable length",
+						"priority": null
+					},
+					"brand": {
+						"values": [
+							{
+								"value": "ZenHajzer",
+								"name": "ZenHajzer"
+							}
+						],
+						"description": null,
+						"source": null,
+						"subType": null,
+						"mandatory": false,
+						"validation": null,
+						"name": "Brand",
+						"priority": null
+					}
+				},
+				"prices": [
+					{
+						"type": "ONE_TIME",
+						"name": null,
+						"chargedUnit": {
+							"amount": 1,
+							"currency": null,
+							"unitOfMeasure": "PIECES"
+						},
+						"taxAmount": null,
+						"taxFreeAmount": 40,
+						"taxRate": 0,
+						"recurringChargePeriod": null,
+						"currency": "EUR",
+						"conditions": null,
+						"originalPrice": null
+					}
+				],
+				"priority": null,
+				"productOfferingGroups": [],
+				"productOfferings": [],
+				"specificationId": "earplug1",
+				"msisdns": null,
+				"bundlingProductOfferings": null
+			},
+			{
+				"categories": [],
+				"commercialEnrichments": [],
+				"featureCharacteristics": [],
+				"id": "has-no-price-on-it",
+				"name": "Filip XtremeBass",
+				"inputCharacteristics": {
+				},
+				"instanceCharacteristics": {
+					"cable-length": {
+						"values": [
+							{
+								"value": "1m",
+								"name": "1m"
+							}
+						],
+						"description": null,
+						"source": null,
+						"subType": null,
+						"mandatory": false,
+						"validation": null,
+						"name": null,
+						"priority": null
+					},
+					"color": {
+						"values": [
+							{
+								"value": "silver",
+								"name": "silver"
+							}
+						],
+						"description": null,
+						"source": null,
+						"subType": null,
+						"mandatory": false,
+						"validation": null,
+						"name": null,
+						"priority": null
+					},
+					"brand": {
+						"values": [
+							{
+								"value": "Filip",
+								"name": "Filip"
+							}
+						],
+						"description": null,
+						"source": null,
+						"subType": null,
+						"mandatory": false,
+						"validation": null,
+						"name": "Brand",
+						"priority": null
+					}
+				},
+				"prices": [],
+				"priority": null,
+				"productOfferingGroups": [],
+				"productOfferings": [
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "has-one-time-price-of-50",
+						"name": "Filip XtremeBass sub",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+							"cable-length": {
+								"values": [
+									{
+										"value": "1m",
+										"name": "1m"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": false,
+								"validation": null,
+								"name": null,
+								"priority": null
+							},
+							"color": {
+								"values": [
+									{
+										"value": "silver",
+										"name": "silver"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": false,
+								"validation": null,
+								"name": null,
+								"priority": null
+							},
+							"brand": {
+								"values": [
+									{
+										"value": "Filip sub",
+										"name": "Filip sub"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": false,
+								"validation": null,
+								"name": "Brand",
+								"priority": null
+							}
+						},
+						"prices": [
+							{
+								"type": "ONE_TIME",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 50,
+								"taxRate": 0,
+								"recurringChargePeriod": null,
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "earplug2s1",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					},
+					{
+						"categories": [],
+						"commercialEnrichments": [],
+						"featureCharacteristics": [],
+						"id": "earplug2-po-sub2-has-recurring-price-of-15",
+						"name": "Filip XtremeBass sub2",
+						"inputCharacteristics": {
+						},
+						"instanceCharacteristics": {
+							"cable-length": {
+								"values": [
+									{
+										"value": "1m",
+										"name": "1m"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": false,
+								"validation": null,
+								"name": null,
+								"priority": null
+							},
+							"color": {
+								"values": [
+									{
+										"value": "silver",
+										"name": "silver"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": false,
+								"validation": null,
+								"name": null,
+								"priority": null
+							},
+							"brand": {
+								"values": [
+									{
+										"value": "Filip sub2",
+										"name": "Filip sub2"
+									}
+								],
+								"description": null,
+								"source": null,
+								"subType": null,
+								"mandatory": false,
+								"validation": null,
+								"name": "Brand",
+								"priority": null
+							}
+						},
+						"prices": [
+							{
+								"type": "RECURRENT",
+								"name": null,
+								"chargedUnit": {
+									"amount": 1,
+									"currency": null,
+									"unitOfMeasure": "PIECES"
+								},
+								"taxAmount": null,
+								"taxFreeAmount": 15,
+								"taxRate": 0,
+								"currency": "EUR",
+								"conditions": null,
+								"originalPrice": null,
+								"recurringChargePeriod": {
+									"count": 1,
+									"interval": "MONTH"
+								}
+							}
+						],
+						"priority": null,
+						"productOfferingGroups": [],
+						"productOfferings": [],
+						"specificationId": "earplug2s2",
+						"msisdns": null,
+						"bundlingProductOfferings": null
+					}
+				],
+				"specificationId": "earplug2",
+				"msisdns": null,
+				"bundlingProductOfferings": null
+			}
+		],
+		"name": "A bundle of accessories",
+		"categories": [],
+		"inputCharacteristics": {
+		},
+		"prices": [],
+		"priority": null,
+		"productOfferingGroups": []
+	},
+	"relationships": {
+		"bundlingProductOfferings": {
+			"links": {
+				"self": "http://127.0.0.1:8080/omnichannel-api/api/v0/contextualProducts/accessory-bundle-po/relationships/bundlingProductOfferings",
+				"related": "http://127.0.0.1:8080/omnichannel-api/api/v0/contextualProducts/accessory-bundle-po/bundlingProductOfferings"
+			}
+		},
+		"msisdns": {
+			"links": {
+				"self": "http://127.0.0.1:8080/omnichannel-api/api/v0/contextualProducts/accessory-bundle-po/relationships/msisdns",
+				"related": "http://127.0.0.1:8080/omnichannel-api/api/v0/contextualProducts/accessory-bundle-po/msisdns"
+			}
+		}
+	},
+	"links": {
+		"self": "http://127.0.0.1:8080/omnichannel-api/api/v0/contextualProducts/accessory-bundle-po"
+	}
+}

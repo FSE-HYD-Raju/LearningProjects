@@ -1,0 +1,242 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Plans succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="Plans-main-container"
+>
+  <PlansListView
+    actions={
+      Object {
+        "onChangePlan": [Function],
+        "onConfigurePlan": [Function],
+      }
+    }
+    plans={
+      Array [
+        Object {
+          "agreementId": "juanita-agreement4",
+          "childProducts": Array [
+            Object {
+              "hasAlternateOfferings": true,
+              "id": "non-existent-mms-sub",
+              "isPlan": false,
+              "name": "Lots of MMS",
+            },
+            Object {
+              "hasAlternateOfferings": true,
+              "id": "juanita-agreement4-sub-data",
+              "inputCharacteristics": Object {
+                "mockkey": "dummydata",
+              },
+              "isPlan": true,
+              "lifeCycleStatus": "ACTIVE",
+              "name": "Data 21Mb/s",
+              "prices": Array [
+                Object {
+                  "chargedUnit": Object {
+                    "amount": 1,
+                    "currency": null,
+                    "unitOfMeasure": "PIECES",
+                  },
+                  "conditions": null,
+                  "currency": "EUR",
+                  "name": null,
+                  "originalPrice": null,
+                  "recurringChargePeriod": Object {
+                    "count": 1,
+                    "interval": "MONTH",
+                  },
+                  "taxAmount": null,
+                  "taxFreeAmount": 4.5,
+                  "taxRate": 0,
+                  "type": "RECURRENT",
+                },
+              ],
+              "productOfferingId": "data21-po",
+            },
+            Object {
+              "hasAlternateOfferings": false,
+              "id": "juanita-agreement4-sub-voice",
+              "isPlan": true,
+              "lifeCycleStatus": "ACTIVE",
+              "name": "Voice 500min SMS 100pc package",
+              "prices": Array [
+                Object {
+                  "chargedUnit": Object {
+                    "amount": 1,
+                    "currency": null,
+                    "unitOfMeasure": "PIECES",
+                  },
+                  "conditions": null,
+                  "currency": "EUR",
+                  "name": null,
+                  "originalPrice": null,
+                  "recurringChargePeriod": Object {
+                    "count": 1,
+                    "interval": "MONTH",
+                  },
+                  "taxAmount": null,
+                  "taxFreeAmount": 3,
+                  "taxRate": 0,
+                  "type": "RECURRENT",
+                },
+              ],
+              "productOfferingId": "voicesms-1-po",
+            },
+          ],
+          "hasAlternateOfferings": true,
+          "id": "juanita-agreement4-sub",
+          "isPlan": true,
+          "lifeCycleStatus": "ACTIVE",
+          "name": "Postpaid SUPERB Plan",
+          "productOfferingId": "superb-po",
+        },
+        Object {
+          "hasAlternateOfferings": true,
+          "id": "juanita-agreement4-sub-data",
+          "inputCharacteristics": Object {
+            "mockkey": "dummydata",
+          },
+          "isPlan": true,
+          "lifeCycleStatus": "ACTIVE",
+          "name": "Data 21Mb/s",
+          "prices": Array [
+            Object {
+              "chargedUnit": Object {
+                "amount": 1,
+                "currency": null,
+                "unitOfMeasure": "PIECES",
+              },
+              "conditions": null,
+              "currency": "EUR",
+              "name": null,
+              "originalPrice": null,
+              "recurringChargePeriod": Object {
+                "count": 1,
+                "interval": "MONTH",
+              },
+              "taxAmount": null,
+              "taxFreeAmount": 4.5,
+              "taxRate": 0,
+              "type": "RECURRENT",
+            },
+          ],
+          "productOfferingId": "data21-po",
+        },
+        Object {
+          "hasAlternateOfferings": false,
+          "id": "juanita-agreement4-sub-voice",
+          "isPlan": true,
+          "lifeCycleStatus": "ACTIVE",
+          "name": "Voice 500min SMS 100pc package",
+          "prices": Array [
+            Object {
+              "chargedUnit": Object {
+                "amount": 1,
+                "currency": null,
+                "unitOfMeasure": "PIECES",
+              },
+              "conditions": null,
+              "currency": "EUR",
+              "name": null,
+              "originalPrice": null,
+              "recurringChargePeriod": Object {
+                "count": 1,
+                "interval": "MONTH",
+              },
+              "taxAmount": null,
+              "taxFreeAmount": 3,
+              "taxRate": 0,
+              "type": "RECURRENT",
+            },
+          ],
+          "productOfferingId": "voicesms-1-po",
+        },
+      ]
+    }
+    rowRenderer={[Function]}
+    showChangePlanAction={[Function]}
+    showConfigurePlanAction={[Function]}
+    subscription={
+      Object {
+        "agreementId": "juanita-agreement4",
+        "childProducts": Array [
+          Object {
+            "hasAlternateOfferings": true,
+            "id": "non-existent-mms-sub",
+            "isPlan": false,
+            "name": "Lots of MMS",
+          },
+          Object {
+            "hasAlternateOfferings": true,
+            "id": "juanita-agreement4-sub-data",
+            "inputCharacteristics": Object {
+              "mockkey": "dummydata",
+            },
+            "isPlan": true,
+            "lifeCycleStatus": "ACTIVE",
+            "name": "Data 21Mb/s",
+            "prices": Array [
+              Object {
+                "chargedUnit": Object {
+                  "amount": 1,
+                  "currency": null,
+                  "unitOfMeasure": "PIECES",
+                },
+                "conditions": null,
+                "currency": "EUR",
+                "name": null,
+                "originalPrice": null,
+                "recurringChargePeriod": Object {
+                  "count": 1,
+                  "interval": "MONTH",
+                },
+                "taxAmount": null,
+                "taxFreeAmount": 4.5,
+                "taxRate": 0,
+                "type": "RECURRENT",
+              },
+            ],
+            "productOfferingId": "data21-po",
+          },
+          Object {
+            "hasAlternateOfferings": false,
+            "id": "juanita-agreement4-sub-voice",
+            "isPlan": true,
+            "lifeCycleStatus": "ACTIVE",
+            "name": "Voice 500min SMS 100pc package",
+            "prices": Array [
+              Object {
+                "chargedUnit": Object {
+                  "amount": 1,
+                  "currency": null,
+                  "unitOfMeasure": "PIECES",
+                },
+                "conditions": null,
+                "currency": "EUR",
+                "name": null,
+                "originalPrice": null,
+                "recurringChargePeriod": Object {
+                  "count": 1,
+                  "interval": "MONTH",
+                },
+                "taxAmount": null,
+                "taxFreeAmount": 3,
+                "taxRate": 0,
+                "type": "RECURRENT",
+              },
+            ],
+            "productOfferingId": "voicesms-1-po",
+          },
+        ],
+        "hasAlternateOfferings": true,
+        "id": "juanita-agreement4-sub",
+        "isPlan": true,
+        "lifeCycleStatus": "ACTIVE",
+        "name": "Postpaid SUPERB Plan",
+        "productOfferingId": "superb-po",
+      }
+    }
+  />
+</div>
+`;

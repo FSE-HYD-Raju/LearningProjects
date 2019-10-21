@@ -1,0 +1,67 @@
+@import '../../styles/_variables.scss';
+
+.CheckableAddon {
+
+	margin: 0.3rem;
+
+	.card-body {
+		display: grid;
+		grid-template-areas: "checkbox title price" "check-box short-description extra-price" "check-box long-description x";
+		grid-template-columns: 26px 2fr 1fr;
+		grid-column-gap: 5px;
+	}
+
+	.сustom-checkbox {
+		grid-area: checkbox;
+	}
+
+	&-title-block {
+		grid-area: title;
+		flex-direction: row;
+		display: flex;
+		align-items: center;
+	}
+
+	&-title {
+		font-size: $h5-font-size;
+		margin-bottom: 0;
+	}
+
+	&-price {
+		font-size: 16px;
+		font-weight: $font-weight-bold;
+	}
+
+	&-price-section {
+		grid-area: price;
+	}
+
+	&-extra-price-section {
+		grid-area: extra-price;
+	}
+
+	&-period {
+		font-size: 11px;
+	}
+
+	&-text-right {
+		text-align: right;
+	}
+
+	&-short-description {
+		grid-area: short-description;
+
+	}
+
+	&-long-description-button {
+		button {
+			padding: 0;
+			border: 0;
+		}
+		grid-area: long-description;
+	}
+
+	&-tooltip-icon {
+		margin-left: 0.5rem;
+	}
+}

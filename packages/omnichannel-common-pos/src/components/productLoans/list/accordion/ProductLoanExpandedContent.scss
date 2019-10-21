@@ -1,0 +1,19 @@
+.ProductLoanExpandedContent {
+	&-container {
+		background-color: $addon-row-background-color;
+		width: 100%;
+		padding: 0.5rem 2.5rem 1rem;
+	}
+	&-title {
+		font-weight: $font-weight-bold;
+	}
+	&-description {
+		width: 100%;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+		font-size: $font-size-sm;
+		margin-bottom: 0.625rem;
+		column-count: 2;
+		line-height: 1rem;
+	}
+}

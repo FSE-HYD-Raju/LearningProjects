@@ -1,0 +1,10 @@
+.CharacteristicsRadioInput {
+	&-wrapper {
+		flex: 1 1 0;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		display: flex;
+		align-self: center;
+		max-height: 32px;
+	}
+}

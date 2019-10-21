@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcAccordion should succeed at shallow mount with minimal props 1`] = `
+<div
+  className="OcAccordion"
+>
+  <OcAccordionItem
+    actionsRenderer={[Function]}
+    contentComponent={
+      <div
+        className="header"
+        id="item-1"
+      />
+    }
+    expanded={false}
+    headerComponent={
+      <div
+        className="header"
+        id="item-1"
+      />
+    }
+    key="accordion-item-item-1"
+    onHeaderClick={[Function]}
+  />
+  <OcAccordionItem
+    actionsRenderer={[Function]}
+    contentComponent={
+      <div
+        className="header"
+        id="item-2"
+      />
+    }
+    expanded={false}
+    headerComponent={
+      <div
+        className="header"
+        id="item-2"
+      />
+    }
+    key="accordion-item-item-2"
+    onHeaderClick={[Function]}
+  />
+  <OcAccordionItem
+    actionsRenderer={[Function]}
+    contentComponent={
+      <div
+        className="header"
+        id="item-3"
+      />
+    }
+    expanded={false}
+    headerComponent={
+      <div
+        className="header"
+        id="item-3"
+      />
+    }
+    key="accordion-item-item-3"
+    onHeaderClick={[Function]}
+  />
+  <OcAccordionItem
+    actionsRenderer={[Function]}
+    contentComponent={
+      <div
+        className="header"
+        id="item-4"
+      />
+    }
+    expanded={false}
+    headerComponent={
+      <div
+        className="header"
+        id="item-4"
+      />
+    }
+    key="accordion-item-item-4"
+    onHeaderClick={[Function]}
+  />
+</div>
+`;

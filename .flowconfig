@@ -1,0 +1,36 @@
+[ignore]
+.*/node_modules/.*/\(lib\|test\).*\.json$
+.*/node_modules/*
+.*/omni-ui-app-pos/*
+
+[untyped]
+# mark all .js files under node_modules as any type but flow still reads types from .js.flow files
+./*/*.ts$
+.*/node_modules/.*js$
+.*/node_modules/.*flow$
+# TODO: ProductOfferingConfiguration and ChangePhoneNumberModal had major flow problems please fix
+.*/ProductOfferingConfiguration.js
+.*/ChangePhoneNumberModal.js
+
+[options]
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=src
+esproposal.class_static_fields=enable
+esproposal.decorators=ignore
+esproposal.export_star_as=enable
+module.name_mapper.extension='scss' -> '<PROJECT_ROOT>/utilities/SCSSstub.js.flow'
+module.name_mapper.extension='css' -> '<PROJECT_ROOT>/utilities/SCSSstub.js.flow'
+module.ignore_non_literal_requires=true
+esproposal.class_instance_fields=enable
+module.name_mapper='(ramda)' -> 'empty/object'
+
+# use this tag when suppressing a flow error which should be fixed (fixing it right a way is the preferred way)
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+
+# use this tag when suppressing a flow error which we just want to ignore
+suppress_comment= \\(.\\|\n\\)*\\$FlowIgnore
+
+module.name_mapper='omnichannel-test-utils' ->'<PROJECT_ROOT>/packages/omnichannel-test-utils/src/'
+module.name_mapper='omnichannel-flux' ->'<PROJECT_ROOT>/packages/omnichannel-flux/src/'
+module.name_mapper='omnichannel-flow' ->'<PROJECT_ROOT>/packages/omnichannel-flow/src/'
+module.name_mapper='omnichannel-pos' ->'<PROJECT_ROOT>/packages/omnichannel-pos/src/'

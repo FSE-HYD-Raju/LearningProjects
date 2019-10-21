@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcAccordionList succeeds at shallow mount without props 1`] = `
+<div>
+  <div
+    className="OcAccordionList-row-content-wrapper"
+    id="OcAccordionList-dummy-id"
+    onClick={[Function]}
+  >
+    <div
+      className="OcAccordionList-row-content"
+    >
+      <span />
+    </div>
+  </div>
+  <OcTransition
+    expanded={false}
+  >
+    <div
+      className="OcAccordionList-expanded-content"
+    >
+      <span />
+    </div>
+  </OcTransition>
+</div>
+`;

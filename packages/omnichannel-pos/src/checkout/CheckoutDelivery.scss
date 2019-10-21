@@ -1,0 +1,96 @@
+@import '~omnichannel-common-pos/lib/styles/mixins.scss';
+
+.CheckoutDelivery{
+	&-pull-right {
+		float: right !important;
+	}
+	&-order-details-section {
+		padding: 40px;
+	}
+	&-order-details-section h1, &-order-details-tab-section h1, &-order-details-section h2, &-order-details-tab-section h2 {
+		font-weight: 300;
+	}
+	&-order-details-section h1, &-order-details-tab-section h1 {
+		text-shadow: none;
+	}
+	&-form-holder {
+		padding-top: 15px;
+	}
+	&-order-details-section label, &-order-details-tab-section label {
+		font-weight: 400;
+	}
+	&-order-details-tab-section &-nav-tabs {
+		padding: 10px 15px 0;
+		background: #0099cc;
+		border: none;
+	}
+	&-nav{
+		margin-bottom: 0;
+		padding-left: 0;
+		list-style: none;
+	}
+	&-order-details-tab-section {
+		background: #fff;
+		color: #555555;
+		text-shadow: none;
+		padding: 0;
+	}
+	&-nav-tabs > &-active > a, &-nav-tabs > &-active:hover > a, &-nav-tabs > &-active:active > a {
+		color: #555555;
+		background-color: #fff;
+		border: 1px solid #ddd;
+		border-bottom-color: transparent;
+		text-decoration: none;
+		cursor: default;
+	}
+	&-order-details-tab-section &-nav-tabs li {
+		border-radius: 0;
+		border: none;
+		min-width: 200px;
+		padding: 10px 15px;
+	}
+	&-order-details-tab-section &-nav-tabs > &-active {
+		background: #fff;
+		a{
+		color: #555555;
+		background-color: #fff;
+		border: 1px solid #ddd;
+		border-bottom-color: transparent;
+		cursor: default;
+		}
+	}
+	&-order-details-tab-section &-nav-tabs li a {
+		color: #fff;
+		border-radius: 0;
+		border: none!important;
+		font-weight: 600;
+		font-size: 14px;
+		text-decoration: none!important;
+	}
+	&-order-details-tab-section &-nav-tabs li a &-products-names span {
+		display: block;
+	}
+	&-order-details-tab-section &-nav-tabs li span .row {
+		display: block;
+		overflow: hidden;
+		width: 100%;
+		clear: both;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-top: 5px;
+	}
+	&-tab-content{
+		padding: 10px 15px 0;
+	}
+	&-icon-holder img {
+    	min-width: 25px;
+    	min-height: 25px;
+		max-width: 40px;
+		max-height: 40px;
+	}
+
+	&-continue-btn {
+		@include max-width();
+	}
+
+}

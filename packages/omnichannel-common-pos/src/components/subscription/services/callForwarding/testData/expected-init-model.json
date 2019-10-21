@@ -1,0 +1,49 @@
+{
+    "type": "forwardAll",
+    "superSwitch": true,
+    "forwardAllDisabled": false,
+    "forwardIfDisabled": true,
+    "configuration": {
+        "CFUFWD": {
+            "id": "CFUFWD",
+            "reason": "importantReason",
+            "specificationId": "callfwd_spec",
+            "inputtedCharacteristics": {
+                "CFMSISDN": "123456789",
+                "CFSTATUS": "1",
+                "SERVICEID": "CFUFWD"
+            }
+        },
+        "CFBFWD": {
+            "id": "CFBFWD",
+            "reason": "importantReason",
+            "specificationId": "callfwd_spec",
+            "inputtedCharacteristics": {
+                "CFMSISDN": "123456789",
+                "CFSTATUS": "1",
+                "SERVICEID": "CFBFWD"
+            }
+        },
+        "CFNRYFWD": {
+            "id": "CFNRYFWD",
+            "reason": "importantReason",
+            "specificationId": "callfwd_spec",
+            "inputtedCharacteristics": {
+                "CFMSISDN": "123456789",
+                "CFSTATUS": "1",
+                "SERVICEID": "CFNRYFWD"
+            }
+        },
+        "CFNRCFWD": {
+            "id": "CFNRCFWD",
+            "reason": "importantReason",
+            "specificationId": "callfwd_spec",
+            "inputtedCharacteristics": {
+                "CFMSISDN": "543221212",
+                "CFSTATUS": "2",
+                "CFTIME": "10",
+                "SERVICEID": "CFNRCFWD"
+            }
+        }
+    }
+}

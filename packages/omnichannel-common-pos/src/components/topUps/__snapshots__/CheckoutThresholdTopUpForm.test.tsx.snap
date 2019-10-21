@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutThresholdTopUpForm succeeds at shallow mount with minimal props 1`] = `
+<div
+  className="CheckoutThresholdTopUpForm-column-group"
+  data-test-name="threshold-field-group"
+>
+  <Field
+    alwaysShowLabel={true}
+    exclusive={false}
+    id="RecurringTopUpConfigurationForm-threshold-value-select"
+    label="Threshold value"
+    name="thresholdValue"
+    type={[Function]}
+  >
+    <option
+      id="RecurringTopUpConfigurationForm-threshold-option-empty"
+      key="threshold_0"
+      value=""
+    >
+      Choose threshold value
+    </option>
+    <option
+      id="RecurringTopUpConfigurationForm-threshold-option-10"
+      key="threshold_0"
+      value="10"
+    >
+      10
+    </option>
+    <option
+      id="RecurringTopUpConfigurationForm-threshold-option-15"
+      key="threshold_1"
+      value="15"
+    >
+      15
+    </option>
+    <option
+      id="RecurringTopUpConfigurationForm-threshold-option-20"
+      key="threshold_2"
+      value="20"
+    >
+      20
+    </option>
+  </Field>
+  <Field
+    alwaysShowLabel={true}
+    exclusive={false}
+    id="RecurringTopUpConfigurationForm-threshold-top-up-amount-field"
+    label="Top-up amount"
+    name="topUpAmount"
+    type={[Function]}
+  >
+    <option
+      id="RecurringTopUpConfigurationForm-threshold-amount-option-empty"
+      key="topup_amount_0"
+      value=""
+    >
+      Choose top-up amount
+    </option>
+    <option
+      id="RecurringTopUpConfigurationForm-threshold-option-10"
+      key="threshold_0"
+      value="10"
+    >
+      10
+    </option>
+    <option
+      id="RecurringTopUpConfigurationForm-threshold-option-20"
+      key="threshold_1"
+      value="20"
+    >
+      20
+    </option>
+  </Field>
+  <Field
+    alwaysShowLabel={true}
+    exclusive={false}
+    id="RecurringTopUpConfigurationForm-threshold-limit-select"
+    label="Limit in a month"
+    name="limitInMonth"
+    type={[Function]}
+  >
+    <option
+      disabled={true}
+      id="RecurringTopUpConfigurationForm-limit-in-month-option-empty"
+      key="limit-in-month_0"
+      value=""
+    >
+      Choose limit in a month value
+    </option>
+    <option
+      id="RecurringTopUpConfigurationForm-limit-in-month-option-10"
+      key="limit-in-month_0"
+      value="10"
+    >
+      10
+    </option>
+    <option
+      id="RecurringTopUpConfigurationForm-limit-in-month-option-20"
+      key="limit-in-month_1"
+      value="20"
+    >
+      20
+    </option>
+    <option
+      id="RecurringTopUpConfigurationForm-limit-in-month-option-30"
+      key="limit-in-month_2"
+      value="30"
+    >
+      30
+    </option>
+    <option
+      id="RecurringTopUpConfigurationForm-limit-in-month-option-40"
+      key="limit-in-month_3"
+      value="40"
+    >
+      40
+    </option>
+  </Field>
+</div>
+`;

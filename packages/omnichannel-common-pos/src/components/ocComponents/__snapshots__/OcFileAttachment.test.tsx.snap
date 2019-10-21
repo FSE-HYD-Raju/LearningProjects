@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcFileAttachment succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="OcFileAttachment-container"
+>
+  <div
+    className="OcFileAttachment-label"
+  >
+    <FormattedMessageWrapper
+      defaultMessage="Attachment"
+      description="File attachment, label for file attachment input"
+      id="oc-file-attachment-input-label"
+      wrapperType="wrapper"
+    />
+  </div>
+  <div
+    className="OcFileAttachment-data"
+  >
+    <div
+      className="OcFileAttachment-file-list"
+      id="OcFileAttachment-files-uploaded-list"
+    />
+    <form
+      className="OcFileAttachment-file-form"
+    >
+      <input
+        className="OcFileAttachment-hidden-input"
+        disabled={false}
+        id="OcFileAttachment-fileItem"
+        onChange={[Function]}
+        type="file"
+      />
+      <OcButton
+        buttonType="LINK"
+        className="OcFileAttachment-attach-file-btn"
+        disabled={false}
+        htmlBtnType="button"
+        id="OcFileAttachment-fileItem-btn"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Attach file"
+          description="File attachment, label for attach button"
+          id="oc-file-attachment-attach-file-btn-label"
+          wrapperType="wrapper"
+        />
+      </OcButton>
+      <div
+        className="OcFileAttachment-attachment-hint"
+      >
+        3 attachments max. File size shouldn't exceed 20Mb.
+      </div>
+    </form>
+  </div>
+</div>
+`;

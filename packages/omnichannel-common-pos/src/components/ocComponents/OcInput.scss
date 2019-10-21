@@ -1,0 +1,11 @@
+@import '../../styles/mixins.scss';
+
+.OcInput {
+	&-required-field-icon {
+		@include required-field-icon();
+	}
+}
+
+.invalid-feedback {
+	display: block;
+}

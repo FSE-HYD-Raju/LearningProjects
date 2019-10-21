@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerDetailsNotificationsShow succeeds at shallow mount without props 1`] = `
+<div>
+  <Flex
+    alignItems=""
+    alignSelf=""
+    className="CustomerDetailsView-subDetails-field"
+    justifyContent=""
+    wrap="wrap"
+  >
+    <span
+      className="CustomerDetailsView-subDetails-field-name"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Marketing permissions"
+        description="Pos customer details marketing permissions"
+        id="pos-customer-details-marketing-permissions"
+        wrapperType="wrapper"
+      />
+    </span>
+    <span>
+      <span
+        className="CustomerDetailsView-marketing-not-allowed"
+      >
+        <i
+          className="fa fa-ban btn-icon-left"
+          id="CustomerDetailsNotificationsShow-marketing-permissions-email-not-allowed"
+        />
+        <FormattedMessageWrapper
+          defaultMessage="Email"
+          description="service-desk, new customer, label email"
+          id="newcustomer-email"
+          wrapperType="wrapper"
+        />
+      </span>
+      <span
+        className="CustomerDetailsView-marketing-not-allowed"
+      >
+        <i
+          className="fa fa-ban btn-icon-left"
+          id="CustomerDetailsNotificationsShow-marketing-permissions-phone-not-allowed"
+        />
+        <FormattedMessageWrapper
+          defaultMessage="SMS"
+          description="service-desk, customer details, label sms"
+          id="customer-details-sms"
+          wrapperType="wrapper"
+        />
+      </span>
+    </span>
+  </Flex>
+  <Flex
+    alignItems=""
+    alignSelf=""
+    className="CustomerDetailsView-subDetails-field"
+    justifyContent=""
+    wrap="wrap"
+  >
+    <span
+      className="CustomerDetailsView-subDetails-field-name"
+    >
+      <FormattedMessageWrapper
+        defaultMessage="3rd party marketing"
+        description="Pos customer details 3rd party marketing"
+        id="pos-customer-details-third-party-marketing"
+        wrapperType="wrapper"
+      />
+    </span>
+    <span>
+      <span
+        className="CustomerDetailsView-marketing-not-allowed"
+      >
+        <i
+          className="fa fa-ban btn-icon-left"
+          id="CustomerDetailsNotificationsShow-third-party-marketing-email-not-allowed"
+        />
+        <FormattedMessageWrapper
+          defaultMessage="Email"
+          description="service-desk, new customer, label email"
+          id="newcustomer-email"
+          wrapperType="wrapper"
+        />
+      </span>
+      <span
+        className="CustomerDetailsView-marketing-not-allowed"
+      >
+        <i
+          className="fa fa-ban btn-icon-left"
+          id="CustomerDetailsNotificationsShow-third-party-marketing-phone-not-allowed"
+        />
+        <FormattedMessageWrapper
+          defaultMessage="SMS"
+          description="service-desk, customer details, label sms"
+          id="customer-details-sms"
+          wrapperType="wrapper"
+        />
+      </span>
+    </span>
+  </Flex>
+</div>
+`;

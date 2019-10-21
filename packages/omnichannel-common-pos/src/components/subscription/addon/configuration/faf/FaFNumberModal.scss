@@ -1,0 +1,61 @@
+@import '../../../../../variables';
+
+.FaFNumberModal {
+	display: flex;
+	&-fafrow {
+		display: flex;
+		align-items: center;
+		margin: 5px 0;
+	}
+	&-number-row > div {
+		margin: 0 5px;
+	}
+	&-item {
+		display: flex;
+	}
+	&-number {
+		display: flex;
+		padding: 5px;
+		font-weight: bold;
+	}
+	&-removeButton {
+		padding: 0;
+	}
+
+	&-information {
+		display: flex;
+	}
+
+	&-info-label {
+		flex: 1;
+		align-self: start;
+	}
+
+	&-info-label > i {
+		color: $main-blue;
+	}
+
+	&-info-content {
+		flex: 20;
+	}
+
+	&-addNumberComponent {
+		display: flex;
+	}
+
+	&-addNumberComponent > form {
+		display: flex;
+	}
+
+	&-inputContainer {
+		display: flex;
+		border: $light-gray 2px solid;
+		background-color: $light-grey-lighter;
+		padding: 20px;
+	}
+
+	&-inputContainer > div, &-inputContainer > button {
+		margin: 0 5px;
+	}
+}
+

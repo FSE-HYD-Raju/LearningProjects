@@ -1,0 +1,10 @@
+.NavBarSearchMenu {
+	& .navbar-search-type {
+		&:focus {
+			text-decoration: none;
+		}
+		&:active {
+			text-decoration: none;
+		}
+	}
+}

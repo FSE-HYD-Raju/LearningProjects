@@ -1,0 +1,26 @@
+.ProductOfferingGroupCheckbox {
+	&-port-in {
+		&-container {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			flex-wrap: nowrap;
+			padding: 5px 0;
+			flex-grow: 1;
+		}
+		&-input-container {
+			display: flex;
+			flex-grow: 3;
+		}
+		&-input {
+			font-size: 14px;
+			color: #454545;
+			line-height: 20px;
+		}
+		&-price{
+			display: flex;
+			flex-grow: 1;
+			justify-content: flex-end;
+		}
+	}
+}

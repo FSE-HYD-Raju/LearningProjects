@@ -1,0 +1,439 @@
+@import '~omnichannel-common-pos/lib/styles/_variables.scss';
+
+// Reset app window sizing for the current wrapper-happy configuration
+
+.pos-root-container#w-app {
+	perspective: none;
+	&:after {
+		display: none;
+	}
+}
+
+.pos-page-container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.pos-page-body {
+	&, > div, .ServiceDesk-container {
+		flex: 1 0 0;
+		display: flex;
+		flex-direction: column;
+	}
+	.ServiceDesk-container:after {
+		content: '';
+		flex: 0 0 $weasel-body-margin-base;
+	}
+}
+
+
+
+.rotate-90 {
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transition: 0.3s;
+}
+
+.rotate-0 {
+	transition: 0.3s;
+}
+
+.rotate-180 {
+	transform: rotateX(180deg);
+	-webkit-transform: rotateX(180deg);
+	transition: 0.3s;
+}
+
+.talk-item label {
+	margin-bottom: 0;
+}
+
+.icon-active {
+	color: white;
+}
+
+#peopleNav .active {
+	background: #ddd !important;
+}
+
+.unselected-box {
+	border: 3px solid transparent;
+}
+
+.selected-box {
+	border: 3px solid #acd858 !important;
+}
+
+.active .product-title-holder > a {
+	color: #eee;
+}
+
+.active .product-title-holder > a > small {
+	color: #555 !important;
+}
+
+.step-body {
+	display: flex;
+	flex: 1;
+}
+
+.step-header {
+	min-height: 140px;
+}
+
+.my-communication-space .i-want-item a {
+	font-size: 21px !important;
+}
+
+.panel-title > span {
+	text-transform: uppercase;
+}
+
+.product-box {
+	// min-height: 360px;
+}
+
+.interests-categories {
+	transition: width 0.5s !important;
+	z-index: 1;
+}
+
+.aside-visible {
+	position: absolute;
+	right: 0;
+	transition: 0.5s !important;
+	z-index: 0;
+	width: 25%;
+}
+
+.aside-hidden {
+	position: absolute;
+	right: 0;
+	transition: all 0.5s !important;
+	z-index: 0;
+	width: 25%;
+}
+
+.interests-section > .container {
+	width: 100%;
+}
+
+.step-holder {
+	color: #fff;
+	transition: color 0.15s;
+	.order-steps-holder .step-body .order-product-list,
+	.order-steps-holder .step-body .order-product-list .empty-label,
+	.product-title-holder,
+	.product-title-holder a,
+	.step-body .order-product-list .empty-label {
+		// color:#fff;
+		transition: color 0.15s;
+	}
+}
+
+.disabled-step {
+	// background: #ccc;
+	transition: color 0.5s;
+	color: #bbb;
+	.order-steps-holder .step-body .order-product-list,
+	.order-steps-holder .step-body .order-product-list .empty-label,
+	.product-title-holder,
+	.product-title-holder a,
+	.step-body .order-product-list .empty-label {
+		color: #aaa;
+	}
+}
+
+.enabled-step {
+	// transition: color 0.15s;
+}
+
+.communication-view .view-inner {
+	width: 100%;
+}
+
+.product-browsing .personalization-info-holder .personalization-extend {
+	padding-top: 80px;
+}
+
+.product-browsing .personalization-info-holder .personalization-extend-badge {
+	padding-top: 40px;
+	img {
+		width: 60%;
+	}
+}
+
+.ecommerce-section.section-quiz .badge-holder {
+	width: 50%;
+}
+
+.badge-holder {
+	text-align: center;
+}
+
+.products-list .product .product-variants {
+	position: relative;
+	z-index: 1;
+}
+
+@media (min-width: 992px) {
+	.products-list .product .product-actions .btn-holder {
+		width: 35%;
+	}
+}
+
+.disabledSelect {
+	opacity: 0.45 !important;
+	transition: 0.35s;
+}
+
+/*@keyframes blink {
+0% {background-color: #007399}
+100% {background-color: #eee}
+}*/
+
+@keyframes blink {
+	// 0% {border: 3px solid #007399}
+	0% {
+		background: #4682b4;
+	}
+	100% {
+		background: #eee;
+	}
+}
+
+.product-select-highlight {
+	animation: blink;
+	animation-duration: 0.2s;
+	animation-iteration-count: 3;
+}
+
+.toggle-order-steps {
+	&:hover {
+		color: #0096c8;
+		cursor: pointer;
+	}
+}
+
+.services-view .step-holder {
+	max-width: 25%;
+	.active {
+		max-width: 33%;
+	}
+}
+
+.usage-panel > div > h4 {
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 16px;
+}
+
+.order-steps-holder .toggle-order-steps {
+	z-index: 9;
+}
+
+.order-steps-holder .step-holder .step-header:after {
+	z-index: 9;
+}
+
+.SIM-dropdown .dropdown-menu .label-in-use-number span,
+.SIM-dropdown .dropdown-menu .label-sim-details-icc span {
+	color: #333;
+}
+
+.SIM-dropdown .dropdown-menu .label-in-use-number span:first-child,
+.SIM-dropdown .dropdown-menu .label-sim-details-icc span:first-child {
+	color: #d8d8d8;
+}
+
+.item-configurations img.service-icon.configure {
+	width: 100%;
+}
+
+.popover {
+	z-index: 100;
+	padding: 12px;
+}
+
+.assistance-date-picker {
+	.form-control {
+		display: none;
+	}
+
+	.input-group-btn {
+		.btn {
+			height: 36px;
+		}
+	}
+}
+
+.disabled-date-picker {
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+.my-communication-space {
+	max-width: 1920px !important;
+}
+
+.panel-config .config-item-list .icon {
+	max-height: 40px;
+}
+
+.things-notification-holder {
+	background-color: #f9e7cf;
+	border-left: 2px solid #fca63a;
+	float: left;
+	padding: 10px;
+	width: 100%;
+}
+
+.navbar.navbar-inverse.b2c {
+	background-color: #4287b7;
+}
+
+.navbar.navbar-inverse.telesales {
+	background-color: #5bc0de;
+}
+
+.navbar.navbar-inverse.pos {
+	background-color: #6659b0;
+}
+
+/* pos facelift */
+
+/*
+    commonly used colors
+*/
+
+$primary-color: #eee;
+$semi-transparent: rgba(255, 255, 255, 0.15);
+$border-color: #b1bddd;
+
+/* Navbar overrides */
+
+.NavBar-pos {
+	background-color: transparent;
+
+	#navbar-search {
+		border: none;
+		background: $semi-transparent;
+	}
+
+	.NavBar-center input {
+		border: none !important;
+		background: $semi-transparent !important;
+	}
+
+	.NavBar-center {
+		.OcInput-active-input {
+			padding-top: 6px !important;
+		}
+	}
+
+	.NavBar-center > .OcInput {
+		margin-right: 3px;
+		height: 40px;
+	}
+
+	.OcInput {
+		border: none;
+		background: $semi-transparent;
+	}
+	.OcInput-select,
+	.OcInput-text,
+	.OcInput-select > select,
+	.OcInput-select:after,
+	.OcInput-label {
+		border: none;
+		color: $primary-color !important;
+	}
+
+	.OcInput-input {
+		color: $primary-color;
+	}
+
+	.NavBarButton-button {
+		font-size: 12px;
+		color: $primary-color;
+	}
+
+	.OcInput-label {
+		background: transparent;
+	}
+}
+
+.NavBar-active {
+	background-color: transparent;
+}
+
+/* ChangeLanguage component in POS*/
+
+.ChangeLanguage {
+	&-container {
+		min-width: 60px;
+		.OcInput {
+			height: 41px !important;
+		}
+		.OcInput-active-input {
+			padding-top: 6px !important;
+		}
+	}
+}
+/* the content div of POS */
+
+#inner-container {
+	//background-color: #eeeeee;
+	margin: auto 20px;
+	padding-bottom: 10px;
+	min-height: 400px;
+}
+
+.oc-max-width {
+	max-width: 1680px;
+	margin: 20px;
+	@media (min-width: 1680px) {
+		margin: 20px;
+	}
+}
+
+.LoginForm-pos-login {
+	.OcInput {
+		background: rgba(0, 0, 0, 0.05);
+		//border: 1px solid rgba(255,255,255,0.50);
+		box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.2);
+		border-radius: 2px;
+	}
+
+	.OcInput-input {
+		background: rgba(0, 0, 0, 0.05);
+		color: white;
+
+		&:focus {
+			border: 1px solid #aaa;
+			box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.35);
+		}
+	}
+
+	.OcInput-label {
+		color: #eee;
+	}
+
+	.OcInput-active {
+		background: transparent;
+		color: #aaa;
+	}
+
+	.OcButton {
+		background: rgba(0, 0, 0, 0.05);
+		border: 2px solid white;
+		width: 100%;
+		min-height: 42px;
+
+		&:hover {
+			background: rgba(0, 0, 0, 0.15);
+			border: 2px solid white;
+		}
+	}
+}

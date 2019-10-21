@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacteristicsDropdown should shallow mount with minimum props 1`] = `
+<CharacteristicsDropdown
+  ICCIDPreactivationValidationPOs={Array []}
+  actions={
+    Object {
+      "resetConfigurations": [Function],
+      "resetValidIcc": [MockFunction],
+      "setEnhancedCharacteristics": [Function],
+      "setInputtedCharacteristic": [Function],
+      "triggerFnfValidation": [MockFunction],
+      "triggerICCIDPreactivationValidation": [MockFunction],
+    }
+  }
+  characteristicKey="a"
+  characteristicsAliases={Object {}}
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+/>
+`;

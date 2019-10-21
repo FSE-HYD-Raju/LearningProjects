@@ -1,0 +1,103 @@
+.SimExampleView {
+	&-container {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		width: 24.6875rem;
+		height: 14.0625rem;
+		border-radius: .5rem;
+		background-color: $weasel-background-solid;
+		padding: 1rem;
+		margin-bottom: 1.5rem;
+	}
+	&-logo {
+		border: 0.0625rem solid $gray-600;
+		width: 6.75rem;
+		height: 4rem;
+		border-radius: $border-radius;
+		text-align: center;
+		line-height: 4rem;
+		color: $gray-600;
+	}
+	&-wrapper {
+		width: 4.25rem;
+		height: 3.125rem;
+		display: flex;
+		overflow: hidden;
+		margin-top: 1rem;
+	}
+	&-sim-main {
+		position: relative;
+		width: 4.25rem;
+		height: 3.125rem;
+		border: 0.0625rem solid $gray-600;
+		border-radius: $border-radius-lg;
+		&:before {
+			position: absolute;
+			width: 0.8rem;
+			height: 0.8rem;
+			top: 2.61rem;
+			left: -0.47rem;
+			transform: rotate(45deg);
+			content: "";
+			background-color: $weasel-background-solid;
+			border-top: 0.0625rem solid $gray-600;
+		}
+	}
+	&-number {
+		position: absolute;
+		font-size: 0.8125rem;
+		transform: rotate(270deg);
+		top: 40%;
+		right: -1.75rem;
+		color: $gray-600;
+	}
+	&-highlighted {
+		margin-left: -0.0625rem;
+		border: 0.175rem solid $danger;
+		padding: 0.0625rem;
+		color: $gray-900;
+	}
+	&-right {
+		display: flex;
+		margin-right: 1.2rem;
+	}
+	&-right-inner {
+		display: flex;
+		width: 65%;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+	&-code {
+		width: 6.5rem;
+		height: 1.125rem;
+		position: relative;
+		margin: 0.5rem 0;
+		background: repeating-linear-gradient(
+				90deg,
+				$weasel-background-solid,
+				$weasel-background-solid 0.3125rem,
+				$gray-600 0.0625rem,
+				$gray-600 0.375rem);
+	}
+	&-bold, &-bolder {
+		height: 1.125rem;
+		width: 0.25rem;
+		background-color: $gray-600;
+		display: block;
+		position: absolute;
+		&.SimExampleView-first {
+			left: 0.625rem;
+		}
+		&.SimExampleView-second {
+			left: 2.125rem;
+		}
+		&.SimExampleView-third {
+			right: 0.4rem;
+		}
+	}
+	&-bolder {
+		width: 0.375rem;
+		right: 1.112rem;
+	}
+}

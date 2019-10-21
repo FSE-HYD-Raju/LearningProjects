@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplatedAnchor succeeds at shallow mount with minimum props 1`] = `
+<a
+  href="https://example.org"
+  id="templated-href"
+>
+  <div />
+</a>
+`;

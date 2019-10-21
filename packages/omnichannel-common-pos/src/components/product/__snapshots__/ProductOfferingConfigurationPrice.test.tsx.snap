@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductOfferingConfigurationPrice should shallow mount without props 1`] = `
+<div
+  className="ProductOfferingConfigurationPrice-container"
+>
+  <span
+    className="oc-currency ProductOfferingConfigurationPrice-unselected"
+  >
+    <FormattedMessageWrapper
+      defaultMessage="Free"
+      description="Free product"
+      id="product-offering-config-free"
+      wrapperType="wrapper"
+    />
+  </span>
+</div>
+`;

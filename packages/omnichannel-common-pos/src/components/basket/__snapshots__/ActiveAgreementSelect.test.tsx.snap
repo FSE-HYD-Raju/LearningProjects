@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActiveAgreementSelect succeeds at shallow mount without props 1`] = `
+<div
+  className="ActiveAgreementSelect-container"
+>
+  <div
+    className="ActiveAgreementSelect-agreement"
+  >
+    <div
+      className="ActiveAgreementSelect-agreement-select-container"
+    >
+      <label
+        htmlFor="minibasket-agreement-select"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="For agreement"
+          description="Minibasket agreement select label"
+          id="minibasket-agreement-select-label"
+          wrapperType="wrapper"
+        />
+      </label>
+      <select
+        className="ActiveAgreementSelect-minibasket-agreement-select custom-select"
+        id="minibasket-agreement-select"
+        onChange={[Function]}
+        required={false}
+        value="id"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="New agreement"
+          description="Minibasket, agreement selection, Select new agreement"
+          id="minibasket-new-agreement-select"
+          tagName="option"
+          wrapperType="wrapper"
+        />
+      </select>
+    </div>
+  </div>
+</div>
+`;

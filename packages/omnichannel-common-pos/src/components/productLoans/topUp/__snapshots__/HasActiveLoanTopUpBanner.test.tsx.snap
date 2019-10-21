@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HasActiveLoanTopUpBanner succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="HasActiveLoanTopUpBanner alert alert-primary"
+>
+  <div>
+    <strong>
+      <FormattedMessageWrapper
+        defaultMessage="You have active loan"
+        description="Top-up with active loan banner header"
+        id="top-up-with-active-loan-banner-header"
+        wrapperType="wrapper"
+      />
+    </strong>
+  </div>
+  <span
+    id="loan-priority-message-test-id"
+  >
+    <FormattedMessageWrapper
+      defaultMessage="Loan amount {amount}will take priority in execution to other refill activity"
+      description="Top-up with active loan banner text"
+      id="top-up-with-active-loan-banner-text"
+      values={
+        Object {
+          "amount": "",
+        }
+      }
+      wrapperType="wrapper"
+    />
+  </span>
+</div>
+`;

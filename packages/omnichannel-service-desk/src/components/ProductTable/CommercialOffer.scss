@@ -1,0 +1,29 @@
+
+.CommercialOffer {
+	&-tile-container {
+                margin-left: 25px;
+                margin-bottom: 20px;
+                width: 354px;
+                background-color: rgb(255, 255, 255);
+        }
+        
+        &-plan-details-link {
+                text-decoration: none !important;
+                color: #4287B7 !important;
+                cursor: pointer;
+                margin-left: 12em;
+        }
+
+        &-description-ellipsis {
+                display: -webkit-box;
+                max-width: 100%;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+        }
+
+        &-price-details {
+                margin-top: 2%;
+        }
+}

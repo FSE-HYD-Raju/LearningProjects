@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TechnicalDetails succeeds at shallow mount without props 1`] = `
+<div
+  className="TechnicalDetails-container"
+/>
+`;

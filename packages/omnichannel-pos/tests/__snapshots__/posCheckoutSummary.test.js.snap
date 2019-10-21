@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`POSCheckoutSummary succeeds at deep mount with minimum props 1`] = `
+<Connect(POSCheckoutSummary)
+  BasketActions={
+    Object {
+      "activateCheckoutStep": [Function],
+    }
+  }
+  BasketStore={Object {}}
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+>
+  <POSCheckoutSummary
+    BasketActions={
+      Object {
+        "activateCheckoutStep": [Function],
+      }
+    }
+    BasketStore={Object {}}
+    action={
+      Object {
+        "backToDetails": [Function],
+      }
+    }
+    document={
+      Object {
+        "documents": Object {},
+      }
+    }
+    intl={
+      Object {
+        "defaultFormats": Object {},
+        "defaultLocale": "en",
+        "formatDate": [Function],
+        "formatHTMLMessage": [Function],
+        "formatMessage": [Function],
+        "formatNumber": [Function],
+        "formatPlural": [Function],
+        "formatRelative": [Function],
+        "formatTime": [Function],
+        "formats": Object {},
+        "formatters": Object {
+          "getDateTimeFormat": [Function],
+          "getMessageFormat": [Function],
+          "getNumberFormat": [Function],
+          "getPluralFormat": [Function],
+          "getRelativeFormat": [Function],
+        },
+        "locale": "en",
+        "messages": Object {},
+        "now": [Function],
+        "onError": [Function],
+        "textComponent": "span",
+        "timeZone": null,
+      }
+    }
+    showDigitalSignature={true}
+    uploadDocumentConfiguration={
+      Object {
+        "acceptedFileFormats": Array [],
+        "isEnabled": false,
+      }
+    }
+  />
+</Connect(POSCheckoutSummary)>
+`;
+
+exports[`POSCheckoutSummary succeeds at shallow mount with minimum props 1`] = `
+<POSCheckoutSummary
+  BasketActions={
+    Object {
+      "activateCheckoutStep": [Function],
+    }
+  }
+  BasketStore={Object {}}
+  action={
+    Object {
+      "backToDetails": [Function],
+    }
+  }
+  document={
+    Object {
+      "documents": Object {},
+    }
+  }
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "onError": [Function],
+      "textComponent": "span",
+      "timeZone": null,
+    }
+  }
+  showDigitalSignature={true}
+  uploadDocumentConfiguration={
+    Object {
+      "acceptedFileFormats": Array [],
+      "isEnabled": false,
+    }
+  }
+/>
+`;

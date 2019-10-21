@@ -1,0 +1,59 @@
+.ProductOfferingGroupMsisdnSelection {
+	&-group-title {
+		font-weight: 600;
+		font-size: 20px;
+		color: rgb(69, 69, 69);
+		letter-spacing: -0.47px;
+	}
+	&-product-container {
+		display: flex;
+		flex-direction: column;
+	}
+	&-price-container {
+		margin-left: 6px;
+		flex: initial;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		display: flex;
+	}
+	&-header-container{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	&-text-wrap {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&-number {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	&-select-number-button-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+
+	}
+	&-content-box-no-margin {
+		@include content-box();
+		max-width: 1680px;
+		margin: 0;
+		@media (min-width: 1200px) {
+			margin: 0;
+		}
+		@media (min-width: 1680px) {
+			margin: 0;
+		}
+		@media (max-width: 480px) {
+			margin: 0;
+		}
+		padding: 12px;
+		minHeight: 49px;
+		width: 100%;
+	}
+}

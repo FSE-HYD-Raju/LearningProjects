@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OcAccordionItemActions should succeed at shallow mount with minimal props 1`] = `
+<a
+  className="OcAccordion-actions"
+  href="javascript:;"
+  onClick={[Function]}
+>
+  <FormattedMessageWrapper
+    defaultMessage="Show more"
+    description="Contracted product show less"
+    id="contracted-product-show-less"
+    wrapperType="wrapper"
+  />
+  <i
+    className="fa fa-chevron-down"
+  />
+</a>
+`;

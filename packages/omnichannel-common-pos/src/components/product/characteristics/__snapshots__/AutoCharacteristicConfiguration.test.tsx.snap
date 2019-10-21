@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutoCharacteristicConfiguration should shallow mount with minimal props 1`] = `
+<span
+  style={
+    Object {
+      "display": "none",
+    }
+  }
+>
+  CH_SMS_Dialogue
+  true
+</span>
+`;

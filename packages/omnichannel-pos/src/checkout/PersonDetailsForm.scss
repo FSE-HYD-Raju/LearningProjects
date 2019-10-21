@@ -1,0 +1,33 @@
+@import '~omnichannel-common-pos/lib/styles/_variables';
+
+.PersonDetailsForm {
+	&-fieldsets {
+		legend {
+			font-size: $h5-font-size;
+		}
+	}
+	&-fieldsets-column {
+		flex-direction: column;
+	}
+	&-details-form footer {
+		display: flex;
+		justify-content: flex-end;
+		margin-top: 1rem;
+		padding-top: 1rem;
+		border-top: 1px solid $weasel-border-color-solid;
+		.btn {
+			margin-left: 1rem;
+		}
+	}
+	@include media-breakpoint-up(xl){
+		&-fieldsets {
+			@include make-row();
+			fieldset {
+				@include make-col-ready();
+				flex: 1 0 0;
+			}
+		}
+
+	}
+}
+

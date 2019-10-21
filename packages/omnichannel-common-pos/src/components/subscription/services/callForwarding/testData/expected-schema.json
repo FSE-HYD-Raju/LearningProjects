@@ -1,0 +1,733 @@
+{
+    "_deps": [],
+    "_conditions": [],
+    "_options": {
+        "abortEarly": true,
+        "recursive": true
+    },
+    "_exclusive": {},
+    "_whitelist": {
+        "_map": {},
+        "_refs": {}
+    },
+    "_blacklist": {
+        "_map": {},
+        "_refs": {}
+    },
+    "tests": [],
+    "transforms": [
+        null
+    ],
+    "_mutate": false,
+    "_type": "object",
+    "fields": {
+        "type": {
+            "_deps": [],
+            "_conditions": [],
+            "_options": {
+                "abortEarly": true,
+                "recursive": true
+            },
+            "_exclusive": {},
+            "_whitelist": {
+                "_map": {},
+                "_refs": {}
+            },
+            "_blacklist": {
+                "_map": {},
+                "_refs": {}
+            },
+            "tests": [],
+            "transforms": [
+                null
+            ],
+            "_mutate": false,
+            "_type": "string"
+        },
+        "configuration": {
+            "_deps": [],
+            "_conditions": [],
+            "_options": {
+                "abortEarly": true,
+                "recursive": true
+            },
+            "_exclusive": {},
+            "_whitelist": {
+                "_map": {},
+                "_refs": {}
+            },
+            "_blacklist": {
+                "_map": {},
+                "_refs": {}
+            },
+            "tests": [],
+            "transforms": [
+                null
+            ],
+            "_mutate": false,
+            "_type": "object",
+            "fields": {
+                "CFNRCFWD": {
+                    "_deps": [],
+                    "_conditions": [],
+                    "_options": {
+                        "abortEarly": true,
+                        "recursive": true
+                    },
+                    "_exclusive": {},
+                    "_whitelist": {
+                        "_map": {},
+                        "_refs": {}
+                    },
+                    "_blacklist": {
+                        "_map": {},
+                        "_refs": {}
+                    },
+                    "tests": [],
+                    "transforms": [
+                        null
+                    ],
+                    "_mutate": false,
+                    "_type": "object",
+                    "fields": {
+                        "inputtedCharacteristics": {
+                            "_deps": [],
+                            "_conditions": [],
+                            "_options": {
+                                "abortEarly": true,
+                                "recursive": true
+                            },
+                            "_exclusive": {},
+                            "_whitelist": {
+                                "_map": {},
+                                "_refs": {}
+                            },
+                            "_blacklist": {
+                                "_map": {},
+                                "_refs": {}
+                            },
+                            "tests": [],
+                            "transforms": [
+                                null
+                            ],
+                            "_mutate": false,
+                            "_type": "object",
+                            "fields": {
+                                "CFMSISDN": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {
+                                        "undefined": false
+                                    },
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [
+                                        null
+                                    ],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                },
+                                "CFTIME": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {},
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                },
+                                "CFSTATUS": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {},
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                },
+                                "targetState": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {},
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                }
+                            },
+                            "_nodes": [
+                                "targetState",
+                                "CFSTATUS",
+                                "CFTIME",
+                                "CFMSISDN"
+                            ],
+                            "_excludedEdges": [
+                                "undefined-undefined"
+                            ]
+                        }
+                    },
+                    "_nodes": [
+                        "inputtedCharacteristics"
+                    ],
+                    "_excludedEdges": [
+                        "undefined-undefined"
+                    ]
+                },
+                "CFUFWD": {
+                    "_deps": [],
+                    "_conditions": [],
+                    "_options": {
+                        "abortEarly": true,
+                        "recursive": true
+                    },
+                    "_exclusive": {},
+                    "_whitelist": {
+                        "_map": {},
+                        "_refs": {}
+                    },
+                    "_blacklist": {
+                        "_map": {},
+                        "_refs": {}
+                    },
+                    "tests": [],
+                    "transforms": [
+                        null
+                    ],
+                    "_mutate": false,
+                    "_type": "object",
+                    "fields": {
+                        "inputtedCharacteristics": {
+                            "_deps": [],
+                            "_conditions": [],
+                            "_options": {
+                                "abortEarly": true,
+                                "recursive": true
+                            },
+                            "_exclusive": {},
+                            "_whitelist": {
+                                "_map": {},
+                                "_refs": {}
+                            },
+                            "_blacklist": {
+                                "_map": {},
+                                "_refs": {}
+                            },
+                            "tests": [],
+                            "transforms": [
+                                null
+                            ],
+                            "_mutate": false,
+                            "_type": "object",
+                            "fields": {
+                                "CFMSISDN": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {
+                                        "undefined": false
+                                    },
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [
+                                        null
+                                    ],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                },
+                                "CFTIME": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {},
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                },
+                                "CFSTATUS": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {},
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                },
+                                "targetState": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {},
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                }
+                            },
+                            "_nodes": [
+                                "targetState",
+                                "CFSTATUS",
+                                "CFTIME",
+                                "CFMSISDN"
+                            ],
+                            "_excludedEdges": [
+                                "undefined-undefined"
+                            ]
+                        }
+                    },
+                    "_nodes": [
+                        "inputtedCharacteristics"
+                    ],
+                    "_excludedEdges": [
+                        "undefined-undefined"
+                    ]
+                },
+                "CFNRYFWD": {
+                    "_deps": [],
+                    "_conditions": [],
+                    "_options": {
+                        "abortEarly": true,
+                        "recursive": true
+                    },
+                    "_exclusive": {},
+                    "_whitelist": {
+                        "_map": {},
+                        "_refs": {}
+                    },
+                    "_blacklist": {
+                        "_map": {},
+                        "_refs": {}
+                    },
+                    "tests": [],
+                    "transforms": [
+                        null
+                    ],
+                    "_mutate": false,
+                    "_type": "object",
+                    "fields": {
+                        "inputtedCharacteristics": {
+                            "_deps": [],
+                            "_conditions": [],
+                            "_options": {
+                                "abortEarly": true,
+                                "recursive": true
+                            },
+                            "_exclusive": {},
+                            "_whitelist": {
+                                "_map": {},
+                                "_refs": {}
+                            },
+                            "_blacklist": {
+                                "_map": {},
+                                "_refs": {}
+                            },
+                            "tests": [],
+                            "transforms": [
+                                null
+                            ],
+                            "_mutate": false,
+                            "_type": "object",
+                            "fields": {
+                                "CFMSISDN": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {
+                                        "undefined": false
+                                    },
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [
+                                        null
+                                    ],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                },
+                                "CFTIME": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {},
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                },
+                                "CFSTATUS": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {},
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                },
+                                "targetState": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {},
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                }
+                            },
+                            "_nodes": [
+                                "targetState",
+                                "CFSTATUS",
+                                "CFTIME",
+                                "CFMSISDN"
+                            ],
+                            "_excludedEdges": [
+                                "undefined-undefined"
+                            ]
+                        }
+                    },
+                    "_nodes": [
+                        "inputtedCharacteristics"
+                    ],
+                    "_excludedEdges": [
+                        "undefined-undefined"
+                    ]
+                },
+                "CFBFWD": {
+                    "_deps": [],
+                    "_conditions": [],
+                    "_options": {
+                        "abortEarly": true,
+                        "recursive": true
+                    },
+                    "_exclusive": {},
+                    "_whitelist": {
+                        "_map": {},
+                        "_refs": {}
+                    },
+                    "_blacklist": {
+                        "_map": {},
+                        "_refs": {}
+                    },
+                    "tests": [],
+                    "transforms": [
+                        null
+                    ],
+                    "_mutate": false,
+                    "_type": "object",
+                    "fields": {
+                        "inputtedCharacteristics": {
+                            "_deps": [],
+                            "_conditions": [],
+                            "_options": {
+                                "abortEarly": true,
+                                "recursive": true
+                            },
+                            "_exclusive": {},
+                            "_whitelist": {
+                                "_map": {},
+                                "_refs": {}
+                            },
+                            "_blacklist": {
+                                "_map": {},
+                                "_refs": {}
+                            },
+                            "tests": [],
+                            "transforms": [
+                                null
+                            ],
+                            "_mutate": false,
+                            "_type": "object",
+                            "fields": {
+                                "CFMSISDN": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {
+                                        "undefined": false
+                                    },
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [
+                                        null
+                                    ],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                },
+                                "CFTIME": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {},
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                },
+                                "CFSTATUS": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {},
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                },
+                                "targetState": {
+                                    "_deps": [],
+                                    "_conditions": [],
+                                    "_options": {
+                                        "abortEarly": true,
+                                        "recursive": true
+                                    },
+                                    "_exclusive": {},
+                                    "_whitelist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "_blacklist": {
+                                        "_map": {},
+                                        "_refs": {}
+                                    },
+                                    "tests": [],
+                                    "transforms": [
+                                        null
+                                    ],
+                                    "_mutate": false,
+                                    "_type": "string"
+                                }
+                            },
+                            "_nodes": [
+                                "targetState",
+                                "CFSTATUS",
+                                "CFTIME",
+                                "CFMSISDN"
+                            ],
+                            "_excludedEdges": [
+                                "undefined-undefined"
+                            ]
+                        }
+                    },
+                    "_nodes": [
+                        "inputtedCharacteristics"
+                    ],
+                    "_excludedEdges": [
+                        "undefined-undefined"
+                    ]
+                }
+            },
+            "_nodes": [
+                "CFBFWD",
+                "CFNRYFWD",
+                "CFUFWD",
+                "CFNRCFWD"
+            ],
+            "_excludedEdges": [
+                "undefined-undefined"
+            ]
+        }
+    },
+    "_nodes": [
+        "configuration",
+        "type"
+    ],
+    "_excludedEdges": [
+        "undefined-undefined"
+    ]
+}

@@ -1,0 +1,45 @@
+@import '~omnichannel-common-pos/lib/styles/variables';
+
+.MarketingConsentForm {
+	&-marketing-consent-input-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin-left: 60px;
+		margin-right: 60px;
+		padding-top: 10px;
+		border-top: 1px solid $gray-200;
+		flex-wrap: nowrap;
+
+		.custom-checkbox {
+			display: flex;
+		}
+
+		.MarketingConsentForm-container-row {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+		}
+
+		.MarketingConsentForm-container-column {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
+	&-marketing-consent-input-label {
+		font-size: 14px;
+	}
+
+	&-marketing-consent-input-description {
+		font-size: 12px;
+	}
+
+	&-marketing-consent-overall-acceptance {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		flex-wrap: nowrap;
+		margin-top: 25px;
+	}
+}

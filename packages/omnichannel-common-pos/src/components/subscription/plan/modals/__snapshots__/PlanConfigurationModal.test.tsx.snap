@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanConfigurationModal succeeds at shallow mount with minimum props 1`] = `
+<OcModal
+  hideCloseButton={false}
+  onClose={[MockFunction]}
+  showModal={true}
+  style={
+    Object {
+      "margin": "0 auto",
+      "maxWidth": "624px",
+    }
+  }
+  title={
+    <FormattedMessageWrapper
+      defaultMessage="Confirm change"
+      description="Label for Plan configuration confirmation button"
+      id="plan-configuration-modal-title"
+      wrapperType="wrapper"
+    />
+  }
+>
+  <div
+    className="PlanConfigurationModal-configuration"
+  >
+    <div
+      className="PlanConfigurationModal-data-row-one"
+    >
+      <div
+        className="PlanConfigurationModal-message-container"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Current {productType}"
+          description="Plan configuration modal, current product label"
+          id="plan-configuration-modal-current-product-label-current-plan"
+          values={
+            Object {
+              "productType": <span
+                className="PlanConfigurationModal-product-type"
+              >
+                <FormattedMessageWrapper
+                  defaultMessage="plan"
+                  description="Word for product type plan"
+                  id="product-type-plan"
+                  wrapperType="wrapper"
+                />
+              </span>,
+            }
+          }
+          wrapperType="wrapper"
+        />
+      </div>
+      <div
+        className="PlanConfigurationModal-name-message-container"
+      >
+        Data 21Mb/s
+      </div>
+    </div>
+    <div
+      className="PlanConfigurationModal-data-row-two"
+    >
+      <div
+        className="PlanConfigurationModal-plan-name-title"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="New {productType}"
+          description="Plan configuration modal, current product label"
+          id="plan-configuration-modal-current-product-label"
+          values={
+            Object {
+              "productType": <span
+                className="PlanConfigurationModal-product-type"
+              >
+                <FormattedMessageWrapper
+                  defaultMessage="plan"
+                  description="Word for product type plan"
+                  id="product-type-plan"
+                  wrapperType="wrapper"
+                />
+              </span>,
+            }
+          }
+          wrapperType="wrapper"
+        />
+      </div>
+      <div
+        className="PlanConfigurationModal-product-name"
+        data-test-name="selected-offering-name"
+      />
+    </div>
+    <div
+      className="PlanConfigurationModal-data-row-two"
+    >
+      <div
+        className="PlanConfigurationModal-plan-name-title"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="Description"
+          description="Plan configuration modal, Description"
+          id="plan-configuration-modal-description"
+          wrapperType="wrapper"
+        />
+      </div>
+      <div
+        className="PlanConfigurationModal-product-name"
+      />
+    </div>
+    <div>
+      <form
+        id="plan-configuration-modal-form"
+        onSubmit={[Function]}
+      >
+        <div
+          className="PlanConfigurationModal-product-offering-configuration-container"
+        />
+        <div
+          className="OcModal-footer-container PlanConfigurationModal-button-container"
+        >
+          <OcButton
+            buttonType="DEFAULT"
+            id="buttonBackInModal"
+            onClick={[Function]}
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Back"
+              description="Plan change result modal, back button label text"
+              id="plan-change-result-modal-back-button-label"
+              wrapperType="wrapper"
+            />
+          </OcButton>
+          <OcButton
+            buttonType="DEFAULT"
+            id="buttonCancelPlanConfiguration"
+            onClick={[MockFunction]}
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Cancel"
+              description="Cancel button text in Plan configuration modal"
+              id="plan-configuration-modal-cancel-button-label"
+              wrapperType="wrapper"
+            />
+          </OcButton>
+          <OcButton
+            buttonType="PRIMARY"
+            disabled={false}
+            htmlBtnType="submit"
+            id="buttonProceedToPayment"
+          >
+            <FormattedMessageWrapper
+              defaultMessage="Proceed to payment"
+              description="Plan configuration modal, Proceed to payment button label text"
+              id="plan-configuration-modal-proceed-to-payment-button-label"
+              wrapperType="wrapper"
+            />
+          </OcButton>
+        </div>
+      </form>
+    </div>
+  </div>
+</OcModal>
+`;

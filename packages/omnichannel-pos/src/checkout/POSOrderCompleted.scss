@@ -1,0 +1,81 @@
+@import '~omnichannel-common-pos/lib/styles/mixins.scss';
+@import '~omnichannel-common-pos/lib/styles/_variables.scss';
+
+.POSOrderCompleted {
+
+	&-summary-container {
+		display: flex;
+		align-items: center;
+	}
+
+	&-purchase-completed {
+		&-message {
+			flex: 4 0 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 2rem;
+		}
+		&-icon {
+			font-size: 100px;
+			color: theme-color("success");
+			margin-bottom: 1rem;
+		}
+	}
+
+	&-payment-message {
+		margin-bottom: 1.5rem;
+	}
+
+	&-purchase-summary {
+		flex: 6 0 0;
+		padding: 2rem;
+	}
+
+	&-basket-reference-number-label {
+		color: gray("500");
+	}
+
+	thead th, tfoot th {
+		background: gray("100");
+	}
+
+	td, th {
+		&:not(:first-child) {
+			text-align: center;
+		}
+	}
+
+	.basket-item-row td {
+		padding-top: $table-cell-padding * 2;
+		padding-bottom: $table-cell-padding * 2;
+	}
+
+	&-product-name {
+		color: #5b5a5a;
+		font-weight: 600;
+	}
+
+	.payment-message {
+		margin: 0;
+		margin-bottom: 30px;
+		font-weight: 300;
+		font-size: 40px;
+		color: #454545;
+		letter-spacing: -1.18px
+	}
+
+	.payment-error-message {
+		padding-top: 10px;
+		width: 100%;
+		font-weight: bold;
+		margin-top: 20px
+	}
+
+	.purchase-summary-message {
+		font-weight: 300;
+		font-size: 26px;
+		color: #454545;
+		letter-spacing: -0.76px
+	}
+}

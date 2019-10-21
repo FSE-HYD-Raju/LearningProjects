@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductOfferingConfiguration succeeds at shallow mount without props 1`] = `
+<div>
+  <div
+    className="ProductOfferingConfiguration-poc-child-layout-column"
+    key="ProductOfferingConfiguration-head-1-"
+  >
+    <ProductOfferingInputCharacteristicsConfiguration
+      actions={
+        Object {
+          "setConfigurableInstallationTime": [MockFunction],
+          "setEnhancedCharacteristics": [MockFunction],
+          "setInputtedCharacteristic": [MockFunction],
+        }
+      }
+      enhancedCharacteristics={Object {}}
+      iccSubtypeDisplay={
+        Object {
+          "dropdown": Array [],
+          "radio": Array [],
+        }
+      }
+      inputCharacteristics={
+        Object {
+          "CH_SMS_Dialogue": Object {
+            "description": "",
+            "hidden": false,
+            "mandatory": false,
+            "name": "CH_SMS_Dialogue",
+            "source": "Internal",
+            "valueRegulator": null,
+            "values": Array [],
+          },
+          "awesomness-level": Object {
+            "description": "Set your awesomness level",
+            "hidden": false,
+            "name": "Awesomness level",
+            "valueRegulator": "MUST_BE_PERSONALIZED",
+            "values": Array [],
+          },
+        }
+      }
+      inputtedCharacteristics={Object {}}
+      isNominationPO={false}
+      path={
+        Array [
+          Object {
+            "po": "1",
+          },
+        ]
+      }
+      product={
+        Object {
+          "attributes": Object {
+            "inputCharacteristics": Object {
+              "CH_SMS_Dialogue": Object {
+                "description": "",
+                "hidden": false,
+                "mandatory": false,
+                "name": "CH_SMS_Dialogue",
+                "source": "Internal",
+                "valueRegulator": null,
+                "values": Array [],
+              },
+              "awesomness-level": Object {
+                "description": "Set your awesomness level",
+                "hidden": false,
+                "name": "Awesomness level",
+                "valueRegulator": "MUST_BE_PERSONALIZED",
+                "values": Array [],
+              },
+            },
+          },
+          "id": "1",
+        }
+      }
+    />
+    <ProductOfferingGroupsConfiguration
+      configurations={Object {}}
+      isAddonVisible={false}
+      msisdnConfig={Object {}}
+      msisdnModalVisible={false}
+      onChangeEvent={[Function]}
+      path={
+        Array [
+          Object {
+            "po": "1",
+          },
+        ]
+      }
+      product={
+        Object {
+          "attributes": Object {
+            "inputCharacteristics": Object {
+              "CH_SMS_Dialogue": Object {
+                "description": "",
+                "hidden": false,
+                "mandatory": false,
+                "name": "CH_SMS_Dialogue",
+                "source": "Internal",
+                "valueRegulator": null,
+                "values": Array [],
+              },
+              "awesomness-level": Object {
+                "description": "Set your awesomness level",
+                "hidden": false,
+                "name": "Awesomness level",
+                "valueRegulator": "MUST_BE_PERSONALIZED",
+                "values": Array [],
+              },
+            },
+          },
+          "id": "1",
+        }
+      }
+      productOfferingGroups={Array []}
+      selectProductOffering={[MockFunction]}
+      toggleMsisdnModal={[MockFunction]}
+      userOpened={false}
+    />
+  </div>
+</div>
+`;

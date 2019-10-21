@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddNewPlanContainer should succeed at shallow mount with min props 1`] = `
+<div
+  className="AddNewPlanContainer-main-container"
+>
+  <div
+    className="AddNewPlanContainer-inner-container"
+  >
+    <OcButton
+      buttonSize="SMALL"
+      buttonType="PRIMARY"
+      id="ecare-buttonChangePlan-add-new-plan"
+      onClick={[Function]}
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Add new plan"
+        description="Add new plan text in Plans listing"
+        id="ecare-plans-listing-add-new-plan"
+        wrapperType="wrapper"
+      />
+    </OcButton>
+  </div>
+</div>
+`;

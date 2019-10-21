@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SliderConfigurationView should mount with out props 1`] = `
+<div
+  className="SliderConfigurationView"
+>
+  <div
+    className="SliderConfigurationView-selection"
+  >
+    <div
+      className="SliderConfigurationView-selection-title"
+    >
+      <div
+        className="SliderConfigurationView-selection-icon SliderConfigurationView-icon"
+      />
+      <div
+        className="SliderConfigurationView-selection-message"
+      >
+        <div>
+          Selection
+        </div>
+      </div>
+    </div>
+    <div
+      className="SliderConfigurationView-selection-value"
+    />
+  </div>
+  <div
+    className="SliderConfigurationView-slider"
+  >
+    <ComponentEnhancer(undefined)
+      activeDotStyle={Object {}}
+      className=""
+      disabled={false}
+      dotStyle={Object {}}
+      dots={false}
+      handle={[Function]}
+      handleStyle={
+        Array [
+          Object {},
+        ]
+      }
+      included={true}
+      marks={
+        Object {
+          "0": "0 min",
+          "1": "10 min",
+          "2": "50 min",
+          "3": "100 min",
+        }
+      }
+      max={3}
+      min={0}
+      onAfterChange={[Function]}
+      onBeforeChange={[Function]}
+      onChange={[MockFunction]}
+      prefixCls="rc-slider"
+      railStyle={Object {}}
+      step={1}
+      trackStyle={
+        Array [
+          Object {},
+        ]
+      }
+      value={-1}
+      vertical={false}
+    />
+  </div>
+</div>
+`;

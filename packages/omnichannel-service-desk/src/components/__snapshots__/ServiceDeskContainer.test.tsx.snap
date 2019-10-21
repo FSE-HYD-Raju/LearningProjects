@@ -1,0 +1,528 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServiceDeskContainer succeeds at shallow with minimum props 1`] = `
+<div
+  className="ServiceDesk-container"
+>
+  <FormattedMessageWrapper
+    defaultMessage="Service Desk"
+    description="Service desk title"
+    id="service-desk-title"
+    wrapperType="wrapper"
+  >
+    <Component />
+  </FormattedMessageWrapper>
+  <FormattedMessageWrapper
+    defaultMessage="Single point of contact for handling your shop and customers"
+    description="Service desk description"
+    id="service-desk-description"
+    wrapperType="wrapper"
+  >
+    <Component />
+  </FormattedMessageWrapper>
+  <nav
+    className="Pos-Desk-tabs w-nav-primary with-nav-context"
+  >
+    <ul>
+      <li
+        className=""
+      >
+        <OcTabLink
+          activeClassName=""
+          className=""
+          id="servicedesk-shop-link"
+          onlyActiveOnIndex={false}
+          to="/servicedesk/shop"
+        >
+          <i
+            className="fa fa-list btn-icon-left"
+          />
+          <FormattedMessageWrapper
+            defaultMessage="Shop"
+            description="Label for shop link"
+            id="service-desk-front-page-shop-link"
+            wrapperType="wrapper"
+          />
+        </OcTabLink>
+      </li>
+      <li
+        className=""
+      >
+        <OcTabLink
+          activeClassName=""
+          className=""
+          id="servicedesk-customer-link"
+          onlyActiveOnIndex={false}
+          to="/servicedesk/customer"
+        >
+          <i
+            className="fa fa-user btn-icon-left"
+          />
+          <FormattedMessageWrapper
+            defaultMessage="Customer"
+            description="Label for customer link"
+            id="service-desk-front-page-customer-link"
+            wrapperType="wrapper"
+          />
+        </OcTabLink>
+      </li>
+      <li
+        className=""
+      >
+        <OcTabLink
+          activeClassName=""
+          className=""
+          id="servicedesk-crstb-tab"
+          onlyActiveOnIndex={false}
+          to="/servicedesk/toolmode"
+        >
+          <i
+            className="fa fa-wrench btn-icon-left"
+          />
+          <FormattedMessageWrapper
+            defaultMessage="Tool mode"
+            description="Label for toolmode link"
+            id="service-desk-tool-mode-link"
+            wrapperType="wrapper"
+          />
+        </OcTabLink>
+      </li>
+    </ul>
+  </nav>
+  <ServiceDeskContainerRoutes
+    flux={
+      Object {
+        "actions": Object {
+          "BasketActions": Object {
+            "addProductToBasket": [MockFunction],
+          },
+          "CustomerCaseActions": Object {
+            "getAgreements": [MockFunction],
+          },
+          "SalesRepSessionActions": Object {
+            "getInventories": [MockFunction],
+            "getOrganizations": [MockFunction],
+            "revertSalesOrganizationAndInventory": [MockFunction],
+            "setSelectedOrganization": [MockFunction],
+          },
+          "UserActions": Object {
+            "actAsUser": [MockFunction],
+            "refreshUser": [MockFunction],
+            "updateUserAddresses": [MockFunction],
+            "updateUserDemoGraphicInfo": [MockFunction],
+            "updateUserPreferences": [MockFunction],
+            "updateUserPrivacySettings": [MockFunction],
+          },
+        },
+        "reduxStore": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "stores": Object {
+          "ConsulStore": Object {},
+          "CustomerCaseStore": Object {
+            "activeCustomerCase": Object {
+              "attributes": Object {
+                "activeCustomer": Object {},
+              },
+            },
+            "agreements": Array [],
+            "getCustomerOffers": Array [],
+            "getSidebarNotifications": Array [],
+            "state": Object {
+              "activeCustomerCase": true,
+            },
+          },
+          "CustomerStore": Object {},
+          "SalesStore": Object {
+            "fetchingProducts": false,
+          },
+          "UserStore": Object {
+            "updatingUser": false,
+            "user": Object {
+              "salesRepUser": Object {},
+            },
+          },
+        },
+      }
+    }
+  />
+  <OcModal
+    backdropStyle={
+      Object {
+        "zIndex": 1050,
+      }
+    }
+    hideCloseButton={false}
+    id="UnidentifiedCustomerModal"
+    onClose={[Function]}
+    showModal={false}
+    smallModal={true}
+    title="Can't add product to basket"
+  >
+    <div>
+      <h4>
+        <FormattedMessageWrapper
+          defaultMessage="To add products to basket you have to"
+          description="Service desk unidentified customer modal, info message"
+          id="service-desk-unidentified-customer-modal-information"
+          wrapperType="wrapper"
+        />
+      </h4>
+      <div
+        className="search-or-create-customer"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <div
+            className="input-group"
+          >
+            <OnClickOutside(NavBarSearchMenu)
+              criteria="name"
+              eventTypes={
+                Array [
+                  "mousedown",
+                  "touchstart",
+                ]
+              }
+              excludeScrollbar={false}
+              handleCriteriaChange={[Function]}
+              outsideClickIgnoreClass="ignore-react-onclickoutside"
+              preventDefault={false}
+              stopPropagation={false}
+              unparsedSearchConfigs=""
+            />
+            <input
+              className="form-control"
+              id="customerSearchFieldToAddProductToBasket"
+              onChange={[Function]}
+              placeholder="Search customer"
+              type="search"
+              value=""
+            />
+            <div
+              className="input-group-append"
+            >
+              <OcButton
+                buttonType="PRIMARY"
+                icon="fa-search"
+                onClick={[Function]}
+                outline={true}
+              />
+            </div>
+          </div>
+        </form>
+        <b
+          className="or"
+        >
+          <FormattedMessageWrapper
+            defaultMessage="or"
+            description="Or"
+            id="service-desk-unidentified-customer-modal-or"
+            wrapperType="wrapper"
+          />
+        </b>
+        <OcButton
+          buttonType="PRIMARY"
+          onClick={[Function]}
+        >
+          <FormattedMessageWrapper
+            defaultMessage="Create new customer"
+            description="service-desk, new customer, create new customer link"
+            id="sd-newcustomer-create-new-customer"
+            wrapperType="wrapper"
+          />
+        </OcButton>
+      </div>
+    </div>
+  </OcModal>
+  <Connect(SalesOrganizationModal)
+    flux={
+      Object {
+        "actions": Object {
+          "BasketActions": Object {
+            "addProductToBasket": [MockFunction],
+          },
+          "CustomerCaseActions": Object {
+            "getAgreements": [MockFunction],
+          },
+          "SalesRepSessionActions": Object {
+            "getInventories": [MockFunction],
+            "getOrganizations": [MockFunction],
+            "revertSalesOrganizationAndInventory": [MockFunction],
+            "setSelectedOrganization": [MockFunction],
+          },
+          "UserActions": Object {
+            "actAsUser": [MockFunction],
+            "refreshUser": [MockFunction],
+            "updateUserAddresses": [MockFunction],
+            "updateUserDemoGraphicInfo": [MockFunction],
+            "updateUserPreferences": [MockFunction],
+            "updateUserPrivacySettings": [MockFunction],
+          },
+        },
+        "reduxStore": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "stores": Object {
+          "ConsulStore": Object {},
+          "CustomerCaseStore": Object {
+            "activeCustomerCase": Object {
+              "attributes": Object {
+                "activeCustomer": Object {},
+              },
+            },
+            "agreements": Array [],
+            "getCustomerOffers": Array [],
+            "getSidebarNotifications": Array [],
+            "state": Object {
+              "activeCustomerCase": true,
+            },
+          },
+          "CustomerStore": Object {},
+          "SalesStore": Object {
+            "fetchingProducts": false,
+          },
+          "UserStore": Object {
+            "updatingUser": false,
+            "user": Object {
+              "salesRepUser": Object {},
+            },
+          },
+        },
+      }
+    }
+  />
+  <InstallationTimeConfigurationModal
+    installationTimeConfig={Object {}}
+    resetConfigurableInstallationTime={[MockFunction]}
+    setInputtedCharacteristic={[MockFunction]}
+    showInstallationTimeConfigurationModal={false}
+    toggleInstallationTimeConfigurationModal={[MockFunction]}
+  />
+  <OcModal
+    backdropStyle={
+      Object {
+        "zIndex": 1050,
+      }
+    }
+    hideCloseButton={false}
+    id="blacklistedCustomerModal"
+    onClose={[Function]}
+    showModal={false}
+    smallModal={true}
+    title="Can't add product to basket"
+  >
+    <div>
+      <h4>
+        <FormattedMessageWrapper
+          defaultMessage="Customer blacklisted, not possible to proceed"
+          description="service-desk, title for dialog which appears when customer is blacklisted"
+          id="service-desk-blacklisted-customer"
+          wrapperType="wrapper"
+        />
+      </h4>
+    </div>
+  </OcModal>
+  <CustomerBasketContainer
+    flux={
+      Object {
+        "actions": Object {
+          "BasketActions": Object {
+            "addProductToBasket": [MockFunction],
+          },
+          "CustomerCaseActions": Object {
+            "getAgreements": [MockFunction],
+          },
+          "SalesRepSessionActions": Object {
+            "getInventories": [MockFunction],
+            "getOrganizations": [MockFunction],
+            "revertSalesOrganizationAndInventory": [MockFunction],
+            "setSelectedOrganization": [MockFunction],
+          },
+          "UserActions": Object {
+            "actAsUser": [MockFunction],
+            "refreshUser": [MockFunction],
+            "updateUserAddresses": [MockFunction],
+            "updateUserDemoGraphicInfo": [MockFunction],
+            "updateUserPreferences": [MockFunction],
+            "updateUserPrivacySettings": [MockFunction],
+          },
+        },
+        "reduxStore": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "stores": Object {
+          "ConsulStore": Object {},
+          "CustomerCaseStore": Object {
+            "activeCustomerCase": Object {
+              "attributes": Object {
+                "activeCustomer": Object {},
+              },
+            },
+            "agreements": Array [],
+            "getCustomerOffers": Array [],
+            "getSidebarNotifications": Array [],
+            "state": Object {
+              "activeCustomerCase": true,
+            },
+          },
+          "CustomerStore": Object {},
+          "SalesStore": Object {
+            "fetchingProducts": false,
+          },
+          "UserStore": Object {
+            "updatingUser": false,
+            "user": Object {
+              "salesRepUser": Object {},
+            },
+          },
+        },
+      }
+    }
+  />
+  <Connect(ComparisonFooter) />
+  <Connect(CharacteristicsComparisonModal)
+    flux={
+      Object {
+        "actions": Object {
+          "BasketActions": Object {
+            "addProductToBasket": [MockFunction],
+          },
+          "CustomerCaseActions": Object {
+            "getAgreements": [MockFunction],
+          },
+          "SalesRepSessionActions": Object {
+            "getInventories": [MockFunction],
+            "getOrganizations": [MockFunction],
+            "revertSalesOrganizationAndInventory": [MockFunction],
+            "setSelectedOrganization": [MockFunction],
+          },
+          "UserActions": Object {
+            "actAsUser": [MockFunction],
+            "refreshUser": [MockFunction],
+            "updateUserAddresses": [MockFunction],
+            "updateUserDemoGraphicInfo": [MockFunction],
+            "updateUserPreferences": [MockFunction],
+            "updateUserPrivacySettings": [MockFunction],
+          },
+        },
+        "reduxStore": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "stores": Object {
+          "ConsulStore": Object {},
+          "CustomerCaseStore": Object {
+            "activeCustomerCase": Object {
+              "attributes": Object {
+                "activeCustomer": Object {},
+              },
+            },
+            "agreements": Array [],
+            "getCustomerOffers": Array [],
+            "getSidebarNotifications": Array [],
+            "state": Object {
+              "activeCustomerCase": true,
+            },
+          },
+          "CustomerStore": Object {},
+          "SalesStore": Object {
+            "fetchingProducts": false,
+          },
+          "UserStore": Object {
+            "updatingUser": false,
+            "user": Object {
+              "salesRepUser": Object {},
+            },
+          },
+        },
+      }
+    }
+    match={
+      Object {
+        "isExact": true,
+        "params": Object {},
+        "path": "",
+        "url": "",
+      }
+    }
+  />
+  <Connect(withMsisdnConfiguration.)
+    flux={
+      Object {
+        "actions": Object {
+          "BasketActions": Object {
+            "addProductToBasket": [MockFunction],
+          },
+          "CustomerCaseActions": Object {
+            "getAgreements": [MockFunction],
+          },
+          "SalesRepSessionActions": Object {
+            "getInventories": [MockFunction],
+            "getOrganizations": [MockFunction],
+            "revertSalesOrganizationAndInventory": [MockFunction],
+            "setSelectedOrganization": [MockFunction],
+          },
+          "UserActions": Object {
+            "actAsUser": [MockFunction],
+            "refreshUser": [MockFunction],
+            "updateUserAddresses": [MockFunction],
+            "updateUserDemoGraphicInfo": [MockFunction],
+            "updateUserPreferences": [MockFunction],
+            "updateUserPrivacySettings": [MockFunction],
+          },
+        },
+        "reduxStore": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "stores": Object {
+          "ConsulStore": Object {},
+          "CustomerCaseStore": Object {
+            "activeCustomerCase": Object {
+              "attributes": Object {
+                "activeCustomer": Object {},
+              },
+            },
+            "agreements": Array [],
+            "getCustomerOffers": Array [],
+            "getSidebarNotifications": Array [],
+            "state": Object {
+              "activeCustomerCase": true,
+            },
+          },
+          "CustomerStore": Object {},
+          "SalesStore": Object {
+            "fetchingProducts": false,
+          },
+          "UserStore": Object {
+            "updatingUser": false,
+            "user": Object {
+              "salesRepUser": Object {},
+            },
+          },
+        },
+      }
+    }
+  />
+</div>
+`;

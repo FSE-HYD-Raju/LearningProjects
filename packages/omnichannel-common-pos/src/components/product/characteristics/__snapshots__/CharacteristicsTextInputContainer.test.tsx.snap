@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacteristicsTextInputContainer should shallow mount without props 1`] = `
+<CharacteristicsTextInputList
+  addTextInput={[Function]}
+  canAddMoreInputElements={false}
+  characteristicKey="any"
+  characteristicValidations={
+    Array [
+      Object {
+        "preactivatedIccid": true,
+        "validIccid": true,
+      },
+    ]
+  }
+  characteristics={
+    Array [
+      Object {
+        "value": "",
+      },
+    ]
+  }
+  characteristicsAliases={Object {}}
+  nominationPOCharacteristics={Object {}}
+  onChange={[Function]}
+  removeTextInput={[Function]}
+/>
+`;

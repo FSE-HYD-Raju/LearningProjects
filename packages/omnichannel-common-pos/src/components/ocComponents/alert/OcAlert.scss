@@ -1,0 +1,27 @@
+.OcAlert {
+	&-container {
+		display: flex;
+		justify-content: space-between;
+		flex: 1;
+		flex-wrap: nowrap;
+	}
+	&-content {
+		//Div justifyContent="flex-start" flex={1} flexDirection="column"
+		display: flex;
+		justify-content: flex-start;
+		flex: 1;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	&-dismissbtn {
+		/*
+		<FlexButton
+					justifyContent="flex-end"
+					displayName="FlexButton"
+					alignSelf="flex-start"
+		 */
+		display: flex;
+		justify-content: flex-end;
+		align-self: flex-start;
+	}
+}

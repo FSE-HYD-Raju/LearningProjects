@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SupportRequestDetails succeeds at shallow mount with minimum props 1`] = `
+<div
+  className="SupportRequestDetails-resolution-container"
+>
+  <div
+    className="SupportRequestDetails-resolution-text"
+  >
+    <span>
+      Resolved
+    </span>
+  </div>
+  <div>
+    <span>
+      case is obsolete
+    </span>
+  </div>
+</div>
+`;

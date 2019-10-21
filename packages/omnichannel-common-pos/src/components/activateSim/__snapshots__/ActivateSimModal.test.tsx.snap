@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivateSimModal succeeds at shallow mount with minimum props 1`] = `
+<OcModal
+  className="ActivateSim"
+  hideCloseButton={false}
+  largeModal={true}
+  okButtonLabel={
+    <FormattedMessageWrapper
+      defaultMessage="Proceed"
+      description="Activate SIM"
+      id="activate-sim-activate"
+      wrapperType="wrapper"
+    />
+  }
+  okDisabled={true}
+  onClose={[Function]}
+  onOk={[Function]}
+  showModal={true}
+  title={
+    <FormattedMessageWrapper
+      defaultMessage="Activate SIM"
+      description="Activate SIM banner, activate button label"
+      id="activate-sim-button-label"
+      wrapperType="wrapper"
+    />
+  }
+>
+  <div
+    className="ActivateSimModal-container"
+  >
+    <div
+      className="ActivateSimModal-verification-block"
+    >
+      <label
+        className="ActivateSimModal-label"
+        htmlFor="iccid-digits"
+      >
+        <FormattedMessageWrapper
+          defaultMessage="ICCID last 5 digits"
+          description="Activate SIM modal, last five digits of ICCID message"
+          id="activate-sim-last-five-digits-label"
+          wrapperType="wrapper"
+        />
+      </label>
+      <input
+        className="ActivateSimModal-inputNormal"
+        id="iccid-digits"
+        name="iccid-digits"
+        onChange={[Function]}
+        placeholder="00025"
+        value=""
+      />
+    </div>
+    <div
+      className="ActivateSimModal-sim-block"
+    >
+      <SimExampleView />
+    </div>
+  </div>
+</OcModal>
+`;

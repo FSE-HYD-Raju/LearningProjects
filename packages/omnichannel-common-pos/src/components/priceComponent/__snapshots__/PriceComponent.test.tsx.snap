@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceComponent succeeds at shallow mount with minimal props 1`] = `
+<StandardPriceRenderer
+  configurations={Object {}}
+  messages={
+    Object {
+      "mnth": Object {
+        "defaultMessage": "/mth",
+        "description": "Shop product price, per month price shorthand",
+        "id": "shop-product-price-tag-mnth",
+      },
+      "monthly": Object {
+        "defaultMessage": "monthly",
+        "description": "Shop product price, per month price",
+        "id": "shop-product-price-tag-monthly",
+      },
+      "now": Object {
+        "defaultMessage": "now",
+        "description": "Shop product price, price now",
+        "id": "shop-product-price-tag-now",
+      },
+      "payNow": Object {
+        "defaultMessage": "Pay now",
+        "description": "Shop product price, price now (for single product page view)",
+        "id": "shop-product-price-single-product-page-tag-now",
+      },
+      "recurring": Object {
+        "defaultMessage": "Recurring fee",
+        "description": "Shop product price, price recurring (for single product page view)",
+        "id": "shop-product-price-single-product-page-tag-recurring",
+      },
+      "starting": Object {
+        "defaultMessage": "Starting from",
+        "description": "Shop product price, starting from label",
+        "id": "shop-product-price-starting-from-label",
+      },
+    }
+  }
+  priceValueCalculator={[Function]}
+  prices={Array []}
+  product={
+    Object {
+      "id": "myProduct",
+      "inputCharacteristics": Object {},
+      "name": "myProductName",
+      "selected": false,
+    }
+  }
+/>
+`;

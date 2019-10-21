@@ -1,0 +1,38 @@
+.AffectedAddonsList {
+	&-title-container {
+		display: flex;
+		flex-direction: row;
+	}
+	&-addon-icon {
+		transform: translateY(0.125rem);
+		font-size: 1.125rem;
+	}
+	&-title {
+		padding: 0 0 0 0.125rem;
+		b {
+			font-weight: 500;
+		}
+	}
+	&-addons-list {
+		display: flex;
+		flex-direction: column;
+		padding: 0 0 0 1.125rem;
+	}
+	&-addons-list-item,
+	&-view-all-button,
+	&-show-less-button {
+		padding: 0.5rem 0 0 0;
+	}
+	@include media-breakpoint-up(sm) {
+		&-addon-icon {
+			transform: translateX(-1.375rem);
+		}
+		&-title {
+			display: inline-block;
+			transform: translateX(-1.125rem);
+		}
+		&-addons-list {
+			padding: unset;
+		}
+	}
+}

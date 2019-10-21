@@ -1,0 +1,78 @@
+.Plans {
+	&-list-items {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: stretch;
+	}
+
+	&-plan-container {
+		display: grid;
+		grid-template-columns: 3fr 1fr 1fr;
+		grid-template-areas: "h1 h2 h3"
+							 "d1 d2 d3";
+
+		&:nth-child(n+2) {
+			&>.Plans-column-header {
+				display: none;
+			}
+		}
+	}
+
+	&-list-item-column {
+		display: flex;
+		border-top: .0625rem solid $gray-200;
+		padding: .25rem 0.5rem;
+		align-self: stretch;
+		justify-content: center;
+	}
+
+	&-name {
+		grid-area: d1;
+	}
+
+	&-fee {
+		justify-content: flex-end;
+		padding-right: 1rem;
+		grid-area: d2;
+	}
+
+	&-actions {
+		justify-content: flex-end;
+		grid-area: d3;
+	}
+
+	&-column-header {
+		padding-left: 2.5rem;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		font-size: 0.75rem;
+		color: $gray-300;
+		line-height: 1.25rem;
+		text-transform: uppercase;
+		min-width: 5rem;
+		border-bottom: .125rem solid $gray-200;
+		border-top: none;
+		padding-bottom: 0.25rem;
+		&:nth-child(1) {
+			grid-area: h1;
+		}
+		&:nth-child(2) {
+			grid-area: h2;
+			justify-content: flex-end;
+			padding-right: 1rem;
+		}
+		&:nth-child(3) {
+			grid-area: h3;
+			justify-content: flex-end;
+			padding-right: 1rem;
+		}
+	}
+
+	@include media-breakpoint-down('sm') {
+		&-list-group &-list {
+			display: table-row-group;
+		}
+	}
+}

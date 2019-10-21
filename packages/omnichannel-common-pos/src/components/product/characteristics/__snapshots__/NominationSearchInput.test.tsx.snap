@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NominationSearchInput should shallow mount with minimal props 1`] = `
+<div>
+  <OcTextInput
+    addonRight={
+      <ForwardRef(OcButton)
+        buttonType="DEFAULT"
+        className="NominationSearchInput-nomination-search-button"
+        id="nomination-search-button"
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-search"
+        />
+      </ForwardRef(OcButton)>
+    }
+    className="NominationSearchInput"
+    id="nomination-search-input"
+    label="Enter MSISDN or SIM ICC to see detailed information about the subscription that will be activated for the customer"
+    labelPosition="TOP"
+    labelWidth="120px"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    placeholder="MSISDN or SIM ICC"
+    required={true}
+    value=""
+  />
+</div>
+`;

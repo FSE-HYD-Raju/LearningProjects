@@ -1,0 +1,30 @@
+@import '../../styles/_variables.scss';
+
+.OcModal {
+	.modal-header {
+		flex-direction: row;
+	}
+
+	&-reverse-header.modal-header {
+		flex-direction: row-reverse;
+	}
+
+	.modal-title {
+		margin-right: 1rem;
+		font-weight: 600;
+		font-size: 1.45rem;
+	}
+
+	&-header-container {
+		display: flex;
+	}
+}
+
+#OcModal-customButton {
+	margin-left: auto;
+}
+
+body > div[role="dialog"] {
+	position: relative;
+	z-index: 101;
+}

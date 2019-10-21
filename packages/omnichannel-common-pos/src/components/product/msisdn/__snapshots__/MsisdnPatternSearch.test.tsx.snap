@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MsisdnPatternSearch succeeds at shallow mount with simple props 1`] = `
+<div
+  className="MsisdnPatternSearch-inputContainer"
+>
+  <label
+    className="MsisdnPatternSearch-label"
+  >
+    <FormattedMessageWrapper
+      defaultMessage="Specify a pattern (Optional, extra charges may apply)"
+      description="MsisdnPatternSearch, common pattern search component label"
+      id="common-msisdn-pattern-search-input-label"
+      wrapperType="wrapper"
+    />
+  </label>
+  <div
+    className="MsisdnPatternSearch-pattern-container"
+  >
+    <OcTextInput
+      className="MsisdnPatternSearch-msisdnPatternSearchInput"
+      errorMessage={null}
+      id="msisdn_pattern_search_input"
+      onChange={[MockFunction]}
+      placeholder="Enter pattern"
+      required={true}
+    />
+    <OcButton
+      buttonType="PRIMARY"
+      className="form-group MsisdnPatternSearch-search-button"
+      disabled={false}
+      onClick={[MockFunction]}
+      outline={true}
+    >
+      <FormattedMessageWrapper
+        defaultMessage="Search"
+        description="Refresh the set of numbers shown to user, button text"
+        id="b2c-msisdn-configuration-get-new-bundle"
+        wrapperType="wrapper"
+      />
+    </OcButton>
+  </div>
+</div>
+`;

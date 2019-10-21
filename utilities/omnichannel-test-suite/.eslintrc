@@ -1,0 +1,56 @@
+{
+    "settings": {
+        "import/resolve": {
+            "extensions": [ ".js", ".jsx", ".less" ]
+    },
+        "import/parser": "babel-eslint"
+    },
+    "rules": {
+        "no-unused-vars": [2],
+        "linebreak-style": [2, "unix"],
+        "semi": [2, "always"],
+        "eol-last": 0,
+        "no-underscore-dangle": [0],
+        "react/display-name": [0, "always"],
+        "react/jsx-boolean-value": 2,
+        "jsx-quotes": 0,
+        "react/jsx-no-undef": 2,
+        "react/jsx-sort-props": 0,
+        "react/jsx-uses-react": 2,
+        "react/jsx-uses-vars": 2,
+        "react/jsx-no-duplicate-props": [2, {"ignoreCase": true}],
+        "react/no-did-mount-set-state": [2],
+        "react/no-did-update-set-state": 2,
+        "react/no-multi-comp": 0,
+        "react/no-unknown-property": 2,
+        "react/prop-types": [2],
+        "react/react-in-jsx-scope": 2,
+        "react/self-closing-comp": 2,
+        "import/no-unresolved": 2, // disable until relative paths work again
+        "import/named": 2,
+        "import/namespace": [2],
+        "import/default": 2,
+        "import/export": 2,
+        "strict": [2, "global"],
+        "no-undef": 2, // catches unused import and variables
+        "no-console": 0,
+        "prefer-const": 2,
+        "no-var": 2
+    },
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true
+    },
+    "ecmaFeatures": {
+        "jsx": true,
+        "modules": true,
+        "classes": true,
+        "arrowFunctions": true
+    },
+    "plugins": [
+        "react",
+        "import"
+    ],
+    "parser": "babel-eslint"
+}

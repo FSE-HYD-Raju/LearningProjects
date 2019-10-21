@@ -1,0 +1,82 @@
+.PlanConfigurationModal {
+	&-configuration {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	&-data-row-one,
+	&-data-row-two {
+		display: flex;
+		flex: 4;
+		min-height: 42px;
+		justify-content: space-between;
+		margin: 12px 24px 0 24px;
+	}
+
+	&-data-row-one {
+		align-items: flex-start;
+	}
+
+	&-data-row-two {
+		margin: 0 24px;
+	}
+
+	&-message-container {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+	}
+
+	&-name-message-container {
+		display: flex;
+		flex: 3;
+		flex-direction: column;
+	}
+
+	&-plan-name-title {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+	}
+
+	&-product-name {
+		display: flex;
+		flex-direction: column;
+		flex: 3;
+	}
+
+	&-addon-compatibility-container {
+		display: flex;
+		flex: 4;
+		justify-content: space-between;
+	}
+
+	&-product-offering-configuration-container {
+		display: flex;
+		margin: 12px 24px 0 24px;
+	}
+
+	&-button-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&-form-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-configuration-header {
+		margin: 12px 24px 0 24px;
+	}
+
+	#plan-configuration-modal-form {
+		width: 100%;
+	}
+
+	&-select-offering > button {
+		text-transform: uppercase;
+	}
+}
